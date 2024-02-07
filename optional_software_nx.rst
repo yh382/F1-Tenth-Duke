@@ -63,7 +63,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 8. Choose **Flash the file** and select the image you downloaded from NVIDIA. When the file selection window comes up, choose the **sd-XXXX.img** file extracted earlier.
 
-        .. figure:: img/nx/nx-software-step8.png
+        .. figure:: Images/nx-software-step8.png
                 :align: center
 
                 File selection window.
@@ -91,7 +91,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
                 Insert SD card.
 
-        .. figure:: img/nx/nx-sd-inserted.jpg
+        .. figure:: Images/nx-sd-inserted.jpg
                 :align: center
 
                 SD card flush.
@@ -141,7 +141,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
   18. Once connected, you may not see any output on the terminal. Hitting the space bar should show you the license agreement for the NVIDIA software.
 
-          .. figure:: img/nx/nx-software-step18.png
+          .. figure:: Images/nx-software-step18.png
                   :align: center
 
                   NVIDIA license agreement.
@@ -149,98 +149,98 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
   19. Hit TAB to select the ``<Ok>`` button. Hit ENTER to accept the license agreement.
   20. On the next screen, choose your language of choice and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step20.png
+          .. figure:: Images/nx-software-step20.png
                   :align: center
 
                   Language selection.
 
   21. On the next screen, select your region to properly set the time zone and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step21.png
+          .. figure:: Images/nx-software-step21.png
                   :align: center
 
                   Region selection.
 
   22. On the next screen, choose your time zone and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step22.png
+          .. figure:: Images/nx-software-step22.png
                   :align: center
 
                   Time zone selection.
 
   23. On the next screen, you will be asked if the system clock is set to UTC. Choose <Yes> and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step23.png
+          .. figure:: Images/nx-software-step23.png
                   :align: center
 
                   System clock base selection.
 
   24. On the next screen, you will be asked to enter a name for the new user account. Enter ``f1tenth``, hit TAB to select the ``<Ok>`` button, and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step24.png
+          .. figure:: Images/nx-software-step24.png
                   :align: center
 
                   User account full name selection.
 
   25. On the next screen, you will be asked to enter a username for the new user account. Leave the default of ``f1tenth``, hit TAB to select the ``<Ok>`` button, and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step25.png
+          .. figure:: Images/nx-software-step25.png
                   :align: center
 
                   Username selection.
 
   26. On the next screen, you will be asked to enter a password for the new user. Enter the password ``G0Fast!`` (with a zero instead of the letter o). Hit TAB to select the ``<Ok>`` button, and hit ENTER.
 
-          .. figure:: img/nx/nx-software-step26.png
+          .. figure:: Images/nx-software-step26.png
                   :align: center
 
                   Password selection.
 
   27. On the next screen, you will be asked to re-enter the password. Enter the password again, hit TAB to select the ``<Ok>`` button, and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step27.png
+          .. figure:: Images/nx-software-step27.png
                   :align: center
 
                   Password re-enetry.
 
   28. On the next screen, you will receive a warning that the selected password is "too weak" due to the lenth. Hit TAB to select <Yes> and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step28.png
+          .. figure:: Images/nx-software-step28.png
                   :align: center
 
                   Weak password confirmation.
 
   29. On the next screen, you will be asked to select the desired size of the APP partition. Leave the default, hit TAB to select the ``<Ok>`` button, and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step29.png
+          .. figure:: Images/nx-software-step29.png
                   :align: center
 
                   APP partition size selection.
 
   30. On the next screen, you will be asked to select a primary network interface. Use the arrow keys to select ``eth0``, hit the TAB key to select the ``<Ok>`` button, and then hit ENTER (we will change this after setup is complete).
 
-          .. figure:: img/nx/nx-software-step30.png
+          .. figure:: Images/nx-software-step30.png
                   :align: center
 
                   Primary network interface selection.
 
   31. The next several screens will show the status of connecting to the network. Since there is no Ethernet cable connected to ``eth0``, this is expected to fail. Hit ENTER to continue.
 
-          .. figure:: img/nx/nx-software-step31.png
+          .. figure:: Images/nx-software-step31.png
                   :align: center
 
                   Network connection failure.
 
   32. On the next screen, you will be given several options on how to proceed with connecting to a network. Use the arrow keys to select ``Do not configure the network at this time``, hit the TAB key to select the ``<Ok>`` button, and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step32.png
+          .. figure:: Images/nx-software-step32.png
                   :align: center
 
                   Network configuration selection.
 
   33. On the next screen, you will be asked to enter the hostname for the NVIDIA Jetson Xavier NX. Erase the current text and type ``jetson-nx``. Hit TAB to select the ``<Ok>`` button, and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step33.png
+          .. figure:: Images/nx-software-step33.png
                   :align: center
 
                   Hostname selection.
@@ -248,7 +248,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
   34. The next several screens will show the status of the installation and configuration of the NVIDIA Jetson Xavier NX system. During this process, your terminal session will likely be interrupted and the L4T-README drive will be removed and reconnected.
   35. Wait at least 30 seconds and then reconnect your terminal session using the same settings as before. This time you should be prompted with a login for the device. Enter the username ``f1tenth`` and then hit ENTER.
 
-          .. figure:: img/nx/nx-software-step35.png
+          .. figure:: Images/nx-software-step35.png
                   :align: center
 
                   Terminal login.
@@ -256,7 +256,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
   36. You will then be prompted for the password. Enter the password ``G0Fast!`` and hit ENTER. Note that you will not be able to see the characters being entered as you type.
   37. You should now be logged in to the NVIDIA Jetson Xavier NX Developer Kit.
 
-          .. figure:: img/nx/nx-software-step37.png
+          .. figure:: Images/nx-software-step37.png
                   :align: center
 
                   Logged in!
@@ -274,28 +274,28 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 
 1. We will use the Network Manager command-line tool nmcli to configure the WiFi on the NVIDIA Jetson Xavier NX. To find the interface name of your WiFi adapter, start by typing ``nmcli d`` and hitting ENTER. This will list your available interfaces. My wifi interface is named ``wlan0`` so I will use that in all future steps. If your WiFi interface is named something different, you will have to replace that in future commands.
 
-        .. figure:: img/nx/nx-wifi-step-1.png
+        .. figure:: Images/nx-wifi-step-1.png
                 :align: center
 
                 WiFi network selection.
 
 2. To make sure that your WiFi radio is turned on, type ``nmcli r wifi on`` and hit ENTER. This will not show anything on the terminal if the command succeeded.
 
-        .. figure:: img/nx/nx-wifi-step-2.png
+        .. figure:: Images/nx-wifi-step-2.png
                 :align: center
 
                 Enable WiFi radio.
 
 3. To see the list of WiFi SSIDs that your WiFi adapter can see, type ``nmcli d wifi list`` and hit ENTER. After the list is printed, hit ``q`` to continue.
 
-        .. figure:: img/nx/nx-wifi-step-3.png
+        .. figure:: Images/nx-wifi-step-3.png
                 :align: center
 
                 WiFi SSID selection.
 
 4. To connect to a specific WiFi SSID, use the command ``sudo nmcli d wifi connect [SSID] password [PASSWORD]`` where ``[SSID]`` is replaced with the SSID with which you want to connect and ``[PASSWORD]`` is replaced with the password to connect to that SSID. Hit ENTER.
 
-        .. figure:: img/nx/nx-wifi-step-4.png
+        .. figure:: Images/nx-wifi-step-4.png
                 :align: center
 
                 Connect to specific WiFi network.
@@ -304,28 +304,28 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 6. By default, WiFi will be connected using DHCP which means you may get a new IP address each time the device is turned on. In the next steps, we will configure the WiFi connection with a static IP address so you can SSH into the Developer Kit reliably. To set a static IP address, you will need to know the subnet, IP address range, and gateway of your wifi network.
 7. To get the currently-assigned IP address use the command ``ip addr show dev wlan0``.
 
-        .. figure:: img/nx/nx-wifi-step-7.png
+        .. figure:: Images/nx-wifi-step-7.png
                 :align: center
 
                 Currently-connected WiFi IP address.
 
 8. To set a static IP address, you will also need to know the name of the connection. This is usually the same as the SSID of the WiFi network but not always. To see the list of current connections, use the command ``nmcli c show``.
 
-        .. figure:: img/nx/nx-wifi-step-8.png
+        .. figure:: Images/nx-wifi-step-8.png
                 :align: center
 
                 List of connections.
 
 9. To set a static IP address use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8, ``[NEW_ADDRESS]`` is replaced with the static IP address that you want to set, and ``[CIDR]`` is the `CIDR representation <https://www.ionos.com/digitalguide/server/know-how/cidr-classless-inter-domain-routing/>`_ of the subnet (usually 24).
 
-        .. figure:: img/nx/nx-wifi-step-9.png
+        .. figure:: Images/nx-wifi-step-9.png
                 :align: center
 
                 Setting static IP address.
 
 10. To set the connection's default gateway, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.gateway [GATEWAY_IP]`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8 and ``[GATEWAY_IP]`` is replaced with the IP address of your WiFi network's gateway/router.
 
-        .. figure:: img/nx/nx-wifi-step-10.png
+        .. figure:: Images/nx-wifi-step-10.png
                 :align: center
 
                 Setting IP gateway.
@@ -333,7 +333,7 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 11. To set the connection's DNS servers, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.dns "[DNS_SERVER1]"`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8 and ``[DNS_SERVERS]`` is replaced with a comma-separated list of DNS server IP addresses. Google DNS servers at 8.8.8.8 and 8.8.4.4 are recommended.
 12. To disable DHCP and always use the static IP address on this connection, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8.
 
-        .. figure:: img/nx/nx-wifi-step-12.png
+        .. figure:: Images/nx-wifi-step-12.png
                 :align: center
 
                 Setting connection to always use static IP.
