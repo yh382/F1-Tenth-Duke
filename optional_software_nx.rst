@@ -3,20 +3,6 @@
 1. Configuring the NVIDIA Jetson NX
 =========================================
 
-**Equipment Used:**
-
-* Pit/Host laptop/computer running any Operating System
-* Fully-built F1TENTH vehicle
-* microSD card (16GB minimum)
-* m.2 SSD (optional)
-* USB micro cable (must have both data and power wires)
-* microSD card reader/writer for Pit/Host PC
-* SD card image burning software (e.g. Balena Etcher)
-* Terminal emulation software (e.g. PuTTy, screen, miniterm.py, etc.)
-
-**Approximate Time Investment:** 1-2 hours
-
-.. tip:: `JetPack 5.0 Developer Preview <https://developer.nvidia.com/jetpack-sdk-50dp>`_ is released on Apr. 7 2022 with support for AGX Xavier, Xavier NX, and AGX Orin. We highly recommend flashing your Xavier with JetPack 5.0 since L4T 34.1 uses Ubuntu 20.04.
 
 1. Flash Jetson NX with Software
 ----------------------------------
@@ -82,30 +68,12 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
                 Flashing process.
 
-11. Once the flashing process is complete, verify that any activity lights on your SD card reader/writer are no longer blinking. Properly un-mount/eject the microSD card before physically removing it from the reader/writer.
 
-12. Now its time to bring the software on the NVIDIA Jetson NX. Insert the flashed microSD card into the NVIDIA Jetson Xavier NX module with the label facing up. Push the microSD card all the way in until it locks into place with a small click. The edge of the microSD card should be flush with the PCB of the NVIDIA Jetson Xavier NX module and carrier board.
-
-        .. figure:: Images/nx-insert-sd.jpg
-                :align: center
-
-                Insert SD card.
-
-        .. figure:: Images/nx-sd-inserted.jpg
-                :align: center
-
-                SD card flush.
-
-13. When you have entered the microSD card you can power up the Jetson NX on the F1TENTH car for the first time. First of all plug the following into the Jetson NX:
-  * USB Port: A keyboard
-  * USB Port: A mouse
-  * HDMI Port: An external monitor
-
-14. Now you can provide energy for the F1TENTH car. You either do this with the battery on the car or plug in an external power supply that provides 16V. The Jetson Xavier NX Developer Kit will power on and boot automatically after you provided the power supply.
+11. Now you can provide energy for the F1TENTH car. You either do this with the battery on the car or plug in an external power supply that provides 16V. The Jetson Xavier NX Developer Kit will power on and boot automatically after you provided the power supply.
 
 .. important:: The barrel jack on the powerboard is only rated for **9.0V - 16.0V**. The power supplies that come with the Jetson NX are 19V and therefore have a higher voltage. **Do not plug those in**. Otherwise you will destroy your powerboard.
 
-15. A green LED next to the Micro-USB connector will light as soon as the developer kit powers on. When you boot the first time, the Jetson Xavier NX Developer Kit will take you through some initial setup, including:
+12. A green LED next to the Micro-USB connector will light as soon as the developer kit powers on. When you boot the first time, the Jetson Xavier NX Developer Kit will take you through some initial setup, including:
 
   * Review and accept NVIDIA Jetson software EULA
   * Select system language, keyboard layout, and time zone
@@ -113,7 +81,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
   * Create username, password, and computer name
   * Log in
 
-16. After logging in you should see the following screen. Congratulations, your NVIDIA Jetson NX on your F1TENTH car is ready to go.
+13. After logging in you should see the following screen. Congratulations, your NVIDIA Jetson NX on your F1TENTH car is ready to go.
 
         .. figure:: Images/nx_ready.png
                 :align: center
