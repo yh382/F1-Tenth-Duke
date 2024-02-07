@@ -24,7 +24,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 1. Go to the NVIDIA Develoeprs Download Center at https://developer.nvidia.com/downloads and click Jetson.
 
-        .. figure:: img/nx/nx-software-step1.png
+        .. figure:: Imgages/nx-software-step1.png
                 :align: center
 
                 NVIDIA Developers Download Center
