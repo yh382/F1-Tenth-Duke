@@ -1,5 +1,5 @@
 .. _doc_software_nx:
-We follow the instuctions from [F1 Tenth Official website](https://f1tenth.org/build.html#)
+We follow the instuctions from [F1 Tenth Official website](https://f1tenth.org/build)
 
 
 1. Configuring the NVIDIA Jetson NX
