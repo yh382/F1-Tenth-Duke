@@ -24,28 +24,28 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 1. Go to the NVIDIA Develoeprs Download Center at https://developer.nvidia.com/downloads and click Jetson.
 
-        .. figure:: Imgages/nx-software-step1.png
+        .. figure:: Images/nx-software-step1.png
                 :align: center
 
                 NVIDIA Developers Download Center
 
 2. Under SD Card Image Method, click Jetson Xavier NX Developer Kit.
 
-        .. figure:: img/nx/nx-software-step2.png
+        .. figure:: Images/nx-software-step2.png
                 :align: center
 
                 Jetson Xavier NX Developer Kit downloads.
 
 3. The next page will require you to log in with an **NVIDIA Developer Program login**. If you do not have one, click Join Now - Registration is free. If you already have an account, click Login.
 
-        .. figure:: img/nx/nx-software-step3.png
+        .. figure:: Images/nx-software-step3.png
                 :align: center
 
                 NVIDIA Developer Program login page.
 
 4. Once you have logged in, you will be redirected to your profile settings page. At the top of this page, you should see a banner with a button with the text "Jetson Xavier NX Developer Kit SD Card Image." Click this button.
 
-        .. figure:: img/nx/nx-software-step4.png
+        .. figure:: Images/nx-software-step4.png
                 :align: center
 
                 NVIDIA Developer Program profile page download button.
@@ -56,7 +56,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 7. Download, install, and launch SD card image burning software `Etcher <https://www.balena.io/etcher/>`_.
 
-        .. figure:: img/nx/nx-software-step7.png
+        .. figure:: Images/nx-software-step7.png
                 :align: center
 
                 SD card burner software Etcher.
@@ -70,14 +70,14 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 9. For the "target" device, choose the microSD card in the microSD card reader/writer.
 
-        .. figure:: img/nx/nx-software-step9.png
+        .. figure:: Images/nx-software-step9.png
                 :align: center
 
                 Target selection window.
 
 10. Click "Flash!" (or similar for your software). This process will take some time and is mainly depending on the speed write speed of your microSD card (20+ minutes).
 
-        .. figure:: img/nx/nx-software-step10.png
+        .. figure:: Images/nx-software-step10.png
                 :align: center
 
                 Flashing process.
@@ -86,7 +86,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 12. Now its time to bring the software on the NVIDIA Jetson NX. Insert the flashed microSD card into the NVIDIA Jetson Xavier NX module with the label facing up. Push the microSD card all the way in until it locks into place with a small click. The edge of the microSD card should be flush with the PCB of the NVIDIA Jetson Xavier NX module and carrier board.
 
-        .. figure:: img/nx/nx-insert-sd.jpg
+        .. figure:: Images/nx-insert-sd.jpg
                 :align: center
 
                 Insert SD card.
@@ -115,7 +115,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
 16. After logging in you should see the following screen. Congratulations, your NVIDIA Jetson NX on your F1TENTH car is ready to go.
 
-        .. figure:: img/nx/nx_ready.png
+        .. figure:: Images/nx_ready.png
                 :align: center
 
                 First boot of the NVIDIA Jetson NX.
@@ -123,7 +123,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 ..
   13. Connect the USB micro end of the USB micro cable to the USB micro port on the NVIDIA Jetson Xavier NX carrier board. Connect the USB A end of the USB micro cable to the host PC.
 
-          .. figure:: img/nx/nx-attach-usb.jpg
+          .. figure:: Images/nx-attach-usb.jpg
                   :align: center
 
                   Attaching USB micro end of cable.
