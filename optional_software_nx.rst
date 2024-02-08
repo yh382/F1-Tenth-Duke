@@ -61,7 +61,7 @@ NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on
 
                 Target selection window.
 
-10. Click the "Flash" button and it takes about 30 mins for our device.
+10. Click the "Flash" button which takes about 30 mins for our device.
 
         .. figure:: Images/nx-software-step10.png
                 :align: center
