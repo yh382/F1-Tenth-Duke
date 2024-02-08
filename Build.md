@@ -31,8 +31,10 @@ Since we didn't build the car from sketch, if you start from sketch, please read
 
 
 ### Jetson NX
-  And here is the connection on Jetson NX. There are a few spaces for further upgrades. Caution: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
-  ![NX Connections](/Images/NX%20Connections.JPG)     
+  And here is the connection on Jetson NX. There are a few spaces for further upgrades. CAUTION: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
+  ![NX Connections](/Images/NX%20Connections.JPG) 
+  
+      
 
 
 ### Over View

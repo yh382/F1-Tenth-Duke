@@ -6,11 +6,15 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 2. Check the environment first. Avoid GLASS, CHAIRS, ANYTHING IT MIGHT GO UNDER! Those things are Lidar killer, because Lidar is using light and it is almost a 2D sensor. 
 3. Understand what are you doing and what will happen. Simulation is your best friend! If something didn't work on simulation, it would not work in reality. If the behavior is totally different with your expection, you need to study more!
 
-### Information of NX account
+## Information of NX account
 Account on NX: f1tenth
 PIN:123456
 Registered IP address with Dukeblue Wifi：10.197.0.48
 
-### TOPICS
+## Menu
+- ![Build](/Build.md)
+- ![Configuring the NVIDIA Jetson NX](/optional_software_nx.rst)
+- ![Connecting the Pit/Host and the NVIDIA Jetson NX]
+- ![]
 
-Update 02/07/2024
+
