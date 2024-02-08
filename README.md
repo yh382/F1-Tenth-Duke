@@ -12,9 +12,9 @@ PIN:123456
 Registered IP address with Dukeblue Wifi：10.197.0.48
 
 ## Menu
-- ![Build](/Build.md)
-- ![Configuring the NVIDIA Jetson NX](/optional_software_nx.rst)
-- ![Connecting the Pit/Host and the NVIDIA Jetson NX]
-- ![]
+- [Build](/Build.md)
+- [Configuring the NVIDIA Jetson NX](/optional_software_nx.rst)
+- [Connecting the Pit/Host and the NVIDIA Jetson NX]
+- []
 
 
