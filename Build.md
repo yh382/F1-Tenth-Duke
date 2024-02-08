@@ -20,27 +20,27 @@ Since we didn't build the car from sketch, if you start from sketch, please read
 2. Rebuild 3 powerboards  
 3. Add adaptor and connector for battery.  
 
-
+### VESC
   The ESC is FSESC which is using VESC 6 architecture instead of VESC. This is what we got from Prof. Zavlanos and it works.
   ![FSESC](/Images/ESC.JPG)
 
 
-
+### Power Board
   The powerboard has 5V and 12V outputs. We currently using V4. And the V9 files is [here](/powerboardV9). The functionality doesn't change a lot.
   ![Power Board](/Images/Power%20board.JPG)
 
 
-
+### Jetson NX
   And here is the connection on Jetson NX. There are a few spaces for further upgrades. Caution: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
   ![NX Connections](/Images/NX%20Connections.JPG)     
 
 
-
+### Over View
   Here is a picture to show the main component of our car.
   ![Overview](/Images/Overview.jpg)
 
 
-
+## Final Look
 And here is the final looks.
 ![Final Look 1](/Images/Final%20Look%201.JPG)
 ![Final Look 2](/Images/Final%20look%202.JPG)
