@@ -1,5 +1,4 @@
 .. _doc_software_nx:
-We follow the instuctions from [F1 Tenth Official website](https://f1tenth.org/build)
 
 
 1. Configuring the NVIDIA Jetson NX
@@ -61,7 +60,7 @@ NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on
 
                 Target selection window.
 
-10. Click the "Flash" button and it takes about 30 mins for our device.
+10. Click the "Flash" button which takes about 30 mins for our device.
 
         .. figure:: Images/nx-software-step10.png
                 :align: center
@@ -338,3 +337,6 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
       git clone https://github.com/jetsonhacks/logitech-f710-module
       cd logitech-f710-module
       ./install-module.sh
+
+Reference:
+[F1 Tenth Official website](https://f1tenth.org/build)
