@@ -26,7 +26,7 @@ Since we didn't build the car from sketch, if you start from sketch, please read
 
 
 ### Power Board
-  The powerboard has 5V and 12V outputs. We currently using V4. And the V9 files is [here](/powerboardV9). The functionality doesn't change a lot.
+  The powerboard has 5V and 12V outputs. We currently using V4. And the V9 files is [here](/powerboardV9) which is provided by Prof. Rahul Mangharam. The functionality doesn't change a lot.
   ![Power Board](/Images/Power%20board.JPG)
 
 
