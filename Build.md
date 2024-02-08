@@ -1,8 +1,8 @@
 # F1-Tenth-Duke
 ## Start of Journy
-  We extend our gratitude to Professor Zavlanos for generously providing us with the F1 Tenth prototype he crafted in 2020. This valuable machine came into our possession through the kind support of Professor Delagrammatikas in September 2023, marking the inception of Duke University's inaugural F1 Tenth team.
+  We extend our gratitude to Professor Michael Zavlanos for generously providing us with the F1 Tenth prototype he crafted in 2020. This valuable machine came into our possession through the kind support of Professor Georgie Delagrammatikas in September 2023, marking the inception of Duke University's inaugural F1 Tenth team.
 ![The First Look of Our Car](Images/First%20Look.jpg)
-Since we didn't build the car from sketch, if you start from sketch, please read [F1 Tenth Official website](https://f1tenth.org/build.html#)
+Since we didn't build the car from sketch, if you start from sketch, please read [F1 Tenth Official website](https://f1tenth.org/build.html#), or for other problems.
 
 ## Initial Condition
   However, the car was not in a runnable condition.   
@@ -21,8 +21,17 @@ Since we didn't build the car from sketch, if you start from sketch, please read
 3. Add adaptor and connector for battery.  
 
   The ESC is FSESC which is using VESC 6 architecture instead of VESC. This is what we got from Prof. Zavlanos and it works.
+  ![FSESC](/Images/ESC.JPG)
+
+  The powerboard has 5V and 12V outputs, We currently using V4. And the V9 files is [here](/powerboardV9). The functionality doesn't change a lot.
+  ![Power Board](/Images/Power%20board.JPG)
+
+  And here the connection on Jetson NX. There are a few spaces for further upgrades. Caution: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
+  ![NX Connections](/Images/NX%20Connections.JPG)     
 
   Here is a picture to show the main component of our car.
-  ![The First Look of Our Car](Images/Overview.jpg)
+  ![Overview](/Images/Overview.jpg)
 
-And here is the final looks when it is running.
+And here is the final looks.
+![Final Look 1](/Images/Final%20Look%201.JPG)
+![Final Look 2](/Images/Final%20look%202.JPG)
