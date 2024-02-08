@@ -11,4 +11,4 @@ Account on NX: f1tenth
 PIN:123456
 Registered IP address with Dukeblue Wifi：10.197.0.48
 
-Update 02/04/2024
+Update 02/07/2024
