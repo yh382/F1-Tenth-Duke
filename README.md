@@ -8,7 +8,7 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 
 ## Information of NX account
 Account on NX: f1tenth  
-PIN:123456  
+PIN: 123456  
 Registered IP address with Dukeblue Wifi：10.197.0.48  
 
 ## Menu
