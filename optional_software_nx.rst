@@ -8,39 +8,38 @@ We follow the instuctions from [F1 Tenth Official website](https://f1tenth.org/b
 
 1. Flash Jetson NX with Software
 ----------------------------------
-The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves provide a detailed step-by-step getting started on how to bring the NVIDIA Jetpack Software on the NVIDIA Jetson NX. You can either follow this documentation `here <https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit>`_ or follow our step-by-step introduction below.
+NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on the NVIDIA Jetson NX, which you can find either in their documentation `here <https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit>` or follow introduction.
 
-1. Go to the NVIDIA Develoeprs Download Center at https://developer.nvidia.com/downloads and click Jetson.
+1. Click Jetson at NVIDIA Develoeprs Download Center https://developer.nvidia.com/downloads.
 
         .. figure:: Images/nx-software-step1.png
                 :align: center
 
                 NVIDIA Developers Download Center
 
-2. Under SD Card Image Method, click Jetson Xavier NX Developer Kit.
+2. Select "Jetson Xavier NX Developer Kit" under the SD Card Image Method.
 
         .. figure:: Images/nx-software-step2.png
                 :align: center
 
                 Jetson Xavier NX Developer Kit downloads.
 
-3. The next page will require you to log in with an **NVIDIA Developer Program login**. If you do not have one, click Join Now - Registration is free. If you already have an account, click Login.
-
+3. Login in with your NVIDIA account.
         .. figure:: Images/nx-software-step3.png
                 :align: center
 
                 NVIDIA Developer Program login page.
 
-4. Once you have logged in, you will be redirected to your profile settings page. At the top of this page, you should see a banner with a button with the text "Jetson Xavier NX Developer Kit SD Card Image." Click this button.
+4. Please click this button. "Jetson Xavier NX Developer Kit SD Card Image" 
 
         .. figure:: Images/nx-software-step4.png
                 :align: center
 
                 NVIDIA Developer Program profile page download button.
 
-5. Once the zip file has finished downloading, extract it. This will create a new file, sd-blob.img. This is the file that contains the NVIDIA Jetson Xavier NX Developer Kit software and operating system.
+5. After downloading, extract the zip file to create sd-blob.img, containing the software for the NVIDIA Jetson Xavier NX Developer Kit.
 
-6. Put the acquired microSD card into the SD card reader/writer and then plug the SD card reader into the **Host PC**.
+6. Put the microSD and SD reader in. 
 
 7. Download, install, and launch SD card image burning software `Etcher <https://www.balena.io/etcher/>`_.
 
@@ -49,21 +48,20 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
 
                 SD card burner software Etcher.
 
-8. Choose **Flash the file** and select the image you downloaded from NVIDIA. When the file selection window comes up, choose the **sd-XXXX.img** file extracted earlier.
-
+8. Opt for "Flash the file" and opt for the NVIDIA-downloaded image. In the file selection window, opt for the previously extracted sd-XXXX.img file.
         .. figure:: Images/nx-software-step8.png
                 :align: center
 
                 File selection window.
 
-9. For the "target" device, choose the microSD card in the microSD card reader/writer.
+9. Select the microSD card in the microSD card reader/writer as the "target" device.
 
         .. figure:: Images/nx-software-step9.png
                 :align: center
 
                 Target selection window.
 
-10. Click "Flash!" (or similar for your software). This process will take some time and is mainly depending on the speed write speed of your microSD card (20+ minutes).
+10. Click the "Flash" button and it takes about 30 mins for our device.
 
         .. figure:: Images/nx-software-step10.png
                 :align: center
@@ -71,9 +69,7 @@ The setup of the Nvidia Jetson NX is easy and convenient. NVIDIA themselves prov
                 Flashing process.
 
 
-11. Now you can provide energy for the F1TENTH car. You either do this with the battery on the car or plug in an external power supply that provides 16V. The Jetson Xavier NX Developer Kit will power on and boot automatically after you provided the power supply.
-
-.. important:: The barrel jack on the powerboard is only rated for **9.0V - 16.0V**. The power supplies that come with the Jetson NX are 19V and therefore have a higher voltage. **Do not plug those in**. Otherwise you will destroy your powerboard.
+11. Now you can use 9-16v external battery (we choose 12v) or the powerboard to start it.
 
 12. A green LED next to the Micro-USB connector will light as soon as the developer kit powers on. When you boot the first time, the Jetson Xavier NX Developer Kit will take you through some initial setup, including:
 
