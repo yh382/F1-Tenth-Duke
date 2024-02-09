@@ -312,6 +312,5 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
 3. Once all packages have been upgraded run ``sudo reboot`` to restart the Developer Kit and apply any changes.
 
 **Reference:** 
-## Reference
 [F1 Tenth Official website](https://f1tenth.org/build)
 
