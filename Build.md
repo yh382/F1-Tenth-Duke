@@ -34,7 +34,7 @@ Since we didn't build the car from sketch, if you start from sketch, please read
   And here is the connection on Jetson NX. There are a few spaces for further upgrades. CAUTION: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
   ![NX Connections](/Images/NX%20Connections.JPG)  
 
-  Since the developer kit is not longer available, we installed the Wifi modual and SSD manually. For Wifi modual, it just need to ealiy screw in. For SSD, check it [page](/SSD.md) if you need to replace a new SSD.
+  Since the developer kit is not longer available, we installed the Wifi modual and SSD manually. For Wifi modual, it just need to ealiy screw in. For SSD, after insertion, check it [page](/SSD.md) if you need to replace a new SSD.
   ![Bottom of Jetson NX](/Images/SSD%20Wifi.jpg)      
 
 
