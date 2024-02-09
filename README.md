@@ -15,6 +15,7 @@ Registered IP address with Dukeblue Wifi：10.197.0.48
 - [Build](/Build.md)
 - [Configuring the NVIDIA Jetson NX](/optional_software_nx.rst)
 - [Connecting the Pit/Host and the NVIDIA Jetson NX]
-- []
+- [Hokuyo 10LX Ethernet Connection Setup](/Hokuyo_Lidar/Hokuyo.md)
+- [Configuring the VESC](/VESC/VESC_config.md)
 
 
