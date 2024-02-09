@@ -229,23 +229,22 @@ NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on
 
 2. Run Jetson NX from SSD
 ---------------------------
-In the build instruction we applied an SSD NVMe on to the Jetson NX. We will now make use of this SSD  by switching the rootfs to point to the SSD. In effect, the system will now run from the SSD, the SD card is only there to boot the system. Therefore everything you install on your system will automatically installed on the SSD.
+We equip the Jetson NX with an NVMe SSD and will now configure the device to use the SSD as the primary storage by redirecting the root file system to it.
 
 Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson-xavier-nx-run-from-ssd/>`_ that has both video and commands integrated to enable your Jetson NX to run from the SSD
 
-.. important:: These script changes the rootfs to the SSD after the kernel image is loaded from the eMMC/SD card. For the Xavier NX, you will still need to have the SD card installed for booting. As of this writing, the default configuration of the Jetson NX does not allow direct booting from the NVMe.
 
 3. Configuring WiFi and SSH
 -------------------------------
 
-1. We will use the Network Manager command-line tool nmcli to configure the WiFi on the NVIDIA Jetson Xavier NX. To find the interface name of your WiFi adapter, start by typing ``nmcli d`` and hitting ENTER. This will list your available interfaces. My wifi interface is named ``wlan0`` so I will use that in all future steps. If your WiFi interface is named something different, you will have to replace that in future commands.
+1. Follow the command to configure the WiFi. To determine your WiFi adapter's interface name, run nmcli d. Use the displayed name (e.g., wlan0) in upcoming commands, replacing it with your actual interface name as required.
 
         .. figure:: Images/nx-wifi-step-1.png
                 :align: center
 
                 WiFi network selection.
 
-2. To make sure that your WiFi radio is turned on, type ``nmcli r wifi on`` and hit ENTER. This will not show anything on the terminal if the command succeeded.
+2. To activate your WiFi radio, enter `nmcli r wifi on` in the terminal. There won’t be any output if the command is successful.
 
         .. figure:: Images/nx-wifi-step-2.png
                 :align: center
@@ -267,7 +266,7 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
                 Connect to specific WiFi network.
 
 5. If the connection was successful, you should see the message ``Device 'wlan0' successfully activated with [GUID]``.
-6. By default, WiFi will be connected using DHCP which means you may get a new IP address each time the device is turned on. In the next steps, we will configure the WiFi connection with a static IP address so you can SSH into the Developer Kit reliably. To set a static IP address, you will need to know the subnet, IP address range, and gateway of your wifi network.
+6. WiFi defaults to DHCP, giving a new IP on each reboot. We'll set a static IP instead, needing your network's subnet, IP range, and gateway.
 7. To get the currently-assigned IP address use the command ``ip addr show dev wlan0``.
 
         .. figure:: Images/nx-wifi-step-7.png
@@ -282,22 +281,22 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 
                 List of connections.
 
-9. To set a static IP address use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8, ``[NEW_ADDRESS]`` is replaced with the static IP address that you want to set, and ``[CIDR]`` is the `CIDR representation <https://www.ionos.com/digitalguide/server/know-how/cidr-classless-inter-domain-routing/>`_ of the subnet (usually 24).
+9. To configure a static IP, use sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]. Replace [CONNECTION_NAME] with your WiFi name from step 8, [NEW_ADDRESS] with your desired static IP, and [CIDR] with your subnet's CIDR (often 24).
 
         .. figure:: Images/nx-wifi-step-9.png
                 :align: center
 
                 Setting static IP address.
 
-10. To set the connection's default gateway, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.gateway [GATEWAY_IP]`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8 and ``[GATEWAY_IP]`` is replaced with the IP address of your WiFi network's gateway/router.
+10. Set the connection's gateway with sudo nmcli c mod [CONNECTION_NAME] ipv4.gateway [GATEWAY_IP], replacing [CONNECTION_NAME] with your WiFi name from step 8 and [GATEWAY_IP] with your router's IP.
 
         .. figure:: Images/nx-wifi-step-10.png
                 :align: center
 
                 Setting IP gateway.
 
-11. To set the connection's DNS servers, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.dns "[DNS_SERVER1]"`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8 and ``[DNS_SERVERS]`` is replaced with a comma-separated list of DNS server IP addresses. Google DNS servers at 8.8.8.8 and 8.8.4.4 are recommended.
-12. To disable DHCP and always use the static IP address on this connection, use the command ``sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8.
+11. Set DNS servers via `sudo nmcli c mod [CONNECTION_NAME] ipv4.dns "[DNS_SERVERS]"`, substituting `[CONNECTION_NAME]` with your WiFi name from step 8 and `[DNS_SERVERS]` with DNS IPs, e.g., 8.8.8.8, 8.8.4.4.
+12. Disable DHCP for a static IP with `sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`, replacing `[CONNECTION_NAME]` with your WiFi connection name from step 8. If you are trying to use DUKEBLUE，you can ask help from OIT to give a static IP. Otherwise, you need to set it up everytime.
 
         .. figure:: Images/nx-wifi-step-12.png
                 :align: center
@@ -306,7 +305,7 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 
 13. To save the changes you've made, run the command ``sudo nmcli c up [CONNECTION_NAME]`` where ``[CONNECTION_NAME]`` is replaced with the name of your WiFi connection that you got from step 8.
 
-14. To verify that you can SSH into the NVIDIA Jetson Xavier NX Developer Kit, verify that the Pit/Host PC is connected to the **same network** as the Jetson Xavier NX Developer Kit and use an SSH client on the Host PC to connect to the new IP address of the Developer Kit. On Linux this would be done with the command ``ssh f1tenth@[IP_ADDRESS]`` where ``[IP_ADDRESS]`` is replaced with the static IP address that you assigned to the Developer Kit. After you have verified that SSH works correctly, you can close the connection to the Developer Kit in your terminal emulator.
+14. To test SSH into the NVIDIA Jetson Xavier NX, ensure it's on the same network as the Host PC. Use `ssh f1tenth@[IP_ADDRESS]` with the Developer Kit's static IP. Once SSH is confirmed, close the terminal.
 
 4. Updating Packages
 ------------------------
@@ -320,17 +319,8 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
 5. Creating a Swapfile
 ---------------------------
 
-1. Run the following commands to create a swapfile which can help with memory-intensive tasks
-
-.. code-block:: bash
-
-    sudo fallocate -l 4G /var/swapfile
-    sudo chmod 600 /var/swapfile
-    sudo mkswap /var/swapfile
-    sudo swapon /var/swapfile
-    sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
-
-6. Install the Logitech F710 driver on the Jetson.
+## **Reference:** 
+[F1 Tenth Official website](https://f1tenth.org/build)
 ------------------------------------------------------
 
     .. code:: bash
