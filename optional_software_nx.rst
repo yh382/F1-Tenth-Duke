@@ -311,18 +311,5 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
 2. To install all available updates, run ``sudo apt full-upgrade``.
 3. Once all packages have been upgraded run ``sudo reboot`` to restart the Developer Kit and apply any changes.
 
-5. Creating a Swapfile
----------------------------
-
-## **Reference:** 
-[F1 Tenth Official website](https://f1tenth.org/build)
-------------------------------------------------------
-
-    .. code:: bash
-
-      git clone https://github.com/jetsonhacks/logitech-f710-module
-      cd logitech-f710-module
-      ./install-module.sh
-
 ## **Reference:** 
 [F1 Tenth Official website](https://f1tenth.org/build)
