@@ -324,5 +324,5 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
       cd logitech-f710-module
       ./install-module.sh
 
-Reference:
+## **Reference:** 
 [F1 Tenth Official website](https://f1tenth.org/build)
