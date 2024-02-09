@@ -9,7 +9,13 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 ## Information of NX account
 Account on NX: f1tenth  
 PIN: 123456  
-Registered IP address with Dukeblue Wifi：10.197.0.48  
+Registered IP address with Dukeblue Wifi：10.197.0.48
+
+## SSH to NX
+```bash
+$ ssh -X f1tenth@10.197.0.48
+```
+
 
 ## Menu
 - [Build](/Build.md)
