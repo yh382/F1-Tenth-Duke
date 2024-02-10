@@ -8,9 +8,6 @@ Connecting the Pit/Host Computer to the NVIDIA Jetson NX
 - An F1TENTH vehicle fully assembled with its NVIDIA Jetson NX, along with peripherals such as a keyboard, mouse, and an external monitor connected via HDMI.
 - A WiFi connection.
 
-.. image:: Images/Setup2.png
-   :alt: Vehicle and Computer Setup (F1Tenth,2021)
-
 Introduction
 ------------
 
@@ -30,7 +27,7 @@ The NVIDIA Jetson NX is equipped with a network card. First, ensure its antennas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Refer to the instructions in `Configuring the NVIDIA Jetson NX <configuring_nx.rst>`_
-for WiFi and SSH setup. Once connected to ``F1TENTH_WIFI``, verify the connection by opening a terminal and running:
+for WiFi and SSH setup. Once connected to the same wifi your car is connecting, verify the connection by opening a terminal and running:
 
 .. code-block:: bash
 
