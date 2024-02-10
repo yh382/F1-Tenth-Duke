@@ -247,7 +247,7 @@ For Duke students, if your are using a new Jetson NX or something, create a tick
 
                 WiFi network selection. 
 
-2. To activate your WiFi radio, enter `nmcli r wifi on` in the terminal. There won’t be any output if the command is successful.
+2. To activate your WiFi radio, enter ``nmcli r wifi on`` in the terminal. There won’t be any output if the command is successful.
 3. To see the list of WiFi SSIDs that your WiFi adapter can see, type ``nmcli d wifi list`` and hit ENTER. After the list is printed, hit ``q`` to continue.
 
         .. figure:: Images/Wifi_2.png
