@@ -74,112 +74,109 @@ making sure to replace ``<your_device_name>`` with the name of your device (e.g.
 .. _install_ros2:
 2. Installing ROS 2 and its Utilities
 ---------------------------------------
-First, follow the instructions from `the official ROS 2 Foxy Installation Guide <https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html>`_ to install ROS 2 via Debian Packages.
 
-Next, we'll need ``colcon`` as the main build tool for ROS 2. Install it following the `instructions here <https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html?highlight=colcon#install-colcon>`_.
+Begin by following the instructions provided in `the official ROS 2 Foxy Installation Guide <https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html>`_ to install ROS 2 via Debian Packages.
 
-Lastly, we'll need ``rosdep`` as the dependency resolution tool. Install it following the `instructions here <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_ and initialize it following the `instructions here <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_.
-Since Foxy is an abandoned version, if you see the error of missing dependencys, you can use the following command to install manually. Same for other versions.
+Subsequently, ensure to install ``colcon`` as the primary build tool for ROS 2. Execute the steps outlined in the tutorial available `here <https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html?highlight=colcon#install-colcon>`_.
+
+Finally, install ``rosdep`` as the dependency resolution tool, as directed in the following `instructions <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_ and initialize it using the provided `guidelines <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_.
+
+Should you encounter missing dependencies due to the version being outdated, manually install them using the following command format:
 
 .. code-block:: bash
-	sudo apt-get install ros-[distro]-[package-name]
+
+    sudo apt-get install ros-[distro]-[package-name]
 
 .. _software_stack:
 3. Setting up the Driver Stack
 ----------------------------------
 
-First, we'll create a ROS 2 workspace for our driver stack with the following commands. We'll be using ``f1tenth_ws`` as the name of our workspace going forward in this section.
-.. Reminder:: If you can, save all the files in SSD instead of NX. You can create a link as a directory which is more convenient to use on NX like /Home. To do that, check `SSD Setup <SSD.md>`_
+To initialize the ROS 2 workspace for our driver stack, execute the commands below, utilizing ``f1tenth_ws`` as the designated workspace name for this section:
 
 .. code-block:: bash
 
-	cd $HOME
-	mkdir -p f1tenth_ws/src
+    cd $HOME
+    mkdir -p f1tenth_ws/src
+    cd f1tenth_ws
+    colcon build
 
-Then, make this into a ROS 2 workspace by running:
-
-.. code-block:: bash
-
-	cd f1tenth_ws
-	colcon build
-
-Next, we'll clone the repo into the ``src`` directory of our workspace:
+Proceed to clone the repository into the ``src`` directory of our workspace:
 
 .. code-block:: bash
 
-	cd src
-	git clone https://github.com/f1tenth/f1tenth_system.git
+    cd src
+    git clone https://github.com/f1tenth/f1tenth_system.git
 
-Then we'll update the git submodules and pull in all the necessary packages
-
-.. code-block:: bash
-
-	cd f1tenth_system
-	git submodule update --init --force --remote
-
-After git finishes cloning, we can now install all dependencies for our packages with ``rosdep``:
+Update the git submodules and pull in all the necessary packages:
 
 .. code-block:: bash
 
-	cd $HOME/f1tenth_ws
-	rosdep update
-	rosdep install --from-paths src -i -y
+    cd f1tenth_system
+    git submodule update --init --force --remote
 
-Lastly, after dependencies are installed, we can build our workspace again with the driver stack pacakges:
+After completing the cloning process, install all dependencies for our packages using ``rosdep``:
 
 .. code-block:: bash
 
-	colcon build
+    cd $HOME/f1tenth_ws
+    rosdep update
+    rosdep install --from-paths src -i -y
 
-You can find more details on how the drivers are set up in the README of the `f1tenth_system repo <https://github.com/f1tenth/f1tenth_system>`_.
+Finally, build the workspace again to incorporate the driver stack packages:
+
+.. code-block:: bash
+
+    colcon build
+
+For more detailed information on the driver setup, refer to the README of the `f1tenth_system repository <https://github.com/f1tenth/f1tenth_system>`_.
 
 .. _teleop_setup:
 
 4. Launching Teleop and Testing the LiDAR
 ----------------------------------------------
-This section assumes that the lidar has already been plugged in to the ethernet port. If you are using the Hokuyo 10LX make sure that you have completed the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_ section before preceding.
 
-Before the bringup launch, you'll have to set the correct parameters according to which LiDAR you're using in the params file ``sensors.yaml``. All parameter files are located in the following location:
+This section assumes that the lidar has already been connected to the Ethernet port. If you are utilizing the Hokuyo 10LX, ensure that you have completed the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_ section before proceeding.
 
-.. code-block:: bash
-
-	$HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/
-
-Then set the ``ip_address`` field to the corresponding ip address of your LiDAR.
-
-Before you launch the ROS2 launch files, remember to use ``$ ssh -X f1tenth@ip_address`` to connect your car, if not, you will not able to see the Rviz GUI.
-For Ubuntu 20.04, you need to install **OpenGL** to you open the Rviz GUI on you host laptop (Install in **YOUR** laptop, instead of NX). you can install the OpenGL by following command:
-
-.. code-block:: bash
-	glxinfo | grep "OpenGL version"
-	sudo apt-get install mesa-utils
-	glxgears
-
-
-In your running container, run the following commands to source the ROS 2 underlay and our workspace's overlay:
+Before initiating the bringup launch, ensure to configure the parameters according to the LiDAR being used in the ``sensors.yaml`` params file, located at:
 
 .. code-block:: bash
 
-	source /opt/ros/foxy/setup.bash
-	cd $HOME/f1tenth_ws
-	source install/setup.bash
+    $HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/
 
-Then, you can launch the bring up with:
+Set the ``ip_address`` field to correspond with the IP address of your LiDAR.
 
-.. code-block:: bash
-
-	ros2 launch f1tenth_stack bringup_launch.py
-
-Running the bringup launch will start the VESC drivers, the LiDAR drivers, the joystick drivers, and all necessary packages for running the car. To see the LaserScan messages, in a new terminal window, run
+Prior to launching the ROS2 launch files, remember to connect to your car using ``$ ssh -X f1tenth@ip_address``. Failure to do so will result in the inability to view the Rviz GUI. Additionally, on Ubuntu 20.04, you need to install **OpenGL** on your host laptop to open the Rviz GUI. You can install OpenGL using the following command:
 
 .. code-block:: bash
 
-	source /opt/ros/foxy/setup.bash
-	cd $HOME/f1tenth_ws
-	source install/setup.bash
-	rviz2
+    glxinfo | grep "OpenGL version"
+    sudo apt-get install mesa-utils
+    glxgears
 
-The rviz window should show up. Then you can add a LaserScan visualization in rviz on the ``/scan`` topic. The map in bring_up.py is "Base_link".
+To set up the ROS 2 underlay and our workspace's overlay, run the following commands in your running container:
+
+.. code-block:: bash
+
+    source /opt/ros/foxy/setup.bash
+    cd $HOME/f1tenth_ws
+    source install/setup.bash
+
+Subsequently, launch the bringup with:
+
+.. code-block:: bash
+
+    ros2 launch f1tenth_stack bringup_launch.py
+
+Executing the bringup launch will initiate the VESC drivers, LiDAR drivers, joystick drivers, and all necessary packages for operating the car. To view the LaserScan messages, open a new terminal window and execute:
+
+.. code-block:: bash
+
+    source /opt/ros/foxy/setup.bash
+    cd $HOME/f1tenth_ws
+    source install/setup.bash
+    rviz2
+
+The Rviz window should appear, allowing you to add a LaserScan visualization on the ``/scan`` topic. The map used in bring_up.py is "Base_link".
 
 **Reference:**
 
