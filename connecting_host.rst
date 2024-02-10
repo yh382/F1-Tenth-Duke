@@ -1,106 +1,64 @@
-.. _doc_software_combine:
 
-2. Connecting the Pit/Host and the NVIDIA Jetson NX
-====================================================
-**Equipment Used:**
-	* Pit/Host laptop/computer running Mac, Windows, or Linux
-	* Fully built F1TENTH vehicle with its NVIDIA Jetson NX connected to a keyboard, mouse, and an external monitor/display via HDMI cable
-	* Wifi
+Connecting the Pit/Host Computer to the NVIDIA Jetson NX
+========================================================
 
-**Approximate Time Investment:** 1 hour
+**Required Equipment:**
+
+- A Pit/Host laptop or computer equipped with Mac, Windows, or Linux operating system.
+- An F1TENTH vehicle fully assembled with its NVIDIA Jetson NX, along with peripherals such as a keyboard, mouse, and an external monitor connected via HDMI.
+- A WiFi connection.
+
+**Estimated Time Required:** Approximately 1 hour
 
 .. image:: Images/Setup2.png
+   :alt: Vehicle and Computer Setup
 
-Overview
-----------
-We could now log into the Jetson using a monitor, keyboard, and mouse, but ideally we would want remote access when we’re driving the car. Throughout this tutorial, you will be asked to configure the Jetson’s and your laptop’s network settings. Make sure to get these right! Using the wrong IP address lead to unable to connect.
+Introduction
+------------
 
-If your **Pit/Host** computer has WiFi capability, you connect both the computer and the F1TENTH car to a wireless router which reserves a static IP address for Jetson NX on the vehicle.
+Gaining remote access to the NVIDIA Jetson NX on the F1TENTH vehicle enhances the driving experience by allowing operations from a distance. This guide walks you through configuring network settings on both the Jetson NX and your Pit/Host computer. Accurate configuration is crucial to avoid connection issues, primarily due to incorrect IP address usage.
 
+For WiFi connectivity, ensure both the Pit/Host computer and the F1TENTH vehicle are connected to a wireless router. This guide will refer to the router's WiFi network as ``F1TENTH_WIFI``, which you will replace with your router's actual SSID.
 
-To make this section easy to follow, the Routers WiFi network SSID will be called and referred to ``F1TENTH_WIFI``. In your scenario, it'll be the SSID of your router's access point.
+Steps for Configuration
+------------------------
 
-1. Vehicle Hardware Setup
-----------------------------------------------
-If you have a NVIDIA Jetson NX, it comes with a network card onboard. Make sure the antennas are connected. The battery should be plugged into the vehicle and the Powerboard should be on.
+1. Setting Up the Vehicle Hardware
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The NVIDIA Jetson NX is equipped with a network card. First, ensure its antennas are correctly attached. Connect the vehicle's battery and switch on the Powerboard.
 
-2. Connecting the NVIDIA Jetson NX to WiFi
--------------------------------------------------
-Check the wifi and ssh setup instruction in 'Configuring the NVIDIA Jetson NX</configuring_nx.rst>' 
+2. WiFi Connection for NVIDIA Jetson NX
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After you're connected to the wireless network, open a terminal and type:
-
-.. code-block:: bash
-
-	ifconfig
-
-You should see something similar to this:
+Refer to the instructions in 'Configuring the NVIDIA Jetson NX <configuring_nx.rst>' for WiFi and SSH setup. Once connected to ``F1TENTH_WIFI``, verify the connection by opening a terminal and running:
 
 .. code-block:: bash
 
-	eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-	        ether 00:04:4b:cb:d9:52  txqueuelen 1000  (Ethernet)
-	        RX packets 0  bytes 0 (0.0 B)
-	        RX errors 0  dropped 0  overruns 0  frame 0
-	        TX packets 0  bytes 0 (0.0 B)
-	        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-	        device interrupt 40
+   ifconfig
 
-	lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-	        inet 127.0.0.1  netmask 255.0.0.0
-	        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-	        loop  txqueuelen 1  (Local Loopback)
-	        RX packets 1047  bytes 82631 (82.6 KB)
-	        RX errors 0  dropped 0  overruns 0  frame 0
-	        TX packets 1047  bytes 82631 (82.6 KB)
-	        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+This command displays network interface information. Your car's IP address is listed under ``wlan0`` following ``inet``. In the provided example, the address is ``195.0.0.5``.
 
-	rndis0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-	        ether ea:a2:37:fd:d0:e1  txqueuelen 1000  (Ethernet)
-	        RX packets 0  bytes 0 (0.0 B)
-	        RX errors 0  dropped 0  overruns 0  frame 0
-	        TX packets 0  bytes 0 (0.0 B)
-	        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+3. Pit/Host Computer WiFi Setup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	usb0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-	        ether ea:a2:37:fd:d0:e3  txqueuelen 1000  (Ethernet)
-	        RX packets 0  bytes 0 (0.0 B)
-	        RX errors 0  dropped 0  overruns 0  frame 0
-	        TX packets 0  bytes 0 (0.0 B)
-	        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+Connect your Pit/Host laptop to ``F1TENTH_WIFI`` and determine its IP address. The process varies by operating system:
 
-	wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-	        inet 195.0.0.5  netmask 255.255.255.0  broadcast 195.0.0.255
-	        inet6 fe80::4df8:b83b:9390:319d  prefixlen 64  scopeid 0x20<link>
-	        ether 0c:dd:24:99:e6:52  txqueuelen 1000  (Ethernet)
-	        RX packets 12511  bytes 4918686 (4.9 MB)
-	        RX errors 0  dropped 0  overruns 0  frame 0
-	        TX packets 1262  bytes 196668 (196.6 KB)
-	        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+- On Linux or macOS, use the ``ifconfig`` command. The IP might be listed under ``en0`` or ``en1`` for macOS users.
+- For Linux running on a VM, ensure the network adapter is set to NAT mode for shared internet access.
 
-You should be able to find your car's assigned IP address under :code:`wlan0`, then after ``inet``. In this example, the IP address is ``195.0.0.5``.
+4. Establishing Connection Between Pit/Host and NVIDIA Jetson NX
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3. Connecting the Pit/Host Computer to WiFi
--------------------------------------------------
-Now, on the Pit/Host laptop, connect to the same wireless network, ``F1TENTH_WIFI`` and find its IP Address. Based on what you have a main system (Mac, Linux, Windows) this process differs. If your laptop running Linux or macOS, you could use the same :code:`ifconfig` command in the terminal. On macOS, it may be under ``en0`` or ``en1``.
-.. In this example, the IP address of the Pit is ``192.168.1.151``.
+With both devices on the same network, verify connectivity by pinging each other:
 
-If you’re running Linux on the Pit laptop in a virtual machine (VM), connect the Pit computer to the router. Depending on which VM software you have and the default VM configuration, you may also need to set its network adapter configuration to NAT mode. This ensures your VM will share the wireless connection with your host OS instead of controlling the adapter itself.
+- From the Jetson NX, ping the Pit/Host using its IP address.
+- From the Pit/Host, ping the Jetson NX using its IP address.
 
-4. Connecting to the Pit/Host to the NVIDIA Jetson NX
---------------------------------------------------------
-Now that the car and the laptop are on the **same network**, you should check that you can ping the laptop from the car and you can ping the car from the laptop.
+Replace the sample IP addresses with the actual ones from your setup.
 
-| On the NVIDIA Jetson NX, open a terminal and type: :code:`ping 192.168.1.151` (This is the IP address of the Pit computer.).
-| On the Pit computer, open a terminal and type :code:`ping 195.0.0.5` (This is the IP address of the NVIDIA Jetson NX).
+To remotely access the Jetson NX from the Pit/Host, use ``ssh`` (on macOS or Linux) or ``PuTTY`` (on Windows). It's advisable to use ``tmux`` for a persistent session that remains active even if the terminal is closed.
 
-Remember to replace the IP addresses in the two lines above with **your specific addresses**.
+**Reference:**
 
-You can now SSH into your car from your laptop. Use :code:`ssh` in the terminal if you're on `macOS or Linux <https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/>`_, use `PuTTY <https://www.123-reg.co.uk/support/servers/how-do-i-connect-using-ssh-putty/>`_ if you're on Windows.
-
-We recommend using `tmux <https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/>`_ while you're ssh-ed into the car. Therefore you close the terminal and your code on the car is still running, since the SSH session is only paused. You need to install :code:`tmux` on the respective system you are using.
-
-**Reference:** 
-
-xLab at the University of Pennsylvani. (2021). Build. https://f1tenth.org/build 
+xLab at the University of Pennsylvania. (2021). Build. https://f1tenth.org/build

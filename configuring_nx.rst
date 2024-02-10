@@ -1,7 +1,7 @@
-.. _doc_software_nx:
 
 
-1. Configuring the NVIDIA Jetson NX
+
+Configuring the NVIDIA Jetson NX
 =========================================
 
 
