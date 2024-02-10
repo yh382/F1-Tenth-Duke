@@ -9,7 +9,7 @@ Connecting the Pit/Host Computer to the NVIDIA Jetson NX
 - A WiFi connection.
 
 .. image:: Images/Setup2.png
-   :alt: Vehicle and Computer Setup
+   :alt: Vehicle and Computer Setup (F1Tenth,2021)
 
 Introduction
 ------------
