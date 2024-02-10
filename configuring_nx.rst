@@ -233,41 +233,37 @@ We equip the Jetson NX with an NVMe SSD and will now configure the device to use
 Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson-xavier-nx-run-from-ssd/>`_ that has both video and commands integrated to enable your Jetson NX to run from the SSD
 
 
-3. Configuring WiFi and SSH
+3. Configuring WiFi and SSH (Skip this step for temporarily using)
 -------------------------------
+This instruction is only for static IP setup. Static IP is only useful for long term testing under same Wifi environment, so we can ssh the car with same IP address. If you would not connect the same wifi for long term, you don't need to setup static IP. Connect the wifi as usual. Use the command ``ip addr show dev wlan0``, then use that IP address for ssh. (e.g. ``ssh f1tenth@your_current_IP``)
 
-1. Follow the command to configure the WiFi. To determine your WiFi adapter's interface name, run nmcli d. Use the displayed name (e.g., wlan0) in upcoming commands, replacing it with your actual interface name as required.
+If you are trying to setup a static IP in school or other public Wifi. Please contact your IT office to assign a static IP for your device. You also can find the MAC address by using command ``ip addr showdev wlan0``, and find ``link/ether XX:XX:XX:XX:XX:XX``.
+For Duke students, if your are using a new Jetson NX or something, create a ticket to request a static IP and register your device. This process might take 3-5 days. And skip the following step of setup.
 
-        .. figure:: Images/nx-wifi-step-1.png
+1. Before you setup the static IP for your wifi, turn off wifi radio and forget the wifi you want to connect. Follow the command to configure the WiFi. To determine your WiFi adapter's interface name, run nmcli d. Use the displayed name (e.g., wlan0) in upcoming commands, replacing it with your actual interface name as required.
+
+        .. figure:: Images/Wifi_1.png
                 :align: center
 
-                WiFi network selection. (F1Tenth, 2021)
+                WiFi network selection. 
 
 2. To activate your WiFi radio, enter `nmcli r wifi on` in the terminal. There won’t be any output if the command is successful.
-
-        .. figure:: Images/nx-wifi-step-2.png
-                :align: center
-
-                Enable WiFi radio. (F1Tenth, 2021)
-
 3. To see the list of WiFi SSIDs that your WiFi adapter can see, type ``nmcli d wifi list`` and hit ENTER. After the list is printed, hit ``q`` to continue.
 
-        .. figure:: Images/nx-wifi-step-3.png
+        .. figure:: Images/Wifi_2.png
                 :align: center
 
-                WiFi SSID selection. (F1Tenth, 2021)
+                WiFi SSID selection. 
 
 4. To connect to a specific WiFi SSID, use the command ``sudo nmcli d wifi connect [SSID] password [PASSWORD]`` where ``[SSID]`` is replaced with the SSID with which you want to connect and ``[PASSWORD]`` is replaced with the password to connect to that SSID. Hit ENTER.
-
-
 5. If the connection was successful, you should see the message ``Device 'wlan0' successfully activated with [GUID]``.
 6. WiFi defaults to DHCP, giving a new IP on each reboot. We'll set a static IP instead, needing your network's subnet, IP range, and gateway.
-7. To get the currently-assigned IP address use the command ``ip addr show dev wlan0``.
+7. To get the currently-assigned IP address use the command ``ip addr show dev wlan0``. You can see the highligt in the following picture. Save this IP address and set it as your static IP later.
 
-        .. figure:: Images/nx-wifi-step-7.png
+        .. figure:: Images/Wifi_3.png
                 :align: center
 
-                Currently-connected WiFi IP address. (F1Tenth, 2021)
+                Currently-connected WiFi IP address. 
 
 8. To set a static IP address, you will also need to know the name of the connection. This is usually the same as the SSID of the WiFi network but not always. To see the list of current connections, use the command ``nmcli c show``.
 
@@ -276,7 +272,7 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
 
                 List of connections. (F1Tenth, 2021)
 
-9. To configure a static IP, use sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]. Replace [CONNECTION_NAME] with your WiFi name from step 8, [NEW_ADDRESS] with your desired static IP, and [CIDR] with your subnet's CIDR (often 24).
+9. To configure a static IP, use sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]. Replace [CONNECTION_NAME] with your WiFi name from step 8, [NEW_ADDRESS] with your current IP, and [CIDR] with your subnet's CIDR (often 24 for family wifi). The new IP address has to be the same IP as above.
 
         .. figure:: Images/nx-wifi-step-9.png
                 :align: center
@@ -291,7 +287,7 @@ Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson
                 Setting IP gateway. (F1Tenth, 2021)
  
 11. Set DNS servers via `sudo nmcli c mod [CONNECTION_NAME] ipv4.dns "[DNS_SERVERS]"`, substituting `[CONNECTION_NAME]` with your WiFi name from step 8 and `[DNS_SERVERS]` with DNS IPs, e.g., 8.8.8.8, 8.8.4.4.
-12. Disable DHCP for a static IP with `sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`, replacing `[CONNECTION_NAME]` with your WiFi connection name from step 8. If you are trying to use DUKEBLUE，you can ask help from OIT to give a static IP. Otherwise, you need to set it up everytime.
+12. Disable DHCP for a static IP with `sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`, replacing `[CONNECTION_NAME]` with your WiFi connection name from step 8. 
 
         .. figure:: Images/nx-wifi-step-12.png
                 :align: center
