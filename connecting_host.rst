@@ -5,7 +5,7 @@
 **Equipment Used:**
 	* Pit/Host laptop/computer running Mac, Windows, or Linux
 	* Fully built F1TENTH vehicle with its NVIDIA Jetson NX connected to a keyboard, mouse, and an external monitor/display via HDMI cable
-	* Wifi Router
+	* Wifi
 
 **Approximate Time Investment:** 1 hour
 
@@ -13,14 +13,10 @@
 
 Overview
 ----------
-We could now log into the Jetson using a monitor, keyboard, and mouse, but ideally we would want remote access when we’re driving the car. Throughout this tutorial, you will be asked to configure the Jetson’s and your laptop’s network settings. Make sure to get these right! Using the wrong IP address may lead to conflicts with another classmate, meaning neither of you will be able to connect.
+We could now log into the Jetson using a monitor, keyboard, and mouse, but ideally we would want remote access when we’re driving the car. Throughout this tutorial, you will be asked to configure the Jetson’s and your laptop’s network settings. Make sure to get these right! Using the wrong IP address lead to unable to connect.
 
 If your **Pit/Host** computer has WiFi capability, you connect both the computer and the F1TENTH car to a wireless router which reserves a static IP address for Jetson NX on the vehicle.
 
-If the **Pit/Host** computer doesn't have Wifi capability:
-
-	#. Connect the **Pit/Host** computer to a WiFi router via an ethernet cable.
-	#. Connect the **NVIDIA Jetson NX** to the same router via Wifi.
 
 To make this section easy to follow, the Routers WiFi network SSID will be called and referred to ``F1TENTH_WIFI``. In your scenario, it'll be the SSID of your router's access point.
 
@@ -28,15 +24,10 @@ To make this section easy to follow, the Routers WiFi network SSID will be calle
 ----------------------------------------------
 If you have a NVIDIA Jetson NX, it comes with a network card onboard. Make sure the antennas are connected. The battery should be plugged into the vehicle and the Powerboard should be on.
 
-If you have a NVIDIA Jetson Nano or a Xavier, you'll need to install an additional M.2 network card from Intel to enable wireless networking.
-
 
 2. Connecting the NVIDIA Jetson NX to WiFi
 -------------------------------------------------
-Power up the F1TENTH vehicle and connect the car to a monitor (via HDMI) and both a mouse and keyboard (via USB). You see the Jetson NX is showing its main Desktop which is an UBUNTU 18.04 version.
-You can now connect the NVIDIA Jetson NX to the ``F1TENTH_WIFI`` by clicking on wireless icon on top-right corner of Ubuntu Desktop and selecting ``F1TENTH_WIFI``. It might take a while for the NVIDIA Jetson NX to discover the wireless network.
-
-.. image:: Images/wifi_setup.png
+Check the wifi and ssh setup instruction in 'Configuring the NVIDIA Jetson NX</configuring_nx.rst>' 
 
 After you're connected to the wireless network, open a terminal and type:
 
@@ -109,14 +100,6 @@ Remember to replace the IP addresses in the two lines above with **your specific
 You can now SSH into your car from your laptop. Use :code:`ssh` in the terminal if you're on `macOS or Linux <https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/>`_, use `PuTTY <https://www.123-reg.co.uk/support/servers/how-do-i-connect-using-ssh-putty/>`_ if you're on Windows.
 
 We recommend using `tmux <https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/>`_ while you're ssh-ed into the car. Therefore you close the terminal and your code on the car is still running, since the SSH session is only paused. You need to install :code:`tmux` on the respective system you are using.
-
-.. You can now disconnect the HDMI cable, monitor, keyboard, and mouse from the NVIDIA Jetson NX and still be able to control the NVIDIA Jetson NX remotely from the Pit computer only via the terminal.
-
-.. Congratulations on making it through the **System Configuration** section! The :ref:`Advanced Setups <doc_software_advance>` is optional and is not needed to finish setting up the vehicle.
-
-.. .. image:: Images/wireless3.gif
-.. 	:align: center
-.. 	:width: 300px
 
 **Reference:** 
 
