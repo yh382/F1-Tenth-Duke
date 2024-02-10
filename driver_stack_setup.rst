@@ -76,6 +76,10 @@ First, follow the instructions from `the official ROS 2 Foxy Installation Guide 
 Next, we'll need ``colcon`` as the main build tool for ROS 2. Install it following the `instructions here <https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html?highlight=colcon#install-colcon>`_.
 
 Lastly, we'll need ``rosdep`` as the dependency resolution tool. Install it following the `instructions here <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_ and initialize it following the `instructions here <https://docs.ros.org/en/foxy/How-To-Guides/Building-a-Custom-Debian-Package.html?highlight=rosdep#install-dependencies>`_.
+Since Foxy is an abandoned version, if you see the error of missing dependencys, you can use the following command to install manually. Same for other versions.
+
+.. code-block:: bash
+	sudo apt-get install ros-[distro]-[package-name]
 
 .. _software_stack:
 3. Setting up the Driver Stack
@@ -130,7 +134,7 @@ You can find more details on how the drivers are set up in the README of the `f1
 
 4. Launching Teleop and Testing the LiDAR
 ----------------------------------------------
-This section assumes that the lidar has already been plugged in (either to the USB hub or to the ethernet port). If you are using the Hokuyo 10LX or a lidar that is connected via the ethernet port of the Orbitty, make sure that you have completed the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_ section before preceding.
+This section assumes that the lidar has already been plugged in to the ethernet port. If you are using the Hokuyo 10LX make sure that you have completed the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_ section before preceding.
 
 Before the bringup launch, you'll have to set the correct parameters according to which LiDAR you're using in the params file ``sensors.yaml``. All parameter files are located in the following location:
 
@@ -138,9 +142,16 @@ Before the bringup launch, you'll have to set the correct parameters according t
 
 	$HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/
 
-A. If you're using an ethernet based LiDAR, set the ``ip_address`` field to the corresponding ip address of your LiDAR.
+Then set the ``ip_address`` field to the corresponding ip address of your LiDAR.
 
-B. If you're using a USB based LiDAR, comment out the ``ip_address`` field, and uncomment the line with the ``serial_port`` field. And set the value to the correct udev name from :ref:`udev rules set up <udev_rules>`.
+Before you launch the ROS2 launch files, remember to use ``$ ssh -X f1tenth@ip_address`` to connect your car, if not, you will not able to see the Rviz GUI.
+For Ubuntu 20.04, you need to install **OpenGL** to you open the Rviz GUI on you host laptop (Install in **YOUR** laptop, instead of NX). you can install the OpenGL by following command:
+
+.. code-block:: bash
+	glxinfo | grep "OpenGL version"
+	sudo apt-get install mesa-utils
+	glxgears
+
 
 In your running container, run the following commands to source the ROS 2 underlay and our workspace's overlay:
 
@@ -165,7 +176,7 @@ Running the bringup launch will start the VESC drivers, the LiDAR drivers, the j
 	source install/setup.bash
 	rviz2
 
-The rviz window should show up. Then you can add a LaserScan visualization in rviz on the ``/scan`` topic.
+The rviz window should show up. Then you can add a LaserScan visualization in rviz on the ``/scan`` topic. The map in bring_up.py is "Base_link".
 
 **Reference:**
 
