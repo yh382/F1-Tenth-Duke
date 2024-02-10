@@ -15,12 +15,6 @@ We use ROS 2 Foxy for communication and run the car. You can find a tutorial on 
 
 In the following section, we'll go over how to set up the **drivers** for sensors and the motor control:
 
-#. Setting up :ref:`udev rules <udev_rules>`.
-#. Installing :ref:`ROS 2 and its utilities <install_ros2>`.
-#. Setting up the :ref:`driver stack <software_stack>`.
-#. Launch :ref:`teleoperation and the LiDAR <teleop_setup>`.
-
-.. We'll need to set up the :ref:`ROS workspace <ros_workspace>`, set up some :ref:`udev rules <udev_rules>`, and :ref:`test the lidar connection <lidar_setup>`.
 
 Everything in this section is done on the **Jetson NX** so you will need to connect to it via SSH from the Pit laptop or plug in the monitor, keyboard, and mouse.
 
@@ -28,23 +22,19 @@ Everything in this section is done on the **Jetson NX** so you will need to conn
 
 1. udev Rules Setup
 ----------------------
-When you connect the VESC and a USB lidar to the Jetson, the operating system will assign them device names of the form ``/dev/ttyACMx``, where ``x`` is a number that depends on the order in which they were plugged in. For example, if you plug in the lidar before you plug in the VESC, the lidar will be assigned the name ``/dev/ttyACM0``, and the VESC will be assigned ``/dev/ttyACM1``. This is a problem, as the car’s configuration needs to know which device names the lidar and VESC are assigned, and these can vary every time we reboot the Jetson, depending on the order in which the devices are initialized.
+When you connect the VESC to the Jetson, the operating system will assign them device names of the form ``/dev/ttyACMx``, where ``x`` is a number that depends on the order in which they were plugged in. For example, if you plug in the mouse before you plug in the VESC, the mouse will be assigned the name ``/dev/ttyACM0``, and the VESC will be assigned ``/dev/ttyACM1``. This is a problem, as the car’s configuration needs to know which device names the devices are assigned, and these can vary every time we reboot the Jetson, depending on the order in which the devices are initialized.
 
-Fortunately, Linux has a utility named udev that allows us to assign each device a “virtual” name based on its vendor and product IDs. For example, if we plug a USB device in and its vendor ID matches the ID for Hokuyo laser scanners (15d1), udev could assign the device the name ``/dev/sensors/hokuyo`` instead of the more generic ``/dev/ttyACMx``. This allows our configuration scripts to refer to things like ``/dev/sensors/hokuyo`` and ``/dev/sensors/vesc``, which do not depend on the order in which the devices were initialized. We will use udev to assign persistent device names to the lidar, VESC, and joypad by creating three configuration files (“rules”) in the directory ``/etc/udev/rules.d``.
+Fortunately, Linux has a utility named udev that allows us to assign each device a “virtual” name based on its vendor and product IDs. For example, if we plug a USB device in and its vendor ID matches the ID for joypad (c219), udev could assign the device the name ``/dev/input/joypad`` instead of the more generic ``/dev/ttyACMx``. This allows our configuration scripts to refer to things like ``/dev/sensors/vesc``, which do not depend on the order in which the devices were initialized. We will use udev to assign persistent device names to the VESC, and joypad by creating two configuration files (“rules”) in the directory ``/etc/udev/rules.d``. Since our LiDar is using Ethernet as the input, check out the `Hokuyo Setup<Hokuyo_Lidar\Hokuyo.md>`_
 
-First, **as root**, open ``/etc/udev/rules.d/99-hokuyo.rules`` in a text editor to create a new rules file for the Hokuyo. Copy the following rule exactly as it appears below in a single line and save it:
-
-.. code-block:: bash
-
-	KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="15d1", MODE="0666", GROUP="dialout", SYMLINK+="sensors/hokuyo"
-
-Next, open ``/etc/udev/rules.d/99-vesc.rules`` and copy in the following rule for the VESC:
+First, **as root**, open ``/etc/udev/rules.d/99-vesc.rules`` and copy in the following rule for the VESC:
 
 .. code-block:: bash
 
 	KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666", GROUP="dialout", SYMLINK+="sensors/vesc"
 
-Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the joypad:
+Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the joypad:  
+
+(The default setting of joypad is "D" mode. For some unknown reasons, our NX can't recognize our Joypad in "D" mode, even it is connected. THerefore, we are using "X" mode, and changed the joypad_config file axis setting and "idProduct" to c21X. If you have same issue, try it out.) 
 
 .. code-block:: bash
 
