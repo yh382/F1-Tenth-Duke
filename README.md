@@ -21,8 +21,8 @@ $ ssh -X f1tenth@10.197.0.48
 
 ## Menu
 - [Build](/Build.md)
-- [Configuring the NVIDIA Jetson NX](/optional_software_nx.rst)
-- [Connecting the Pit/Host and the NVIDIA Jetson NX]
+- [Configuring the NVIDIA Jetson NX](/configuring_nx.rst)
+- [Connecting the Pit/Host and the NVIDIA Jetson NX](/connecting_host.rst)
 - [Hokuyo 10LX Ethernet Connection Setup](/Hokuyo_Lidar/Hokuyo.md)
 - [Configuring the VESC](/VESC/VESC_config.md)
 
