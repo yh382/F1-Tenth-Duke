@@ -130,7 +130,7 @@ You can find more details on how the drivers are set up in the README of the `f1
 
 4. Launching Teleop and Testing the LiDAR
 ----------------------------------------------
-This section assumes that the lidar has already been plugged in (either to the USB hub or to the ethernet port). If you are using the Hokuyo 10LX or a lidar that is connected via the ethernet port of the Orbitty, make sure that you have completed the `Hokuyo 10LX Ethernet Connection <Hokuyo_Lidar\Hokuyo.md>` section before preceding.
+This section assumes that the lidar has already been plugged in (either to the USB hub or to the ethernet port). If you are using the Hokuyo 10LX or a lidar that is connected via the ethernet port of the Orbitty, make sure that you have completed the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_ section before preceding.
 
 Before the bringup launch, you'll have to set the correct parameters according to which LiDAR you're using in the params file ``sensors.yaml``. All parameter files are located in the following location:
 
