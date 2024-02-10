@@ -9,7 +9,7 @@
 
 **Approximate Time Investment:** 1 hour
 
-.. image:: img/combine/Setup2.png
+.. image:: Images/Setup2.png
 
 Overview
 ----------
@@ -36,7 +36,7 @@ If you have a NVIDIA Jetson Nano or a Xavier, you'll need to install an addition
 Power up the F1TENTH vehicle and connect the car to a monitor (via HDMI) and both a mouse and keyboard (via USB). You see the Jetson NX is showing its main Desktop which is an UBUNTU 18.04 version.
 You can now connect the NVIDIA Jetson NX to the ``F1TENTH_WIFI`` by clicking on wireless icon on top-right corner of Ubuntu Desktop and selecting ``F1TENTH_WIFI``. It might take a while for the NVIDIA Jetson NX to discover the wireless network.
 
-.. image:: img/combine/wifi_setup.png
+.. image:: Images/wifi_setup.png
 
 After you're connected to the wireless network, open a terminal and type:
 
@@ -112,16 +112,12 @@ We recommend using `tmux <https://www.hamvocke.com/blog/a-quick-and-easy-guide-t
 
 .. You can now disconnect the HDMI cable, monitor, keyboard, and mouse from the NVIDIA Jetson NX and still be able to control the NVIDIA Jetson NX remotely from the Pit computer only via the terminal.
 
-5. Using a Remote Desktop
-----------------------------
-Although we now have SSH access to the car, it is still inconvenient to run GUI application on the car remotely. In this section, we'll go over how to set up a remote desktop so you can easily use GUI applications like rviz. In our example, we'll use **NoMachine**. If you're an advance user, and can find another remote desktop solution that works on the car, feel free to use it.
-
-First, download NoMachine for your **pit/host** computer's specific OS `here <https://www.nomachine.com/download>`_. Then, while your Jetson is still connected to the monitor, install NoMachine following this guide `here <https://knowledgebase.nomachine.com/AR02R01074>`_. Note that the guide uses Jetson Nano, the same applies to Jetson Xavier NX. You only have to following the *Install NoMachine* section and don't have to set up an alternative desktop environment.
-
-After NoMachine is installed on both sides, go to your pit/host's NoMachine, click **Add** to configure your connection and insert the IP address of the Jetson. You'll only need to change the *Host* field. Click connect to connect to the Jetson. You'll then be prompted the Jetson's username and password to log in. Now you should have remote desktop access to the Jetson.
-
 .. Congratulations on making it through the **System Configuration** section! The :ref:`Advanced Setups <doc_software_advance>` is optional and is not needed to finish setting up the vehicle.
 
-.. .. image:: img/combine/wireless3.gif
+.. .. image:: Images/wireless3.gif
 .. 	:align: center
 .. 	:width: 300px
+
+**Reference:** 
+
+xLab at the University of Pennsylvani. (2021). Build. https://f1tenth.org/build 
