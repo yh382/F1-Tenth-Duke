@@ -1,7 +1,7 @@
 # F1-Tenth-Duke
 The repository contains all documentation belonging to the F1 Tenth team at Duke University, located in NC, USA. Copyright is held by Duke University, specifically for instructions and other accompanying materials. However, the code is open-source. :)  
 
-## **Please read this repo carefully, all details might help you to avoid error!**
+### **Please read this repo carefully, all details might help you to avoid error!**
 
 # Things to keep in mind for all future users
 1. SLOW DOWN! At the time point we built the car, this car values around $4000 and 100+ hours work. The Hokuyo LiDar is $1600, Jetson without SSD and Wifi module is $660, VESC is $300. Therefore, SLOW DOWN and be CAREFUL! We fully understand robotics guys are "crazy" like us. :)
