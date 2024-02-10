@@ -9,15 +9,7 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 ## Information of NX account
 Account on NX: f1tenth  
 PIN: 123456  
-Registered IP address with Dukeblue Wifi：10.197.0.48
-
-## SSH to NX
-
-```bash
-# If you need to use Rviz, add "-X".
-$ ssh -X f1tenth@10.197.0.48
-```
-
+Registered IP address with Dukeblue Wifi：10.197.0.48  
 
 ## Menu
 - [Build](/Build.md)
@@ -25,5 +17,6 @@ $ ssh -X f1tenth@10.197.0.48
 - [Connecting the Pit/Host and the NVIDIA Jetson NX](/connecting_host.rst)
 - [Hokuyo 10LX Ethernet Connection Setup](/Hokuyo_Lidar/Hokuyo.md)
 - [Configuring the VESC](/VESC/VESC_config.md)
+- [Driver Stack Setup](/driver_stack_setup.rst)
 
 
