@@ -14,6 +14,7 @@ Registered IP address with Dukeblue Wifi：10.197.0.48
 ## SSH to NX
 
 ```bash
+# If you need to use Rviz, add "-X".
 $ ssh -X f1tenth@10.197.0.48
 ```
 
