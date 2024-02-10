@@ -82,7 +82,7 @@ Lastly, we'll need ``rosdep`` as the dependency resolution tool. Install it foll
 ----------------------------------
 
 First, we'll create a ROS 2 workspace for our driver stack with the following commands. We'll be using ``f1tenth_ws`` as the name of our workspace going forward in this section.
-.. Reminder:: If you can, save all the files in SSD instead of NX. You can create a link as a directory which is more convenient to use on NX like /Home. To do that, check `SSD Setup </SSD.md>`_
+.. Reminder:: If you can, save all the files in SSD instead of NX. You can create a link as a directory which is more convenient to use on NX like /Home. To do that, check `SSD Setup <SSD.md>`_
 
 .. code-block:: bash
 
