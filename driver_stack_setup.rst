@@ -34,7 +34,7 @@ First, **as root**, open ``/etc/udev/rules.d/99-vesc.rules`` and copy in the fol
 
 Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the joypad:  
 
-(The default setting of joypad is "D" mode. For some unknown reasons, our NX can't recognize our Joypad in "D" mode, even it is connected. THerefore, we are using "X" mode, and changed the joypad_config file axis setting and "idProduct" to c21X. If you have same issue, try it out.) 
+(The default setting of joypad is "D" mode. For some unknown reasons, our NX can't recognize our Joypad in "D" mode, even we can read the device by command ``$ lsus``. Therefore, we are using "X" mode, and changed the joypad_config file axis setting and "idProduct" to c21X. If you have same issue, try it out.) 
 
 .. code-block:: bash
 
