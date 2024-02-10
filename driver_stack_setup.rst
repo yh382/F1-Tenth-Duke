@@ -1,20 +1,21 @@
 Driver Stack Setup
-=================================
-**Equipment Required:**
-	* Fully built F1TENTH  vehicle
-	* Pit/Host computer OR
-	* External monitor/display, HDMI cable, keyboard, mouse
+==================
 
+Equipment Required:
+-------------------
+- Fully built F1TENTH vehicle
+- Pit/Host computer OR
+- External monitor/display, HDMI cable, keyboard, mouse
 
-.. warning:: This instruction only for Jetson Xaviers NX, which has JetPack versions after 5.0 and ROS2 only. 
+.. warning:: 
+   This instruction is only for Jetson Xaviers NX, which has JetPack versions after 5.0 and ROS2 only. 
 
 Overview
-----------
-Since the release of `JetPack 5.0 Developer Preview <https://developer.nvidia.com/jetpack-sdk-50dp>`_ the Jetson can now run on Ubuntu 20.04, and we can install ROS 2 natively and conveniently.
-We use ROS 2 Foxy for communication and run the car. You can find a tutorial on ROS 2 `here <https://docs.ros.org/en/foxy/Tutorials.html>`_.
+--------
+Since the release of `JetPack 5.0 Developer Preview <https://developer.nvidia.com/jetpack-sdk-50dp>`, the Jetson can now run on Ubuntu 20.04, and we can install ROS 2 natively and conveniently.
+We use ROS 2 Foxy for communication and run the car. You can find a tutorial on ROS 2 [here](https://docs.ros.org/en/foxy/Tutorials.html).
 
-In the following section, we'll go over how to set up the **drivers** for sensors and the motor control:
-
+In the following section, we'll go over how to set up the **drivers** for sensors and the motor control.
 
 Everything in this section is done on the **Jetson NX** so you will need to connect to it via SSH from the Pit laptop or plug in the monitor, keyboard, and mouse.
 
@@ -22,6 +23,7 @@ Everything in this section is done on the **Jetson NX** so you will need to conn
 
 1. udev Rules Setup
 ----------------------
+
 When you connect the VESC to the Jetson, the operating system will assign them device names of the form ``/dev/ttyACMx``, where ``x`` is a number that depends on the order in which they were plugged in. For example, if you plug in the mouse before you plug in the VESC, the mouse will be assigned the name ``/dev/ttyACM0``, and the VESC will be assigned ``/dev/ttyACM1``. This is a problem, as the car’s configuration needs to know which device names the devices are assigned, and these can vary every time we reboot the Jetson, depending on the order in which the devices are initialized.
 
 Fortunately, Linux has a utility named udev that allows us to assign each device a “virtual” name based on its vendor and product IDs. For example, if we plug a USB device in and its vendor ID matches the ID for joypad (c219), udev could assign the device the name ``/dev/input/joypad`` instead of the more generic ``/dev/ttyACMx``. This allows our configuration scripts to refer to things like ``/dev/sensors/vesc``, which do not depend on the order in which the devices were initialized. We will use udev to assign persistent device names to the VESC, and joypad by creating two configuration files (“rules”) in the directory ``/etc/udev/rules.d``. Since our LiDar is using Ethernet as the input, check out the `Hokuyo LiDar Setup <Hokuyo_Lidar/Hokuyo.md>`_
@@ -30,7 +32,7 @@ First, **as root**, open ``/etc/udev/rules.d/99-vesc.rules`` and copy in the fol
 
 .. code-block:: bash
 
-	KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666", GROUP="dialout", SYMLINK+="sensors/vesc"
+    KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666", GROUP="dialout", SYMLINK+="sensors/vesc"
 
 Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the joypad:  
 
@@ -38,34 +40,35 @@ Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the j
 
 .. code-block:: bash
 
-	KERNEL=="js[0-9]*", ACTION=="add", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c219", SYMLINK+="input/joypad-f710"
+    KERNEL=="js[0-9]*", ACTION=="add", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c219", SYMLINK+="input/joypad-f710"
 
 Finally, trigger (activate) the rules by running
 
 .. code-block:: bash
 
-	sudo udevadm control --reload-rules
-	sudo udevadm trigger
+    sudo udevadm control --reload-rules
+    sudo udevadm trigger
 
 Reboot your system, and you should find three new devices by running
 
 .. code-block:: bash
 
-	ls /dev/sensors
+    ls /dev/sensors
 
 and:
 
 .. code-block:: bash
 
-	ls /dev/input
+    ls /dev/input
 
 If you want to add additional devices and don’t know their vendor or product IDs, you can use the command
 
 .. code-block:: bash
 
-	sudo udevadm info --name=<your_device_name> --attribute-walk
+    sudo udevadm info --name=<your_device_name> --attribute-walk
 
 making sure to replace ``<your_device_name>`` with the name of your device (e.g. ttyACM0 if that’s what the OS assigned it. The Unix utility dmesg can help you find that). The topmost entry will be the entry for your device; lower entries are for the device’s parents.
+
 
 
 .. _install_ros2:
