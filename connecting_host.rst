@@ -29,7 +29,7 @@ The NVIDIA Jetson NX is equipped with a network card. First, ensure its antennas
 2. WiFi Connection for NVIDIA Jetson NX
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Refer to the instructions in `Configuring the NVIDIA Jetson NX </configuring_nx.rst>` for WiFi and SSH setup. Once connected to ``F1TENTH_WIFI``, verify the connection by opening a terminal and running:
+Refer to the instructions in `Configuring the NVIDIA Jetson NX <configuring_nx.rst>` for WiFi and SSH setup. Once connected to ``F1TENTH_WIFI``, verify the connection by opening a terminal and running:
 
 .. code-block:: bash
 
