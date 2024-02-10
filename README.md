@@ -12,14 +12,14 @@ PIN: 123456
 Registered IP address with Dukeblue Wifi：10.197.0.48
 
 ## Version of Software and Hardware
-OS: Ubuntu 20.04LTS
-ROS: ROS2 Foxy
-Processor on car: Jetson Xavier NX 8GB (J2021)
-JetPack: 5.1.2
-LiDar: Hokuyo 10LX
-Chassis: Traxxas Slash 4x4 Platinum Edition; 1/10 Scale Brushless Pro 4WD
-Power board: v4
-ESC：FSESC based on VESC6 
+OS: Ubuntu 20.04LTS  
+ROS: ROS2 Foxy  
+Processor on car: Jetson Xavier NX 8GB (J2021)  
+JetPack: 5.1.2  
+LiDar: Hokuyo 10LX  
+Chassis: Traxxas Slash 4x4 Platinum Edition; 1/10 Scale Brushless Pro 4WD  
+Power board: V4  
+ESC：FSESC based on VESC6   
 
 
 ## Menu
