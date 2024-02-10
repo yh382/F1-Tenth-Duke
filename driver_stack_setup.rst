@@ -15,7 +15,7 @@ We use ROS 2 Foxy for communication and run the car. You can find a tutorial on 
 
 In the following section, we'll go over how to set up the **drivers** for sensors and the motor control:
 
-#. Setting up : `udev rules <_udev_rules>`_.
+#. Setting up : `udev rules <_udev_rules>`.
 #. Installing : `ROS 2 and its utilities <install_ros2>`_.
 #. Setting up the `driver stack <software_stack>`_.
 #. Launch : `teleoperation and the LiDAR <teleop_setup>`_.
