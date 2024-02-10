@@ -6,7 +6,7 @@ Driver Stack Setup
 	* External monitor/display, HDMI cable, keyboard, mouse
 
 
-.. warning:: **Before you proceed**, this specific section goes over how to set up the driver stack **natively** if you have Jetson Xaviers and above, **and** JetPack versions after 5.0 and wish to use ROS 2. For JetPack versions below 5.0 and Jetsons before Xavier, go to :ref:`Driver Stack Setup with Docker Containers <doc_drive_workspace_docker>` and follow the instructions there.
+.. warning:: This instruction only for Jetson Xaviers NX, which has JetPack versions after 5.0 and ROS2 only. 
 
 Overview
 ----------
@@ -77,77 +77,6 @@ If you want to add additional devices and don’t know their vendor or product I
 
 making sure to replace ``<your_device_name>`` with the name of your device (e.g. ttyACM0 if that’s what the OS assigned it. The Unix utility dmesg can help you find that). The topmost entry will be the entry for your device; lower entries are for the device’s parents.
 
-.. .. _ros_workspace:
-
-.. 1. Setting Up the ROS Workspace
-.. ---------------------------------
-.. Connect to the **Jetson NX** either via SSH on the **Pit** laptop or a wired connection (monitor, keyboard, mouse).
-
-.. On the **Jetson NX**, setup your ROS workspace (for the driver nodes onboard the vehicle) by opening a terminal window and following these steps.
-
-.. #. Clone the following repository into a folder on your computer.
-
-.. 	.. code-block:: bash
-
-.. 		$​ ​cd​ ~/sandbox (or whatever folder you want to work ​in​)
-.. 		$​ git ​clone​ https://github.com/f1tenth/f1tenth_system
-
-.. #. Create a workspace folder if you haven’t already, here called ``f1tenth_ws``, and copy the ``f1tenth_system`` folder into it.
-
-.. 	.. code-block:: bash
-
-.. 		$​ mkdir -p f1tenth_ws/src
-.. 		$​ cp -r f1tenth_system f1tenth_ws/src/
-
-.. #. You might need to install some additional ROS packages.
-
-.. 	For ROS Kinetic:
-
-.. 		.. code-block:: bash
-
-.. 			$​ sudo apt-get update
-.. 			$​ sudo apt-get install ros-kinetic-driver-base
-
-.. 	For ROS Melodic:
-
-.. 		.. code-block:: bash
-
-.. 			$​ sudo apt-get update
-.. 			$​ sudo apt-get install ros-melodic-driver-base
-
-.. #. Make all the Python scripts executable.
-
-.. 	.. code-block:: bash
-
-.. 		$​ ​cd​ f1tenth_ws
-.. 		$​ find . -name “*.py” -exec chmod +x {} \;
-
-.. #. Move to your workspace folder and compile the code (catkin_make does more than code compilation - see online reference).
-
-.. 	.. code-block:: bash
-
-.. 		$​ catkin_make
-
-.. #. Finally, source your working directory into your shell using
-
-.. 	.. code-block:: bash
-
-.. 		$​ source devel/setup.bash
-
-.. ..
-.. 	Workspace Content Breakdown
-.. 	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. 	Examine the contents of your workspace and you will see 3 folders. In the ROS world we call these **meta-packages** since they contain package.
-
-.. 		* algorithms
-.. 		* simulator
-.. 		* system
-
-.. 	#. Algorithms contains the brains of the car which run high level algorithms, such as wall following, pure pursuit, localization.
-.. 	#. Simulator contains racecar-simulator which is based off of MIT Racecar’s repository and includes some new worlds such as Levine 2nd floor loop. Simulator also contains f1_10_sim which contains some message types useful for passing drive parameters data from the algorithm nodes to the VESC nodes that drive the car.
-.. 	#. System contains code from MIT Racecar that the car would not be able to work without. For instance, System contains ackermann_msgs (for Ackermann steering), racecar (which contains parameters for max speed, sensor IP addresses, and teleoperation), serial (for USB serial communication with VESC), and vesc (written by MIT for VESC to work with the racecar).
-
-.. 	We will be focusing on the **System** folder in this section. :ref:`Going Forward <doc_going_forward_intro>` will utilize the firsit two folders - **Algorithms** and **Simulator**.
 
 .. _install_ros2:
 2. Installing ROS 2 and its Utilities
@@ -247,30 +176,6 @@ Running the bringup launch will start the VESC drivers, the LiDAR drivers, the j
 
 The rviz window should show up. Then you can add a LaserScan visualization in rviz on the ``/scan`` topic.
 
-.. Once you’ve set up the lidar, you can test it using urg_node/hokuyo_node (replace the hokuyo_node by the urg_node if you have 10LX with Ethernet connection: https://github.com/ros-drivers/urg_node.git), rviz, and rostopic.
+**Reference:**
 
-.. A. If you're using the 10LX:
-
-.. 	* Start ``roscore​`` in a terminal window.
-.. 	* In another (new) terminal window, run ``rosrun urg_node urg_node _ip_address:="192.168.0.10"​``. Make sure to supply the urg node with the correct port number for the 10LX.
-.. 	* This tells ROS to start reading from the lidar and publishing on the ​/scan​ topic. If you get an error saying that there is an “error connecting to Hokuyo,” double check that the Hokuyo is physically plugged into a USB port. You can use the terminal command ``lsusb​to`` check whether Linux successfully detected your lidar. If the node started and is publishing correctly, you should be able to use ``rostopic echo /scan​`` to see live lidar data.
-.. 	* In the racecar config folder under ``lidar_node`` set the following parameter in sensors.yaml: ``ip_address: 192.168.0.10``. In addition in the ``sensors.launch.xml`` change the argument for the lidar launch from ``hokuyo_node`` to ``urg_node`` do the same thing for the ``node_type`` parameter.
-
-.. B. If you're using the 30LX:
-
-.. 	* Run ``roslaunch racecar teleop.launch`` in a sourced terminal window, by default, the launch file brings up the hokuyo node.
-
-.. Once your lidar driver node is running, open another terminal and run ``rosrun rviz rviz​`` or simply ``rviz`` to visually see the data. When ``rviz​`` opens, click the “Add” button at the lower left corner. A dialog will pop up; from here, click the *By topic* tab, highlight the *LaserScan* topic, and click *OK*. You might have to switch from viewing in the ``\map`` frame to the ``laser`` frame. If the laser frame is not there, you can type in ``laser`` in the frame text field.
-
-.. ``rviz`` will now show a collection of points of the lidar data in the gray grid in the center of the screen. You might have to change the size and color of the points in the LaserScan setting to see the points clearer.
-
-.. 	* Try moving a flat object, such as a book, in front of the lidar and to its sides. You should see a corresponding flat line of points on the ​rviz​ grid.
-.. 	* Try picking the car up and moving it around, and note how the lidar scan data changes,
-
-.. You can also see the lidar data in text form by using ​``rostopic echo /scan`` ​. The type of message published to it is sensor_msgs/LaserScan​, which you can also see by running ``rostopic info /scan​`` . There are many fields in this message type, but for our course, the most important one is ​ranges​, which is a list of distances the sensor records in order as it sweeps from its rightmost position to its leftmost position.
-
-.. With all of the parts connected now, we can move on to driving with a joystick!
-
-.. .. image:: img/drive01.gif
-.. 	:align: center
-.. 	:width: 200pt
+xLab at the University of Pennsylvania. (2021). Build. https://f1tenth.org/build
