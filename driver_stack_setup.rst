@@ -34,7 +34,7 @@ First, **as root**, open ``/etc/udev/rules.d/99-vesc.rules`` and copy in the fol
 
 Then open ``/etc/udev/rules.d/99-joypad-f710.rules`` and add this rule for the joypad:  
 
-(The default setting of joypad is "D" mode. For some unknown reasons, our NX can't recognize our Joypad in "D" mode, even we can read the device by command ``$ lsus``. Therefore, we are using "X" mode, and changed the joypad_config file axis setting and "idProduct" to c21X. If you have same issue, try it out.) 
+(The default setting of joypad is "D" mode. For some unknown reasons, our NX can't recognize our Joypad in "D" mode, even we can read the device by command ``$ lsusb``. Therefore, we are using "X" mode, and changed the joypad_config file axis setting and "idProduct" to c21X. If you have same issue, try it out.) 
 
 .. code-block:: bash
 
@@ -82,6 +82,7 @@ Lastly, we'll need ``rosdep`` as the dependency resolution tool. Install it foll
 ----------------------------------
 
 First, we'll create a ROS 2 workspace for our driver stack with the following commands. We'll be using ``f1tenth_ws`` as the name of our workspace going forward in this section.
+.. Reminder:: If you can, save all the files in SSD instead of NX. You can create a link as a directory which is more convenient to use on NX like /Home. To do that, check `SSD Setup </SSD.md>`_
 
 .. code-block:: bash
 
