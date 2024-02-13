@@ -1,6 +1,8 @@
 # F1-Tenth-Duke
 The repository contains all documentation belonging to the F1 Tenth team at Duke University, located in NC, USA. Copyright is held by Duke University, specifically for instructions and other accompanying materials. However, the code is open-source. :)  
 
+This repo is bulit for students who would use the car we currently using which is belonged Mechanical Engineering and Material Science department in Duke University, NC, USA. However, it is more than welcome to all other users to use our code!
+
 ### **Please read this repo carefully, all details might help you to avoid error!**
 
 # Things to keep in mind for all future users
@@ -24,7 +26,7 @@ Power board: V4
 ESC：FSESC based on VESC6   
 
 
-## Menu
+## Navigation
 - [Build](/Build.md)
 - [Configuring the NVIDIA Jetson NX](/configuring_nx.rst)
 - [Connecting the Pit/Host and the NVIDIA Jetson NX](/connecting_host.rst)

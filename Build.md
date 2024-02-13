@@ -1,4 +1,4 @@
-# F1-Tenth-Duke
+# Build
 ## Start of Journy
   We extend our gratitude to Professor Michael Zavlanos for generously providing us with the F1 Tenth prototype he crafted in 2020. This valuable machine came into our possession through the kind support of Professor Georgie Delagrammatikas in September 2023, marking the inception of Duke University's inaugural F1 Tenth team.
 ![The First Look of Our Car](/Images/First%20Look.jpg)

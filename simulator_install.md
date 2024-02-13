@@ -1,4 +1,5 @@
-Title: Setting up F1TENTH Gym Environment with ROS2 Communication Bridge
+# Simulator setup
+## Setting up F1TENTH Gym Environment with ROS2 Communication Bridge
 
 Description: This guide provides step-by-step instructions on how to set up the F1TENTH Gym environment with a ROS2 communication bridge on different systems including Ubuntu. By following this guide, you'll have a containerized ROS communication bridge for the F1TENTH gym environment turning it into a simulation in ROS2.
 
