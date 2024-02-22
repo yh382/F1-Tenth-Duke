@@ -30,7 +30,7 @@ sudo git commit -m "Your commit message"
 ```
 
 ### Git Push
-"main" can be changed to any branch you made
+"main" can be changed to any repo you made
 
 ```bash
 sudo git push main
@@ -42,3 +42,10 @@ sudo git push main
 ```bash
 sudo git pull 
 ```
+
+### Move package to repo
+
+```bash
+sudo cp -r /home/f1tenth/f1tenth_ws/src/test_driving /mnt/nvme0n1/F1-Tenth-Duke/Code
+```
+
