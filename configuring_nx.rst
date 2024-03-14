@@ -84,12 +84,16 @@ Then you can see the "Installation Completely Successfully"
 
 
 
-2. Run Jetson NX from SSD
+2. Set the SSD as the boot disk
 ---------------------------
-We equip the Jetson NX with an NVMe SSD and will now configure the device to use the SSD as the primary storage by redirecting the root file system to it.
 
-Please follow this tutorial `here <https://www.jetsonhacks.com/2020/05/29/jetson-xavier-nx-run-from-ssd/>`_ that has both video and commands integrated to enable your Jetson NX to run from the SSD
+With the Jetson NX powered off, install the SSD and power it on. Open Disks, format the disk management tool, and create ext4 partitions.
 
+Use command to gitclone git clone https://github.com/jetsonhacks/rootOnNVMe
+
+Go to the rootOnNVMe folder and run sh copy-rootfs-ssd.sh to copy the system files to the ssd, then run sh setup-service.sh to set the system to boot from the SSD.
+
+Restart Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been started on the SSD.
 
 3. Configuring WiFi and SSH (Skip this step for temporarily using)
 -------------------------------
