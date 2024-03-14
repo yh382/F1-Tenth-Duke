@@ -11,10 +11,7 @@ NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on
 
 1. Install SDK manager in your host Linux computer.
 
-2. Open SDK manager with command below and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
-
-bash
-sdkmanager
+2. Open SDK manager with command 'sdkmanager' and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
 
 3. Choose Target hardware and operating system in SDK manager.
 
