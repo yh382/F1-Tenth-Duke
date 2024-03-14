@@ -95,6 +95,11 @@ Go to the rootOnNVMe folder and run sh copy-rootfs-ssd.sh to copy the system fil
 
 Restart Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been started on the SSD.
 
+        .. figure:: Images/SSDsetup.jpg
+                :align: center
+
+Now you have enough storage space to download any NVIDIA component as long as you need.
+
 3. Configuring WiFi and SSH (Skip this step for temporarily using)
 -------------------------------
 This instruction is only for static IP setup. Static IP is only useful for long term testing under same Wifi environment, so we can ssh the car with same IP address. If you would not connect the same wifi for long term, you don't need to setup static IP. Connect the wifi as usual. Use the command ``ip addr show dev wlan0``, then use that IP address for ssh. (e.g. ``ssh f1tenth@your_current_IP``)
