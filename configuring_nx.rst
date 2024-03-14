@@ -13,18 +13,19 @@ NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on
 
 2. Open SDK manager with command below and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
 
-```bash
+bash
 sdkmanager
 
 3. Choose Target hardware and operating system in SDK manager.
+
 Use the USB to Micro-USB line to connect your target device and host computer. Then the target hardware shoulb be deteced automatically.
 We suggest not to select Host Machine if you don't need NVIDIA components in your host computer. And highlt recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
 As for Target Operating System, you can choose a version that is compatible with your system.
 After finishing all these setup options, press CONTINUE for the next step.
-        .. figure:: Images/nx-software-step3.png
+        .. figure:: Images/STEP01.jpg
                 :align: center
 
-                NVIDIA Developer Program login page. (F1Tenth, 2021)
+               
 
 4. Select components you want. If you only want to install the system, then just selet Jetson OS.
 If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board, no worries. Later, you can expand storage space with SSD.
