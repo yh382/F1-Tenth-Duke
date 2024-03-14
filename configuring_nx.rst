@@ -5,42 +5,57 @@ Configuring the NVIDIA Jetson NX
 =========================================
 
 
-1. Flash Jetson NX with Software
+1. Flash Jetson NX with NVIDIA SDK Manager
 ----------------------------------
 NVIDIA offers a comprehensive guide on installing the NVIDIA Jetpack Software on the NVIDIA Jetson NX, which you can find either in their documentation `here <https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit>` or follow introduction.
 
-1. Click Jetson at NVIDIA Develoeprs Download Center https://developer.nvidia.com/downloads.
+1. Install SDK manager in your host Linux computer.
 
-        .. figure:: Images/nx-software-step1.png
-                :align: center
+2. Open SDK manager with command below and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
 
-                NVIDIA Developers Download Center (F1Tenth, 2021)
+```bash
+sdkmanager
 
-2. Select "Jetson Xavier NX Developer Kit" under the SD Card Image Method.
-
-        .. figure:: Images/nx-software-step2.png
-                :align: center
-
-                Jetson Xavier NX Developer Kit downloads. (F1Tenth, 2021)
-
-3. Login in with your NVIDIA account.
+3. Choose Target hardware and operating system in SDK manager.
+Use the USB to Micro-USB line to connect your target device and host computer. Then the target hardware shoulb be deteced automatically.
+We suggest not to select Host Machine if you don't need NVIDIA components in your host computer. And highlt recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
+As for Target Operating System, you can choose a version that is compatible with your system.
+After finishing all these setup options, press CONTINUE for the next step.
         .. figure:: Images/nx-software-step3.png
                 :align: center
 
                 NVIDIA Developer Program login page. (F1Tenth, 2021)
 
-4. Please click this button. "Jetson Xavier NX Developer Kit SD Card Image" 
-
+4. Select components you want. If you only want to install the system, then just selet Jetson OS.
+If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board, no worries. Later, you can expand storage space with SSD.
+Press CONTINUE for the next step.
         .. figure:: Images/nx-software-step4.png
                 :align: center
 
                 NVIDIA Developer Program profile page download button. (F1Tenth, 2021)
 
-5. After downloading, extract the zip file to create sd-blob.img, containing the software for the NVIDIA Jetson Xavier NX Developer Kit.
+5. Install the system
+Enter your passward to start installation.
 
-6. Put the microSD and SD reader in. 
+You'll be prompted to configure the new system for your reComputer. Select 'Manual setup' for forced recovery mode and opt for the default 'Pre-Config'.
+After that, setup the new USERNAME and PASSWAORD for your system.
+Press CONTINUE for the next step.
+6. Installation Process 
+It needs a while to install all target components.
 
-7. Download, install, and launch SD card image burning software `Etcher <https://www.balena.io/etcher/>`_.
+7. (Optional) Install the SDK components
+A new window will appear in the NVIDIA SDK Manager asking for your device's IP address, indicating the system is installed and ready for component installation.
+
+Remove the jumper and reboot the reComputer, then connect it to a monitor with HDMI. Log in using your password from step 4.
+
+Connect the reComputer to the same network as the Linux host and find its IP with ifconfig.
+
+On the Linux host, enter this IP into the NVIDIA SDK Manager to connect to the Jetson and continue the SDK setup.
+
+Then you can see the "Installation Completely Successfully"
+
+
+Download, install, and launch SD card image burning software `Etcher <https://www.balena.io/etcher/>`_.
 
         .. figure:: Images/nx-software-step7.png
                 :align: center
