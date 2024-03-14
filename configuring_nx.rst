@@ -15,6 +15,9 @@ Before we start, you need to connect FC REC and GND using jumpers to enter the r
 
 2. Open SDK manager with command 'sdkmanager' and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
 
+.. code-block:: bash
+
+   sdkmanager
 
 3. Choose Target hardware and operating system in SDK manager.
 
