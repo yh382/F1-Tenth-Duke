@@ -4,20 +4,27 @@
 Configuring the NVIDIA Jetson NX
 =========================================
 
-
 1. Flash Jetson NX with NVIDIA SDK Manager
 ----------------------------------
 
+Before we start, you need to connect FC REC and GND using jumpers to enter the recovery mode.
+
 1. Install SDK manager in your host Linux computer.
 
+
+
 2. Open SDK manager with command 'sdkmanager' and login to your NVIDIA account. If you don't have a NVIDIA account, you can sign up in the NVIDIA official website.
+
 
 3. Choose Target hardware and operating system in SDK manager.
 
 Use the USB to Micro-USB line to connect your target device and host computer. Then the target hardware shoulb be deteced automatically.
-We suggest not to select Host Machine if you don't need NVIDIA components in your host computer. And highlt recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
+
+We suggest not to select Host Machine if you don't need NVIDIA components in your host computer. And highly recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
 As for Target Operating System, you can choose a version that is compatible with your system.
+
 After finishing all these setup options, press CONTINUE for the next step.
+
         .. figure:: Images/STEP01.jpg
                 :align: center
 
@@ -25,8 +32,9 @@ After finishing all these setup options, press CONTINUE for the next step.
 
 
 
-4. Select components you want. If you only want to install the system, then just selet Jetson OS.
-If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board, no worries. Later, you can expand storage space with SSD.
+4. Select components you want. 
+
+If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board,just selet Jetson OS. No worries. Later, you can expand storage space with SSD.
 Press CONTINUE for the next step.
         .. figure:: Images/STEP02.jpg
                 :align: center
@@ -46,13 +54,16 @@ You'll be prompted to configure the new system for your reComputer. Select 'Manu
 
 After that, setup the new USERNAME and PASSWAORD for your system.
 Press CONTINUE for the next step.
+
 6. Installation Process 
+
 It needs a while to install all target components.
 
         .. figure:: Images/STEP03-2.jpg
                 :align: center
 
 7. (Optional) Install the SDK components
+
 A new window will appear in the NVIDIA SDK Manager asking for your device's IP address, indicating the system is installed and ready for component installation.
 
         .. figure:: Images/STEP03-3.jpg
