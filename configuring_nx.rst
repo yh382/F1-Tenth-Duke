@@ -23,10 +23,9 @@ Before we start, you need to connect FC REC and GND using jumpers to enter the r
 
 Use the USB to Micro-USB line to connect your target device and host computer. Then the target hardware shoulb be deteced automatically.
 
-We suggest not to select Host Machine if you don't need NVIDIA components in your host computer. And highly recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
+We suggest not select Host Machine if you don't need NVIDIA components in your host computer. And highly recoomand that don't select DeepStream, becasue 16GB storage space for our board is very limitted. 
 As for Target Operating System, you can choose a version that is compatible with your system.
 
-After finishing all these setup options, press CONTINUE for the next step.
 
         .. figure:: Images/STEP01.jpg
                 :align: center
@@ -38,7 +37,7 @@ After finishing all these setup options, press CONTINUE for the next step.
 4. Select components you want. 
 
 If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board,just selet Jetson OS. No worries. Later, you can expand storage space with SSD.
-Press CONTINUE for the next step.
+
         .. figure:: Images/STEP02.jpg
                 :align: center
 
@@ -56,7 +55,7 @@ You'll be prompted to configure the new system for your reComputer. Select 'Manu
                 :align: center
 
 After that, setup the new USERNAME and PASSWAORD for your system.
-Press CONTINUE for the next step.
+
 
 6. Installation Process 
 
