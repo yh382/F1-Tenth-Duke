@@ -96,15 +96,21 @@ Then, we can move all system file to SSD and set the SSD as your boost drive. We
    $ git clone https://github.com/jetsonhacks/rootOnNVMe
 
 Switch over to that repo's directory.
+
 .. code-block:: bash
 
    $ cd rootOnNVMe
+
 Next, copy the rootfs of the eMMC/SD card to the SSD
+
 .. code-block:: bash
+        
         $ ./copy-rootfs-ssd.sh
 
 Finally, we will add a service which will run a script when the system starts up. The script will “pivot the root” to the SSD so that the system will run from the SSD.
+
 .. code-block:: bash
+
         $ ./setup-service.sh
 
 
