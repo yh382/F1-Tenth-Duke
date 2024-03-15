@@ -36,7 +36,7 @@ As for Target Operating System, you can choose a version that is compatible with
 
 4. Select components you want. 
 
-If your board have enough storage space, I recommand you to CUDA, which is necessary for localization in map. If the storage space is limmited in your board,just selet Jetson OS. No worries. Later, you can expand storage space with SSD.
+If your board have enough storage space, we recommand you to install CUDA kit as well, which is necessary for SLAM. If you are using Jetson NX like us, please only install Jetson OS in this step. We will tell you how to expand your memory via SSD in following step. *Please Don't Try Even You Have 16GB*
 
         .. figure:: Images/STEP02.jpg
                 :align: center
@@ -73,7 +73,7 @@ A new window will appear in the NVIDIA SDK Manager asking for your device's IP a
 
 Remove the jumper and reboot the reComputer, then connect it to a monitor with HDMI. Log in using your password from step 4.
 
-Connect the reComputer to the same network as the Linux host and find its IP with ifconfig.
+Connect your device to the same network as the Linux host and find its IP with ifconfig.
 
 On the Linux host, enter this IP into the NVIDIA SDK Manager to connect to the Jetson and continue the SDK setup.
 
@@ -87,7 +87,7 @@ Then you can see the "Installation Completely Successfully"
 2. Set the SSD as the boot disk
 ---------------------------
 
-With the Jetson NX powered off, install the SSD and power it on. Open Disks, format the disk management tool, and create ext4 partitions.
+With the Jetson NX powered off, install the SSD and power it on. You can check the instruction `SSD Setup <SSD.md>`_
 
 Use command to gitclone git clone https://github.com/jetsonhacks/rootOnNVMe
 
