@@ -3,6 +3,17 @@
 
 Configuring the NVIDIA Jetson NX
 =========================================
+**Required Equipment:**
+
+- A Pit/Host laptop or computer equipped with Linux operating system.
+- An NVIDIA Jetson NX, along with peripherals such as a keyboard, mouse, and an external monitor connected via HDMI.
+- A WiFi connection.
+- A USB-typeC/Micro-USB calbe to connect Jeston NX to Host laptop 
+
+Introduction
+------------
+A Jeston NX board need to intall an operation system and other necessary components on it. This is an instruction to teach you how to install those necessary components and don't blow up the memory.
+
 
 1. Flash Jetson NX with NVIDIA SDK Manager
 ----------------------------------
@@ -104,7 +115,7 @@ Switch over to that repo's directory.
 Next, copy the rootfs of the eMMC/SD card to the SSD
 
 .. code-block:: bash
-        
+
         $ ./copy-rootfs-ssd.sh
 
 Finally, we will add a service which will run a script when the system starts up. The script will “pivot the root” to the SSD so that the system will run from the SSD.
