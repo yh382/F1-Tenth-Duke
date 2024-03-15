@@ -87,13 +87,28 @@ Then you can see the "Installation Completely Successfully"
 2. Set the SSD as the boot disk
 ---------------------------
 
-With the Jetson NX powered off, install the SSD and power it on. You can check the instruction `SSD Setup <SSD.md>`_
+With the Jetson NX powered off, install the SSD and power it on. You can check the instruction `SSD Setup <SSD.md>`_.
 
-Use command to gitclone git clone https://github.com/jetsonhacks/rootOnNVMe
+Then, we can move all system file to SSD and set the SSD as your boost drive. We were using the package from "JetsonHacks" https://jetsonhacks.com/2020/05/29/jetson-xavier-nx-run-from-ssd/.
 
-Go to the rootOnNVMe folder and run sh copy-rootfs-ssd.sh to copy the system files to the ssd, then run sh setup-service.sh to set the system to boot from the SSD.
+.. code-block:: bash
 
-Restart Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been started on the SSD.
+   $ git clone https://github.com/jetsonhacks/rootOnNVMe
+
+Switch over to that repo's directory.
+.. code-block:: bash
+
+   $ cd rootOnNVMe
+Next, copy the rootfs of the eMMC/SD card to the SSD
+.. code-block:: bash
+        $ ./copy-rootfs-ssd.sh
+
+Finally, we will add a service which will run a script when the system starts up. The script will “pivot the root” to the SSD so that the system will run from the SSD.
+.. code-block:: bash
+        $ ./setup-service.sh
+
+
+Reboot Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been boosted on the SSD.
 
         .. figure:: Images/SSDsetup.jpg
                 :align: center
