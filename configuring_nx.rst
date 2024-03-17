@@ -38,7 +38,7 @@ We suggest not select Host Machine if you don't need NVIDIA components in your h
 As for Target Operating System, you can choose a version that is compatible with your system.
 
 
-        .. figure:: Images/Screenshot-6.png
+        .. figure:: Images/Screenshot-6.jpg
                 :align: center
 
 
@@ -49,7 +49,7 @@ As for Target Operating System, you can choose a version that is compatible with
 
 If your board have enough storage space, we recommand you to install CUDA kit as well, which is necessary for SLAM. If you are using Jetson NX like us, please only install Jetson OS in this step. We will tell you how to expand your memory via SSD in following step. *Please Don't Try Even You Have 16GB*
 
-        .. figure:: Images/Screenshot-4.png
+        .. figure:: Images/Screenshot-4.jpg
                 :align: center
 
             
@@ -57,12 +57,12 @@ If your board have enough storage space, we recommand you to install CUDA kit as
 
 Enter your passward to start installation.
 
-        .. figure:: Images/Screenshot-1.png
+        .. figure:: Images/Screenshot-1.jpg
                 :align: center
 
 You'll be prompted to configure the new system for your reComputer. Select 'Manual setup' for forced recovery mode and opt for the default 'Pre-Config'.
 
-        .. figure:: Images/Screenshot-5.png
+        .. figure:: Images/Screenshot-5.jpg
                 :align: center
 
 After that, setup the new USERNAME and PASSWAORD for your system.
@@ -79,7 +79,7 @@ It needs a while to install all target components.
 
 A new window will appear in the NVIDIA SDK Manager asking for your device's IP address, indicating the system is installed and ready for component installation.
 
-        .. figure:: Images/Screenshot-3.png
+        .. figure:: Images/Screenshot-3.jpg
                 :align: center
 
 Remove the jumper and reboot the reComputer, then connect it to a monitor with HDMI. Log in using your password from step 4.
