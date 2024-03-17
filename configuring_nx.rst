@@ -72,7 +72,7 @@ After that, setup the new USERNAME and PASSWAORD for your system.
 
 It needs a while to install all target components.
 
-        .. figure:: Images/STEP03-2.jpg
+        .. figure:: Images/Screenshot-6.jpg
                 :align: center
 
 7. (Optional) Install the SDK components
