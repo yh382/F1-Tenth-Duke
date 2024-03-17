@@ -210,3 +210,5 @@ All further steps assume that your NVIDIA Jetson Xavier NX Developer Kit is conn
 
 xLab at the University of Pennsylvani. (2021). Build. https://f1tenth.org/build 
 
+NVIDIA Flash JestPack https://wiki.seeedstudio.com/reComputer_J2021_J202_Flash_Jetpack/
+
