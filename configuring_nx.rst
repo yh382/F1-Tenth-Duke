@@ -127,7 +127,7 @@ Finally, we will add a service which will run a script when the system starts up
 
 Reboot Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been boosted on the SSD.
 
-        .. figure:: Images/SSDsetup.jpg
+        .. figure:: Images/successSSD.png
                 :align: center
 
 Now you have enough storage space to download any NVIDIA component as long as you need.
