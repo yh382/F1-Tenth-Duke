@@ -26,7 +26,7 @@ class SafetyNode(Node):
 
         NOTE that the x component of the linear velocity in odom is the speed
         """
-
+        self.get_logger().info('HELLO World')
         self.speed = 0.0
         # Create ROS subscribers and publishers.
         self.scan_subscription = self.create_subscription( # Subscribe to the scan topic
@@ -44,6 +44,7 @@ class SafetyNode(Node):
         )
         
         # Update the speed of the car
+        self.emergency_breaking = False
         self.publisher_ = self.create_publisher(AckermannDriveStamped, 'drive', 1000)
         self.teleop_publisher_ = self.create_publisher(AckermannDriveStamped, 'teleop', 1000)
         self.bool_publisher_ = self.create_publisher(Bool, 'emergency_breaking', 1000)
@@ -54,22 +55,23 @@ class SafetyNode(Node):
 
     def scan_callback(self, scan_msg):
         # Calculate TTC
-        emergency_breaking = False
+        drive_msg = AckermannDriveStamped()
+        drive_msg.drive.speed = 0.5
         for idx, r in enumerate(scan_msg.ranges):
             if (np.isnan(r)or r > scan_msg.range_max or r < scan_msg.range_min): continue
-            threshold = 1 # To be tuned in real vehicle
+            threshold = 0.8 # To be tuned in real vehicle / william changes it from 1 to 5 at Feb 29
             if r / max(self.speed * np.cos(scan_msg.angle_min + idx * scan_msg.angle_increment), 0.001) < threshold: 
-                emergency_breaking = True
+                self.emergency_breaking = True
                 break
 
         emergency_msg = Bool()
-        emergency_msg.data = emergency_breaking
+        emergency_msg.data = self.emergency_breaking
         
         # Publish command to brake
-        if emergency_breaking:
+        if self.emergency_breaking:
             drive_msg = AckermannDriveStamped()
             drive_msg.drive.speed = 0.0
-            self.get_logger().info("emergency brake engaged at speed {}".format(self.speed)) # Output to Log
+            self.get_logger().info("emergency brake engaged at speed lolol {}".format(self.speed)) # Output to Log
             self.publisher_.publish(drive_msg) # for autonomous control
             self.teleop_publisher_.publish(drive_msg) # for manual control
         
@@ -79,6 +81,7 @@ def main(args=None):
     rclpy.init(args=args)
     safety_node = SafetyNode()
     rclpy.spin(safety_node)
+    
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically

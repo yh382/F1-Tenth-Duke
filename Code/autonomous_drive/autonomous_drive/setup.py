@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'safety_node'
+package_name = 'autonomous_drive'
 
 setup(
     name=package_name,
@@ -13,14 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Hongrui Zheng, zzangupenn',
-    maintainer_email='billyzheng.bz@gmail.com, zzang@seas.upenn.edu',
-    description='Skeleton code for Lab 1: Automatic Emergency Braking at University of Pennsylvania',
-    license='MIT',
+    maintainer='f1tenth',
+    maintainer_email='qh65@duke.edu',
+    description='TODO: Package description',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'safety_node = safety_node.safety_node:main',
+            'autonomous_drive = autonomous_drive.autonomous_drive:main',
         ],
     },
 )
