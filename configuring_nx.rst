@@ -88,7 +88,7 @@ Connect your device to the same network as the Linux host and find its IP with i
 
 On the Linux host, enter this IP into the NVIDIA SDK Manager to connect to the Jetson and continue the SDK setup.
 
-        .. figure:: Images/STEP04.jpg
+        .. figure:: Images/Screenshot-7.jpg
                 :align: center
 
 Then you can see the "Installation Completely Successfully"
