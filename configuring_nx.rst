@@ -70,28 +70,12 @@ After that, setup the new USERNAME and PASSWAORD for your system.
 
 6. Installation Process 
 
-It needs a while to install all target components.
+It needs a while to install all target components. Please wait patiently until it's all set up.
 
-        .. figure:: Images/Screenshot-6.jpg
+        .. figure:: Images/Screenshot-9.jpg
                 :align: center
 
-7. (Optional) Install the SDK components
 
-A new window will appear in the NVIDIA SDK Manager asking for your device's IP address, indicating the system is installed and ready for component installation.
-
-        .. figure:: Images/Screenshot-3.jpg
-                :align: center
-
-Remove the jumper and reboot the reComputer, then connect it to a monitor with HDMI. Log in using your password from step 4.
-
-Connect your device to the same network as the Linux host and find its IP with ifconfig.
-
-On the Linux host, enter this IP into the NVIDIA SDK Manager to connect to the Jetson and continue the SDK setup.
-
-        .. figure:: Images/Screenshot-7.jpg
-                :align: center
-
-Then you can see the "Installation Completely Successfully"
 
 
 
