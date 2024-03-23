@@ -145,8 +145,8 @@ class ParticleFiler(Node):
         self.weights = np.ones(self.MAX_PARTICLES) / float(self.MAX_PARTICLES)
 
         # initialize the state
-        self.smoothing = Utils.CircularArray(30)
-        self.timer = Utils.Timer(30)
+        self.smoothing = Utils.CircularArray(10)
+        self.timer = Utils.Timer(10)
         # map service client
         self.map_client = self.create_client(GetMap, '/map_server/map')
         self.get_omap()
