@@ -30,8 +30,10 @@ void WaypointGenerator::odom_callback(const nav_msgs::msg::Odometry::ConstShared
     if (diff > min_distance) {
         double x = odom_submsgObj->pose.pose.position.x;
         double y = odom_submsgObj->pose.pose.position.y;
-        csv_odom << "\n"
-                 << x << ", " << y;
+        double linear_x = odom_submsgObj->twist.twist.linear.x; // linear.x
+        double angular_z = odom_submsgObj->twist.twist.angular.z; // angular.z
+
+        csv_odom << "\n" << x << ", " << y << ", " << linear_x << ", " << angular_z;
 
         RCLCPP_INFO(this->get_logger(), "%f....%f", odom_submsgObj->pose.pose.position.x, odom_submsgObj->pose.pose.position.y);
         RCLCPP_INFO(this->get_logger(), "%f", diff);
