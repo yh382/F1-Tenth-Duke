@@ -1,0 +1,37 @@
+[0.719s] Invoking command in '/home/jim/sim_ws/src/MPC/mpc_node': PYTHONPATH=/home/jim/sim_ws/build/mpc_node/prefix_override:/home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mpc_node build --build-base /home/jim/sim_ws/build/mpc_node/build install --record /home/jim/sim_ws/build/mpc_node/install.log --install-scripts $base/lib/mpc_node --single-version-externally-managed install_data
+[0.864s] running egg_info
+[0.864s] creating ../../../build/mpc_node/mpc_node.egg-info
+[0.864s] writing ../../../build/mpc_node/mpc_node.egg-info/PKG-INFO
+[0.864s] writing dependency_links to ../../../build/mpc_node/mpc_node.egg-info/dependency_links.txt
+[0.864s] writing entry points to ../../../build/mpc_node/mpc_node.egg-info/entry_points.txt
+[0.864s] writing requirements to ../../../build/mpc_node/mpc_node.egg-info/requires.txt
+[0.864s] writing top-level names to ../../../build/mpc_node/mpc_node.egg-info/top_level.txt
+[0.865s] writing manifest file '../../../build/mpc_node/mpc_node.egg-info/SOURCES.txt'
+[0.889s] reading manifest file '../../../build/mpc_node/mpc_node.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../../build/mpc_node/mpc_node.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.890s] creating /home/jim/sim_ws/build/mpc_node/build
+[0.890s] creating /home/jim/sim_ws/build/mpc_node/build/lib
+[0.890s] creating /home/jim/sim_ws/build/mpc_node/build/lib/mpc_node
+[0.890s] copying mpc_node/__init__.py -> /home/jim/sim_ws/build/mpc_node/build/lib/mpc_node
+[0.890s] copying mpc_node/mpc_node.py -> /home/jim/sim_ws/build/mpc_node/build/lib/mpc_node
+[0.890s] running install
+[0.890s] running install_lib
+[0.891s] creating /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node
+[0.891s] copying /home/jim/sim_ws/build/mpc_node/build/lib/mpc_node/__init__.py -> /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node
+[0.891s] copying /home/jim/sim_ws/build/mpc_node/build/lib/mpc_node/mpc_node.py -> /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node
+[0.891s] byte-compiling /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node/__init__.py to __init__.cpython-38.pyc
+[0.892s] byte-compiling /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node/mpc_node.py to mpc_node.cpython-38.pyc
+[0.895s] running install_data
+[0.895s] creating /home/jim/sim_ws/install/mpc_node/share/ament_index
+[0.895s] creating /home/jim/sim_ws/install/mpc_node/share/ament_index/resource_index
+[0.895s] creating /home/jim/sim_ws/install/mpc_node/share/ament_index/resource_index/packages
+[0.896s] copying resource/mpc_node -> /home/jim/sim_ws/install/mpc_node/share/ament_index/resource_index/packages
+[0.896s] copying package.xml -> /home/jim/sim_ws/install/mpc_node/share/mpc_node
+[0.896s] running install_egg_info
+[0.897s] Copying ../../../build/mpc_node/mpc_node.egg-info to /home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages/mpc_node-0.0.0-py3.8.egg-info
+[0.897s] running install_scripts
+[0.910s] Installing mpc_node script to /home/jim/sim_ws/install/mpc_node/lib/mpc_node
+[0.910s] writing list of installed files to '/home/jim/sim_ws/build/mpc_node/install.log'
+[0.929s] Invoked command in '/home/jim/sim_ws/src/MPC/mpc_node' returned '0': PYTHONPATH=/home/jim/sim_ws/build/mpc_node/prefix_override:/home/jim/sim_ws/install/mpc_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mpc_node build --build-base /home/jim/sim_ws/build/mpc_node/build install --record /home/jim/sim_ws/build/mpc_node/install.log --install-scripts $base/lib/mpc_node --single-version-externally-managed install_data

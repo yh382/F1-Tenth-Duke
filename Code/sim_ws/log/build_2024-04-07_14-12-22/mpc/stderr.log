@@ -1,0 +1,6 @@
+[01m[K/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp:32:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kpose_msg[m[K’
+   32 |     void pose_callback(const geometry_msgs::msg::PoseStamped & (void)[01;31m[Kpose_msg[m[K)
+      |                                                                      [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mpc_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

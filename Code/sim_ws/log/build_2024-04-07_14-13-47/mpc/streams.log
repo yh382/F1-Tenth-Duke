@@ -1,0 +1,26 @@
+[0.173s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[1.577s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[1.663s] [100%] Built target mpc_node
+[1.671s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[1.700s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc
+[1.707s] -- Install configuration: ""
+[1.707s] -- Installing: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node
+[1.707s] -- Set runtime path of "/home/jim/sim_ws/install/mpc/lib/mpc/mpc_node" to ""
+[1.707s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[1.707s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.707s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[1.707s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[1.731s] Listing '/home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[1.735s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[1.735s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/utils.py
+[1.735s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[1.735s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch
+[1.735s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+[1.735s] CMake Error at cmake_install.cmake:93 (file):
+[1.735s]   file INSTALL cannot find
+[1.735s]   "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/config": No such file or
+[1.735s]   directory.
+[1.735s] 
+[1.736s] 
+[1.737s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc
