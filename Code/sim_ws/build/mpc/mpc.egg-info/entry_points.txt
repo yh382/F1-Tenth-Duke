@@ -1,0 +1,3 @@
+[console_scripts]
+mpc_node = mpc.mpc_node:main
+
