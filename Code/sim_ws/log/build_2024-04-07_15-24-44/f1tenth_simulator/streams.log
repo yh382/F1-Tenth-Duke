@@ -1,0 +1,18 @@
+[0.531s] Invoking command in '/home/william/sim_ws/build/f1tenth_simulator': /usr/bin/cmake --build /home/william/sim_ws/build/f1tenth_simulator -- -j8 -l8
+[1.417s] [100%] Built target f1tenth_simulator
+[1.419s] Invoked command in '/home/william/sim_ws/build/f1tenth_simulator' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/f1tenth_simulator -- -j8 -l8
+[1.522s] Invoking command in '/home/william/sim_ws/build/f1tenth_simulator': /usr/bin/cmake --install /home/william/sim_ws/build/f1tenth_simulator
+[1.582s] -- Install configuration: "Release"
+[1.582s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+[1.583s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+[1.584s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+[1.584s] -- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp
+[1.598s] Invoked command in '/home/william/sim_ws/build/f1tenth_simulator' returned '0': /usr/bin/cmake --install /home/william/sim_ws/build/f1tenth_simulator

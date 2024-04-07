@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp" "/home/jim/sim_ws/build/mpc/CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o"
+  "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp" "/home/william/sim_ws/build/mpc/CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/include"
+  "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/include"
   "/usr/include/eigen3"
   "/opt/ros/foxy/include"
   )

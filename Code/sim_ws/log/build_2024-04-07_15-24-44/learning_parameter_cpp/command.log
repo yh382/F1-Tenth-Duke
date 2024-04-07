@@ -1,0 +1,1 @@
+Invoking command in '/home/william/sim_ws/build/learning_parameter_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_parameter_cpp -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_parameter_cpp

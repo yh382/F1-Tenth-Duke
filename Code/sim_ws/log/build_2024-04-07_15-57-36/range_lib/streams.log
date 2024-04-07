@@ -1,0 +1,24 @@
+[0.523s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.587s] -- Configuring done
+[0.597s] -- Generating done
+[0.597s] -- Build files have been written to: /home/william/sim_ws/build/range_lib
+[0.633s] [ 33%] Built target gflags_nothreads_static
+[0.635s] [ 66%] Built target gflags_static
+[0.668s] [ 75%] [32m[1mLinking CXX executable bin/range_lib[0m
+[0.784s] [100%] Built target range_lib
+[0.902s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.927s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib
+[0.934s] -- Install configuration: "Release"
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags.a
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags_nothreads.a
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags.h
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_declare.h
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_completions.h
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_gflags.h
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+[0.935s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+[0.936s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+[0.936s] -- Up-to-date: /home/william/sim_ws/install/range_lib/bin/gflags_completions.sh
+[0.936s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/pkgconfig/gflags.pc
+[0.936s] -- Installing: /home/william/.cmake/packages/gflags/6f3b71e1441b90aa05967b6e00f3a05f
+[0.937s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib

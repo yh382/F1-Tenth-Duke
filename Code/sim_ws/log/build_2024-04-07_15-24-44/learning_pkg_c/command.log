@@ -1,0 +1,3 @@
+Invoking command in '/home/william/sim_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_pkg_c
+Invoked command in '/home/william/sim_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_pkg_c
+Invoking command in '/home/william/sim_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/learning_pkg_c -- -j8 -l8

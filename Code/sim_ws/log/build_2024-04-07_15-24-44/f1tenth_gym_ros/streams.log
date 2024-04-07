@@ -1,0 +1,50 @@
+[2.646s] Invoking command in '/home/william/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[2.887s] /home/william/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.888s] !!
+[2.888s] 
+[2.888s]         ********************************************************************************
+[2.888s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.888s]         versions. Please use the underscore name 'script_dir' instead.
+[2.888s] 
+[2.888s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[2.888s]         or your builds will no longer be supported.
+[2.888s] 
+[2.888s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.889s]         ********************************************************************************
+[2.889s] 
+[2.889s] !!
+[2.889s]   opt = self.warn_dash_deprecation(opt, section)
+[3.069s] running egg_info
+[3.100s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[3.101s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[3.101s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[3.102s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[3.102s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[3.443s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[3.443s] adding license file 'LICENSE'
+[3.449s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[3.449s] running build
+[3.449s] running build_py
+[3.449s] running install
+[3.450s] /home/william/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.450s] !!
+[3.450s] 
+[3.450s]         ********************************************************************************
+[3.450s]         Please avoid running ``setup.py`` directly.
+[3.450s]         Instead, use pypa/build, pypa/installer or other
+[3.450s]         standards-based tools.
+[3.450s] 
+[3.451s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.451s]         ********************************************************************************
+[3.451s] 
+[3.451s] !!
+[3.451s]   self.initialize_options()
+[3.458s] running install_lib
+[3.508s] running install_data
+[3.536s] running install_egg_info
+[3.567s] removing '/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[3.567s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[3.569s] running install_scripts
+[3.656s] Installing gym_bridge script to /home/william/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[3.656s] writing list of installed files to '/home/william/sim_ws/build/f1tenth_gym_ros/install.log'
+[3.936s] Invoked command in '/home/william/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed

@@ -1,0 +1,59 @@
+[0.413s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_mpc-main/mpc -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/mpc
+[0.645s] -- The C compiler identification is GNU 9.4.0
+[0.645s] -- The CXX compiler identification is GNU 9.4.0
+[0.646s] -- Check for working C compiler: /usr/bin/cc
+[0.646s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.646s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.648s] -- Detecting C compile features
+[0.648s] -- Detecting C compile features - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.734s] -- Detecting CXX compiler ABI info
+[0.823s] -- Detecting CXX compiler ABI info - done
+[0.842s] -- Detecting CXX compile features
+[0.843s] -- Detecting CXX compile features - done
+[0.848s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.114s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.297s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.490s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.492s] -- Looking for pthread.h
+[1.562s] -- Looking for pthread.h - found
+[1.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.631s] -- Looking for pthread_create in pthreads
+[1.683s] -- Looking for pthread_create in pthreads - not found
+[1.684s] -- Looking for pthread_create in pthread
+[1.749s] -- Looking for pthread_create in pthread - found
+[1.750s] -- Found Threads: TRUE  
+[1.909s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.910s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.951s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.095s] CMake Error at CMakeLists.txt:28 (find_package):
+[2.095s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.095s]   project has asked CMake to find a package configuration file provided by
+[2.095s]   "ackermann_msgs", but CMake did not find one.
+[2.095s] 
+[2.095s]   Could not find a package configuration file provided by "ackermann_msgs"
+[2.095s]   with any of the following names:
+[2.095s] 
+[2.095s]     ackermann_msgsConfig.cmake
+[2.095s]     ackermann_msgs-config.cmake
+[2.095s] 
+[2.095s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[2.095s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[2.095s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[2.096s]   has been installed.
+[2.096s] 
+[2.096s] 
+[2.097s] -- Configuring incomplete, errors occurred!
+[2.097s] See also "/home/william/sim_ws/build/mpc/CMakeFiles/CMakeOutput.log".
+[2.097s] See also "/home/william/sim_ws/build/mpc/CMakeFiles/CMakeError.log".
+[2.107s] Invoked command in '/home/william/sim_ws/build/mpc' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_mpc-main/mpc -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/mpc

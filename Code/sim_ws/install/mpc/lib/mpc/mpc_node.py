@@ -90,7 +90,7 @@ class MPC(Node):
         # TODO: get waypoints here
         # self.declare_parameter("waypoints_path", "/sim_ws/src/mpc/mpc/waypoints/waypoints_mpc.csv")
         # self.declare_parameter("waypoints_path", "/home/manasa/sim_ws/src/mpc/waypoints/waypoints_mpc.csv")
-        self.declare_parameter("waypoints_path", "/home/nicholas/Documents/upenn/ESE615/sim_ws/src/lab-7-model-predictive-control-hot-wheels/mpc/waypoints/waypoints_mpc.csv")
+        self.declare_parameter("waypoints_path", "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/waypoints/Hudson_sim.csv")
         self.waypoints_path = self.get_parameter("waypoints_path").get_parameter_value().string_value
         print("waypoints path:", self.waypoints_path)
         self.waypoints_vis = MarkerArray()

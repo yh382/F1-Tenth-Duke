@@ -1,0 +1,2 @@
+Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_mpc-main/mpc -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/mpc
+Invoked command in '/home/william/sim_ws/build/mpc' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_mpc-main/mpc -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/mpc

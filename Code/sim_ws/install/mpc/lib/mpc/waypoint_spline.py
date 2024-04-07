@@ -9,8 +9,8 @@ y = []
 yaw = []
 speed = []
 # path = "/home/rithwik/UPenn/ESE615/sim_ws/src/lab-7-model-predictive-control-hot-wheels/mpc/waypoints/"
-path = "/home/manasa/ese615_labs/lab-5-slam-and-pure-pursuit-hot-wheels/pure_pursuit/waypoints/"
-with open(path+'waypoints_mu0p5_dense_new.csv', 'r') as csvfile:
+path = "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/waypoints"
+with open(path+'Hudson.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
 
     for row in reader:
@@ -37,7 +37,7 @@ yaw_sampled = yaw_spline(axes_sampled)
 speed_sampled = speed_spline(axes_sampled)
 
 # Save the interpolated waypoints
-with open(path+'waypoints_mu0p5_dense_200.csv', 'w') as csvfile:
+with open(path+'Hudson_sim.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
 
     for i in range(len(x_sampled)):

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000167] (f1tenth_simulator) JobQueued: {'identifier': 'f1tenth_simulator', 'dependencies': OrderedDict()}
+[0.000202] (mpc) JobQueued: {'identifier': 'mpc', 'dependencies': OrderedDict()}
+[0.000373] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.000398] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.000415] (range_lib) JobQueued: {'identifier': 'range_lib', 'dependencies': OrderedDict()}
+[0.000431] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.057494] (f1tenth_simulator) JobStarted: {'identifier': 'f1tenth_simulator'}
+[0.100214] (mpc) JobStarted: {'identifier': 'mpc'}
+[0.100455] (-) TimerEvent: {}
+[0.142261] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[0.200933] (-) TimerEvent: {}
+[0.207824] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[0.249169] (range_lib) JobStarted: {'identifier': 'range_lib'}
+[0.301128] (-) TimerEvent: {}
+[0.401533] (-) TimerEvent: {}
+[0.501843] (-) TimerEvent: {}
+[0.506817] (f1tenth_simulator) JobProgress: {'identifier': 'f1tenth_simulator', 'progress': 'cmake'}
+[0.512539] (f1tenth_simulator) JobProgress: {'identifier': 'f1tenth_simulator', 'progress': 'build'}
+[0.512590] (f1tenth_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/william/sim_ws/build/f1tenth_simulator', '--', '-j8', '-l8'], 'cwd': '/home/william/sim_ws/build/f1tenth_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1345'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6758'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:42619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1383,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '6285542987b94a0fa43bbd2230c00b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9885f0d2-c416-4815-866e-a18719496841'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/f1tenth_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.517998] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'cmake'}
+[0.518762] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'build'}
+[0.519990] (mpc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/william/sim_ws/build/mpc', '--', '-j8', '-l8'], 'cwd': '/home/william/sim_ws/build/mpc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1345'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6758'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:42619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1383,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '6285542987b94a0fa43bbd2230c00b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9885f0d2-c416-4815-866e-a18719496841'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/mpc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.602046] (-) TimerEvent: {}
+[0.702469] (-) TimerEvent: {}
+[0.746506] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[0.750934] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '/home/william/sim_ws/src/pure_pursuit', '-DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit'], 'cwd': '/home/william/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1345'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6758'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:42619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1383,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '6285542987b94a0fa43bbd2230c00b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9885f0d2-c416-4815-866e-a18719496841'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/pure_pursuit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.754360] (range_lib) JobProgress: {'identifier': 'range_lib', 'progress': 'cmake'}
+[0.755066] (range_lib) JobProgress: {'identifier': 'range_lib', 'progress': 'build'}
+[0.755382] (range_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/william/sim_ws/build/range_lib', '--', '-j8', '-l8'], 'cwd': '/home/william/sim_ws/build/range_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1345'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6758'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:42619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1383,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '6285542987b94a0fa43bbd2230c00b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9885f0d2-c416-4815-866e-a18719496841'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/range_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.759058] (f1tenth_simulator) StdoutLine: {'line': b'[100%] Built target f1tenth_simulator\n'}
+[0.760373] (mpc) StderrLine: {'line': b'CMake Error: The current CMakeCache.txt directory /home/william/sim_ws/build/mpc/CMakeCache.txt is different than the directory /home/jim/sim_ws/build/mpc where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\n'}
+[0.760838] (mpc) StderrLine: {'line': b'CMake Error: The source directory "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc" does not exist.\n'}
+[0.761140] (mpc) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[0.761610] (mpc) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[0.761912] (f1tenth_simulator) CommandEnded: {'returncode': 0}
+[0.764816] (mpc) CommandEnded: {'returncode': 2}
+[0.769654] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.795595] (pure_pursuit) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800028] (range_lib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gflags_nothreads_static\x1b[0m\n'}
+[0.802722] (-) TimerEvent: {}
+[0.803307] (range_lib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gflags_static\x1b[0m\n'}
+[0.819147] (range_lib) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o\x1b[0m\n'}
+[0.819337] (range_lib) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o\x1b[0m\n'}
+[0.821401] (range_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o\x1b[0m\n'}
+[0.824049] (range_lib) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o\x1b[0m\n'}
+[0.826488] (range_lib) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o\x1b[0m\n'}
+[0.833800] (range_lib) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o\x1b[0m\n'}
+[0.902861] (-) TimerEvent: {}
+[0.928370] (mpc) JobEnded: {'identifier': 'mpc', 'rc': 2}
+[0.953366] (f1tenth_simulator) JobEnded: {'identifier': 'f1tenth_simulator', 'rc': 'SIGINT'}
+[1.002951] (-) TimerEvent: {}
+[1.103398] (-) TimerEvent: {}
+[1.106006] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.203493] (-) TimerEvent: {}
+[1.219933] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.235867] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.306959] (-) TimerEvent: {}
+[1.407280] (-) TimerEvent: {}
+[1.504022] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507367] (-) TimerEvent: {}
+[1.591272] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.593436] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.607489] (-) TimerEvent: {}
+[1.707753] (-) TimerEvent: {}
+[1.744776] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.745323] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.780326] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.807009] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 'SIGINT'}
+[1.807822] (-) TimerEvent: {}
+[1.861847] (pure_pursuit) StderrLine: {'line': b'CMake Error at CMakeLists.txt:29 (find_package):\n'}
+[1.862116] (pure_pursuit) StderrLine: {'line': b'  By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.862257] (pure_pursuit) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.862386] (pure_pursuit) StderrLine: {'line': b'  "ackermann_msgs", but CMake did not find one.\n'}
+[1.862512] (pure_pursuit) StderrLine: {'line': b'\n'}
+[1.862637] (pure_pursuit) StderrLine: {'line': b'  Could not find a package configuration file provided by "ackermann_msgs"\n'}
+[1.862771] (pure_pursuit) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.862914] (pure_pursuit) StderrLine: {'line': b'\n'}
+[1.863045] (pure_pursuit) StderrLine: {'line': b'    ackermann_msgsConfig.cmake\n'}
+[1.863169] (pure_pursuit) StderrLine: {'line': b'    ackermann_msgs-config.cmake\n'}
+[1.863295] (pure_pursuit) StderrLine: {'line': b'\n'}
+[1.863419] (pure_pursuit) StderrLine: {'line': b'  Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[1.863544] (pure_pursuit) StderrLine: {'line': b'  "ackermann_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[1.863669] (pure_pursuit) StderrLine: {'line': b'  "ackermann_msgs" provides a separate development package or SDK, be sure it\n'}
+[1.863793] (pure_pursuit) StderrLine: {'line': b'  has been installed.\n'}
+[1.863906] (pure_pursuit) StderrLine: {'line': b'\n'}
+[1.864018] (pure_pursuit) StderrLine: {'line': b'\n'}
+[1.864172] (pure_pursuit) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.864276] (pure_pursuit) StdoutLine: {'line': b'See also "/home/william/sim_ws/build/pure_pursuit/CMakeFiles/CMakeOutput.log".\n'}
+[1.864392] (pure_pursuit) StdoutLine: {'line': b'See also "/home/william/sim_ws/build/pure_pursuit/CMakeFiles/CMakeError.log".\n'}
+[1.871004] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 'SIGINT'}
+[1.907979] (-) TimerEvent: {}
+[1.927501] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 'SIGINT'}
+[2.008105] (-) TimerEvent: {}
+[2.032407] (range_lib) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX static library ../../lib/libgflags_nothreads.a\x1b[0m\n'}
+[2.072395] (range_lib) StdoutLine: {'line': b'[ 58%] Built target gflags_nothreads_static\n'}
+[2.082135] (range_lib) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mBuilding NVCC (Device) object CMakeFiles/range_lib.dir/includes/range_lib_generated_kernels.cu.o\x1b[0m\n'}
+[2.108196] (-) TimerEvent: {}
+[2.114316] (range_lib) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library ../../lib/libgflags.a\x1b[0m\n'}
+[2.151392] (range_lib) StdoutLine: {'line': b'[ 75%] Built target gflags_static\n'}
+[2.208331] (-) TimerEvent: {}
+[2.308717] (-) TimerEvent: {}
+[2.409207] (-) TimerEvent: {}
+[2.509514] (-) TimerEvent: {}
+[2.609825] (-) TimerEvent: {}
+[2.710135] (-) TimerEvent: {}
+[2.810433] (-) TimerEvent: {}
+[2.910803] (-) TimerEvent: {}
+[3.011269] (-) TimerEvent: {}
+[3.111557] (-) TimerEvent: {}
+[3.211891] (-) TimerEvent: {}
+[3.312213] (-) TimerEvent: {}
+[3.412496] (-) TimerEvent: {}
+[3.512791] (-) TimerEvent: {}
+[3.613079] (-) TimerEvent: {}
+[3.713369] (-) TimerEvent: {}
+[3.813658] (-) TimerEvent: {}
+[3.867607] (range_lib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target range_lib\x1b[0m\n'}
+[3.880525] (range_lib) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/range_lib.dir/main.cpp.o\x1b[0m\n'}
+[3.880676] (range_lib) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/range_lib.dir/vendor/lodepng/lodepng.cpp.o\x1b[0m\n'}
+[3.913776] (-) TimerEvent: {}
+[4.014030] (-) TimerEvent: {}
+[4.114324] (-) TimerEvent: {}
+[4.214643] (-) TimerEvent: {}
+[4.314954] (-) TimerEvent: {}
+[4.415243] (-) TimerEvent: {}
+[4.515540] (-) TimerEvent: {}
+[4.615831] (-) TimerEvent: {}
+[4.716124] (-) TimerEvent: {}
+[4.816428] (-) TimerEvent: {}
+[4.916718] (-) TimerEvent: {}
+[5.017014] (-) TimerEvent: {}
+[5.117323] (-) TimerEvent: {}
+[5.217619] (-) TimerEvent: {}
+[5.317915] (-) TimerEvent: {}
+[5.418202] (-) TimerEvent: {}
+[5.518499] (-) TimerEvent: {}
+[5.618791] (-) TimerEvent: {}
+[5.719102] (-) TimerEvent: {}
+[5.819397] (-) TimerEvent: {}
+[5.919689] (-) TimerEvent: {}
+[6.019982] (-) TimerEvent: {}
+[6.120284] (-) TimerEvent: {}
+[6.220570] (-) TimerEvent: {}
+[6.320866] (-) TimerEvent: {}
+[6.421172] (-) TimerEvent: {}
+[6.521462] (-) TimerEvent: {}
+[6.621758] (-) TimerEvent: {}
+[6.722050] (-) TimerEvent: {}
+[6.822331] (-) TimerEvent: {}
+[6.922614] (-) TimerEvent: {}
+[7.022908] (-) TimerEvent: {}
+[7.072025] (range_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bin/range_lib\x1b[0m\n'}
+[7.123012] (-) TimerEvent: {}
+[7.172785] (range_lib) StdoutLine: {'line': b'[100%] Built target range_lib\n'}
+[7.182560] (range_lib) JobEnded: {'identifier': 'range_lib', 'rc': 'SIGINT'}
+[7.193954] (-) EventReactorShutdown: {}

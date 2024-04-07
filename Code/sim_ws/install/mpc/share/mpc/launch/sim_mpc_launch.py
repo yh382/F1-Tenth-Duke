@@ -17,7 +17,7 @@ def generate_launch_description():
             name='mpc_node',
             parameters=[
                 {
-                'waypoints_path' : share_directory + "waypoints_sim_interpolated_100.csv"
+                'waypoints_path' : share_directory + "Hudson.csv"
                 }
             ],
             output='screen', # this is to see print statements

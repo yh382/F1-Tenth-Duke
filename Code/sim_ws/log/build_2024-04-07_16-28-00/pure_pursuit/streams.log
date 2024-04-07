@@ -1,0 +1,40 @@
+[1.301s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[1.341s] [35m[1mScanning dependencies of target waypoint_visualizer[0m
+[1.352s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[1.395s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o[0m
+[1.420s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[4.738s] [ 75%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[4.941s] [ 75%] Built target waypoint_visualizer
+[7.962s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[8.286s] [100%] Built target pure_pursuit
+[8.298s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[8.322s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit
+[8.329s] -- Install configuration: ""
+[8.330s] -- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[8.332s] -- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""
+[8.333s] -- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[8.334s] -- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer" to ""
+[8.334s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch
+[8.334s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[8.334s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[8.334s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[8.334s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[8.335s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[8.335s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[8.336s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[8.336s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[8.336s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[8.337s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit

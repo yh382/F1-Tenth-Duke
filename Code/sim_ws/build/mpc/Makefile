@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jim/sim_ws/src/f1tenth_mpc-main/mpc
+CMAKE_SOURCE_DIR = /home/william/sim_ws/src/f1tenth_mpc-main/mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jim/sim_ws/build/mpc
+CMAKE_BINARY_DIR = /home/william/sim_ws/build/mpc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/sim_ws/build/mpc/CMakeFiles /home/jim/sim_ws/build/mpc/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william/sim_ws/build/mpc/CMakeFiles /home/william/sim_ws/build/mpc/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/sim_ws/build/mpc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/william/sim_ws/build/mpc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

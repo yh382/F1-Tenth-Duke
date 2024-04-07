@@ -1,0 +1,2 @@
+Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+Invoked command in '/home/william/sim_ws/build/mpc' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8

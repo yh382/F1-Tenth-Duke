@@ -6,13 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Map1
         - /Map1/Topic1
-        - /Marker1
-        - /MarkerArray1
-        - /Marker2
-        - /MarkerArray2
-        - /MarkerArray3
-        - /Marker3
       Splitter Ratio: 0.5
     Tree Height: 671
   - Class: rviz_common/Selection
@@ -58,7 +53,7 @@ Visualization Manager:
       Topic:
         Depth: 5
         Durability Policy: Transient Local
-        History Policy: Keep Last
+        History Policy: Keep All
         Reliability Policy: Reliable
         Value: /map
       Update Topic:
@@ -72,8 +67,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 29.998676300048828
-        Min Value: -0.988295316696167
+        Max Value: 21.952056884765625
+        Min Value: -1.1981784105300903
         Value: true
       Axis: X
       Channel Name: intensity
@@ -163,78 +158,6 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Class: rviz_default_plugins/Marker
-      Enabled: true
-      Name: Marker
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /mpc_spline
-      Value: true
-    - Class: rviz_default_plugins/MarkerArray
-      Enabled: true
-      Name: MarkerArray
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /mpc_spline_array
-      Value: true
-    - Class: rviz_default_plugins/Marker
-      Enabled: true
-      Name: Marker
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /pp_goal_point
-      Value: true
-    - Class: rviz_default_plugins/MarkerArray
-      Enabled: true
-      Name: MarkerArray
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /pp_goal_point_array
-      Value: true
-    - Class: rviz_default_plugins/MarkerArray
-      Enabled: true
-      Name: MarkerArray
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /pp_goal_points
-      Value: true
-    - Class: rviz_default_plugins/Marker
-      Enabled: true
-      Name: Marker
-      Namespaces:
-        {}
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /pp_spline
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -278,7 +201,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 19.73822784423828
+      Distance: 18.659379959106445
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -293,10 +216,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5253981947898865
+      Pitch: 1.0803977251052856
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.1603987216949463
+      Yaw: 4.550410270690918
     Saved: ~
 Window Geometry:
   Displays:
@@ -312,5 +235,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1600
-  X: 118
-  Y: 72
+  X: 72
+  Y: 27

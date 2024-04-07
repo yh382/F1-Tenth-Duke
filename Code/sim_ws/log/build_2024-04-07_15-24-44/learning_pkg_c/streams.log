@@ -1,0 +1,26 @@
+[0.852s] Invoking command in '/home/william/sim_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_pkg_c
+[1.390s] -- The C compiler identification is GNU 9.4.0
+[1.391s] -- The CXX compiler identification is GNU 9.4.0
+[1.391s] -- Check for working C compiler: /usr/bin/cc
+[1.436s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.437s] -- Detecting C compiler ABI info
+[1.538s] -- Detecting C compiler ABI info - done
+[1.551s] -- Detecting C compile features
+[1.551s] -- Detecting C compile features - done
+[1.554s] -- Check for working CXX compiler: /usr/bin/c++
+[1.637s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.639s] -- Detecting CXX compiler ABI info
+[1.748s] -- Detecting CXX compiler ABI info - done
+[1.759s] -- Detecting CXX compile features
+[1.760s] -- Detecting CXX compile features - done
+[1.763s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.798s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.798s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.059s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.122s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'xmllint' to check XML markup files
+[2.125s] -- Configuring done
+[2.128s] -- Generating done
+[2.129s] -- Build files have been written to: /home/william/sim_ws/build/learning_pkg_c
+[2.235s] Invoked command in '/home/william/sim_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_pkg_c
+[2.239s] Invoking command in '/home/william/sim_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/learning_pkg_c -- -j8 -l8

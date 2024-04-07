@@ -1,0 +1,3 @@
+Invoking command in '/home/william/sim_ws/build/f1tenth_simulator': /usr/bin/cmake /home/william/sim_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/f1tenth_simulator
+Invoked command in '/home/william/sim_ws/build/f1tenth_simulator' returned '0': /usr/bin/cmake /home/william/sim_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/f1tenth_simulator
+Invoking command in '/home/william/sim_ws/build/f1tenth_simulator': /usr/bin/cmake --build /home/william/sim_ws/build/f1tenth_simulator -- -j8 -l8

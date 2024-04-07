@@ -1,5 +1,7 @@
+LICENSE
 README.md
 package.xml
+pyproject.toml
 setup.cfg
 setup.py
 ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO

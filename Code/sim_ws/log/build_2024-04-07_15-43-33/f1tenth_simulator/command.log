@@ -1,0 +1,2 @@
+Invoking command in '/home/william/sim_ws/build/f1tenth_simulator': /usr/bin/cmake --build /home/william/sim_ws/build/f1tenth_simulator -- -j8 -l8
+Invoked command in '/home/william/sim_ws/build/f1tenth_simulator' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/f1tenth_simulator -- -j8 -l8
