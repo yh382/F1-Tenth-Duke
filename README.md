@@ -33,6 +33,12 @@ ESC：FSESC based on VESC6
 - [Hokuyo 10LX Ethernet Connection Setup](/Hokuyo_Lidar/Hokuyo.md)
 - [Configuring the VESC](/VESC/VESC_config.md)
 - [Driver Stack Setup](/driver_stack_setup.rst)
+- [Manual Control](/drive_manual.rst)
+- [Calibrating the Odometry](/drive_calib_odom.rst)
+- [Autonomous Control](/drive_autonomous.rst)
+
+
+
 
 ## Code Nabigation (Coming Soon)
 - [Drive A Distance]

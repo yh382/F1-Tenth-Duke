@@ -4,13 +4,9 @@
 ## Table of Contents
 1. [What is Hokuyo](#WhatisHokuyo)
 2. [Equipment Required](#equipment)
-3. [Version of VESC](#version)
-4. [Powering the VESC](#Power)
-5. [Connecting the VESC to Your Laptop](#Connect)
-6. [Updating the Firmare on the VESC](#Firmare)
-7. [Uploading the Motor Configuration XML](#XML)
-8. [Changing the Openloop Hysteresis and Openloop Time](#Openloop)
-9. [Realtime Data and Keypad Control](#Realtime)
+3. [Steps](#Steps)
+
+
 
 <a name="WhatisHokuyo"></a>
 ### What is Hokuyo
