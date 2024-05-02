@@ -6,9 +6,8 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/rithwik/UPenn/ESE615/sim_ws/install/interfaces_hot_wheels/include/**",
+        "/home/william/sim_ws/src/f1tenth_interfaces-main/include",
         "/opt/ros/humble/include/**",
-        "/home/rithwik/UPenn/ESE615/sim_ws/src/interfaces-hot-wheels/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

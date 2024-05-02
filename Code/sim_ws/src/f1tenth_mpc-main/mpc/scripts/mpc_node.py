@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import math
 from dataclasses import dataclass, field
+import sys
 import cvxpy
 import numpy as np
 import rclpy
@@ -14,8 +15,9 @@ from sensor_msgs.msg import LaserScan
 import utils
 from numpy import linalg as LA
 from visualization_msgs.msg import Marker, MarkerArray
+import csv
+import os
 
-# TODO CHECK: include needed ROS msg type headers and libraries
 
 
 @dataclass
@@ -25,24 +27,29 @@ class mpc_config:
     TK: int = 8  # finite time horizon length kinematic
 
     # ---------------------------------------------------
-    # TODO: you may need to tune the following matrices
+    # You may need to tune the following matrices
     Rk: list = field(
-        default_factory=lambda: np.diag([0.01, 35.0])
+        default_factory=lambda: np.diag([0.01, 25.0])
     )  # input cost matrix, penalty for inputs - [accel, steering_speed]
     Rdk: list = field(
-        default_factory=lambda: np.diag([0.01, 75.0])
+        default_factory=lambda: np.diag([0.01, 55.0])
     )  # input difference cost matrix, penalty for change of inputs - [accel, steering_speed]
     Qk: list = field(
         # default_factory=lambda: np.diag([13.5, 13.5, 5.5, 13.0])
-        default_factory=lambda: np.diag([100.0, 100.0, 5.5, 7.5])
+        default_factory=lambda: np.diag([100, 100, 0.12, 0.9])
     )  # state error cost matrix, for the the next (T) prediction time steps [x, y, delta, v, yaw, yaw-rate, beta]
     Qfk: list = field(
-        default_factory=lambda: np.diag([100.0, 100.0, 5.5, 7.5])
+        default_factory=lambda: np.diag([100, 100, 0.12, 0.9])
     )  # final state error matrix, penalty  for the final state constraints: [x, y, delta, v, yaw, yaw-rate, beta]
-    # ---------------------------------------------------
+    # --------------------------------------------------
+    #([100.0, 100.0, 0.12, 0.9])
+    #([100.0, 100.0, 0.12, 0.9])
+    
 
-    N_IND_SEARCH: int = 20  # Search index number
-    DTK: float = 0.1  # time step [s] kinematic
+
+    # horizon 800
+    N_IND_SEARCH: int = 200  # Search index number, horizon
+    DTK: float = 0.05  # time step [s] kinematic
     dlk: float = 0.03  # dist step [m] kinematic
     LENGTH: float = 0.58  # Length of the vehicle [m]
     WIDTH: float = 0.31  # Width of the vehicle [m]
@@ -53,7 +60,7 @@ class mpc_config:
     MAX_SPEED: float = 6.0  # maximum speed [m/s]
     MIN_SPEED: float = 0.0  # minimum backward speed [m/s]
     MAX_ACCEL: float = 3.0  # maximum acceleration [m/ss]
-
+    # MAX_ERROR: float = 100  # maximum error placement to reference trajectory[m]
 
 @dataclass
 class State:
@@ -68,12 +75,13 @@ class State:
 class MPC(Node):
     """ 
     Implement Kinematic MPC on the car
-    This is just a template, you are free to implement your own node!
     """
     def __init__(self):
         super().__init__('mpc_node')
-        # TODO: create ROS subscribers and publishers
-        #       use the MPC as a tracker (similar to pure pursuit)
+        # Create ROS subscribers and publishers 
+        # Initialize the trajectory recording matrix and the directory to save
+        self.trajectory_data = []  # List to store trajectory data
+        self.output_directory = "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/waypoints"  # Set the output directory
         
         # publishers
         self.drive_pub_ = self.create_publisher(AckermannDriveStamped, '/drive', 1) 
@@ -83,14 +91,9 @@ class MPC(Node):
 
         # subscribers
         self.pose_sub_ = self.create_subscription(PoseStamped, '/pf/viz/inferred_pose', self.pose_callback, 1)
-
-        # # visualization vars
-        # self.marker_id = 1
      
-        # TODO: get waypoints here
-        # self.declare_parameter("waypoints_path", "/sim_ws/src/mpc/mpc/waypoints/waypoints_mpc.csv")
-        # self.declare_parameter("waypoints_path", "/home/manasa/sim_ws/src/mpc/waypoints/waypoints_mpc.csv")
-        self.declare_parameter("waypoints_path", "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/waypoints/Hudson_sim.csv")
+        # Get waypoints here make sure you save the file in correct directory
+        self.declare_parameter("waypoints_path", "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/waypoints/Hudson1(copy).csv") #Hudson1
         self.waypoints_path = self.get_parameter("waypoints_path").get_parameter_value().string_value
         print("waypoints path:", self.waypoints_path)
         self.waypoints_vis = MarkerArray()
@@ -105,9 +108,19 @@ class MPC(Node):
         # initialize MPC problem
         self.mpc_prob_init()
 
+    # This function is for recording trajectory of the vehicle to evaluate the performance of the MPC controller
+    # Comment it out if you don't need, and correct the main 
+    def write_trajectory_to_csv(self):
+        filename = os.path.join(self.output_directory, 'trajectory_william_speed4396.csv')
+        with open(filename, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['x', 'y'])
+            writer.writerows(self.trajectory_data)
+        print(f"Trajectory data saved to {filename}")
+
     def pose_callback(self, pose_msg):
 
-        # TODO: extract pose from ROS msg
+        # Extract pose from ROS msg
         xp = pose_msg.pose.position.x
         yp = pose_msg.pose.position.y
 
@@ -127,15 +140,15 @@ class MPC(Node):
         vp = 1.0
         vehicle_state = State(x=xp, y=yp, v=vp, yaw=yawp)
 
-        # TODO: Calculate the next reference trajectory for the next T steps
-        #       with current vehicle pose.
-        #       ref_x, ref_y, ref_yaw, ref_v are columns of self.waypoints
+        # Calculate the next reference trajectory for the next T steps
+        # with current vehicle pose.
+        # ref_x, ref_y, ref_yaw, ref_v are columns of self.waypoints
         ref_x, ref_y, ref_v, ref_yaw = self.waypoints[:, 0], self.waypoints[:, 1], self.waypoints[:, 2], self.waypoints[:, 3]
         ref_path = self.calc_ref_trajectory(vehicle_state, ref_x, ref_y, ref_v, ref_yaw)
         # print("ref_path: ", ref_path)
         x0 = [vehicle_state.x, vehicle_state.y, vehicle_state.v, vehicle_state.yaw]
 
-        # TODO: solve the MPC control problem
+        # Solve the MPC control problem
         (
             self.oa, # acceleration
             self.odelta_v, # steering angle
@@ -146,23 +159,25 @@ class MPC(Node):
             state_predict, # the predicted path for x steps (how is this useful?)
         ) = self.linear_mpc_control(ref_path, x0, self.oa, self.odelta_v)
 
-        # print("self.oa: ", self.oa)
+        #Print the variables you want to check during testing
         print("self.odelta_v: ", self.odelta_v)
-        # print("self.ox: ", ox)
-        # print("oy: ", oy)
         print("oyaw: ", oyaw)
-        # print("ov: ", ov)
-        # print("state_predict: ", state_predict)
 
+        #Make it visualbe on Rviz
         self.visualize_mpc_path(ox, oy)
 
-        # TODO: publish drive message.
+        # Publish drive message.
         drive_msg = AckermannDriveStamped()
-        # handle the angle wrap around
+        # Handle the angle wrap around
         drive_msg.drive.steering_angle = self.odelta_v[0]
         drive_msg.drive.speed = vehicle_state.v + self.oa[0] * self.config.DTK
-        # drive_msg.drive.speed = 0.0
         self.drive_pub_.publish(drive_msg)
+        self.trajectory_data.append([
+        pose_msg.pose.position.x,
+        pose_msg.pose.position.y,
+        ]) 
+        
+    
 
     def mpc_prob_init(self):
         """
@@ -202,24 +217,23 @@ class MPC(Node):
         Q_block.append(self.config.Qfk)
         Q_block = block_diag(tuple(Q_block))
 
-        # print("R_block: ", R_block.shape)   #(16, 16)
-        # print("uk: ", self.uk.shape)        #(2, 8)
-        # print("Rd_block: ", Rd_block.shape) #(14, 14)
-        # print("xk: ", self.xk.shape)        #(4, 9)
-        # print("Q_block: ", Q_block.shape)   #(36, 36)
-        # print("ref_traj_k: ", self.ref_traj_k.shape) #(4, 9)
+        # ("R_block: ", R_block.shape)   #(16, 16)
+        # ("uk: ", self.uk.shape)        #(2, 8)
+        # ("Rd_block: ", Rd_block.shape) #(14, 14)
+        # ("xk: ", self.xk.shape)        #(4, 9)
+        # ("Q_block: ", Q_block.shape)   #(36, 36)
+        # ("ref_traj_k: ", self.ref_traj_k.shape) #(4, 9)
 
         # Formulate and create the finite-horizon optimal control problem (objective function)
         # The FTOCP has the horizon of T timesteps
 
         # --------------------------------------------------------
-        # TODO: fill in the objectives here, you should be using cvxpy.quad_form() somewhere
-
-        # TODO: Objective part 1: Influence of the control inputs: Inputs u multiplied by the penalty R
+        # Create the objective function
+        # Objective part 1: Influence of the control inputs: Inputs u multiplied by the penalty R
         objective += cvxpy.quad_form(cvxpy.reshape(self.uk, (16, 1), order='F'), R_block) 
-        # TODO: Objective part 2: Deviation of the vehicle from the reference trajectory weighted by Q, including final Timestep T weighted by Qf
+        # Objective part 2: Deviation of the vehicle from the reference trajectory weighted by Q, including final Timestep T weighted by Qf
         objective += cvxpy.quad_form((cvxpy.reshape(self.ref_traj_k, (36, 1), order='F') - cvxpy.reshape(self.xk, (36, 1), order='F')), Q_block)
-        # TODO: Objective part 3: Difference from one control input to the next control input weighted by Rd
+        # Objective part 3: Difference from one control input to the next control input weighted by Rd
         objective += cvxpy.quad_form(cvxpy.reshape((self.uk[:, 1:] - self.uk[:, :-1]), (14, 1), order='F'), Rd_block)
 
         # --------------------------------------------------------
@@ -272,42 +286,49 @@ class MPC(Node):
         self.Ck_.value = C_block
 
         # -------------------------------------------------------------
-        # TODO: Constraint part 1:
+        #       Constraint part 1:
         #       Add dynamics constraints to the optimization problem
         #       This constraint should be based on a few variables:
         #       self.xk, self.Ak_, self.Bk_, self.uk, and self.Ck_
-        # print("Ak_block: ", self.Ak_.shape) # (32, 32)
-        # print("xk: ", self.xk.shape)        # (4, 9)
-        # print("Bk_block: ", self.Bk_.shape) # (32, 16)
-        # print("uk: ", self.uk.shape)        # (2, 8)
-        # print("Ck_block: ", self.Ck_.shape) # (32, )
+        # ("Ak_block: ", self.Ak_.shape) # (32, 32)
+        # ("xk: ", self.xk.shape)        # (4, 9)
+        # ("Bk_block: ", self.Bk_.shape) # (32, 16)
+        # ("uk: ", self.uk.shape)        # (2, 8)
+        # ("Ck_block: ", self.Ck_.shape) # (32, )
         constraints += [cvxpy.reshape(self.xk[:, 1:], (32, 1), order='F') == self.Ak_ @ cvxpy.reshape(self.xk[:, :-1], (32, 1), order='F') +
                          self.Bk_ @ cvxpy.reshape(self.uk, (16, 1), order='F') + cvxpy.reshape(self.Ck_, (32, 1))]
         
-        # TODO: Constraint part 2:
+        #       Constraint part 2:
         #       Add constraints on steering, change in steering angle
         #       cannot exceed steering angle speed limit. Should be based on:
         #       self.uk, self.config.MAX_DSTEER, self.config.DTK
         # constraints += [
         #     (self.uk[1, 1:]- self.uk[1, :-1])/self.config.DTK <= self.config.MAX_DSTEER, # max steering speed
-        # ]
+        #     ]
         
-        # TODO: Constraint part 3:
+        #       Constraint part 3:
         #       Add constraints on upper and lower bounds of states and inputs
         #       and initial state constraint, should be based on:
         #       self.xk, self.x0k, self.config.MAX_SPEED, self.config.MIN_SPEED,
         #       self.uk, self.config.MAX_ACCEL, self.config.MAX_STEER
         constraints += [
-            self.xk[2, :] <= self.config.MAX_SPEED, # max speed
+            self.xk[2, :] <= self.config.MAX_SPEED*2.5, # max speed
             self.xk[2, :] >= self.config.MIN_SPEED, # min speed
             self.xk[:, 0] == self.x0k, # initial state
-            self.uk[0, :] <= self.config.MAX_ACCEL, # max acceleration
+            self.uk[0, :] <= self.config.MAX_ACCEL*7, # max acceleration
             self.uk[0, :] >= -self.config.MAX_ACCEL, # min acceleration
             # self.uk[0, :] >= 0, # min acceleration
             self.uk[1, :] <= self.config.MAX_STEER, # max steering
-            self.uk[1, :] >= self.config.MIN_STEER, # max steering
+            
+            # new try constraints
+            #self.xk[0, :] -self.ref_traj_k[0,:] <= 10, # new constraints
+            #self.xk[0, :] -self.ref_traj_k[0,:] >= -10,
+            #self.xk[1, :] -self.ref_traj_k[1,:] <= 10, # new constraints
+            #self.xk[1, :] -self.ref_traj_k[1,:] >= -10,            
         ]
         # -------------------------------------------------------------
+        
+        
 
         # Create the optimization problem in CVXPY and setup the workspace
         # Optimization goal: minimize the objective function
@@ -333,7 +354,7 @@ class MPC(Node):
         ncourse = len(cx)
 
         # Find nearest index/setpoint from where the trajectories are calculated
-        # TODO: Check if there is a bug here since it may be finding the nearest point backwards
+        # Check if there is a bug here since it may be finding the nearest point backwards
         # is time taken into consideration?
         _, _, _, ind = utils.nearest_point(np.array([state.x, state.y]), np.array([cx, cy]).T)
 
@@ -398,7 +419,6 @@ class MPC(Node):
             ref_strip.points.append(p)
 
         self.ref_path_vis_pub_.publish(ref_strip)
-        # self.waypoints_vis_pub_.publish(self.waypoints_vis)
 
     def visualize_mpc_path(self, ox, oy):
         """
@@ -525,8 +545,9 @@ class MPC(Node):
         self.ref_traj_k.value = ref_traj
 
         # Solve the optimization problem in CVXPY
-        # Solver selections: cvxpy.OSQP; cvxpy.GUROBI
-        self.MPC_prob.solve(solver=cvxpy.OSQP, verbose=False, warm_start=True)
+        # Solver selections: cvxpy.OSQP; or cvxpy.GUROBI
+        # Set verbose = False if you don't need to see the objective value and the solver running time
+        self.MPC_prob.solve(solver=cvxpy.OSQP, verbose=True, warm_start=True)
 
         if (
             self.MPC_prob.status == cvxpy.OPTIMAL
@@ -554,7 +575,6 @@ class MPC(Node):
         :param od: delta of T steps of last time
         """
 
-        # print("Entering linear_mpc_control")
         if oa is None or od is None:
             oa = [0.0] * self.config.TK
             od = [0.0] * self.config.TK
@@ -617,14 +637,40 @@ class MPC(Node):
 
         return waypoints
 
+    # This functions is running the write_trajectory_to_csv() to save the trajectory
+    # Comment it if you just need a normal main()
+    def destroy_node(self):
+        # Save trajectory data when shutting down
+        self.write_trajectory_to_csv()
+        super().destroy_node()
+
 def main(args=None):
     rclpy.init(args=args)
     print("MPC Initialized")
     mpc_node = MPC()
-    rclpy.spin(mpc_node)
+    try:
+        rclpy.spin(mpc_node)
+    except KeyboardInterrupt:
+        print('MPC Node stopped cleanly')
+    except BaseException:
+        print('Exception in MPC Node:', file=sys.stderr)
+        raise
+    finally:
+        # This ensures that your node is cleaned up properly regardless of what happens
+        mpc_node.destroy_node()
+        rclpy.shutdown()
 
-    mpc_node.destroy_node()
-    rclpy.shutdown()
+
+# The normal main(), uncomment if you don't need to save the running trajectory
+# Before you uncomment this main, make sure you comment out the  destroy_node(),write_trajectory_to_csv()
+# def main(args=None):
+#     rclpy.init(args=args)
+#     print("MPC Initialized")
+#     mpc_node = MPC()
+#     rclpy.spin(mpc_node)
+
+#     mpc_node.destroy_node()
+#     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

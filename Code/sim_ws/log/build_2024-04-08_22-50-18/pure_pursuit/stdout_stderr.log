@@ -1,0 +1,146 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found interfaces_hot_wheels: 0.0.0 (/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/william/sim_ws/build/pure_pursuit
+[35m[1mScanning dependencies of target pose_fake_pub_node[0m
+[35m[1mScanning dependencies of target waypoint_race_node[0m
+[35m[1mScanning dependencies of target pure_pursuit_node[0m
+[35m[1mScanning dependencies of target waypoint_node[0m
+[35m[1mScanning dependencies of target waypoint_laneswitcher_node[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint_pub.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/waypoint_race_node.dir/src/waypoint_pub_race.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_laneswitcher_node.dir/src/waypoint_pub_laneswitcher.cpp.o[0m
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:[m[K In member function ‘[01m[Kvoid Waypoint::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:212:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  212 |         int [01;35m[Kidx_0[m[K   = 540;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:215:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_n35[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  215 |         int [01;35m[Kidx_n35[m[K = 399;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:216:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_p35[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |         int [01;35m[Kidx_p35[m[K = 690;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:217:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_n60[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |         int [01;35m[Kidx_n60[m[K = 299;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:218:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_p60[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  218 |         int [01;35m[Kidx_p60[m[K = 780;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:221:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_obstacle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  221 |         bool [01;35m[Kflag_obstacle[m[K = false;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX executable pose_fake_pub_node[0m
+[ 70%] [32m[1mLinking CXX executable pure_pursuit_node[0m
+[ 70%] Built target pure_pursuit_node
+[ 70%] Built target pose_fake_pub_node
+[ 80%] [32m[1mLinking CXX executable waypoint_node[0m
+[ 80%] Built target waypoint_node
+[ 90%] [32m[1mLinking CXX executable waypoint_race_node[0m
+[ 90%] Built target waypoint_race_node
+[100%] [32m[1mLinking CXX executable waypoint_laneswitcher_node[0m
+[100%] Built target waypoint_laneswitcher_node
+-- Install configuration: ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+-- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_node
+-- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_node" to ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pose_fake_pub_node
+-- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pose_fake_pub_node" to ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_race_node
+-- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_race_node" to ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_laneswitcher_node
+-- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_laneswitcher_node" to ""
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+Listing '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+Compiling '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_logger.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/lidar_logger.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/bagger.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_spline.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/logger_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/shoot_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/2_shoot_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/multi_car_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/race_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/laneswitcher_race_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_laneswitcher_pure_pursuit_launch.py
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/marker.rviz
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/waypoint_node.yaml
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_interpolated.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L_2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_reduced_L.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1_edited.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/manual_lane_2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp (copy).csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_speed.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_waypoints.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson1.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/original_raceline.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_2.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_3.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/trial_raceline.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane1.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_1.csv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml

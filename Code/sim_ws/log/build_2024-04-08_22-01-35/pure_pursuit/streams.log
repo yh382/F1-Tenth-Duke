@@ -1,0 +1,66 @@
+[1.321s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit
+[1.397s] -- The C compiler identification is GNU 9.4.0
+[1.460s] -- The CXX compiler identification is GNU 9.4.0
+[1.465s] -- Check for working C compiler: /usr/bin/cc
+[1.530s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.530s] -- Detecting C compiler ABI info
+[1.599s] -- Detecting C compiler ABI info - done
+[1.610s] -- Detecting C compile features
+[1.610s] -- Detecting C compile features - done
+[1.612s] -- Check for working CXX compiler: /usr/bin/c++
+[1.688s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.690s] -- Detecting CXX compiler ABI info
+[1.765s] -- Detecting CXX compiler ABI info - done
+[1.777s] -- Detecting CXX compile features
+[1.777s] -- Detecting CXX compile features - done
+[1.783s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.807s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.808s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.054s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.109s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.221s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.362s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.365s] -- Looking for pthread.h
+[2.437s] -- Looking for pthread.h - found
+[2.437s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.527s] -- Looking for pthread_create in pthreads
+[2.599s] -- Looking for pthread_create in pthreads - not found
+[2.601s] -- Looking for pthread_create in pthread
+[2.672s] -- Looking for pthread_create in pthread - found
+[2.673s] -- Found Threads: TRUE  
+[2.851s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.853s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.917s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.016s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.050s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.138s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.233s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.593s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.605s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.608s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.649s] CMake Error at CMakeLists.txt:31 (find_package):
+[3.649s]   By not providing "Findinterfaces_hot_wheels.cmake" in CMAKE_MODULE_PATH
+[3.649s]   this project has asked CMake to find a package configuration file provided
+[3.649s]   by "interfaces_hot_wheels", but CMake did not find one.
+[3.649s] 
+[3.649s]   Could not find a package configuration file provided by
+[3.649s]   "interfaces_hot_wheels" with any of the following names:
+[3.649s] 
+[3.649s]     interfaces_hot_wheelsConfig.cmake
+[3.649s]     interfaces_hot_wheels-config.cmake
+[3.650s] 
+[3.650s]   Add the installation prefix of "interfaces_hot_wheels" to CMAKE_PREFIX_PATH
+[3.650s]   or set "interfaces_hot_wheels_DIR" to a directory containing one of the
+[3.650s]   above files.  If "interfaces_hot_wheels" provides a separate development
+[3.650s]   package or SDK, be sure it has been installed.
+[3.650s] 
+[3.650s] 
+[3.651s] -- Configuring incomplete, errors occurred!
+[3.651s] See also "/home/william/sim_ws/build/pure_pursuit/CMakeFiles/CMakeOutput.log".
+[3.651s] See also "/home/william/sim_ws/build/pure_pursuit/CMakeFiles/CMakeError.log".
+[3.666s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit

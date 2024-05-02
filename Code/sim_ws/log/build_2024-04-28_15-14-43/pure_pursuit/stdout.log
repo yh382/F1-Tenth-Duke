@@ -1,0 +1,75 @@
+[ 50%] Built target waypoint_laneswitcher_node
+[ 50%] Built target waypoint_node
+[ 70%] Built target pose_fake_pub_node
+[ 90%] Built target pure_pursuit_node
+[100%] Built target waypoint_race_node
+-- Install configuration: ""
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_node
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pose_fake_pub_node
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_race_node
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_laneswitcher_node
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+Listing '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_logger.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/lidar_logger.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/bagger.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_spline.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/logger_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/shoot_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/2_shoot_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/multi_car_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/race_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/laneswitcher_race_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_laneswitcher_pure_pursuit_launch.py
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/marker.rviz
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/waypoint_node.yaml
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_interpolated.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L_2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_reduced_L.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1_edited.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson5.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/manual_lane_2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp (copy).csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson3.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_speed.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_waypoints.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson4.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson1.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/original_raceline.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_2.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_3.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/trial_raceline.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane1.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_1.csv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+-- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+-- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml

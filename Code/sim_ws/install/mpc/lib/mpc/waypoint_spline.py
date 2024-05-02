@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from scipy.interpolate import InterpolatedUnivariateSpline
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,9 +10,9 @@ x = []
 y = []
 yaw = []
 speed = []
-# path = "/home/rithwik/UPenn/ESE615/sim_ws/src/lab-7-model-predictive-control-hot-wheels/mpc/waypoints/"
-path = "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/waypoints"
-with open(path+'Hudson.csv', 'r') as csvfile:
+# path = "/home/rithwik/UPenn/ESE615/sim_ws/src/lab-7-model-predictive-control-hot-wheels/mpc/waypoints/"   
+path = "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/waypoints/"
+with open(path+'Hudson123.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
 
     for row in reader:
@@ -37,7 +39,7 @@ yaw_sampled = yaw_spline(axes_sampled)
 speed_sampled = speed_spline(axes_sampled)
 
 # Save the interpolated waypoints
-with open(path+'Hudson_sim.csv', 'w') as csvfile:
+with open(path+'Hudson5_interp.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
 
     for i in range(len(x_sampled)):

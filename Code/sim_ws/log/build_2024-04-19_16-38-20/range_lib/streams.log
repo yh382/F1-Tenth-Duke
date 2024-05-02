@@ -1,0 +1,22 @@
+[0.602s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.655s] [ 66%] Built target gflags_static
+[0.656s] [ 66%] Built target gflags_nothreads_static
+[0.676s] [ 75%] [34m[1mBuilding NVCC (Device) object CMakeFiles/range_lib.dir/includes/range_lib_generated_kernels.cu.o[0m
+[3.093s] [ 83%] [32m[1mLinking CXX executable bin/range_lib[0m
+[3.228s] [100%] Built target range_lib
+[3.240s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[3.266s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib
+[3.277s] -- Install configuration: "Release"
+[3.277s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags.a
+[3.277s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags_nothreads.a
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags.h
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_declare.h
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_completions.h
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_gflags.h
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/bin/gflags_completions.sh
+[3.278s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/pkgconfig/gflags.pc
+[3.278s] -- Up-to-date: /home/william/.cmake/packages/gflags/6f3b71e1441b90aa05967b6e00f3a05f
+[3.282s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib

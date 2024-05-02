@@ -1,0 +1,47 @@
+[1.688s] Invoking command in '/home/william/sim_ws/src/particle_filter': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed
+[2.075s] running egg_info
+[2.114s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[2.114s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[2.115s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[2.115s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[2.117s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[2.318s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[2.319s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[2.319s] running build
+[2.320s] running build_py
+[2.320s] copying particle_filter/__init__.py -> /home/william/sim_ws/build/particle_filter/build/lib/particle_filter
+[2.320s] copying particle_filter/particle_filter.py -> /home/william/sim_ws/build/particle_filter/build/lib/particle_filter
+[2.320s] copying particle_filter/utils.py -> /home/william/sim_ws/build/particle_filter/build/lib/particle_filter
+[2.320s] running install
+[2.321s] /home/william/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.321s] !!
+[2.321s] 
+[2.321s]         ********************************************************************************
+[2.321s]         Please avoid running ``setup.py`` directly.
+[2.321s]         Instead, use pypa/build, pypa/installer or other
+[2.322s]         standards-based tools.
+[2.322s] 
+[2.322s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.322s]         ********************************************************************************
+[2.322s] 
+[2.322s] !!
+[2.322s]   self.initialize_options()
+[2.328s] running install_lib
+[2.358s] running install_data
+[2.385s] copying resource/particle_filter -> /home/william/sim_ws/install/particle_filter/share/ament_index/resource_index/packages
+[2.385s] copying package.xml -> /home/william/sim_ws/install/particle_filter/share/particle_filter
+[2.386s] copying maps/levine.yaml -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.386s] copying maps/basement_fixed.png -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.386s] copying maps/Hudson_map.pgm -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.389s] copying maps/Hudson_map.yaml -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.389s] copying maps/levine.pgm -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.394s] copying maps/basement_fixed.map.yaml -> /home/william/sim_ws/install/particle_filter/share/particle_filter/maps
+[2.394s] copying launch/localize_launch.py -> /home/william/sim_ws/install/particle_filter/share/particle_filter/launch
+[2.394s] copying config/localize.yaml -> /home/william/sim_ws/install/particle_filter/share/particle_filter/config
+[2.395s] running install_egg_info
+[2.426s] removing '/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[2.427s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[2.428s] running install_scripts
+[2.491s] Installing particle_filter script to /home/william/sim_ws/install/particle_filter/lib/particle_filter
+[2.492s] writing list of installed files to '/home/william/sim_ws/build/particle_filter/install.log'
+[2.532s] Invoked command in '/home/william/sim_ws/src/particle_filter' returned '0': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed

@@ -1,0 +1,41 @@
+[1.378s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[1.913s] [100%] Built target mpc_node
+[1.919s] Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[1.964s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
+[1.981s] -- Install configuration: ""
+[1.982s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node
+[1.982s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[1.983s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.983s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[1.984s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[2.020s] Listing '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[2.025s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[2.025s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/utils.py
+[2.025s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[2.026s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch
+[2.026s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+[2.026s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_100.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_drive.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints1.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_200.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_mpc.csv
+[2.027s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[2.028s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[2.028s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[2.030s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[2.031s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.sh
+[2.031s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[2.032s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.bash
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.sh
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[2.033s] -- Installing: /home/william/sim_ws/install/mpc/share/mpc/package.dsv
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[2.033s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[2.034s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/package.xml
+[2.034s] Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc

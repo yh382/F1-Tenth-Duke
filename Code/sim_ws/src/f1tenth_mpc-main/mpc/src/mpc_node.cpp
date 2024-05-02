@@ -29,7 +29,7 @@ public:
         // TODO: create ROS subscribers and publishers
     }
 
-    void pose_callback(const geometry_msgs::msg::PoseStamped)
+    void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)
     {
 
     }

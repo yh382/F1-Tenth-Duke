@@ -1,0 +1,10 @@
+/waypoint_node:
+  ros__parameters:
+    L: 1.5
+    global_frame: map
+    local_frame: laser
+    use_sim_time: false
+    v: 3.0
+    v_csv: 1
+    waypoints_file: Hudson123.csv
+    waypoints_path: /home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/f1tenth_slam_pure_pursuit-main/pure_pursuit/waypoints

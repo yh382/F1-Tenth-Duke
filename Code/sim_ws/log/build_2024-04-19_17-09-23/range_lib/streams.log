@@ -1,0 +1,20 @@
+[0.616s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.670s] [ 33%] Built target gflags_static
+[0.671s] [ 66%] Built target gflags_nothreads_static
+[0.715s] [100%] Built target range_lib
+[0.898s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[1.078s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib
+[1.142s] -- Install configuration: "Release"
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags.a
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/libgflags_nothreads.a
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags.h
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_declare.h
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_completions.h
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/include/gflags/gflags_gflags.h
+[1.143s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+[1.144s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+[1.144s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+[1.144s] -- Up-to-date: /home/william/sim_ws/install/range_lib/bin/gflags_completions.sh
+[1.144s] -- Up-to-date: /home/william/sim_ws/install/range_lib/lib/pkgconfig/gflags.pc
+[1.145s] -- Up-to-date: /home/william/.cmake/packages/gflags/6f3b71e1441b90aa05967b6e00f3a05f
+[1.146s] Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib

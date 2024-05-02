@@ -1,0 +1,56 @@
+[0.605s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[0.958s] [100%] Built target mpc_node
+[0.965s] Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[1.025s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
+[1.040s] -- Install configuration: ""
+[1.040s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node
+[1.040s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[1.041s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.041s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[1.041s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[1.106s] Listing '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[1.109s] -- Installing: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[1.109s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/utils.py
+[1.110s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[1.110s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch
+[1.110s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+[1.110s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints
+[1.111s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_100.csv
+[1.111s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson4_interp.csv
+[1.111s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_drive.csv
+[1.111s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_long.csv
+[1.112s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1_interp.csv
+[1.112s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson5.csv
+[1.112s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson7.csv
+[1.112s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson2_interp.csv
+[1.112s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim.csv
+[1.113s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson3.csv
+[1.113s] -- Installing: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_short.csv
+[1.113s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints1.csv
+[1.113s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson2.csv
+[1.113s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson4.csv
+[1.113s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_200.csv
+[1.114s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1.csv
+[1.114s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/reference_trajectory.csv
+[1.114s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson6.csv
+[1.115s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson123.csv
+[1.115s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated.csv
+[1.115s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson5_interp.csv
+[1.115s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_mpc.csv
+[1.115s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson8.csv
+[1.116s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[1.116s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[1.116s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[1.116s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[1.116s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.sh
+[1.117s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[1.117s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.bash
+[1.118s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.sh
+[1.119s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[1.120s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[1.121s] -- Installing: /home/william/sim_ws/install/mpc/share/mpc/package.dsv
+[1.121s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[1.121s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[1.122s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[1.122s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/package.xml
+[1.122s] Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc

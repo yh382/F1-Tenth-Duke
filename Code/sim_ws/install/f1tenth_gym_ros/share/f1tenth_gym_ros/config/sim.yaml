@@ -43,7 +43,7 @@ bridge:
 
     # map parameters
     map_path: '/home/william/sim_ws/src/f1tenth_gym_ros/maps/Hudson_map'
-    map_img_ext: '.pgm'
+    map_img_ext: '.pbm'
 
     # opponent parameters
     num_agent: 1

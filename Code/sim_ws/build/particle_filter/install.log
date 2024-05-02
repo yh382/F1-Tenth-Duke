@@ -8,6 +8,8 @@
 /home/william/sim_ws/install/particle_filter/share/particle_filter/package.xml
 /home/william/sim_ws/install/particle_filter/share/particle_filter/maps/levine.yaml
 /home/william/sim_ws/install/particle_filter/share/particle_filter/maps/basement_fixed.png
+/home/william/sim_ws/install/particle_filter/share/particle_filter/maps/Hudson_map.pgm
+/home/william/sim_ws/install/particle_filter/share/particle_filter/maps/Hudson_map.yaml
 /home/william/sim_ws/install/particle_filter/share/particle_filter/maps/levine.pgm
 /home/william/sim_ws/install/particle_filter/share/particle_filter/maps/basement_fixed.map.yaml
 /home/william/sim_ws/install/particle_filter/share/particle_filter/launch/localize_launch.py

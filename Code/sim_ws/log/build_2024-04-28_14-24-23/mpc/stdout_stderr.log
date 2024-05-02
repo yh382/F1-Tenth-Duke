@@ -1,0 +1,65 @@
+[100%] Built target mpc_node
+-- Install configuration: ""
+-- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+-- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+-- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+Listing '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+-- Installing: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node.py
+-- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/utils.py
+-- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1 (copy_backup).csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_100.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/refine2.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_200.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson4_interp.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_drive.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_long.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1_interp.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson5.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson7.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson2_interp.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/refine4.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim.csv
+-- Installing: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1 (copy).csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson3.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_short.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints1.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson2.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson4.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/refine5.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_10.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated_200.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson1.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/refine3.csv
+-- Installing: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_william_4396.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/reference_trajectory.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson6.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson123.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_800.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson5_interp.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_500.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_100.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_william_10horizon.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_mpc.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson8.csv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.sh
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/path.dsv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.bash
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.sh
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.zsh
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/local_setup.dsv
+-- Installing: /home/william/sim_ws/install/mpc/share/mpc/package.dsv
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+-- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/package.xml

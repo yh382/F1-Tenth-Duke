@@ -17,7 +17,7 @@ def generate_launch_description():
             name='mpc_node',
             parameters=[
                 {
-                'waypoints_path' : share_directory + "Hudson.csv"
+                'waypoints_path' : share_directory + "Hudson1.csv"
                 }
             ],
             output='screen', # this is to see print statements

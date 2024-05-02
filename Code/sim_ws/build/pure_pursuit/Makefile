@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/william/sim_ws/src/pure_pursuit
+CMAKE_SOURCE_DIR = /home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/william/sim_ws/build/pure_pursuit
@@ -67,50 +67,6 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -134,6 +90,50 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,32 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named waypoint_visualizer
-
-# Build rule for target.
-waypoint_visualizer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 waypoint_visualizer
-.PHONY : waypoint_visualizer
-
-# fast build rule for target.
-waypoint_visualizer/fast:
-	$(MAKE) -f CMakeFiles/waypoint_visualizer.dir/build.make CMakeFiles/waypoint_visualizer.dir/build
-.PHONY : waypoint_visualizer/fast
-
-#=============================================================================
-# Target rules for targets named pure_pursuit
-
-# Build rule for target.
-pure_pursuit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pure_pursuit
-.PHONY : pure_pursuit
-
-# fast build rule for target.
-pure_pursuit/fast:
-	$(MAKE) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/build
-.PHONY : pure_pursuit/fast
-
-#=============================================================================
 # Target rules for targets named pure_pursuit_uninstall
 
 # Build rule for target.
@@ -205,6 +179,19 @@ pure_pursuit_uninstall: cmake_check_build_system
 pure_pursuit_uninstall/fast:
 	$(MAKE) -f CMakeFiles/pure_pursuit_uninstall.dir/build.make CMakeFiles/pure_pursuit_uninstall.dir/build
 .PHONY : pure_pursuit_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named pure_pursuit_node
+
+# Build rule for target.
+pure_pursuit_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pure_pursuit_node
+.PHONY : pure_pursuit_node
+
+# fast build rule for target.
+pure_pursuit_node/fast:
+	$(MAKE) -f CMakeFiles/pure_pursuit_node.dir/build.make CMakeFiles/pure_pursuit_node.dir/build
+.PHONY : pure_pursuit_node/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -219,59 +206,192 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/pure_pursuit.o: src/pure_pursuit.cpp.o
+#=============================================================================
+# Target rules for targets named pose_fake_pub_node
 
-.PHONY : src/pure_pursuit.o
+# Build rule for target.
+pose_fake_pub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_fake_pub_node
+.PHONY : pose_fake_pub_node
+
+# fast build rule for target.
+pose_fake_pub_node/fast:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/build
+.PHONY : pose_fake_pub_node/fast
+
+#=============================================================================
+# Target rules for targets named waypoint_race_node
+
+# Build rule for target.
+waypoint_race_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 waypoint_race_node
+.PHONY : waypoint_race_node
+
+# fast build rule for target.
+waypoint_race_node/fast:
+	$(MAKE) -f CMakeFiles/waypoint_race_node.dir/build.make CMakeFiles/waypoint_race_node.dir/build
+.PHONY : waypoint_race_node/fast
+
+#=============================================================================
+# Target rules for targets named waypoint_node
+
+# Build rule for target.
+waypoint_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 waypoint_node
+.PHONY : waypoint_node
+
+# fast build rule for target.
+waypoint_node/fast:
+	$(MAKE) -f CMakeFiles/waypoint_node.dir/build.make CMakeFiles/waypoint_node.dir/build
+.PHONY : waypoint_node/fast
+
+#=============================================================================
+# Target rules for targets named waypoint_laneswitcher_node
+
+# Build rule for target.
+waypoint_laneswitcher_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 waypoint_laneswitcher_node
+.PHONY : waypoint_laneswitcher_node
+
+# fast build rule for target.
+waypoint_laneswitcher_node/fast:
+	$(MAKE) -f CMakeFiles/waypoint_laneswitcher_node.dir/build.make CMakeFiles/waypoint_laneswitcher_node.dir/build
+.PHONY : waypoint_laneswitcher_node/fast
+
+src/pose_fake_pub.o: src/pose_fake_pub.cpp.o
+
+.PHONY : src/pose_fake_pub.o
 
 # target to build an object file
-src/pure_pursuit.cpp.o:
-	$(MAKE) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o
-.PHONY : src/pure_pursuit.cpp.o
+src/pose_fake_pub.cpp.o:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.o
+.PHONY : src/pose_fake_pub.cpp.o
 
-src/pure_pursuit.i: src/pure_pursuit.cpp.i
+src/pose_fake_pub.i: src/pose_fake_pub.cpp.i
 
-.PHONY : src/pure_pursuit.i
+.PHONY : src/pose_fake_pub.i
 
 # target to preprocess a source file
-src/pure_pursuit.cpp.i:
-	$(MAKE) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.i
-.PHONY : src/pure_pursuit.cpp.i
+src/pose_fake_pub.cpp.i:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.i
+.PHONY : src/pose_fake_pub.cpp.i
 
-src/pure_pursuit.s: src/pure_pursuit.cpp.s
+src/pose_fake_pub.s: src/pose_fake_pub.cpp.s
 
-.PHONY : src/pure_pursuit.s
+.PHONY : src/pose_fake_pub.s
 
 # target to generate assembly for a file
-src/pure_pursuit.cpp.s:
-	$(MAKE) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.s
-.PHONY : src/pure_pursuit.cpp.s
+src/pose_fake_pub.cpp.s:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.s
+.PHONY : src/pose_fake_pub.cpp.s
 
-src/waypoint_visualizer.o: src/waypoint_visualizer.cpp.o
+src/pure_pursuit_node.o: src/pure_pursuit_node.cpp.o
 
-.PHONY : src/waypoint_visualizer.o
+.PHONY : src/pure_pursuit_node.o
 
 # target to build an object file
-src/waypoint_visualizer.cpp.o:
-	$(MAKE) -f CMakeFiles/waypoint_visualizer.dir/build.make CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o
-.PHONY : src/waypoint_visualizer.cpp.o
+src/pure_pursuit_node.cpp.o:
+	$(MAKE) -f CMakeFiles/pure_pursuit_node.dir/build.make CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o
+.PHONY : src/pure_pursuit_node.cpp.o
 
-src/waypoint_visualizer.i: src/waypoint_visualizer.cpp.i
+src/pure_pursuit_node.i: src/pure_pursuit_node.cpp.i
 
-.PHONY : src/waypoint_visualizer.i
+.PHONY : src/pure_pursuit_node.i
 
 # target to preprocess a source file
-src/waypoint_visualizer.cpp.i:
-	$(MAKE) -f CMakeFiles/waypoint_visualizer.dir/build.make CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.i
-.PHONY : src/waypoint_visualizer.cpp.i
+src/pure_pursuit_node.cpp.i:
+	$(MAKE) -f CMakeFiles/pure_pursuit_node.dir/build.make CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.i
+.PHONY : src/pure_pursuit_node.cpp.i
 
-src/waypoint_visualizer.s: src/waypoint_visualizer.cpp.s
+src/pure_pursuit_node.s: src/pure_pursuit_node.cpp.s
 
-.PHONY : src/waypoint_visualizer.s
+.PHONY : src/pure_pursuit_node.s
 
 # target to generate assembly for a file
-src/waypoint_visualizer.cpp.s:
-	$(MAKE) -f CMakeFiles/waypoint_visualizer.dir/build.make CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.s
-.PHONY : src/waypoint_visualizer.cpp.s
+src/pure_pursuit_node.cpp.s:
+	$(MAKE) -f CMakeFiles/pure_pursuit_node.dir/build.make CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s
+.PHONY : src/pure_pursuit_node.cpp.s
+
+src/waypoint_pub.o: src/waypoint_pub.cpp.o
+
+.PHONY : src/waypoint_pub.o
+
+# target to build an object file
+src/waypoint_pub.cpp.o:
+	$(MAKE) -f CMakeFiles/waypoint_node.dir/build.make CMakeFiles/waypoint_node.dir/src/waypoint_pub.cpp.o
+.PHONY : src/waypoint_pub.cpp.o
+
+src/waypoint_pub.i: src/waypoint_pub.cpp.i
+
+.PHONY : src/waypoint_pub.i
+
+# target to preprocess a source file
+src/waypoint_pub.cpp.i:
+	$(MAKE) -f CMakeFiles/waypoint_node.dir/build.make CMakeFiles/waypoint_node.dir/src/waypoint_pub.cpp.i
+.PHONY : src/waypoint_pub.cpp.i
+
+src/waypoint_pub.s: src/waypoint_pub.cpp.s
+
+.PHONY : src/waypoint_pub.s
+
+# target to generate assembly for a file
+src/waypoint_pub.cpp.s:
+	$(MAKE) -f CMakeFiles/waypoint_node.dir/build.make CMakeFiles/waypoint_node.dir/src/waypoint_pub.cpp.s
+.PHONY : src/waypoint_pub.cpp.s
+
+src/waypoint_pub_laneswitcher.o: src/waypoint_pub_laneswitcher.cpp.o
+
+.PHONY : src/waypoint_pub_laneswitcher.o
+
+# target to build an object file
+src/waypoint_pub_laneswitcher.cpp.o:
+	$(MAKE) -f CMakeFiles/waypoint_laneswitcher_node.dir/build.make CMakeFiles/waypoint_laneswitcher_node.dir/src/waypoint_pub_laneswitcher.cpp.o
+.PHONY : src/waypoint_pub_laneswitcher.cpp.o
+
+src/waypoint_pub_laneswitcher.i: src/waypoint_pub_laneswitcher.cpp.i
+
+.PHONY : src/waypoint_pub_laneswitcher.i
+
+# target to preprocess a source file
+src/waypoint_pub_laneswitcher.cpp.i:
+	$(MAKE) -f CMakeFiles/waypoint_laneswitcher_node.dir/build.make CMakeFiles/waypoint_laneswitcher_node.dir/src/waypoint_pub_laneswitcher.cpp.i
+.PHONY : src/waypoint_pub_laneswitcher.cpp.i
+
+src/waypoint_pub_laneswitcher.s: src/waypoint_pub_laneswitcher.cpp.s
+
+.PHONY : src/waypoint_pub_laneswitcher.s
+
+# target to generate assembly for a file
+src/waypoint_pub_laneswitcher.cpp.s:
+	$(MAKE) -f CMakeFiles/waypoint_laneswitcher_node.dir/build.make CMakeFiles/waypoint_laneswitcher_node.dir/src/waypoint_pub_laneswitcher.cpp.s
+.PHONY : src/waypoint_pub_laneswitcher.cpp.s
+
+src/waypoint_pub_race.o: src/waypoint_pub_race.cpp.o
+
+.PHONY : src/waypoint_pub_race.o
+
+# target to build an object file
+src/waypoint_pub_race.cpp.o:
+	$(MAKE) -f CMakeFiles/waypoint_race_node.dir/build.make CMakeFiles/waypoint_race_node.dir/src/waypoint_pub_race.cpp.o
+.PHONY : src/waypoint_pub_race.cpp.o
+
+src/waypoint_pub_race.i: src/waypoint_pub_race.cpp.i
+
+.PHONY : src/waypoint_pub_race.i
+
+# target to preprocess a source file
+src/waypoint_pub_race.cpp.i:
+	$(MAKE) -f CMakeFiles/waypoint_race_node.dir/build.make CMakeFiles/waypoint_race_node.dir/src/waypoint_pub_race.cpp.i
+.PHONY : src/waypoint_pub_race.cpp.i
+
+src/waypoint_pub_race.s: src/waypoint_pub_race.cpp.s
+
+.PHONY : src/waypoint_pub_race.s
+
+# target to generate assembly for a file
+src/waypoint_pub_race.cpp.s:
+	$(MAKE) -f CMakeFiles/waypoint_race_node.dir/build.make CMakeFiles/waypoint_race_node.dir/src/waypoint_pub_race.cpp.s
+.PHONY : src/waypoint_pub_race.cpp.s
 
 # Help Target
 help:
@@ -280,22 +400,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... waypoint_visualizer"
-	@echo "... pure_pursuit"
-	@echo "... install/local"
 	@echo "... pure_pursuit_uninstall"
+	@echo "... pure_pursuit_node"
 	@echo "... uninstall"
-	@echo "... src/pure_pursuit.o"
-	@echo "... src/pure_pursuit.i"
-	@echo "... src/pure_pursuit.s"
-	@echo "... src/waypoint_visualizer.o"
-	@echo "... src/waypoint_visualizer.i"
-	@echo "... src/waypoint_visualizer.s"
+	@echo "... test"
+	@echo "... install/local"
+	@echo "... pose_fake_pub_node"
+	@echo "... waypoint_race_node"
+	@echo "... waypoint_node"
+	@echo "... waypoint_laneswitcher_node"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install"
+	@echo "... src/pose_fake_pub.o"
+	@echo "... src/pose_fake_pub.i"
+	@echo "... src/pose_fake_pub.s"
+	@echo "... src/pure_pursuit_node.o"
+	@echo "... src/pure_pursuit_node.i"
+	@echo "... src/pure_pursuit_node.s"
+	@echo "... src/waypoint_pub.o"
+	@echo "... src/waypoint_pub.i"
+	@echo "... src/waypoint_pub.s"
+	@echo "... src/waypoint_pub_laneswitcher.o"
+	@echo "... src/waypoint_pub_laneswitcher.i"
+	@echo "... src/waypoint_pub_laneswitcher.s"
+	@echo "... src/waypoint_pub_race.o"
+	@echo "... src/waypoint_pub_race.i"
+	@echo "... src/waypoint_pub_race.s"
 .PHONY : help
 
 
