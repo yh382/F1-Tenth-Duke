@@ -23,4 +23,23 @@ Ensure that the system has support for HTTPS in apt：
 
    sudo mkdir -p /etc/apt/keyrings
    sudo apt-get install apt-transport-https
-   
+
+Include the server in the repository list：
+.. code-block:: bash
+
+   echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | \
+   sudo tee /etc/apt/sources.list.d/librealsense.list
+   sudo apt-get update
+
+Install the required libraries：  
+.. code-block:: bash
+
+   sudo apt-get install librealsense2-dkms
+   sudo apt-get install librealsense2-utils
+
+Realsense viewer
+------------
+Reconnect the Intel RealSense depth camera and execute the command to confirm that the installation was successful.
+.. code-block:: bash
+
+   realsense-viewer
