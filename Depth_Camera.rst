@@ -6,7 +6,10 @@ You can follow the instructions on the website `here <https://www.intelrealsense
 Connect Device
 --------------
 
-Firstly, you need to mount the camera on the bracket, then use the provided USB-C cable to connect the camera to the computer.
+Firstly, you need to mount the camera on the bracket, then use the provided USB-C cable to connect the camera to the computer.  
+
+        .. figure:: Images/Depth_Camera_1.jpg
+                :align: center
 
 Install necessary packages
 -----------------------------
@@ -48,3 +51,8 @@ Reconnect the Intel RealSense depth camera and execute the command to confirm th
 .. code-block:: bash
 
    realsense-viewer
+
+If everything is ok, you should be able to see interface as fllow.
+
+You could turn on the button of Stereo Module and RGB Camera to check out.
+
