@@ -6,7 +6,7 @@ You can follow the instructions on the website `here <https://www.intelrealsense
 Connect Device
 --------------
 
-Firstly, you need to mount the camera on the bracket, then use the provided USB-C cable to connect the camera to the computer.  
+Firstly, you need to mount the camera on the bracket, then use the provided USB-C cable to connect the camera to the computer.  It is very easy.
 
         .. figure:: Images/Depth_Camera_1.jpg
                 :align: center
