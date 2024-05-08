@@ -35,3 +35,25 @@ After your calculations, you should end up with an array of iTTCs that correspon
 
 Automatic Emergency Braking with iTTC
 -------------------------------------
+
+**Run the Safety Node:**
+
+Use the following command to run the safety node:
+
+.. code-block:: bash
+
+    ros2 run safety_node safety_node
+
+**Node Operation:**
+
+Upon launching the safety node, it performs the following actions:
+
+- **Sensor Data Subscription:** The node subscribes to the ``/scan`` and ``/odom`` topics from the LiDAR and vehicle odometry respectively, gathering data on the vehicle's current position, speed, and distance to obstacles.
+
+- **iTTC Calculation:** It calculates iTTC for each scan angle by analyzing the distances and vehicle speed from the LiDAR data. iTTC serves as an indicator of the time remaining before a collision might occur if the current speed and trajectory are maintained.
+
+- **Emergency Braking Decision:** If any iTTC value falls below a predefined safety threshold, the node deduces that a collision is imminent and issues an emergency braking command, setting the vehicle speed to zero to avert a potential collision.
+
+- **Emergency Braking Signal Publishing:** In addition to controlling the vehicle's speed, the node broadcasts a Boolean signal over the ``/emergency_braking`` topic to activate other safety measures or notify other parts of the system.
+
+This documentation ensures that the safety node functionality is well understood and that the node can be effectively integrated and tested within a simulated or real-world environment for enhanced vehicle safety.
