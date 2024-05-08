@@ -31,16 +31,5 @@ To enable autonomous control, all you have to do is launch the bring up launch d
 
 Developing your own Node for Autonomous Control
 --------------------------------------------------
-Since we're using a docker container, there are two options when it comes to where to put your new custom node. In the following section, we'll go over all the options in detail.
+In our node, it is designed to control a vehicle's movement by sending AckermannDriveStamped messages to the ``/drive`` topic, allowing the vehicle to advance a set distance. The node subscribes to the ``/odom`` topic to track the vehicle's position and to the ``/emergency_breaking`` topic for implementing safety features. An automatic emergency braking (AEB) system is integrated within this node. The AEB system activates to halt the vehicle immediately if an impending collision is detected, enhancing safety during operation.
 
-1. **Developing directly in the driver stack container.** This is the most straightforward approach since most of the dependencies are already set up for you. When you create a new package alongside ``f1tenth_system``, you'll need to define your dependencies in ``package.xml`` (and ``CMakeLists.txt`` if you're using C++). Then, use rosdep to install your dependencies with the following commands:
-
-.. code-block:: bash
-    
-    cd /f1tenth_ws
-    rosdep install -i --from-path src --rosdistro foxy -y
-
-This will install the dependencies you declared in ``package.xml`` from all the packages in the ``src`` directory in your workspace. Then, run ``colcon build`` to build your packages. After you've added your custom package, you can either create your own launch file to launch your nodes, or add to the bringup launch file we provided to launch your nodes.
-
-2. **Create your own docker container.** This is the more portable solution when you need to put your code on another car.
-If you're an advanced user of Docker, the recommended way to do this is to create your own Dockerfile with ROS 2 included (you can use ROS's official image). If you **need GPU access** in your custom Dockerfile, you can use the image we provided (``f1tenth/focal-l4t-foxy:f1tenth-stack``) as the parent image. The containers (your custom container and the driver stack container) will be put on the same network by default by docker, so communication through ROS 2 should work automatically.
