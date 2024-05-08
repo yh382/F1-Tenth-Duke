@@ -52,7 +52,14 @@ Reconnect the Intel RealSense depth camera and execute the command to confirm th
 
    realsense-viewer
 
-If everything is ok, you should be able to see interface as fllow.
-
 You could turn on the button of Stereo Module and RGB Camera to check out.
+If everything is ok, you should be able to see interface as follow.
+
+        .. figure:: Images/Depth_Camera_2.png
+                :align: center
+
+        .. figure:: Images/Depth_Camera_3.png
+                :align: center
+
+
 
