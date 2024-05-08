@@ -33,3 +33,7 @@ Autonomous Control Node
 --------------------------------------------------
 In our node, it is designed to control a vehicle's movement by sending AckermannDriveStamped messages to the ``/drive`` topic, allowing the vehicle to advance a set distance. The node subscribes to the ``/odom`` topic to track the vehicle's position and to the ``/emergency_breaking`` topic for implementing safety features. An automatic emergency braking (AEB) system is integrated within this node. The AEB system activates to halt the vehicle immediately if an impending collision is detected, enhancing safety during operation.
 
+.. image:: /Images/autonomous_drive.gif
+   :alt: Demonstration of Autonomous Driving
+   :align: center
+
