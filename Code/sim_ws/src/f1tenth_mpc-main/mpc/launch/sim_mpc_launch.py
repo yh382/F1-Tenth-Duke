@@ -23,7 +23,7 @@ def generate_launch_description():
             output='screen', # this is to see print statements
         ),
         Node(
-            package='pure_pursuit',
+            package='mpc',
             executable='pose_fake_pub_node',
             name='pose_fake_pub_node',
         )

@@ -1,0 +1,43 @@
+// generated from
+// rosidl_typesupport_c/resource/rosidl_typesupport_c__visibility_control.h.in
+// generated code does not contain a copyright notice
+
+#ifndef INTERFACES_HOT_WHEELS__MSG__ROSIDL_TYPESUPPORT_C__VISIBILITY_CONTROL_H_
+#define INTERFACES_HOT_WHEELS__MSG__ROSIDL_TYPESUPPORT_C__VISIBILITY_CONTROL_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+// This logic was borrowed (then namespaced) from the examples on the gcc wiki:
+//     https://gcc.gnu.org/wiki/Visibility
+
+#if defined _WIN32 || defined __CYGWIN__
+  #ifdef __GNUC__
+    #define ROSIDL_TYPESUPPORT_C_EXPORT_interfaces_hot_wheels __attribute__ ((dllexport))
+    #define ROSIDL_TYPESUPPORT_C_IMPORT_interfaces_hot_wheels __attribute__ ((dllimport))
+  #else
+    #define ROSIDL_TYPESUPPORT_C_EXPORT_interfaces_hot_wheels __declspec(dllexport)
+    #define ROSIDL_TYPESUPPORT_C_IMPORT_interfaces_hot_wheels __declspec(dllimport)
+  #endif
+  #ifdef ROSIDL_TYPESUPPORT_C_BUILDING_DLL_interfaces_hot_wheels
+    #define ROSIDL_TYPESUPPORT_C_PUBLIC_interfaces_hot_wheels ROSIDL_TYPESUPPORT_C_EXPORT_interfaces_hot_wheels
+  #else
+    #define ROSIDL_TYPESUPPORT_C_PUBLIC_interfaces_hot_wheels ROSIDL_TYPESUPPORT_C_IMPORT_interfaces_hot_wheels
+  #endif
+#else
+  #define ROSIDL_TYPESUPPORT_C_EXPORT_interfaces_hot_wheels __attribute__ ((visibility("default")))
+  #define ROSIDL_TYPESUPPORT_C_IMPORT_interfaces_hot_wheels
+  #if __GNUC__ >= 4
+    #define ROSIDL_TYPESUPPORT_C_PUBLIC_interfaces_hot_wheels __attribute__ ((visibility("default")))
+  #else
+    #define ROSIDL_TYPESUPPORT_C_PUBLIC_interfaces_hot_wheels
+  #endif
+#endif
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // INTERFACES_HOT_WHEELS__MSG__ROSIDL_TYPESUPPORT_C__VISIBILITY_CONTROL_H_
