@@ -57,3 +57,17 @@ Upon launching the safety node, it performs the following actions:
 - **Emergency Braking Signal Publishing:** In addition to controlling the vehicle's speed, the node broadcasts a Boolean signal over the ``/emergency_braking`` topic to activate other safety measures or notify other parts of the system.
 
 This documentation ensures that the safety node functionality is well understood and that the node can be effectively integrated and tested within a simulated or real-world environment for enhanced vehicle safety.
+
+Limitations with Joypad Control
+-------------------------------
+
+**Caution with Joypad Use:**
+
+It is important to note that the effectiveness of the ``safety_node`` is reduced when the vehicle is controlled via a joypad. The underlying mechanism of the node involves sending a message with ``speed=0`` to the ``drive`` topic to initiate braking. However, during joypad-controlled operation, collisions often occur due to delayed reactions and the inability to adjust the speed swiftly enough—even with braking initiated.
+
+When emergency braking is triggered, if the joypad control continues to send speed messages to the ``drive`` topic, it conflicts with the ``speed=0`` message sent by the ``safety_node``. This conflict results in the vehicle's speed stuttering rather than coming to a prompt halt. 
+
+**Primary Use Case: Autonomous Drive:**
+
+Therefore, the primary application of the ``safety_node`` is in autonomous driving scenarios. In these scenarios, there are no continuous speed messages from a joypad, which allows the emergency braking system to function effectively without interference. This setup ensures that the vehicle can achieve a timely and effective stop in response to imminent collisions detected by the system.
+
