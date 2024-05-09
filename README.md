@@ -3,6 +3,8 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 
 This repo is bulit for students who would use the car we currently using the F1 Tenth car which is belonged Mechanical Engineering and Material Science department in Duke University, NC, USA. However, it is more than welcome to all other users to use our code!
 
+This project is based on F1 Tenth project from X-LAB, University of Pennsylvania. Check https://f1tenth.org/index.html for more information. STRONGLY RECOMMENDED everyone to finish the "Learn" section on the website.
+
 ### **Please read this repo carefully, all details might help you to avoid error!**
 
 # **Things to Keep in Mind For All Future Users**
@@ -23,10 +25,14 @@ JetPack: 5.1.2
 LiDar: Hokuyo 10LX  
 Chassis: Traxxas Slash 4x4 Platinum Edition; 1/10 Scale Brushless Pro 4WD  
 Power board: V4  
-ESC：FSESC based on VESC6   
+ESC：FSESC based on VESC6
+
+## Achievements and Future Work
+Since we spent most of our time on hardware, we only selected some of tasks to do and we left all documentations we have. We try to make this project is fairly easy to take over. You don't have to follow the same track we did, and we suggest everyone follow the order we listed.  
 
 
 ## Instruction Navigation
+### Vehicle Setup
 - [Build](/Build.md)
 - [Configuring the NVIDIA Jetson NX](/configuring_nx.rst)
 - [Connecting the Pit/Host and the NVIDIA Jetson NX](/connecting_host.rst)
@@ -36,14 +42,17 @@ ESC：FSESC based on VESC6
 - [Manual Control](/drive_manual.rst)
 - [Calibrating the Odometry](/drive_calib_odom.rst)
 - [Autonomous Control](/drive_autonomous.rst)
-
-
-
-
-## Code Nabigation (Coming Soon)
-- [Drive A Distance]
-- [AEB]
-- [PID Wall Follower]
+### Tasks
+- [Drive A Distance](/drive_autonomous.rst)
+- [AEB]()
+- [PID wall follower]()
+- [SLAM]
+- [Particle Filter]()
+- [Pure Pursuit]()
+- [RRT]()
+- [Vision Detection]()
+- [Raceline Optimization]()
+- [MPC]()
 
 
 
