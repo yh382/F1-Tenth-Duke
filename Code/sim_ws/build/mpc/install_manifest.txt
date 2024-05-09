@@ -1,4 +1,5 @@
 /home/william/sim_ws/install/mpc/lib/mpc/mpc_node
+/home/william/sim_ws/install/mpc/lib/mpc/pose_fake_pub_node
 /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
 /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
 /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
@@ -39,6 +40,7 @@
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson6.csv
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_william_speed6.8.csv
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson123.csv
+/home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_william_speed11.9.csv
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/trajectory_data_800.csv
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/waypoints_sim_interpolated.csv
 /home/william/sim_ws/install/mpc/share/mpc//waypoints/Hudson5_interp.csv

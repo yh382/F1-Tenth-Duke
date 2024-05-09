@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pose_fake_pub_node
+
+# Build rule for target.
+pose_fake_pub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_fake_pub_node
+.PHONY : pose_fake_pub_node
+
+# fast build rule for target.
+pose_fake_pub_node/fast:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/build
+.PHONY : pose_fake_pub_node/fast
+
+#=============================================================================
 # Target rules for targets named mpc_node
 
 # Build rule for target.
@@ -233,6 +246,33 @@ src/mpc_node.cpp.s:
 	$(MAKE) -f CMakeFiles/mpc_node.dir/build.make CMakeFiles/mpc_node.dir/src/mpc_node.cpp.s
 .PHONY : src/mpc_node.cpp.s
 
+src/pose_fake_pub.o: src/pose_fake_pub.cpp.o
+
+.PHONY : src/pose_fake_pub.o
+
+# target to build an object file
+src/pose_fake_pub.cpp.o:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.o
+.PHONY : src/pose_fake_pub.cpp.o
+
+src/pose_fake_pub.i: src/pose_fake_pub.cpp.i
+
+.PHONY : src/pose_fake_pub.i
+
+# target to preprocess a source file
+src/pose_fake_pub.cpp.i:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.i
+.PHONY : src/pose_fake_pub.cpp.i
+
+src/pose_fake_pub.s: src/pose_fake_pub.cpp.s
+
+.PHONY : src/pose_fake_pub.s
+
+# target to generate assembly for a file
+src/pose_fake_pub.cpp.s:
+	$(MAKE) -f CMakeFiles/pose_fake_pub_node.dir/build.make CMakeFiles/pose_fake_pub_node.dir/src/pose_fake_pub.cpp.s
+.PHONY : src/pose_fake_pub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -245,6 +285,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... pose_fake_pub_node"
 	@echo "... install/strip"
 	@echo "... mpc_node"
 	@echo "... mpc_uninstall"
@@ -252,6 +293,9 @@ help:
 	@echo "... src/mpc_node.o"
 	@echo "... src/mpc_node.i"
 	@echo "... src/mpc_node.s"
+	@echo "... src/pose_fake_pub.o"
+	@echo "... src/pose_fake_pub.i"
+	@echo "... src/pose_fake_pub.s"
 .PHONY : help
 
 

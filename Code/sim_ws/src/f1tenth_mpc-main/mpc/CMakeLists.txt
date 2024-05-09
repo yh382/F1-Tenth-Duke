@@ -41,10 +41,14 @@ add_executable(mpc_node src/mpc_node.cpp)
 ament_target_dependencies(mpc_node 
   rclcpp geometry_msgs ackermann_msgs nav_msgs sensor_msgs std_msgs visualization_msgs tf2_ros
 )
-
+add_executable(pose_fake_pub_node src/pose_fake_pub.cpp)
+ament_target_dependencies(pose_fake_pub_node 
+  rclcpp geometry_msgs ackermann_msgs nav_msgs sensor_msgs std_msgs visualization_msgs tf2_ros
+  )
 # Install Cpp executables
 install(TARGETS
   mpc_node
+  pose_fake_pub_node
   DESTINATION lib/${PROJECT_NAME})
 
 # Install Python modules

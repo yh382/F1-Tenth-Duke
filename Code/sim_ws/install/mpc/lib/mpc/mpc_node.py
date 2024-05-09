@@ -111,7 +111,7 @@ class MPC(Node):
     # This function is for recording trajectory of the vehicle to evaluate the performance of the MPC controller
     # Comment it out if you don't need, and correct the main 
     def write_trajectory_to_csv(self):
-        filename = os.path.join(self.output_directory, 'trajectory_william_speed11.9.csv')
+        filename = os.path.join(self.output_directory, 'trajectory_william_speed4396.csv')
         with open(filename, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['x', 'y'])

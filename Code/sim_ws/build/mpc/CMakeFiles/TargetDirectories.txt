@@ -4,6 +4,7 @@
 /home/william/sim_ws/build/mpc/CMakeFiles/rebuild_cache.dir
 /home/william/sim_ws/build/mpc/CMakeFiles/edit_cache.dir
 /home/william/sim_ws/build/mpc/CMakeFiles/test.dir
+/home/william/sim_ws/build/mpc/CMakeFiles/pose_fake_pub_node.dir
 /home/william/sim_ws/build/mpc/CMakeFiles/install/strip.dir
 /home/william/sim_ws/build/mpc/CMakeFiles/mpc_node.dir
 /home/william/sim_ws/build/mpc/CMakeFiles/mpc_uninstall.dir

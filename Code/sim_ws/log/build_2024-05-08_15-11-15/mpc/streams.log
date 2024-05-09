@@ -1,0 +1,52 @@
+[0.450s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[0.709s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.709s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.709s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.717s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.936s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.074s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.074s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.107s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.179s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.217s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.317s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.388s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.726s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.786s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.788s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.789s] -- Configured cppcheck include dirs: /home/william/sim_ws/src/f1tenth_mpc-main/mpc/include
+[1.789s] -- Configured cppcheck exclude dirs and/or files: 
+[1.791s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.791s] -- Configured cpplint exclude dirs and/or files: 
+[1.791s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.792s] -- Added test 'lint_cmake' to check CMake code style
+[1.792s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.795s] -- Added test 'uncrustify' to check C / C++ code style
+[1.795s] -- Configured uncrustify additional arguments: 
+[1.795s] -- Added test 'xmllint' to check XML markup files
+[1.798s] -- Configuring done
+[1.811s] -- Generating done
+[1.813s] -- Build files have been written to: /home/william/sim_ws/build/mpc
+[1.858s] [100%] Built target mpc_node
+[1.868s] Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[1.892s] Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
+[1.899s] -- Install configuration: ""
+[1.900s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node
+[1.900s] -- Up-to-date: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[1.900s] -- Installing: /home/william/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.900s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[1.900s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[1.931s] Listing '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[1.935s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[1.935s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/utils.py
+[1.935s] -- Up-to-date: /home/william/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[1.935s] CMake Error at cmake_install.cmake:81 (file):
+[1.935s]   file INSTALL cannot find
+[1.935s]   "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/src/pose_faske_pub.cpp": No
+[1.935s]   such file or directory.
+[1.935s] 
+[1.935s] 
+[1.936s] Invoked command in '/home/william/sim_ws/build/mpc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
