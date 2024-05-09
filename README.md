@@ -30,7 +30,7 @@ ESC：FSESC based on VESC6
 ## Achievements and Future Work
 Since we spent most of our time on hardware, we only selected some of tasks to do and we left all documentations we have. We try to make this project is fairly easy to take over. You don't have to follow the same track we did, and we suggest everyone follow the order we listed. 
 
-Achieve:
+Achieved:
 - Drive a distance
 - AEB
 - Simulator Setup
