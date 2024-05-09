@@ -1,0 +1,28 @@
+[0.685s] Invoking command in '/home/f1tenth/f1tenth-ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/waypoint_python:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/gap_follow -- -j4 -l4
+[1.165s] [100%] Built target reactive_node
+[1.233s] Invoked command in '/home/f1tenth/f1tenth-ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/waypoint_python:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/gap_follow -- -j4 -l4
+[1.401s] Invoking command in '/home/f1tenth/f1tenth-ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/waypoint_python:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/gap_follow
+[1.459s] -- Install configuration: ""
+[1.460s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/gap_follow/reactive_node
+[1.462s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[1.464s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[1.465s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[1.465s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[1.628s] Listing '/home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[1.639s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[1.642s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[1.643s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[1.647s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[1.648s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[1.649s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/path.sh
+[1.652s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[1.653s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.bash
+[1.654s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.sh
+[1.655s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[1.656s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[1.657s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/package.dsv
+[1.658s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[1.659s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[1.660s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[1.662s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/package.xml
+[3.017s] Invoked command in '/home/f1tenth/f1tenth-ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/waypoint_python:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/gap_follow

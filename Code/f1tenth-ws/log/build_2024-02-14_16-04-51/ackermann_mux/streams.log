@@ -1,0 +1,38 @@
+[0.545s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[1.916s] [100%] Built target ackermann_mux
+[1.917s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[2.090s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux
+[2.155s] -- Install configuration: ""
+[2.156s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.156s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[2.157s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.157s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[2.157s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.159s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.160s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.160s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include
+[2.160s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[2.161s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.161s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.161s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.162s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.162s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.162s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.169s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.173s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.175s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.175s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.175s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.176s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.176s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.177s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.177s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.177s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.178s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.179s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.179s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.180s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.180s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.180s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.181s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.191s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux

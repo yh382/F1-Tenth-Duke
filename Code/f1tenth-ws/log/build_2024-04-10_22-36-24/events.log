@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000841] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001306] (-) JobUnselected: {'identifier': 'autonomous_drive'}
+[0.001930] (-) JobUnselected: {'identifier': 'example_py'}
+[0.002893] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.003602] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.003972] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.004115] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.004226] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.004332] (-) JobUnselected: {'identifier': 'mpc'}
+[0.004470] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.004576] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.004861] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.004963] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.005086] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.005222] (-) JobUnselected: {'identifier': 'vesc'}
+[0.005406] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005582] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.005679] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.005803] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.005936] (waypoint_python) JobQueued: {'identifier': 'waypoint_python', 'dependencies': OrderedDict()}
+[0.006072] (waypoint_python) JobStarted: {'identifier': 'waypoint_python'}
+[0.099299] (-) TimerEvent: {}
+[0.200792] (-) TimerEvent: {}
+[0.302453] (-) TimerEvent: {}
+[0.404940] (-) TimerEvent: {}
+[0.507284] (-) TimerEvent: {}
+[0.610022] (-) TimerEvent: {}
+[0.712170] (-) TimerEvent: {}
+[0.814463] (-) TimerEvent: {}
+[0.915278] (-) TimerEvent: {}
+[1.016065] (-) TimerEvent: {}
+[1.116955] (-) TimerEvent: {}
+[1.217808] (-) TimerEvent: {}
+[1.318755] (-) TimerEvent: {}
+[1.419521] (-) TimerEvent: {}
+[1.520344] (-) TimerEvent: {}
+[1.621322] (-) TimerEvent: {}
+[1.722507] (-) TimerEvent: {}
+[1.823484] (-) TimerEvent: {}
+[1.924506] (-) TimerEvent: {}
+[2.026549] (-) TimerEvent: {}
+[2.128759] (-) TimerEvent: {}
+[2.230919] (-) TimerEvent: {}
+[2.332674] (-) TimerEvent: {}
+[2.433485] (-) TimerEvent: {}
+[2.534308] (-) TimerEvent: {}
+[2.635135] (-) TimerEvent: {}
+[2.736007] (-) TimerEvent: {}
+[2.836809] (-) TimerEvent: {}
+[2.937593] (-) TimerEvent: {}
+[3.038407] (-) TimerEvent: {}
+[3.139829] (-) TimerEvent: {}
+[3.241400] (-) TimerEvent: {}
+[3.342938] (-) TimerEvent: {}
+[3.444281] (-) TimerEvent: {}
+[3.545657] (-) TimerEvent: {}
+[3.647106] (-) TimerEvent: {}
+[3.726984] (waypoint_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/waypoint_python', 'build', '--build-base', '/home/f1tenth/f1tenth-ws/build/waypoint_python/build', 'install', '--record', '/home/f1tenth/f1tenth-ws/build/waypoint_python/install.log', '--install-scripts', '$base/lib/waypoint_python', '--single-version-externally-managed'], 'cwd': '/home/f1tenth/f1tenth-ws/src/waypoint_python', 'env': {'Path': '/home/f1tenth/.local/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/f1tenth-ws/install/range_lib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_CLIENT': '10.197.200.28 52922 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/f1tenth/f1tenth-ws/install/vesc_driver/lib:/home/f1tenth/f1tenth-ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth-ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/f1tenth', 'OLDPWD': '/home/f1tenth', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/home/f1tenth/f1tenth-ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/f1tenth/.local/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/f1tenth-ws/install/range_lib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/f1tenth/f1tenth-ws/install/waypoint_python:/home/f1tenth/f1tenth-ws/install/waypoint_generator:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/safety_node:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/f1tenth/f1tenth-ws/build/waypoint_python', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.197.200.28 52922 10.197.0.48 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/f1tenth-ws/build/waypoint_python/prefix_override:/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/example_py/lib/python3.8/site-packages:/home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/f1tenth/f1tenth-ws/install/waypoint_generator:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/safety_node:/home/f1tenth/f1tenth-ws/install/range_lib:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/ackermann_mux'}, 'shell': False}
+[3.749830] (-) TimerEvent: {}
+[3.852457] (-) TimerEvent: {}
+[3.953443] (-) TimerEvent: {}
+[4.054262] (-) TimerEvent: {}
+[4.155060] (-) TimerEvent: {}
+[4.255812] (-) TimerEvent: {}
+[4.356694] (-) TimerEvent: {}
+[4.457528] (-) TimerEvent: {}
+[4.558375] (-) TimerEvent: {}
+[4.646538] (waypoint_python) StdoutLine: {'line': b'running egg_info\n'}
+[4.649806] (waypoint_python) StdoutLine: {'line': b'writing ../../build/waypoint_python/waypoint_python.egg-info/PKG-INFO\n'}
+[4.651024] (waypoint_python) StdoutLine: {'line': b'writing dependency_links to ../../build/waypoint_python/waypoint_python.egg-info/dependency_links.txt\n'}
+[4.651936] (waypoint_python) StdoutLine: {'line': b'writing entry points to ../../build/waypoint_python/waypoint_python.egg-info/entry_points.txt\n'}
+[4.652819] (waypoint_python) StdoutLine: {'line': b'writing requirements to ../../build/waypoint_python/waypoint_python.egg-info/requires.txt\n'}
+[4.653448] (waypoint_python) StdoutLine: {'line': b'writing top-level names to ../../build/waypoint_python/waypoint_python.egg-info/top_level.txt\n'}
+[4.658509] (-) TimerEvent: {}
+[4.759927] (-) TimerEvent: {}
+[4.781596] (waypoint_python) StdoutLine: {'line': b"reading manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'\n"}
+[4.785379] (waypoint_python) StdoutLine: {'line': b"writing manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'\n"}
+[4.786281] (waypoint_python) StdoutLine: {'line': b'running build\n'}
+[4.786708] (waypoint_python) StdoutLine: {'line': b'running build_py\n'}
+[4.787690] (waypoint_python) StdoutLine: {'line': b'running install\n'}
+[4.791289] (waypoint_python) StdoutLine: {'line': b'running install_lib\n'}
+[4.797130] (waypoint_python) StdoutLine: {'line': b'running install_data\n'}
+[4.798828] (waypoint_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.804863] (waypoint_python) StdoutLine: {'line': b"removing '/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.806511] (waypoint_python) StdoutLine: {'line': b'Copying ../../build/waypoint_python/waypoint_python.egg-info to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python-0.0.0-py3.8.egg-info\n'}
+[4.811103] (waypoint_python) StdoutLine: {'line': b'running install_scripts\n'}
+[4.860106] (-) TimerEvent: {}
+[4.872974] (waypoint_python) StdoutLine: {'line': b'Installing waypoints_logger script to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/waypoint_python\n'}
+[4.874520] (waypoint_python) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth/f1tenth-ws/build/waypoint_python/install.log'\n"}
+[4.951656] (waypoint_python) CommandEnded: {'returncode': 0}
+[4.962952] (-) TimerEvent: {}
+[5.065364] (-) TimerEvent: {}
+[5.169135] (-) TimerEvent: {}
+[5.271251] (-) TimerEvent: {}
+[5.372390] (-) TimerEvent: {}
+[5.405504] (waypoint_python) JobEnded: {'identifier': 'waypoint_python', 'rc': 0}
+[5.408989] (-) EventReactorShutdown: {}

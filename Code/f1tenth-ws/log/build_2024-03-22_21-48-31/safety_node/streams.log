@@ -1,0 +1,28 @@
+[1.722s] Invoking command in '/home/f1tenth/f1tenth-ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/safety_node -- -j4 -l4
+[2.035s] [100%] Built target safety_node
+[3.227s] Invoked command in '/home/f1tenth/f1tenth-ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/safety_node -- -j4 -l4
+[5.298s] Invoking command in '/home/f1tenth/f1tenth-ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/safety_node
+[5.354s] -- Install configuration: ""
+[5.354s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/lib/safety_node/safety_node
+[5.357s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[5.358s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[5.362s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[5.364s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[5.504s] Listing '/home/f1tenth/f1tenth-ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[5.518s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/lib/safety_node/safety_node.py
+[5.519s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[5.521s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[5.521s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[5.523s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[5.524s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/path.sh
+[5.525s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/environment/path.dsv
+[5.525s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/local_setup.bash
+[5.527s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/local_setup.sh
+[5.527s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/local_setup.zsh
+[5.528s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/local_setup.dsv
+[5.529s] -- Installing: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/package.dsv
+[5.531s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[5.532s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[5.533s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[5.534s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/safety_node/share/safety_node/package.xml
+[5.817s] Invoked command in '/home/f1tenth/f1tenth-ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/safety_node

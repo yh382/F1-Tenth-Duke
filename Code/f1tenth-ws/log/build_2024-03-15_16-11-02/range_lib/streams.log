@@ -1,0 +1,20 @@
+[1.683s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+[1.975s] [ 33%] Built target gflags_static
+[2.002s] [ 66%] Built target gflags_nothreads_static
+[2.172s] [100%] Built target range_lib
+[2.325s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+[3.639s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib
+[3.687s] -- Install configuration: "Release"
+[3.689s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/libgflags.a
+[3.690s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/libgflags_nothreads.a
+[3.690s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags.h
+[3.691s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_declare.h
+[3.692s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_completions.h
+[3.692s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_gflags.h
+[3.692s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+[3.693s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+[3.693s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+[3.693s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/bin/gflags_completions.sh
+[3.694s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/pkgconfig/gflags.pc
+[3.694s] -- Up-to-date: /home/f1tenth/.cmake/packages/gflags/82640e4dd78e15be868e31fea3737ff6
+[5.445s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib

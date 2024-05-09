@@ -1,0 +1,6 @@
+[2.283s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs -- -j4 -l4
+[3.831s] CMake Error: The current CMakeCache.txt directory /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs/CMakeCache.txt is different than the directory /home/f1tenth/f1tenthh_ws/build/vesc_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[3.833s] CMake Error: The source directory "/home/f1tenth/f1tenthh_ws/src/f1tenth_system/vesc/vesc_msgs" does not exist.
+[3.835s] Specify --help for usage, or press the help button on the CMake GUI.
+[3.837s] make: *** [Makefile:1468: cmake_check_build_system] Error 1
+[3.858s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs -- -j4 -l4

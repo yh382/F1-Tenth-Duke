@@ -1,0 +1,21 @@
+[5.728s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/key_teleop/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /mnt/nvme0n1/f1tenth_ws/build/key_teleop/build install --record /mnt/nvme0n1/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed
+[6.651s] running egg_info
+[6.652s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[6.653s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[6.654s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[6.656s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[6.656s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[6.790s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.794s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.796s] running build
+[6.798s] running build_py
+[6.800s] running install
+[6.801s] running install_lib
+[6.803s] running install_data
+[6.805s] running install_egg_info
+[6.813s] removing '/mnt/nvme0n1/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[6.814s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /mnt/nvme0n1/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[6.820s] running install_scripts
+[6.885s] Installing key_teleop script to /mnt/nvme0n1/f1tenth_ws/install/key_teleop/lib/key_teleop
+[6.886s] writing list of installed files to '/mnt/nvme0n1/f1tenth_ws/build/key_teleop/install.log'
+[8.606s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/key_teleop/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /mnt/nvme0n1/f1tenth_ws/build/key_teleop/build install --record /mnt/nvme0n1/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed

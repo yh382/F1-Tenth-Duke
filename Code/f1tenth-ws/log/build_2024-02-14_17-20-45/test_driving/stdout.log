@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/nvme0n1/f1tenth_ws/build/test_driving
+-- Install configuration: ""
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/ament_index/resource_index/package_run_dependencies/test_driving
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/ament_index/resource_index/parent_prefix_path/test_driving
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/environment/ament_prefix_path.sh
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/environment/ament_prefix_path.dsv
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/environment/path.sh
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/environment/path.dsv
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/local_setup.bash
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/local_setup.sh
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/local_setup.zsh
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/local_setup.dsv
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/package.dsv
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/ament_index/resource_index/packages/test_driving
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/cmake/test_drivingConfig.cmake
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/cmake/test_drivingConfig-version.cmake
+-- Installing: /mnt/nvme0n1/f1tenth_ws/install/test_driving/share/test_driving/package.xml

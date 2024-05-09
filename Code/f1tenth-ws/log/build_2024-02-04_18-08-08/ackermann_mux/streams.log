@@ -1,0 +1,22 @@
+[0.599s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux
+[1.754s] -- Configuring incomplete, errors occurred!
+[1.755s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".
+[1.755s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".
+[1.758s] CMake Error at CMakeLists.txt:13 (find_package):
+[1.758s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.761s]   has asked CMake to find a package configuration file provided by
+[1.762s]   "ament_cmake", but CMake did not find one.
+[1.763s] 
+[1.764s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.766s]   any of the following names:
+[1.767s] 
+[1.776s]     ament_cmakeConfig.cmake
+[1.783s]     ament_cmake-config.cmake
+[1.783s] 
+[1.784s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.784s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.785s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.786s]   has been installed.
+[1.786s] 
+[1.787s] 
+[1.797s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux

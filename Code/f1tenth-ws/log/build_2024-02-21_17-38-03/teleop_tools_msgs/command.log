@@ -1,0 +1,4 @@
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs -- -j4 -l4
+Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs -- -j4 -l4
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs
+Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs

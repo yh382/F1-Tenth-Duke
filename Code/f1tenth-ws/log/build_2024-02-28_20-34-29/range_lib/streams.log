@@ -1,0 +1,11 @@
+[2.182s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/range_lib': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/range_libc -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/range_lib
+[2.428s] CMake Error at /usr/share/cmake-3.16/Modules/FindCUDA.cmake:707 (message):
+[2.429s]   Specify CUDA_TOOLKIT_ROOT_DIR
+[2.437s] Call Stack (most recent call first):
+[2.447s]   CMakeLists.txt:61 (find_package)
+[2.448s] 
+[2.449s] 
+[2.451s] -- Configuring incomplete, errors occurred!
+[2.451s] See also "/mnt/nvme0n1/f1tenth_ws/build/range_lib/CMakeFiles/CMakeOutput.log".
+[2.451s] See also "/mnt/nvme0n1/f1tenth_ws/build/range_lib/CMakeFiles/CMakeError.log".
+[2.930s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/range_lib' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/range_libc -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/range_lib

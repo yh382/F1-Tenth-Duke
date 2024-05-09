@@ -1,0 +1,34 @@
+[0.934s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs
+[2.332s] -- The C compiler identification is GNU 9.4.0
+[2.333s] -- The CXX compiler identification is GNU 9.4.0
+[2.335s] -- Check for working C compiler: /usr/bin/cc
+[2.339s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.341s] -- Detecting C compiler ABI info
+[2.417s] -- Detecting C compiler ABI info - done
+[2.502s] -- Detecting C compile features
+[2.505s] -- Detecting C compile features - done
+[2.525s] -- Check for working CXX compiler: /usr/bin/c++
+[2.988s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.994s] -- Detecting CXX compiler ABI info
+[3.413s] -- Detecting CXX compiler ABI info - done
+[3.479s] -- Detecting CXX compile features
+[3.482s] -- Detecting CXX compile features - done
+[3.522s] CMake Error at CMakeLists.txt:4 (find_package):
+[3.523s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[3.523s]   project has asked CMake to find a package configuration file provided by
+[3.524s]   "ament_cmake_auto", but CMake did not find one.
+[3.524s] 
+[3.525s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[3.525s]   with any of the following names:
+[3.525s] 
+[3.526s]     ament_cmake_autoConfig.cmake
+[3.526s]     ament_cmake_auto-config.cmake
+[3.527s] 
+[3.528s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[3.528s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[3.528s]   files.  If "ament_cmake_auto" provides a separate development package or
+[3.529s]   SDK, be sure it has been installed.
+[3.529s] 
+[3.529s] 
+[3.530s] -- Configuring incomplete, errors occurred!
+[3.530s] See also "/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".

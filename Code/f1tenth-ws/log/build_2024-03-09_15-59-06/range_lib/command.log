@@ -1,0 +1,6 @@
+Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake /home/f1tenth/f1tenth-ws/range_libc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/range_lib
+Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake /home/f1tenth/f1tenth-ws/range_libc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/range_lib
+Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib
+Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib

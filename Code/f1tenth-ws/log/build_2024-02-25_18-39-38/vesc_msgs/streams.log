@@ -1,0 +1,175 @@
+[2.316s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs -- -j4 -l4
+[4.356s] [  1%] Built target vesc_msgs__cpp
+[4.359s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[4.360s] [ 23%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[4.364s] [ 34%] Built target vesc_msgs__rosidl_typesupport_cpp
+[4.366s] [ 45%] Built target vesc_msgs__rosidl_typesupport_c
+[4.368s] [ 56%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[4.373s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[4.378s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[4.381s] [ 78%] Built target vesc_msgs
+[4.383s] [ 80%] Built target vesc_msgs__py
+[4.389s] [ 89%] Built target vesc_msgs__python
+[4.393s] [ 92%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[4.394s] [ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[4.394s] [100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.425s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs -- -j4 -l4
+[5.200s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs
+[5.268s] -- Install configuration: ""
+[5.270s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[5.270s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.271s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.271s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h
+[5.272s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h
+[5.272s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.272s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h
+[5.272s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[5.273s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[5.273s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[5.273s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.c
+[5.274s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[5.274s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h
+[5.276s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[5.277s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[5.278s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h
+[5.285s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[5.286s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h
+[5.286s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[5.286s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[5.287s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h
+[5.287s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.c
+[5.288s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.289s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h
+[5.289s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h
+[5.290s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[5.290s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[5.291s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[5.292s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.293s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.294s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.294s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.294s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[5.296s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[5.296s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[5.296s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[5.297s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[5.298s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.299s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.300s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.301s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.312s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.312s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/dds_fastrtps
+[5.312s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.313s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[5.314s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.316s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.319s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.320s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.320s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.321s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.321s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[5.321s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[5.322s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[5.322s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[5.322s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.c
+[5.323s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[5.324s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[5.324s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[5.325s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[5.326s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[5.327s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.328s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.328s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.328s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp
+[5.329s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp
+[5.329s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.330s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[5.331s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+[5.332s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+[5.332s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[5.333s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+[5.340s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[5.341s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+[5.341s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[5.341s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[5.342s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[5.342s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[5.342s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[5.344s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[5.344s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[5.345s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[5.345s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[5.345s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp
+[5.346s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp
+[5.346s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs
+[5.346s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg
+[5.347s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[5.349s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[5.349s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.349s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[5.350s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[5.351s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.352s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[5.352s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[5.352s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[5.354s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[5.364s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[5.364s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[5.365s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[5.365s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py
+[5.561s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg
+[5.564s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py
+[5.564s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py
+[5.566s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_s.c
+[5.567s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py
+[5.569s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[5.571s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_s.c
+[5.571s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[5.572s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[5.574s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[5.575s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.577s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.579s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.580s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__python.so
+[5.582s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[5.584s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[5.585s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[5.586s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[5.588s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[5.590s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[5.591s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[5.592s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[5.594s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[5.594s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[5.595s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[5.596s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[5.597s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[5.598s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[5.600s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[5.600s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[5.601s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[5.602s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[5.606s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+[5.607s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[5.608s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake
+[5.609s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.611s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.613s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.614s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[5.616s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.618s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake
+[5.620s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.620s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.621s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[5.622s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.624s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[5.625s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.626s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.627s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.628s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.629s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.631s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.633s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[5.634s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[5.635s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+[6.814s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_msgs

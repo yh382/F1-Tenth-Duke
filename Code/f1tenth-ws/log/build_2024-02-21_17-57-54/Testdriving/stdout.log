@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/Testdriving/testdriving.egg-info
+writing ../../build/Testdriving/testdriving.egg-info/PKG-INFO
+writing dependency_links to ../../build/Testdriving/testdriving.egg-info/dependency_links.txt
+writing entry points to ../../build/Testdriving/testdriving.egg-info/entry_points.txt
+writing requirements to ../../build/Testdriving/testdriving.egg-info/requires.txt
+writing top-level names to ../../build/Testdriving/testdriving.egg-info/top_level.txt
+writing manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+reading manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+writing manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build
+creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib
+creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving
+copying testdriving/__init__.py -> /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving
+running install
+running install_lib
+creating /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving
+copying /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving/__init__.py -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving
+byte-compiling /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/testdriving -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/ament_index/resource_index/packages
+creating /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/testdriving
+copying package.xml -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/testdriving
+running install_egg_info
+Copying ../../build/Testdriving/testdriving.egg-info to /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/mnt/nvme0n1/f1tenth_ws/build/Testdriving/install.log'

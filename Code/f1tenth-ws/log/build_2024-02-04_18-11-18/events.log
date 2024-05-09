@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.002458] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.003089] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.003203] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.003504] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.003626] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.003715] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs')])}
+[0.003864] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs')])}
+[0.003976] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs')])}
+[0.004067] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/mnt/nvme0n1/f1tenth_ws/install/key_teleop'), ('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs'), ('joy_teleop', '/mnt/nvme0n1/f1tenth_ws/install/joy_teleop')])}
+[0.004164] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs'), ('vesc_ackermann', '/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/mnt/nvme0n1/f1tenth_ws/install/vesc_driver')])}
+[0.004256] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict([('ackermann_mux', '/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux'), ('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs'), ('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs'), ('joy_teleop', '/mnt/nvme0n1/f1tenth_ws/install/joy_teleop'), ('vesc_ackermann', '/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/mnt/nvme0n1/f1tenth_ws/install/vesc_driver'), ('vesc', '/mnt/nvme0n1/f1tenth_ws/install/vesc')])}
+[0.004482] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.099190] (-) TimerEvent: {}
+[0.200624] (-) TimerEvent: {}
+[0.228062] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.301187] (-) TimerEvent: {}
+[0.403529] (-) TimerEvent: {}
+[0.433068] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[0.504076] (-) TimerEvent: {}
+[0.606430] (-) TimerEvent: {}
+[0.634154] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.707187] (-) TimerEvent: {}
+[0.809106] (-) TimerEvent: {}
+[0.913077] (-) TimerEvent: {}
+[0.931196] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.933083] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs', '-DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs'], 'cwd': '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '3920'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '7:69763'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3955,unix/ubuntu:/tmp/.ICE-unix/3955'), ('INVOCATION_ID', '3d6031efbe914b1c9a54d4ce40ec9e50'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b06922fc_288a_4f5b_bf25_e87e680d5ec9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.961743] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.966419] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.971047] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs', '--', '-j4', '-l4'], 'cwd': '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '3920'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '7:69763'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3955,unix/ubuntu:/tmp/.ICE-unix/3955'), ('INVOCATION_ID', '3d6031efbe914b1c9a54d4ce40ec9e50'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b06922fc_288a_4f5b_bf25_e87e680d5ec9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/nvme0n1/f1tenth_ws/build/teleop_tools_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.993700] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'cmake'}
+[0.997183] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux', '-DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux'], 'cwd': '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '3920'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '7:69763'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3955,unix/ubuntu:/tmp/.ICE-unix/3955'), ('INVOCATION_ID', '3d6031efbe914b1c9a54d4ce40ec9e50'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b06922fc_288a_4f5b_bf25_e87e680d5ec9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[1.013655] (-) TimerEvent: {}
+[1.115800] (-) TimerEvent: {}
+[1.218171] (-) TimerEvent: {}
+[1.319190] (-) TimerEvent: {}
+[1.420133] (-) TimerEvent: {}
+[1.521221] (-) TimerEvent: {}
+[1.622159] (-) TimerEvent: {}
+[1.723036] (-) TimerEvent: {}
+[1.824070] (-) TimerEvent: {}
+[1.924997] (-) TimerEvent: {}
+[2.025913] (-) TimerEvent: {}
+[2.126886] (-) TimerEvent: {}
+[2.228068] (-) TimerEvent: {}
+[2.332783] (-) TimerEvent: {}
+[2.335063] (vesc_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.336940] (vesc_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.338291] (vesc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.340015] (vesc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.344265] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.345628] (teleop_tools_msgs) StdoutLine: {'line': b'[  3%] Built target teleop_tools_msgs__cpp\n'}
+[2.346860] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[2.349826] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.351289] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.351722] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[2.352041] (teleop_tools_msgs) StdoutLine: {'line': b'[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[2.352717] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[2.353073] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.354085] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs\n'}
+[2.354483] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] Built target teleop_tools_msgs__py\n'}
+[2.354846] (teleop_tools_msgs) StdoutLine: {'line': b'[ 80%] Built target teleop_tools_msgs__python\n'}
+[2.355162] (teleop_tools_msgs) StdoutLine: {'line': b'[ 87%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.355481] (teleop_tools_msgs) StdoutLine: {'line': b'[ 93%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.355771] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext\n'}
+[2.356118] (ackermann_mux) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[2.360870] (ackermann_mux) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.366037] (ackermann_mux) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.366893] (ackermann_mux) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.379227] (ackermann_mux) StderrLine: {'line': b'\n'}
+[2.386622] (ackermann_mux) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.388949] (ackermann_mux) StderrLine: {'line': b'  any of the following names:\n'}
+[2.390564] (ackermann_mux) StderrLine: {'line': b'\n'}
+[2.398522] (ackermann_mux) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.400458] (ackermann_mux) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.401299] (ackermann_mux) StderrLine: {'line': b'\n'}
+[2.401847] (ackermann_mux) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.402262] (ackermann_mux) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.402635] (ackermann_mux) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.402984] (ackermann_mux) StderrLine: {'line': b'  has been installed.\n'}
+[2.403404] (ackermann_mux) StderrLine: {'line': b'\n'}
+[2.403883] (ackermann_mux) StderrLine: {'line': b'\n'}
+[2.404359] (ackermann_mux) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.405204] (ackermann_mux) StdoutLine: {'line': b'See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".\n'}
+[2.406716] (ackermann_mux) StdoutLine: {'line': b'See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".\n'}
+[2.407932] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[2.412670] (ackermann_mux) CommandEnded: {'returncode': 1}
+[2.421132] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.433346] (-) TimerEvent: {}
+[2.505990] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.509166] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.528788] (vesc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.533627] (-) TimerEvent: {}
+[2.634829] (-) TimerEvent: {}
+[2.736324] (-) TimerEvent: {}
+[2.837980] (-) TimerEvent: {}
+[2.938781] (-) TimerEvent: {}
+[2.992195] (vesc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.997981] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.041491] (-) TimerEvent: {}
+[3.049833] (ackermann_mux) JobEnded: {'identifier': 'ackermann_mux', 'rc': 1}
+[3.054570] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[3.141746] (-) TimerEvent: {}
+[3.242723] (-) TimerEvent: {}
+[3.343653] (-) TimerEvent: {}
+[3.416665] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.443927] (-) TimerEvent: {}
+[3.483308] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.486296] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.526125] (vesc_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[3.526946] (vesc_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.527335] (vesc_msgs) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.527666] (vesc_msgs) StderrLine: {'line': b'  "ament_cmake_auto", but CMake did not find one.\n'}
+[3.528468] (vesc_msgs) StderrLine: {'line': b'\n'}
+[3.528869] (vesc_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake_auto"\n'}
+[3.529213] (vesc_msgs) StderrLine: {'line': b'  with any of the following names:\n'}
+[3.529525] (vesc_msgs) StderrLine: {'line': b'\n'}
+[3.529851] (vesc_msgs) StderrLine: {'line': b'    ament_cmake_autoConfig.cmake\n'}
+[3.530140] (vesc_msgs) StderrLine: {'line': b'    ament_cmake_auto-config.cmake\n'}
+[3.530423] (vesc_msgs) StderrLine: {'line': b'\n'}
+[3.531815] (vesc_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or\n'}
+[3.532179] (vesc_msgs) StderrLine: {'line': b'  set "ament_cmake_auto_DIR" to a directory containing one of the above\n'}
+[3.532724] (vesc_msgs) StderrLine: {'line': b'  files.  If "ament_cmake_auto" provides a separate development package or\n'}
+[3.533049] (vesc_msgs) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[3.533378] (vesc_msgs) StderrLine: {'line': b'\n'}
+[3.533722] (vesc_msgs) StderrLine: {'line': b'\n'}
+[3.534014] (vesc_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.534325] (vesc_msgs) StdoutLine: {'line': b'See also "/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[3.544101] (-) TimerEvent: {}
+[3.545490] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 'SIGINT'}
+[3.644443] (-) TimerEvent: {}
+[3.745252] (-) TimerEvent: {}
+[3.846162] (-) TimerEvent: {}
+[3.947161] (-) TimerEvent: {}
+[3.998515] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 'SIGINT'}
+[4.014205] (mouse_teleop) JobSkipped: {'identifier': 'mouse_teleop'}
+[4.014508] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[4.014642] (vesc_ackermann) JobSkipped: {'identifier': 'vesc_ackermann'}
+[4.015271] (vesc_driver) JobSkipped: {'identifier': 'vesc_driver'}
+[4.015393] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[4.015509] (vesc) JobSkipped: {'identifier': 'vesc'}
+[4.015594] (f1tenth_stack) JobSkipped: {'identifier': 'f1tenth_stack'}
+[4.015677] (-) EventReactorShutdown: {}

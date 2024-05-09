@@ -1,0 +1,21 @@
+[9.058s] Invoking command in '/home/f1tenth/f1tenth-ws/src/f1tenth_mpc-main/mpc': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/mpc/prefix_override:/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpc build --build-base /home/f1tenth/f1tenth-ws/build/mpc/build install --record /home/f1tenth/f1tenth-ws/build/mpc/install.log --install-scripts $base/lib/mpc --single-version-externally-managed
+[10.105s] running egg_info
+[10.108s] writing ../../../build/mpc/mpc.egg-info/PKG-INFO
+[10.109s] writing dependency_links to ../../../build/mpc/mpc.egg-info/dependency_links.txt
+[10.110s] writing entry points to ../../../build/mpc/mpc.egg-info/entry_points.txt
+[10.111s] writing requirements to ../../../build/mpc/mpc.egg-info/requires.txt
+[10.111s] writing top-level names to ../../../build/mpc/mpc.egg-info/top_level.txt
+[10.265s] reading manifest file '../../../build/mpc/mpc.egg-info/SOURCES.txt'
+[10.268s] writing manifest file '../../../build/mpc/mpc.egg-info/SOURCES.txt'
+[10.269s] running build
+[10.270s] running build_py
+[10.273s] running install
+[10.278s] running install_lib
+[10.285s] running install_data
+[10.288s] running install_egg_info
+[10.295s] removing '/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc-0.0.0-py3.8.egg-info' (and everything under it)
+[10.299s] Copying ../../../build/mpc/mpc.egg-info to /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc-0.0.0-py3.8.egg-info
+[10.305s] running install_scripts
+[10.379s] Installing mpc_node script to /home/f1tenth/f1tenth-ws/install/mpc/lib/mpc
+[10.382s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/mpc/install.log'
+[11.775s] Invoked command in '/home/f1tenth/f1tenth-ws/src/f1tenth_mpc-main/mpc' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/mpc/prefix_override:/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpc build --build-base /home/f1tenth/f1tenth-ws/build/mpc/build install --record /home/f1tenth/f1tenth-ws/build/mpc/install.log --install-scripts $base/lib/mpc --single-version-externally-managed

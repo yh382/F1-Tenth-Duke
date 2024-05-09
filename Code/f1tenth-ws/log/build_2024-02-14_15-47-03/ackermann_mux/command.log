@@ -1,0 +1,4 @@
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux
+Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux

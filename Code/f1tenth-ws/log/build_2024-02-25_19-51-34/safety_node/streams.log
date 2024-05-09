@@ -1,0 +1,89 @@
+[1.744s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/safety_node
+[2.308s] -- The C compiler identification is GNU 9.4.0
+[2.797s] -- The CXX compiler identification is GNU 9.4.0
+[2.846s] -- Check for working C compiler: /usr/bin/cc
+[3.241s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.252s] -- Detecting C compiler ABI info
+[3.642s] -- Detecting C compiler ABI info - done
+[3.720s] -- Detecting C compile features
+[3.722s] -- Detecting C compile features - done
+[3.738s] -- Check for working CXX compiler: /usr/bin/c++
+[4.195s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.200s] -- Detecting CXX compiler ABI info
+[4.720s] -- Detecting CXX compiler ABI info - done
+[4.826s] -- Detecting CXX compile features
+[4.836s] -- Detecting CXX compile features - done
+[4.880s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.433s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.011s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.652s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.801s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.714s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.735s] -- Looking for pthread.h
+[9.158s] -- Looking for pthread.h - found
+[9.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.588s] -- Looking for pthread_create in pthreads
+[9.944s] -- Looking for pthread_create in pthreads - not found
+[9.946s] -- Looking for pthread_create in pthread
+[10.329s] -- Looking for pthread_create in pthread - found
+[10.334s] -- Found Threads: TRUE  
+[11.223s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[11.247s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[11.755s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[11.930s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.364s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.879s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.891s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.892s] -- Configured cppcheck include dirs: /mnt/nvme0n1/f1tenth_ws/src/safety_node/include
+[12.892s] -- Configured cppcheck exclude dirs and/or files: 
+[12.899s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.901s] -- Configured cpplint exclude dirs and/or files: 
+[12.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.910s] -- Added test 'lint_cmake' to check CMake code style
+[12.915s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[12.922s] -- Added test 'uncrustify' to check C / C++ code style
+[12.923s] -- Configured uncrustify additional arguments: 
+[12.926s] -- Added test 'xmllint' to check XML markup files
+[12.950s] -- Configuring done
+[13.005s] -- Generating done
+[13.013s] -- Build files have been written to: /mnt/nvme0n1/f1tenth_ws/build/safety_node
+[13.047s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/safety_node
+[13.059s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/safety_node -- -j4 -l4
+[13.262s] [35m[1mScanning dependencies of target safety_node[0m
+[13.640s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o[0m
+[40.598s] [100%] [32m[1mLinking CXX executable safety_node[0m
+[41.931s] [100%] Built target safety_node
+[41.983s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/safety_node -- -j4 -l4
+[42.114s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/safety_node
+[42.160s] -- Install configuration: ""
+[42.161s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/safety_node/safety_node
+[42.184s] -- Set runtime path of "/mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/safety_node/safety_node" to ""
+[42.185s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[42.186s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[42.187s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[42.187s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[42.326s] Listing '/mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[42.327s] Compiling '/mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py'...
+[42.340s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/lib/safety_node/safety_node.py
+[42.343s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[42.345s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[42.346s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[42.348s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[42.349s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/path.sh
+[42.351s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/environment/path.dsv
+[42.352s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/local_setup.bash
+[42.354s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/local_setup.sh
+[42.355s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/local_setup.zsh
+[42.357s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/local_setup.dsv
+[42.358s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/package.dsv
+[42.359s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[42.360s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[42.361s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[42.361s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/safety_node/share/safety_node/package.xml
+[42.373s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/safety_node

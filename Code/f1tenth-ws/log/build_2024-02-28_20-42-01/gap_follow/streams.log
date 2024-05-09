@@ -1,0 +1,27 @@
+[1.767s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/gap_follow -- -j4 -l4
+[2.038s] [100%] Built target reactive_node
+[3.911s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/gap_follow -- -j4 -l4
+[6.162s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/gap_follow
+[6.216s] -- Install configuration: ""
+[6.217s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node
+[6.219s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[6.220s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[6.221s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[6.221s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[6.397s] Listing '/mnt/nvme0n1/f1tenth_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[6.411s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[6.411s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[6.412s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[6.413s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[6.414s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[6.414s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[6.414s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[6.415s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[6.415s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[6.415s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[6.416s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[6.416s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+[6.420s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[6.421s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[6.421s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[6.422s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml

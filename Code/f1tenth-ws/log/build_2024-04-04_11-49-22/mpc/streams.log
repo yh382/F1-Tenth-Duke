@@ -1,0 +1,40 @@
+[8.676s] Invoking command in '/home/f1tenth/f1tenth-ws/src/f1tenth_mpc-main/mpc': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/mpc/prefix_override:/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpc build --build-base /home/f1tenth/f1tenth-ws/build/mpc/build install --record /home/f1tenth/f1tenth-ws/build/mpc/install.log --install-scripts $base/lib/mpc --single-version-externally-managed
+[9.761s] running egg_info
+[9.763s] creating ../../../build/mpc/mpc.egg-info
+[9.769s] writing ../../../build/mpc/mpc.egg-info/PKG-INFO
+[9.770s] writing dependency_links to ../../../build/mpc/mpc.egg-info/dependency_links.txt
+[9.771s] writing entry points to ../../../build/mpc/mpc.egg-info/entry_points.txt
+[9.772s] writing requirements to ../../../build/mpc/mpc.egg-info/requires.txt
+[9.772s] writing top-level names to ../../../build/mpc/mpc.egg-info/top_level.txt
+[9.772s] writing manifest file '../../../build/mpc/mpc.egg-info/SOURCES.txt'
+[9.939s] reading manifest file '../../../build/mpc/mpc.egg-info/SOURCES.txt'
+[9.942s] writing manifest file '../../../build/mpc/mpc.egg-info/SOURCES.txt'
+[9.943s] running build
+[9.943s] running build_py
+[9.944s] creating /home/f1tenth/f1tenth-ws/build/mpc/build
+[9.945s] creating /home/f1tenth/f1tenth-ws/build/mpc/build/lib
+[9.946s] creating /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc
+[9.946s] copying mpc/utils.py -> /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc
+[9.947s] copying mpc/mpc_node.py -> /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc
+[9.950s] copying mpc/__init__.py -> /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc
+[9.951s] running install
+[9.954s] running install_lib
+[9.958s] creating /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc
+[9.958s] copying /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc/utils.py -> /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc
+[9.959s] copying /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc/mpc_node.py -> /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc
+[9.960s] copying /home/f1tenth/f1tenth-ws/build/mpc/build/lib/mpc/__init__.py -> /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc
+[9.964s] byte-compiling /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc/utils.py to utils.cpython-38.pyc
+[9.970s] byte-compiling /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc/mpc_node.py to mpc_node.cpython-38.pyc
+[9.997s] byte-compiling /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py to __init__.cpython-38.pyc
+[9.998s] running install_data
+[9.998s] creating /home/f1tenth/f1tenth-ws/install/mpc/share/ament_index
+[9.998s] creating /home/f1tenth/f1tenth-ws/install/mpc/share/ament_index/resource_index
+[9.999s] creating /home/f1tenth/f1tenth-ws/install/mpc/share/ament_index/resource_index/packages
+[9.999s] copying resource/mpc -> /home/f1tenth/f1tenth-ws/install/mpc/share/ament_index/resource_index/packages
+[9.999s] copying package.xml -> /home/f1tenth/f1tenth-ws/install/mpc/share/mpc
+[10.000s] running install_egg_info
+[10.004s] Copying ../../../build/mpc/mpc.egg-info to /home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages/mpc-0.0.0-py3.8.egg-info
+[10.013s] running install_scripts
+[10.084s] Installing mpc_node script to /home/f1tenth/f1tenth-ws/install/mpc/lib/mpc
+[10.086s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/mpc/install.log'
+[11.503s] Invoked command in '/home/f1tenth/f1tenth-ws/src/f1tenth_mpc-main/mpc' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/mpc/prefix_override:/home/f1tenth/f1tenth-ws/install/mpc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpc build --build-base /home/f1tenth/f1tenth-ws/build/mpc/build install --record /home/f1tenth/f1tenth-ws/build/mpc/install.log --install-scripts $base/lib/mpc --single-version-externally-managed
