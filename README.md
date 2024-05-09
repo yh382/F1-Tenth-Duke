@@ -46,7 +46,7 @@ Since we spent most of our time on hardware, we only selected some of tasks to d
 - [Drive A Distance](/drive_autonomous.rst)
 - [AEB]()
 - [PID wall follower]()
-- [SLAM]
+- [SLAM]()
 - [Particle Filter]()
 - [Pure Pursuit]()
 - [RRT]()
