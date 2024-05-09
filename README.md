@@ -28,7 +28,24 @@ Power board: V4
 ESC：FSESC based on VESC6
 
 ## Achievements and Future Work
-Since we spent most of our time on hardware, we only selected some of tasks to do and we left all documentations we have. We try to make this project is fairly easy to take over. You don't have to follow the same track we did, and we suggest everyone follow the order we listed.  
+Since we spent most of our time on hardware, we only selected some of tasks to do and we left all documentations we have. We try to make this project is fairly easy to take over. You don't have to follow the same track we did, and we suggest everyone follow the order we listed. 
+
+Achieve:
+- Drive a distance
+- AEB
+- Simulator Setup
+- SLAM
+- Particle Filter
+- MPC in simulation
+- Vision detection
+
+Future Work:
+- PID wall follower
+- Pure pursuit
+- RRT
+- Camera communication in ROS
+- Raceline optimization
+- MPC in real track
 
 
 ## Instruction Navigation
@@ -45,14 +62,19 @@ Since we spent most of our time on hardware, we only selected some of tasks to d
 ### Tasks
 - [Drive A Distance](/drive_autonomous.rst)
 - [AEB]()
+- [Simulator](/simulator_install.md)
 - [PID wall follower]()
-- [SLAM]()
-- [Particle Filter]()
+- [SLAM](/SLAM.md)
+- [Particle Filter](/particle_filter.md)
 - [Pure Pursuit]()
 - [RRT]()
 - [Vision Detection]()
 - [Raceline Optimization]()
 - [MPC]()
+### Helper pages
+- [Git Command](/git_command.md)
+- [SSD Setup](/SSD.md)
+- [Software Recommendation](/software_setup.md)
 
 
 
