@@ -70,6 +70,7 @@ When emergency braking is triggered, if the joypad control continues to send spe
 **Primary Use Case: Autonomous Drive:**
 
 Therefore, the primary application of the ``safety_node`` is in autonomous driving scenarios. In these scenarios, there are no continuous speed messages from a joypad, which allows the emergency braking system to function effectively without interference. This setup ensures that the vehicle can achieve a timely and effective stop in response to imminent collisions detected by the system. You can find more information in autonomous drive.
+
 .. image:: /Images/autonomous_drive.gif
    :alt: Demonstration of Autonomous Driving
    :align: center
