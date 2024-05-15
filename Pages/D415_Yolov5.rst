@@ -2,13 +2,13 @@
 Object Detection System
 ==========================
 
-Introduction
+Overview
 ============
 This repository hosts a Yolo V5-based object detection system designed to identify obstacles and measure their distance from the origin in a vehicle's coordinate system, as well as the width of the obstacles. Utilizing the Intel RealSense D415 depth camera, the system provides accurate depth information that is integrated with the object detection capabilities of Yolo V5 to enhance autonomous navigation tasks and environmental awareness for robotic applications.
 
 This system integrates advanced image processing techniques with deep learning and 3D sensing technologies. By leveraging the high-resolution color and depth data from the RealSense D415 camera, the system can accurately detect objects and calculate their distances and dimensions, which are crucial for tasks such as autonomous driving and robotic navigation.
 
-Overview
+Introduction
 =============
 The main components of this function include:
 
@@ -28,6 +28,14 @@ To use the object detection system, navigate to the system's directory and run t
     python3 obstacle_detect.py
 
 This will start the system, and you will begin to see the video feed with detected objects. Each object will be highlighted, and its distance from the camera along with its dimensions will be displayed.
+
+Below is a GIF demonstrating the expected output when the system is running correctly:
+
+.. image:: ../Images/yolo.gif
+   :alt: Object Detection Demo
+   :align: center
+
+Note that the system returns the width and depth of detected obstacles as well as their positions in camera coordinates. However, it is important to understand that the reported dimensions and distances pertain to the bounding boxes around the detected objects, not the actual physical dimensions or the exact center depth of the objects. 
 
 Conclusion
 ==========
