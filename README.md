@@ -70,7 +70,7 @@ Future Work:
 - [Particle Filter](/Pages/particle_filter.md)
 - [Pure Pursuit]()
 - [RRT]()
-- [Vision Detection](/Pages/Depth_Camera.rst)
+- [Vision Detection](/Pages/D415_Yolov5.rst)
 - [Raceline Optimization](/Pages/Raceline_opt.md)
 - [MPC]()
 ### Helper pages
