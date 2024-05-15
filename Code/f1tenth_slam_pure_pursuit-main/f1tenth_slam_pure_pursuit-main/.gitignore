@@ -1,8 +1,0 @@
-**/__pycache__/
-**/build/
-**/install/
-**/log/
-.vscode/
-.idea
-.DS_STORE
-*/.DS_STORE
