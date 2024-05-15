@@ -1,49 +1,56 @@
-# Build
-## Start of Journy
-  We extend our gratitude to Professor Michael Zavlanos for generously providing us with the F1 Tenth prototype he crafted in 2020. This valuable machine came into our possession through the kind support of Professor Georgie Delagrammatikas in September 2023, marking the inception of Duke University's inaugural F1 Tenth team.
-![The First Look of Our Car](/Images/First%20Look.jpg)
-Since we didn't build the car from sketch, if you start from sketch, please read [F1 Tenth Official website](https://f1tenth.org/build.html#), or for other problems.
+# Race Line Optimization
+# Generate Waypoints / Raceline (Offline with LINUX Computer)
 
-## Initial Condition
-  However, the car was not in a runnable condition.   
-1. Powerboard only has 1 output  
-2. TX2 USB ports didn't work  
-3. TX2 was using Ubuntu 18.04 and using unknown password  
-4. Missing connector and adaptor for battery  
-  We write this down to remind future project users if anything anything doesn't work exclude these, it could be something we didn't find out.
+These need to be generated on a Linux computer. You can just use VSCode and remote SSH from your Macbook.
 
-## Final Structure
-  All material except something like bolts should be able to find in our [BOM](/BOM/Master%20BOM.xlsx) 
+## Option 1: Generate using Raceline Optimization
 
-  Due to the limit budget, we only replace those neccesary components with certain reason  
-1. Changed TX2 to NX. Since Ubuntu 18.04 is too old for our laptop and we didn't find the way to fix the usb port, we decided to buy a Jetson Xavier NX8. And we add a 256GB SSD and wifi module by ourselves.  
-2. Rebuild 3 powerboards  
-3. Add adaptor and connector for battery.  
+This is the preferred pipeline. SSH into the remote computer from VSCode. Then,
 
-### VESC
-  The ESC is FSESC which is using VESC 6 architecture instead of VESC. This is what we got from Prof. Zavlanos and it works.
-  ![FSESC](/Images/ESC.JPG)
+```sh
+cd ~/Desktop/Raceline-Optimization
+conda activate raceline
+```
 
+Run map_converter.ipynb, changing MAP_NAME to the name of the map. Make sure to look at the waypoints and see if everything is generated properly.
 
-### Power Board
-  The powerboard has 5V and 12V outputs. We currently using V4. And the V9 files is [here](/powerboardV9) which is provided by Prof. Rahul Mangharam. The functionality doesn't change a lot.
-  ![Power Board](/Images/Power%20board.JPG)
+Run sanity_check.ipynb to make sure everything works.
 
+Change inside main_globaltrac_f110.py the MAP_NAME to the name of the map.
 
-### Jetson NX
-  And here is the connection on Jetson NX. There are a few spaces for further upgrades. CAUTION: The NX is really powerful which is a mini Linux computer. However it is expensive and perishable. The one we are using has been sent back to factory once since the USB all died. Besides, since the battery output power is smaller than charger, the NX can't run with full power, which is a potential upgrade option.
-  ![NX Connections](/Images/NX%20Connections.JPG)  
+```sh
+python3 main_globaltraj_f110.py
+```
+The waypoints should be generated in 'outputs/<MAP_NAME>'.
 
-  Since the developer kit is not longer available, we installed the Wifi modual and SSD manually. Addition SSD provide extra space for us to save our files, due to NX only has 16GB. For Wifi modual, it just need to ealiy screw in. For SSD, after insertion, check it [page](/Pages/SSD.md) if you need to replace a new SSD.
-  ![Bottom of Jetson NX](/Images/SSD%20Wifi.jpg)      
+### Common Errors
+You might get a “At least two spline normals are crossed”. In this case, just reduce the number of points generated in map_converter.ipynb (e.g., take half of the points).
 
+Sometimes, the solver can seem to get stuck for a long time. In this case, go into f110.ini, and play around with increasing the numbers below:
 
-### Overview
-  Here is a picture to show the main component of our car.
-  ![Overview](/Images/Overview.jpg)
+```sh
+stepsize_opts={"stepsize_prep": 0.5,
+               "stepsize_reg": 1.5,
+               "stepsize_interp_after_opt": 1}
+```
+To get a good safety margin, add the following:
+```sh
+optim_opts_mintime={"width_opt": 0.6}
+```
+However, if you make this value too large, the solver will run into an error.
 
+You can run visualize_raceline.ipynb to sanity check the raceline generated.
 
-## Final Look
-And here is the final looks.
-![Final Look 1](/Images/Final%20Look%201.JPG)
-![Final Look 2](/Images/Final%20look%202.JPG)
+Once you are happy with the raceline generated, right-click the file and download it locally, onto the F1TENTH pure_pursuit/racelines.
+
+You should also push on the RRT node in case you want to do dynamic obstacle avoidance:
+```sh
+cp ~/Desktop/Raceline-Optimization/outputs/<MAP_NAME>/<OUTPUT_NAME>.csv ~/Desktop/f1tenth_ws/src/rrt/racelines
+```
+Push those changes. Now, from your Macbook, pull these changes, so then in the next step you scp the nodes onto the F1TENTH.
+
+## Option 2: Generate using the Waypoint Logger in Simulation
+Use the waypoint generator node to manually create waypoints:
+```sh
+ros2 run waypoint_generator waypoint_subscriber
+```
