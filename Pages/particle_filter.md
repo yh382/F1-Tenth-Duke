@@ -4,7 +4,10 @@
 We need to the particle filter to do Localization. It is a recursive Bayes Filter. Similar to Kalman Filter but relaxes some of the assumptions.
 
 This is a video of implementing particle filter for real F1TENTH car in Hudson Hall.
-![particle filter](/Images/particle_filter.mp4)
+<video width="600" controls>
+  <source src="/Images/particle_filter.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Resources
 
