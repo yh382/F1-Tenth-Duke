@@ -8,7 +8,7 @@ Connect Device
 
 Firstly, you need to mount the camera on the bracket, then use the provided USB-C cable to connect the camera to the computer.  It is very easy.
 
-        .. figure:: Images/Depth_Camera_1.jpg
+        .. figure:: /Images/Depth_Camera_1.jpg
                 :align: center
 
 Install necessary packages
@@ -55,10 +55,10 @@ Reconnect the Intel RealSense depth camera and execute the command to confirm th
 You could turn on the button of Stereo Module and RGB Camera to check out.
 If everything is ok, you should be able to see 2D and 3D view as follow.
 
-        .. figure:: Images/Depth_Camera_2.png
+        .. figure:: /Images/Depth_Camera_2.png
                 :align: center
 
-        .. figure:: Images/Depth_Camera_3.png
+        .. figure:: /Images/Depth_Camera_3.png
                 :align: center
 
 
