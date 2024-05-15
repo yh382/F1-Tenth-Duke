@@ -14,7 +14,7 @@ Description: This guide provides step-by-step instructions on how to set up the 
 <a name="native-ubuntu"></a>
 ## 2. Installation on Ubuntu 20.04 
 ### Dependencies Installation:
-1. Install ROS 2 Foxy by following the instructions [here](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/).
+1. Install ROS 2 Foxy by following the instructions [here](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html).
 2. Set up the F1TENTH Gym:
    ```bash
    git clone https://github.com/f1tenth/f1tenth_gym

@@ -49,6 +49,7 @@ Future Work:
 
 
 ## Instruction Navigation
+### All packages in "Code" can be used directly. If you are using the car we were using, please check what do you have firstly. We left the instruction for all users, so they can rebuild the system from 0. We did both simulation and physical testing. Please use the correct launch file, or make one by yourselves! STRONGLY RECOMMENDED USING DOCKER FOR YOUR SIMULATION PART!!!
 ### Vehicle Setup
 - [Build](/Pages/Build.md)
 - [Configuring the NVIDIA Jetson NX](/Pages/configuring_nx.rst)
