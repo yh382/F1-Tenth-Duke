@@ -60,6 +60,7 @@ Future Work:
 - [Manual Control](/Pages/drive_manual.rst)
 - [Calibrating the Odometry](/Pages/drive_calib_odom.rst)
 - [Autonomous Control](/Pages/drive_autonomous.rst)
+- [Camera Setup](/Pages/Depth_Camera.rst)
 ### Tasks
 - [Drive A Distance](/Pages/drive_autonomous.rst)
 - [AEB](/Pages/Automatic_Emergency_Braking.rst、)
@@ -69,7 +70,7 @@ Future Work:
 - [Particle Filter](/Pages/particle_filter.md)
 - [Pure Pursuit]()
 - [RRT]()
-- [Vision Detection]()
+- [Vision Detection](/Pages/Depth_Camera.rst)
 - [Raceline Optimization](/Pages/Raceline_opt.md)
 - [MPC]()
 ### Helper pages
