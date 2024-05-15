@@ -78,5 +78,5 @@ Future developments for this system include:
 References
 ==========
 - https://github.com/ultralytics/yolov5
-- https://github.com/Thinkin99/yolov5_d435i_detection
+- https://github.com/mushroom-x/yolov5-simple
 
