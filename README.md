@@ -62,7 +62,7 @@ Future Work:
 - [Autonomous Control](/Pages/drive_autonomous.rst)
 ### Tasks
 - [Drive A Distance](/Pages/drive_autonomous.rst)
-- [AEB]()
+- [AEB](/Pages/Automatic_Emergency_Braking.rst、)
 - [Simulator](/Pages/simulator_install.md)
 - [PID wall follower]()
 - [SLAM](/Pages/SLAM.md)
@@ -70,7 +70,7 @@ Future Work:
 - [Pure Pursuit]()
 - [RRT]()
 - [Vision Detection]()
-- [Raceline Optimization]()
+- [Raceline Optimization](/Pages/Raceline_opt.md)
 - [MPC]()
 ### Helper pages
 - [Git Command](/Pages/git_command.md)
