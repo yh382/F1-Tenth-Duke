@@ -37,6 +37,36 @@ Below is a GIF demonstrating the expected output when the system is running corr
 
 Note that the system returns the width and depth of detected obstacles as well as their positions in camera coordinates. However, it is important to understand that the reported dimensions and distances pertain to the bounding boxes around the detected objects, not the actual physical dimensions or the exact center depth of the objects. 
 
+Model Configuration
+===================
+You can customize the detection system by modifying parameters in the configuration file. Here is an example of the `config` file used for model setup:
+
+.. code-block:: yaml
+
+    ####################################
+    # YoloV5 model weight path
+    weight: "weights/best.pt"
+    # Input image size
+    input_size: 640
+    # Number of classes
+    class_num:  1
+    # Class names
+    class_name: [ 'Box_Obstacle' ]
+    # Threshold settings
+    threshold:
+      iou: 0.45
+      confidence: 0.1
+    # Computing device
+    # - cpu
+    # - 0 <- Use GPU
+    device: '0'
+
+The configuration file allows you to customize parameters such as the path to the model weights, input image size, number of classes, class names, thresholds for intersection-over-union and confidence, and the computing device. Adjust these settings to optimize performance for your specific requirements.
+
+Additionally, you have the option to train your own model using the YoloV5 framework. It is important to use the version compatible with our setup (YoloV5-5.0 is OK). For training, approximately 150 images with bounding boxes were used. Ensure that your dataset includes images from various angles and under diverse lighting conditions to enhance model robustness and detection accuracy. This varied dataset helps the model generalize better to new environments.
+
+
+
 Future Work
 ===========
 Future developments for this system include:
