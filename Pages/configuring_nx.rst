@@ -38,7 +38,7 @@ We suggest not select Host Machine if you don't need NVIDIA components in your h
 As for Target Operating System, you can choose a version that is compatible with your system.
 
 
-        .. figure:: Images/Screenshot-6.jpg
+        .. figure:: /Images/Screenshot-6.jpg
                 :align: center
 
 
@@ -49,7 +49,7 @@ As for Target Operating System, you can choose a version that is compatible with
 
 If your board have enough storage space, we recommand you to install CUDA kit as well, which is necessary for SLAM. If you are using Jetson NX like us, please only install Jetson OS in this step. We will tell you how to expand your memory via SSD in following step. *Please Don't Try Even You Have 16GB*
 
-        .. figure:: Images/Screenshot-4.jpg
+        .. figure:: /Images/Screenshot-4.jpg
                 :align: center
 
             
@@ -57,12 +57,12 @@ If your board have enough storage space, we recommand you to install CUDA kit as
 
 Enter your passward to start installation.
 
-        .. figure:: Images/Screenshot-1.jpg
+        .. figure:: /Images/Screenshot-1.jpg
                 :align: center
 
 You'll be prompted to configure the new system for your reComputer. Select 'Manual setup' for forced recovery mode and opt for the default 'Pre-Config'.
 
-        .. figure:: Images/Screenshot-5.jpg
+        .. figure:: /Images/Screenshot-5.jpg
                 :align: center
 
 After that, setup the new USERNAME and PASSWAORD for your system.
@@ -72,7 +72,7 @@ After that, setup the new USERNAME and PASSWAORD for your system.
 
 It needs a while to install all target components. Please wait patiently until it's all set up.
 
-        .. figure:: Images/Screenshot-9.jpg
+        .. figure:: /Images/Screenshot-9.jpg
                 :align: center
 
 
@@ -111,7 +111,7 @@ Finally, we will add a service which will run a script when the system starts up
 
 Reboot Jetson NX and view Disks. If Flilesystem Root is mounted to an SSD, the system has been boosted on the SSD.
 
-        .. figure:: Images/successSSD.png
+        .. figure:: /Images/successSSD.png
                 :align: center
 
 Now you have enough storage space to download any NVIDIA component as long as you need.
@@ -125,7 +125,7 @@ For Duke students, if your are using a new Jetson NX or something, create a tick
 
 1. Before you setup the static IP for your wifi, turn off wifi radio and forget the wifi you want to connect. Follow the command to configure the WiFi. To determine your WiFi adapter's interface name, run nmcli d. Use the displayed name (e.g., wlan0) in upcoming commands, replacing it with your actual interface name as required.
 
-        .. figure:: Images/Wifi_1.png
+        .. figure:: /Images/Wifi_1.png
                 :align: center
 
                 WiFi network selection. 
@@ -133,7 +133,7 @@ For Duke students, if your are using a new Jetson NX or something, create a tick
 2. To activate your WiFi radio, enter ``nmcli r wifi on`` in the terminal. There won’t be any output if the command is successful.
 3. To see the list of WiFi SSIDs that your WiFi adapter can see, type ``nmcli d wifi list`` and hit ENTER. After the list is printed, hit ``q`` to continue.
 
-        .. figure:: Images/Wifi_2.png
+        .. figure:: /Images/Wifi_2.png
                 :align: center
 
                 WiFi SSID selection. 
@@ -143,28 +143,28 @@ For Duke students, if your are using a new Jetson NX or something, create a tick
 6. WiFi defaults to DHCP, giving a new IP on each reboot. We'll set a static IP instead, needing your network's subnet, IP range, and gateway.
 7. To get the currently-assigned IP address use the command ``ip addr show dev wlan0``. You can see the highligt in the following picture. Save this IP address and set it as your static IP later.
 
-        .. figure:: Images/Wifi_3.png
+        .. figure:: /Images/Wifi_3.png
                 :align: center
 
                 Currently-connected WiFi IP address. 
 
 8. To set a static IP address, you will also need to know the name of the connection. This is usually the same as the SSID of the WiFi network but not always. To see the list of current connections, use the command ``nmcli c show``.
 
-        .. figure:: Images/nx-wifi-step-8.png
+        .. figure:: /Images/nx-wifi-step-8.png
                 :align: center
 
                 List of connections. (F1Tenth, 2021)
 
 9. To configure a static IP, use sudo nmcli c mod [CONNECTION_NAME] ipv4.address [NEW_ADDRESS]/[CIDR]. Replace [CONNECTION_NAME] with your WiFi name from step 8, [NEW_ADDRESS] with your current IP, and [CIDR] with your subnet's CIDR (often 24 for family wifi). The new IP address has to be the same IP as above.
 
-        .. figure:: Images/nx-wifi-step-9.png
+        .. figure:: /Images/nx-wifi-step-9.png
                 :align: center
 
                 Setting static IP address. (F1Tenth, 2021)
 
 10. Set the connection's gateway with sudo nmcli c mod [CONNECTION_NAME] ipv4.gateway [GATEWAY_IP], replacing [CONNECTION_NAME] with your WiFi name from step 8 and [GATEWAY_IP] with your router's IP.
 
-        .. figure:: Images/nx-wifi-step-10.png
+        .. figure:: /Images/nx-wifi-step-10.png
                 :align: center
 
                 Setting IP gateway. (F1Tenth, 2021)
@@ -172,7 +172,7 @@ For Duke students, if your are using a new Jetson NX or something, create a tick
 11. Set DNS servers via `sudo nmcli c mod [CONNECTION_NAME] ipv4.dns "[DNS_SERVERS]"`, substituting `[CONNECTION_NAME]` with your WiFi name from step 8 and `[DNS_SERVERS]` with DNS IPs, e.g., 8.8.8.8, 8.8.4.4.
 12. Disable DHCP for a static IP with `sudo nmcli c mod [CONNECTION_NAME] ipv4.method manual`, replacing `[CONNECTION_NAME]` with your WiFi connection name from step 8. 
 
-        .. figure:: Images/nx-wifi-step-12.png
+        .. figure:: /Images/nx-wifi-step-12.png
                 :align: center
 
                 Setting connection to always use static IP. (F1Tenth, 2021)
