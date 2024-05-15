@@ -75,3 +75,8 @@ Future developments for this system include:
 
 - Developing predictive models to forecast the movements of dynamic obstacles based on observed behaviors over short time intervals.
 
+References
+==========
+- https://github.com/ultralytics/yolov5
+- https://github.com/Thinkin99/yolov5_d435i_detection
+
