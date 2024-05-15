@@ -1,0 +1,107 @@
+[3.853s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/william/F1-Tenth-Duke/Code/sim_ws']
+[3.853s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/william/F1-Tenth-Duke/Code/sim_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f216f8165b0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f216f8165b0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f216f3d1130>)
+[3.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.960s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/william/F1-Tenth-Duke/Code/sim_ws'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'ignore'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'ignore_ament_install'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['colcon_pkg']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'colcon_pkg'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['colcon_meta']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'colcon_meta'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['ros']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'ros'
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['cmake', 'python']
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'cmake'
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'python'
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extensions ['python_setup_py']
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws) by extension 'python_setup_py'
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/build) by extension 'ignore'
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/build) ignored
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/install) by extension 'ignore'
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/install) ignored
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/log) by extension 'ignore'
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/log) ignored
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'ignore'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'ignore_ament_install'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['colcon_pkg']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'colcon_pkg'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['colcon_meta']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'colcon_meta'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['ros']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'ros'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['cmake', 'python']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'cmake'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'python'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extensions ['python_setup_py']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src) by extension 'python_setup_py'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'ignore'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'colcon_meta'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['ros']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'ros'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['cmake', 'python']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'cmake'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'python'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extensions ['python_setup_py']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_gym_ros) by extension 'python_setup_py'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['ignore', 'ignore_ament_install']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'ignore'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'ignore_ament_install'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['colcon_pkg']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'colcon_pkg'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['colcon_meta']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'colcon_meta'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['ros']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'ros'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['cmake', 'python']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'cmake'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'python'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extensions ['python_setup_py']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main) by extension 'python_setup_py'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extensions ['ignore', 'ignore_ament_install']
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extension 'ignore'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extension 'ignore_ament_install'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extensions ['colcon_pkg']
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extension 'colcon_pkg'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extensions ['colcon_meta']
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extension 'colcon_meta'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extensions ['ros']
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc) by extension 'ros'
+[3.980s] DEBUG:colcon.colcon_core.package_identification:Package '/home/william/F1-Tenth-Duke/Code/sim_ws/src/f1tenth_mpc-main/mpc' with type 'ros.ament_cmake' and name 'mpc'
+[3.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extensions ['ignore', 'ignore_ament_install']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extension 'ignore'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extension 'ignore_ament_install'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extensions ['colcon_pkg']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extension 'colcon_pkg'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extensions ['colcon_meta']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extension 'colcon_meta'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extensions ['ros']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter) by extension 'ros'
+[3.982s] DEBUG:colcon.colcon_core.package_identification:Package '/home/william/F1-Tenth-Duke/Code/sim_ws/src/particle_filter' with type 'ros.ament_python' and name 'particle_filter'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extensions ['ignore', 'ignore_ament_install']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'ignore'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'ignore_ament_install'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extensions ['colcon_pkg']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'colcon_pkg'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extensions ['colcon_meta']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'colcon_meta'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extensions ['ros']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'ros'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extensions ['cmake', 'python']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'cmake'
+[3.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc) by extension 'python'
+[3.988s] DEBUG:colcon.colcon_core.package_identification:Package '/home/william/F1-Tenth-Duke/Code/sim_ws/src/range_libc' with type 'cmake' and name 'range_lib'
+[3.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
