@@ -59,7 +59,7 @@ class SafetyNode(Node):
         drive_msg.drive.speed = 1.0
         for idx, r in enumerate(scan_msg.ranges):
             if (np.isnan(r)or r > scan_msg.range_max or r < scan_msg.range_min): continue
-            threshold = 0.8 # To be tuned in real vehicle / william changes it from 1 to 5 at Feb 29
+            threshold = 0.8 # To be tuned in real vehicle, unit in seconds
             if r / max(self.speed * np.cos(scan_msg.angle_min + idx * scan_msg.angle_increment), 0.001) < threshold: 
                 self.emergency_breaking = True
                 break

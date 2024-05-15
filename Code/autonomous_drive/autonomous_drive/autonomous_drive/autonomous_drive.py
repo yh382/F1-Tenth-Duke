@@ -33,7 +33,8 @@ class AutonomousDrivePublisher(Node):
         # Update current pose on x
         self.x = odom_msg.pose.pose.position.x
         
-    def AEB_callback(self, msg):
+    # Listen to Safety node 
+    def AEB_callback(self, msg): 
         # Update current pose on x
         self.AEB_active = msg.data
         if self.AEB_active:
@@ -46,7 +47,7 @@ class AutonomousDrivePublisher(Node):
         if self.AEB_active:
         	return
         
-        if self.x < 100.0:
+        if self.x < 100.0: # number can be replaced as any distance you want
         	msg.drive.speed = 1.0  # Setting speed
         else:
         	msg.drive.speed = 0.0  # Setting speed

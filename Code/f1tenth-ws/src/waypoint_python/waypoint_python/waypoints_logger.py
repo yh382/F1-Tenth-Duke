@@ -21,6 +21,7 @@ class WaypointsLogger(Node):
         self.write_interval = 0.05
         self.get_logger().info('Saving waypoints...')
 
+    # Save a CSV file for a track, include x, y, v, theta
     def save_waypoint(self, msg):
         current_time = time()
         
