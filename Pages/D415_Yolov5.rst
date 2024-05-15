@@ -8,7 +8,7 @@ This repository hosts a Yolo V5-based object detection system designed to identi
 
 This system integrates advanced image processing techniques with deep learning and 3D sensing technologies. By leveraging the high-resolution color and depth data from the RealSense D415 camera, the system can accurately detect objects and calculate their distances and dimensions, which are crucial for tasks such as autonomous driving and robotic navigation.
 
-Code Overview
+Overview
 =============
 The main components of the code include:
 
