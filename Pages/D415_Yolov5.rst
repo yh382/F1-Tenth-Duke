@@ -10,7 +10,7 @@ This system integrates advanced image processing techniques with deep learning a
 
 Overview
 =============
-The main components of the code include:
+The main components of this function include:
 
 - **RealSense Camera Integration**: Manages the data streams from the Intel RealSense D415 camera, capturing both RGB and depth information.
 - **Yolo V5 Object Detection**: Utilizes a pre-trained Yolo V5 model to detect objects in the RGB images. The model is configured through a YAML file, which defines parameters such as input size, model weights, and detection thresholds.
