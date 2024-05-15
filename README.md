@@ -50,31 +50,31 @@ Future Work:
 
 ## Instruction Navigation
 ### Vehicle Setup
-- [Build](/Build.md)
-- [Configuring the NVIDIA Jetson NX](/configuring_nx.rst)
-- [Connecting the Pit/Host and the NVIDIA Jetson NX](/connecting_host.rst)
-- [Hokuyo 10LX Ethernet Connection Setup](/Hokuyo_Lidar/Hokuyo.md)
-- [Configuring the VESC](/VESC/VESC_config.md)
-- [Driver Stack Setup](/driver_stack_setup.rst)
-- [Manual Control](/drive_manual.rst)
-- [Calibrating the Odometry](/drive_calib_odom.rst)
-- [Autonomous Control](/drive_autonomous.rst)
+- [Build](/Pages/Build.md)
+- [Configuring the NVIDIA Jetson NX](/Pages/configuring_nx.rst)
+- [Connecting the Pit/Host and the NVIDIA Jetson NX](/Pages/connecting_host.rst)
+- [Hokuyo 10LX Ethernet Connection Setup](/Pages/Hokuyo_Lidar/Hokuyo.md)
+- [Configuring the VESC](/Pages/VESC/VESC_config.md)
+- [Driver Stack Setup](/Pages/driver_stack_setup.rst)
+- [Manual Control](/Pages/drive_manual.rst)
+- [Calibrating the Odometry](/Pages/drive_calib_odom.rst)
+- [Autonomous Control](/Pages/drive_autonomous.rst)
 ### Tasks
-- [Drive A Distance](/drive_autonomous.rst)
+- [Drive A Distance](/Pages/drive_autonomous.rst)
 - [AEB]()
-- [Simulator](/simulator_install.md)
+- [Simulator](/Pages/simulator_install.md)
 - [PID wall follower]()
-- [SLAM](/SLAM.md)
-- [Particle Filter](/particle_filter.md)
+- [SLAM](/Pages/SLAM.md)
+- [Particle Filter](/Pages/particle_filter.md)
 - [Pure Pursuit]()
 - [RRT]()
 - [Vision Detection]()
 - [Raceline Optimization]()
 - [MPC]()
 ### Helper pages
-- [Git Command](/git_command.md)
-- [SSD Setup](/SSD.md)
-- [Software Recommendation](/software_setup.md)
+- [Git Command](/Pages/git_command.md)
+- [SSD Setup](/Pages/SSD.md)
+- [Software Recommendation](/Pages/software_setup.md)
 
 
 
