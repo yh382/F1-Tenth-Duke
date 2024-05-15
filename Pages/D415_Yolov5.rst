@@ -37,6 +37,11 @@ Below is a GIF demonstrating the expected output when the system is running corr
 
 Note that the system returns the width and depth of detected obstacles as well as their positions in camera coordinates. However, it is important to understand that the reported dimensions and distances pertain to the bounding boxes around the detected objects, not the actual physical dimensions or the exact center depth of the objects. 
 
-Conclusion
-==========
-The integration of Yolo V5 with RealSense technology provides a powerful tool for understanding and interacting with the environment in robotic applications. We invite developers and researchers to use and modify this system to suit their unique requirements in the field of autonomous navigation and robotic systems.
+Future Work
+===========
+Future developments for this system include:
+
+- Integrating the detected obstacle information into the Rviz dynamic layer map to assist with dynamic routing decisions.
+
+- Developing predictive models to forecast the movements of dynamic obstacles based on observed behaviors over short time intervals.
+
