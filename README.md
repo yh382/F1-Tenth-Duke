@@ -72,7 +72,7 @@ Future Work:
 - [RRT]()
 - [Vision Detection](/Pages/D415_Yolov5.rst)
 - [Raceline Optimization](/Pages/Raceline_opt.md)
-- [MPC]()
+- [MPC](/Pages/MPC.rst)
 ### Helper pages
 - [Git Command](/Pages/git_command.md)
 - [SSD Setup](/Pages/SSD.md)
