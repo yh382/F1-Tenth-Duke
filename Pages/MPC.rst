@@ -1,6 +1,6 @@
 .. _Model Predictive Control :
 
-Model Predictive Control Lab
+Model Predictive Control
 =============================
 
 
