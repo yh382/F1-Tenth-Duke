@@ -69,9 +69,5 @@ In either approach, it’s vital to ensure that the velocity profile along the t
 
 Use CVXPY and OSQP solver in Python to define the optimization problem. Setup the objective and constraints based on the MPC formulation.
 
-**Visualization**
------------------
-
-Visualizing the reference and predicted paths can help in debugging and adjusting the MPC parameters.
 
 
