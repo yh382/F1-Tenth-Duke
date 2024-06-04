@@ -3,6 +3,8 @@ The repository contains all documentation belonging to the F1 Tenth team at Duke
 
 This repo is bulit for students who would use the car we currently using the F1 Tenth car which is belonged Mechanical Engineering and Material Science department in Duke University, NC, USA. However, it is more than welcome to all other users to use our code!
 
+Contact: Dr.Siobhan Oca. Email: siobhan.rigby@duke.edu
+
 This project is based on F1 Tenth project from X-LAB, University of Pennsylvania. Check https://f1tenth.org/index.html for more information. STRONGLY RECOMMENDED everyone to finish the "Learn" section on the website.
 
 ### **Please read this repo carefully, all details might help you to avoid error!**

@@ -2,7 +2,17 @@
 
 Model Predictive Control
 =============================
+**Background Suggestion**
+-----------------
+We highly recommended to take Prof. Leila Bridgeman's MPC class before implement your controller on the physical car.
+- ME 555 Advance Topic- Model Predictive Control
 
+-----------------
+**What We Completed
+
+We used the skeleton code from f1tenth official GitHub repo. https://github.com/f1tenth/f1tenth_lab9_template
+Since time and space constraints, we didn't implement our controller on the car, but we were focusing on simulation on Rviz. We were using the map of Hudson Hall first floor, and the R,Q matries should be tuned if you want to use other maps. 
+Checking out sim_ws in "Code". This is our simulation workspace which should be able to use directly. We left common with details. Please go through `Simulator Setup <simulator_install.md>`_ first. 
 
 **Vehicle Model**
 -----------------
