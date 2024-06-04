@@ -1,5 +1,8 @@
 # Race Line Optimization
-# Generate Waypoints / Raceline (Offline with LINUX Computer)
+
+## Thanks for Steve Gong. We followed some of his instruction (https://stevengong.co/notes/F1TENTH-Field-Usage). However, please use the code we left in "Code" section to reduce your debugging time. We didn't successfully run though the whole process. Docker is STRONGLY RECOMMENDED!!! The main environment of this part is Conda, and if you don't want to have 4 versions of numpy in your laptop, Docker!
+
+## Generate Waypoints / Raceline (Offline with LINUX Computer)
 
 These need to be generated on a Linux computer. You can just use VSCode and remote SSH from your Macbook.
 
