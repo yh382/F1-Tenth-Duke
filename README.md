@@ -65,7 +65,7 @@ Future Work:
 - [Camera Setup](/Pages/Depth_Camera.rst)
 ### Tasks
 - [Drive A Distance](/Pages/drive_autonomous.rst)
-- [AEB](/Pages/Automatic_Emergency_Braking.rst、)
+- [AEB](/Pages/Automatic_Emergency_Braking.rst)
 - [Simulator](/Pages/simulator_install.md)
 - [PID wall follower]()
 - [SLAM](/Pages/SLAM.md)
