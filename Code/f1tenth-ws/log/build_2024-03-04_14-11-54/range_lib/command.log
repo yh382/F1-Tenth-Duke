@@ -1,0 +1,2 @@
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/range_lib': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/range_libc -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/range_lib
+Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/range_lib' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/range_libc -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/range_lib

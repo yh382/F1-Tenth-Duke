@@ -1,0 +1,1 @@
+Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit

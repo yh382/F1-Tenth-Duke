@@ -1,0 +1,54 @@
+[2.854s] Invoking command in '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_parameter': PYTHONPATH=/home/william/sim_ws/build/learning_parameter/prefix_override:/home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/william/sim_ws/build/learning_parameter/build install --record /home/william/sim_ws/build/learning_parameter/install.log --single-version-externally-managed
+[3.383s] running egg_info
+[3.383s] creating ../../../build/learning_parameter/learning_parameter.egg-info
+[3.414s] writing ../../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+[3.414s] writing dependency_links to ../../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+[3.415s] writing entry points to ../../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+[3.415s] writing requirements to ../../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+[3.415s] writing top-level names to ../../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+[3.593s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[3.652s] reading manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[3.653s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[3.653s] running build
+[3.654s] running build_py
+[3.654s] creating /home/william/sim_ws/build/learning_parameter/build
+[3.654s] creating /home/william/sim_ws/build/learning_parameter/build/lib
+[3.654s] creating /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter
+[3.654s] copying learning_parameter/param_object_detect.py -> /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter
+[3.655s] copying learning_parameter/param_declare.py -> /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter
+[3.655s] copying learning_parameter/__init__.py -> /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter
+[3.656s] running install
+[3.656s] /home/william/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.656s] !!
+[3.656s] 
+[3.656s]         ********************************************************************************
+[3.656s]         Please avoid running ``setup.py`` directly.
+[3.657s]         Instead, use pypa/build, pypa/installer or other
+[3.657s]         standards-based tools.
+[3.657s] 
+[3.657s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.657s]         ********************************************************************************
+[3.657s] 
+[3.657s] !!
+[3.657s]   self.initialize_options()
+[3.665s] running install_lib
+[3.694s] creating /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter
+[3.695s] copying /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter/param_object_detect.py -> /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter
+[3.695s] copying /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter/param_declare.py -> /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter
+[3.695s] copying /home/william/sim_ws/build/learning_parameter/build/lib/learning_parameter/__init__.py -> /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter
+[3.696s] byte-compiling /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter/param_object_detect.py to param_object_detect.cpython-38.pyc
+[3.697s] byte-compiling /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter/param_declare.py to param_declare.cpython-38.pyc
+[3.697s] byte-compiling /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter/__init__.py to __init__.cpython-38.pyc
+[3.698s] running install_data
+[3.726s] creating /home/william/sim_ws/install/learning_parameter/share/ament_index
+[3.726s] creating /home/william/sim_ws/install/learning_parameter/share/ament_index/resource_index
+[3.727s] creating /home/william/sim_ws/install/learning_parameter/share/ament_index/resource_index/packages
+[3.727s] copying resource/learning_parameter -> /home/william/sim_ws/install/learning_parameter/share/ament_index/resource_index/packages
+[3.727s] copying package.xml -> /home/william/sim_ws/install/learning_parameter/share/learning_parameter
+[3.727s] running install_egg_info
+[3.758s] Copying ../../../build/learning_parameter/learning_parameter.egg-info to /home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages/learning_parameter-0.0.0-py3.8.egg-info
+[3.759s] running install_scripts
+[3.844s] Installing param_declare script to /home/william/sim_ws/install/learning_parameter/lib/learning_parameter
+[3.844s] Installing param_object_detect script to /home/william/sim_ws/install/learning_parameter/lib/learning_parameter
+[3.844s] writing list of installed files to '/home/william/sim_ws/build/learning_parameter/install.log'
+[4.148s] Invoked command in '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_parameter' returned '0': PYTHONPATH=/home/william/sim_ws/build/learning_parameter/prefix_override:/home/william/sim_ws/install/learning_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/william/sim_ws/build/learning_parameter/build install --record /home/william/sim_ws/build/learning_parameter/install.log --single-version-externally-managed

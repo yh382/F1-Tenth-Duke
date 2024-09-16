@@ -1,0 +1,62 @@
+[0.587s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit
+[0.603s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.086s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.199s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.533s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.686s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.719s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.795s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.826s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.899s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.988s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.993s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.994s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.434s] -- Configuring done
+[2.455s] -- Generating done
+[2.458s] -- Build files have been written to: /home/william/sim_ws/build/pure_pursuit
+[2.527s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/pure_pursuit
+[2.527s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[2.571s] [35m[1mScanning dependencies of target waypoint_visualizer[0m
+[2.571s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[2.611s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o[0m
+[2.694s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[5.599s] [ 75%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[5.800s] [ 75%] Built target waypoint_visualizer
+[9.121s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[9.417s] [100%] Built target pure_pursuit
+[9.426s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[9.451s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit
+[9.459s] -- Install configuration: ""
+[9.459s] -- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[9.461s] -- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""
+[9.462s] -- Installing: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[9.463s] -- Set runtime path of "/home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer" to ""
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config
+[9.463s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[9.464s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[9.465s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[9.466s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[9.466s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[9.468s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit

@@ -1,0 +1,501 @@
+[2.895s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.895s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2623745d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2623745d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f26233ebc70>)
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.987s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/william/sim_ws'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[3.006s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extensions ['ignore', 'ignore_ament_install']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extension 'ignore'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extension 'ignore_ament_install'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extensions ['colcon_pkg']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extension 'colcon_pkg'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extensions ['colcon_meta']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extension 'colcon_meta'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extensions ['ros']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_interfaces-main) by extension 'ros'
+[3.008s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_interfaces-main' with type 'ros.ament_cmake' and name 'interfaces_hot_wheels'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['ignore', 'ignore_ament_install']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'ignore'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'ignore_ament_install'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['colcon_pkg']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'colcon_pkg'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['colcon_meta']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'colcon_meta'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['ros']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'ros'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['cmake', 'python']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'cmake'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'python'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extensions ['python_setup_py']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main) by extension 'python_setup_py'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extensions ['ignore', 'ignore_ament_install']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extension 'ignore'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extension 'ignore_ament_install'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extensions ['colcon_pkg']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extension 'colcon_pkg'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extensions ['colcon_meta']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extension 'colcon_meta'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extensions ['ros']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mpc-main/mpc) by extension 'ros'
+[3.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_mpc-main/mpc' with type 'ros.ament_cmake' and name 'mpc'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['ignore', 'ignore_ament_install']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'ignore'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'ignore_ament_install'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['colcon_pkg']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'colcon_pkg'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['colcon_meta']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'colcon_meta'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['ros']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'ros'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['cmake', 'python']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'cmake'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'python'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extensions ['python_setup_py']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main) by extension 'python_setup_py'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extensions ['ignore', 'ignore_ament_install']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extension 'ignore'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extension 'ignore_ament_install'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extensions ['colcon_pkg']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extension 'colcon_pkg'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extensions ['colcon_meta']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extension 'colcon_meta'
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extensions ['ros']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_slam_pure_pursuit-main/pure_pursuit) by extension 'ros'
+[3.015s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_slam_pure_pursuit-main/pure_pursuit' with type 'ros.ament_cmake' and name 'pure_pursuit'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['ignore', 'ignore_ament_install']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ignore'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ignore_ament_install'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['colcon_pkg']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'colcon_pkg'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['colcon_meta']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'colcon_meta'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['ros']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ros'
+[3.018s] DEBUG:colcon.colcon_core.package_identification:Package 'src/particle_filter' with type 'ros.ament_python' and name 'particle_filter'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['ignore', 'ignore_ament_install']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ignore'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ignore_ament_install'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['colcon_pkg']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'colcon_pkg'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['colcon_meta']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'colcon_meta'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['ros']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ros'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['cmake', 'python']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'cmake'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'python'
+[3.024s] DEBUG:colcon.colcon_core.package_identification:Package 'src/range_libc' with type 'cmake' and name 'range_lib'
+[3.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/william/sim_ws/install
+[3.145s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/foxy
+[3.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.215s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[3.215s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[3.215s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.215s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.215s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.216s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.216s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.216s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.216s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.216s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/william/sim_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[3.227s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_args' from command line to 'None'
+[3.227s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_target' from command line to 'None'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_clean_cache' from command line to 'False'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_clean_first' from command line to 'False'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'cmake_force_configure' from command line to 'False'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'ament_cmake_args' from command line to 'None'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'catkin_cmake_args' from command line to 'None'
+[3.228s] Level 5:colcon.colcon_core.verb:set package 'interfaces_hot_wheels' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.228s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces_hot_wheels' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/interfaces_hot_wheels', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/interfaces_hot_wheels', 'merge_install': False, 'path': '/home/william/sim_ws/src/f1tenth_interfaces-main', 'symlink_install': False, 'test_result_base': None}
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_args' from command line to 'None'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target' from command line to 'None'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_cache' from command line to 'False'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_first' from command line to 'False'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_force_configure' from command line to 'False'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'ament_cmake_args' from command line to 'None'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_cmake_args' from command line to 'None'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.240s] DEBUG:colcon.colcon_core.verb:Building package 'mpc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/mpc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/mpc', 'merge_install': False, 'path': '/home/william/sim_ws/src/f1tenth_mpc-main/mpc', 'symlink_install': False, 'test_result_base': None}
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_args' from command line to 'None'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_target' from command line to 'None'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_clean_first' from command line to 'False'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_force_configure' from command line to 'False'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'ament_cmake_args' from command line to 'None'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[3.252s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.252s] DEBUG:colcon.colcon_core.verb:Building package 'particle_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/particle_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/particle_filter', 'merge_install': False, 'path': '/home/william/sim_ws/src/particle_filter', 'symlink_install': False, 'test_result_base': None}
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_target' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_clean_first' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'cmake_force_configure' from command line to 'False'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'ament_cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'range_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.264s] DEBUG:colcon.colcon_core.verb:Building package 'range_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/range_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/range_lib', 'merge_install': False, 'path': '/home/william/sim_ws/src/range_libc', 'symlink_install': False, 'test_result_base': None}
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_args' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_cache' from command line to 'False'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_first' from command line to 'False'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_force_configure' from command line to 'False'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'ament_cmake_args' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_cmake_args' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.277s] DEBUG:colcon.colcon_core.verb:Building package 'pure_pursuit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/william/sim_ws/build/pure_pursuit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/william/sim_ws/install/pure_pursuit', 'merge_install': False, 'path': '/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit', 'symlink_install': False, 'test_result_base': None}
+[3.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/william/sim_ws/src/f1tenth_interfaces-main' with build type 'ament_cmake'
+[3.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/william/sim_ws/src/f1tenth_interfaces-main'
+[3.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.357s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/william/sim_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[3.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[3.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/william/sim_ws/src/f1tenth_mpc-main/mpc' with build type 'ament_cmake'
+[3.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/william/sim_ws/src/f1tenth_mpc-main/mpc'
+[3.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/william/sim_ws/src/particle_filter' with build type 'ament_python'
+[3.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'ament_prefix_path')
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.ps1'
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.sh'
+[3.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/william/sim_ws/src/range_libc'
+[3.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/interfaces_hot_wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/interfaces_hot_wheels -- -j8 -l8
+[3.838s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/william/sim_ws/src/f1tenth_gym_ros'
+[3.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[4.089s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/william/sim_ws/src/particle_filter'
+[4.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[4.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/interfaces_hot_wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/interfaces_hot_wheels -- -j8 -l8
+[4.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/mpc -- -j8 -l8
+[4.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
+[4.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/interfaces_hot_wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/interfaces_hot_wheels
+[4.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[4.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[4.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/mpc
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc' for CMake module files
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc' for CMake config files
+[4.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[4.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[4.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[4.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/bin'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib/pkgconfig/mpc.pc'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages'
+[4.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'pythonpath')
+[4.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.ps1'
+[4.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.dsv'
+[4.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.sh'
+[4.354s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/bin'
+[4.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.ps1'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/mpc/share/mpc/package.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.sh'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.bash'
+[4.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.zsh'
+[4.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/mpc/share/colcon-core/packages/mpc)
+[4.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib
+[4.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_hot_wheels)
+[4.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/interfaces_hot_wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/william/sim_ws/build/interfaces_hot_wheels
+[4.402s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels' for CMake module files
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels' for CMake config files
+[4.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'cmake_prefix_path')
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.ps1'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.dsv'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.sh'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib'
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'ld_library_path_lib')
+[4.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.ps1'
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.dsv'
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.sh'
+[4.440s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/bin'
+[4.440s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib/pkgconfig/interfaces_hot_wheels.pc'
+[4.441s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages'
+[4.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'pythonpath')
+[4.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.ps1'
+[4.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.dsv'
+[4.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.sh'
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/bin'
+[4.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.ps1'
+[4.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.dsv'
+[4.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.sh'
+[4.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.bash'
+[4.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.zsh'
+[4.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/interfaces_hot_wheels/share/colcon-core/packages/interfaces_hot_wheels)
+[4.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[4.502s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc' for CMake module files
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc' for CMake config files
+[4.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/bin'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib/pkgconfig/mpc.pc'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/lib/python3.8/site-packages'
+[4.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'pythonpath')
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.ps1'
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.dsv'
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/mpc/share/mpc/hook/pythonpath.sh'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/mpc/bin'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.ps1'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/mpc/share/mpc/package.dsv'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.sh'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.bash'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/mpc/share/mpc/package.zsh'
+[4.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/mpc/share/colcon-core/packages/mpc)
+[4.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(range_lib)
+[4.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/william/sim_ws/build/range_lib
+[4.581s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib' for CMake module files
+[4.581s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib' for CMake config files
+[4.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_lib', 'cmake_prefix_path')
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/cmake_prefix_path.ps1'
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/range_lib/share/range_lib/hook/cmake_prefix_path.dsv'
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/cmake_prefix_path.sh'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib/lib'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib/bin'
+[4.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_lib', 'path')
+[4.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/path.ps1'
+[4.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/range_lib/share/range_lib/hook/path.dsv'
+[4.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/path.sh'
+[4.615s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib/lib/pkgconfig/range_lib.pc'
+[4.615s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib/lib/python3.8/site-packages'
+[4.615s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/range_lib/bin'
+[4.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_lib', 'pythonscriptspath')
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/pythonscriptspath.ps1'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/range_lib/share/range_lib/hook/pythonscriptspath.dsv'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/range_lib/share/range_lib/hook/pythonscriptspath.sh'
+[4.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/range_lib/share/range_lib/package.ps1'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/range_lib/share/range_lib/package.dsv'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/range_lib/share/range_lib/package.sh'
+[4.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/range_lib/share/range_lib/package.bash'
+[4.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/range_lib/share/range_lib/package.zsh'
+[4.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/range_lib/share/colcon-core/packages/range_lib)
+[4.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_hot_wheels)
+[4.714s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels' for CMake module files
+[4.715s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels' for CMake config files
+[4.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'cmake_prefix_path')
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.ps1'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.dsv'
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/cmake_prefix_path.sh'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib'
+[4.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'ld_library_path_lib')
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.ps1'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.dsv'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/ld_library_path_lib.sh'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/bin'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib/pkgconfig/interfaces_hot_wheels.pc'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages'
+[4.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_hot_wheels', 'pythonpath')
+[4.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.ps1'
+[4.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.dsv'
+[4.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/hook/pythonpath.sh'
+[4.767s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/interfaces_hot_wheels/bin'
+[4.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.ps1'
+[4.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.dsv'
+[4.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.sh'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.bash'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/interfaces_hot_wheels/share/interfaces_hot_wheels/package.zsh'
+[4.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/interfaces_hot_wheels/share/colcon-core/packages/interfaces_hot_wheels)
+[4.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit' with build type 'ament_cmake'
+[4.785s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit'
+[4.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/william/dev_ws/src/my_yolo_package/my_yolo_package /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[4.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/william/dev_ws/src/my_yolo_package/my_yolo_package /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[5.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[5.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/src/particle_filter': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed
+[5.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/william/dev_ws/src/my_yolo_package/my_yolo_package /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit
+[5.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pure_pursuit)
+[5.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/william/dev_ws/src/my_yolo_package/my_yolo_package /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit' for CMake module files
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit' for CMake config files
+[5.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'cmake_prefix_path')
+[5.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.ps1'
+[5.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.sh'
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib'
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/bin'
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc'
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages'
+[5.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'pythonpath')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.ps1'
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.sh'
+[5.176s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/bin'
+[5.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.ps1'
+[5.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv'
+[5.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.sh'
+[5.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.bash'
+[5.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.zsh'
+[5.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/pure_pursuit/share/colcon-core/packages/pure_pursuit)
+[5.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pure_pursuit)
+[5.278s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit' for CMake module files
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit' for CMake config files
+[5.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'cmake_prefix_path')
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.ps1'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.sh'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/bin'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc'
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages'
+[5.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'pythonpath')
+[5.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.ps1'
+[5.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.dsv'
+[5.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.sh'
+[5.330s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/pure_pursuit/bin'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.ps1'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv'
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.sh'
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.bash'
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.zsh'
+[5.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/pure_pursuit/share/colcon-core/packages/pure_pursuit)
+[5.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros' for CMake module files
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros' for CMake config files
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros/lib'
+[5.747s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros/bin'
+[5.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'path')
+[5.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/path.ps1'
+[5.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/path.dsv'
+[5.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/path.sh'
+[5.772s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[5.772s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages'
+[5.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[5.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/f1tenth_gym_ros/bin'
+[5.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonscriptspath')
+[5.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonscriptspath.ps1'
+[5.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonscriptspath.dsv'
+[5.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonscriptspath.sh'
+[5.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[5.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[5.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[5.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[5.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[5.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[5.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[5.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/william/sim_ws/src/particle_filter' returned '0': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed
+[5.864s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter' for CMake module files
+[5.864s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter' for CMake config files
+[5.865s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter/lib'
+[5.865s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter/bin'
+[5.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'path')
+[5.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/path.ps1'
+[5.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/path.dsv'
+[5.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/path.sh'
+[5.880s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter/lib/pkgconfig/particle_filter.pc'
+[5.881s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages'
+[5.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'pythonpath')
+[5.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonpath.ps1'
+[5.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonpath.dsv'
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonpath.sh'
+[5.896s] Level 1:colcon.colcon_core.environment:checking '/home/william/sim_ws/install/particle_filter/bin'
+[5.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'pythonscriptspath')
+[5.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonscriptspath.ps1'
+[5.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonscriptspath.dsv'
+[5.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/william/sim_ws/install/particle_filter/share/particle_filter/hook/pythonscriptspath.sh'
+[5.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(particle_filter)
+[5.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/particle_filter/share/particle_filter/package.ps1'
+[5.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/william/sim_ws/install/particle_filter/share/particle_filter/package.dsv'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/particle_filter/share/particle_filter/package.sh'
+[5.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/particle_filter/share/particle_filter/package.bash'
+[5.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/william/sim_ws/install/particle_filter/share/particle_filter/package.zsh'
+[5.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/william/sim_ws/install/particle_filter/share/colcon-core/packages/particle_filter)
+[5.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.934s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.970s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.988s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/william/sim_ws/install/local_setup.ps1'
+[6.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/william/sim_ws/install/_local_setup_util_ps1.py'
+[6.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/william/sim_ws/install/setup.ps1'
+[6.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/william/sim_ws/install/local_setup.sh'
+[6.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/william/sim_ws/install/_local_setup_util_sh.py'
+[6.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/william/sim_ws/install/setup.sh'
+[6.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/william/sim_ws/install/local_setup.bash'
+[6.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/william/sim_ws/install/setup.bash'
+[6.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/william/sim_ws/install/local_setup.zsh'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/william/sim_ws/install/setup.zsh'

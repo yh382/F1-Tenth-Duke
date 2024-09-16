@@ -1,0 +1,21 @@
+[9.060s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/src/test_driving_2/example_py': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/example_py/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/example_py build --build-base /mnt/nvme0n1/f1tenth_ws/build/example_py/build install --record /mnt/nvme0n1/f1tenth_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed
+[10.482s] running egg_info
+[10.485s] writing ../../../build/example_py/example_py.egg-info/PKG-INFO
+[10.492s] writing dependency_links to ../../../build/example_py/example_py.egg-info/dependency_links.txt
+[10.493s] writing entry points to ../../../build/example_py/example_py.egg-info/entry_points.txt
+[10.494s] writing requirements to ../../../build/example_py/example_py.egg-info/requires.txt
+[10.495s] writing top-level names to ../../../build/example_py/example_py.egg-info/top_level.txt
+[10.632s] reading manifest file '../../../build/example_py/example_py.egg-info/SOURCES.txt'
+[10.636s] writing manifest file '../../../build/example_py/example_py.egg-info/SOURCES.txt'
+[10.637s] running build
+[10.638s] running build_py
+[10.639s] running install
+[10.641s] running install_lib
+[10.647s] running install_data
+[10.649s] running install_egg_info
+[10.658s] removing '/mnt/nvme0n1/f1tenth_ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info' (and everything under it)
+[10.659s] Copying ../../../build/example_py/example_py.egg-info to /mnt/nvme0n1/f1tenth_ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info
+[10.662s] running install_scripts
+[10.731s] Installing li4_node script to /mnt/nvme0n1/f1tenth_ws/install/example_py/lib/example_py
+[10.734s] writing list of installed files to '/mnt/nvme0n1/f1tenth_ws/build/example_py/install.log'
+[10.950s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/src/test_driving_2/example_py' returned '0': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/example_py/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/example_py build --build-base /mnt/nvme0n1/f1tenth_ws/build/example_py/build install --record /mnt/nvme0n1/f1tenth_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed

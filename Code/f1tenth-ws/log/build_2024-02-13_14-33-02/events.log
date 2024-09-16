@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000824] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.001424] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.002874] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.003443] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.003583] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.003702] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs')])}
+[0.004084] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs')])}
+[0.004193] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs')])}
+[0.004308] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/mnt/nvme0n1/f1tenth_ws/install/key_teleop'), ('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs'), ('joy_teleop', '/mnt/nvme0n1/f1tenth_ws/install/joy_teleop')])}
+[0.004411] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs'), ('vesc_ackermann', '/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/mnt/nvme0n1/f1tenth_ws/install/vesc_driver')])}
+[0.004507] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict([('ackermann_mux', '/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux'), ('teleop_tools_msgs', '/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs'), ('vesc_msgs', '/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs'), ('joy_teleop', '/mnt/nvme0n1/f1tenth_ws/install/joy_teleop'), ('vesc_ackermann', '/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/mnt/nvme0n1/f1tenth_ws/install/vesc_driver'), ('vesc', '/mnt/nvme0n1/f1tenth_ws/install/vesc')])}
+[0.004706] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.099835] (-) TimerEvent: {}
+[0.201012] (-) TimerEvent: {}
+[0.302587] (-) TimerEvent: {}
+[0.403622] (-) TimerEvent: {}
+[0.505712] (-) TimerEvent: {}
+[0.512043] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.606453] (-) TimerEvent: {}
+[0.708964] (-) TimerEvent: {}
+[0.810782] (-) TimerEvent: {}
+[0.912653] (-) TimerEvent: {}
+[1.015288] (-) TimerEvent: {}
+[1.021415] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[1.115588] (-) TimerEvent: {}
+[1.221704] (-) TimerEvent: {}
+[1.325788] (-) TimerEvent: {}
+[1.430220] (-) TimerEvent: {}
+[1.532454] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[1.536432] (-) TimerEvent: {}
+[1.638048] (-) TimerEvent: {}
+[1.744642] (-) TimerEvent: {}
+[1.849619] (-) TimerEvent: {}
+[1.953089] (-) TimerEvent: {}
+[2.055639] (-) TimerEvent: {}
+[2.156594] (-) TimerEvent: {}
+[2.185080] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[2.188431] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[2.191972] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs', '--', '-j4', '-l4'], 'cwd': '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_CLIENT', '10.197.2.244 57979 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth-ws/install/vesc_driver/lib:/home/f1tenth/f1tenth-ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth-ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS

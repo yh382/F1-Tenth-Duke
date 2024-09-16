@@ -1,0 +1,32 @@
+[1.144s] Invoking command in '/home/william/sim_ws/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_node_cpp
+[1.164s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.187s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.486s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.589s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.858s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.207s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.379s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.379s] -- Configured cppcheck include dirs: 
+[2.379s] -- Configured cppcheck exclude dirs and/or files: 
+[2.389s] -- Added test 'lint_cmake' to check CMake code style
+[2.391s] -- Added test 'uncrustify' to check C / C++ code style
+[2.391s] -- Configured uncrustify additional arguments: 
+[2.391s] -- Added test 'xmllint' to check XML markup files
+[2.391s] -- Configuring done
+[2.399s] -- Generating done
+[2.406s] -- Build files have been written to: /home/william/sim_ws/build/learning_node_cpp
+[2.419s] Invoked command in '/home/william/sim_ws/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/william/sim_ws/src/ros2_21_tutorials-master/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_node_cpp
+[2.421s] Invoking command in '/home/william/sim_ws/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/learning_node_cpp -- -j8 -l8
+[3.325s] [35m[1mScanning dependencies of target node_helloworld_class[0m
+[3.325s] [ 50%] [32mBuilding CXX object CMakeFiles/node_helloworld_class.dir/src/node_helloworld_class.cpp.o[0m
+[5.073s] [01m[K/home/william/sim_ws/src/ros2_21_tutorials-master/learning_node_cpp/src/node_helloworld_class.cpp:[m[K In constructor ‘[01m[KHelloWorldNode::HelloWorldNode()[m[K’:
+[5.073s] [01m[K/home/william/sim_ws/src/ros2_21_tutorials-master/learning_node_cpp/src/node_helloworld_class.cpp:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ was not declared in this scope
+[5.074s]    21 |                 [01;31m[Ksleep[m[K(1);                                        // 休眠控制循环时间
+[5.074s]       |                 [01;31m[K^~~~~[m[K
+[5.620s] make[2]: *** [CMakeFiles/node_helloworld_class.dir/build.make:63: CMakeFiles/node_helloworld_class.dir/src/node_helloworld_class.cpp.o] Error 1
+[5.621s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/node_helloworld_class.dir/all] Error 2
+[5.621s] make: *** [Makefile:141: all] Error 2
+[5.863s] Invoked command in '/home/william/sim_ws/build/learning_node_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/william/sim_ws/build/learning_node_cpp -- -j8 -l8

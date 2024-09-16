@@ -1,0 +1,21 @@
+[2.661s] Invoking command in '/home/william/sim_ws/src/particle_filter': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed
+[3.085s] running egg_info
+[3.088s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[3.091s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[3.092s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[3.093s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[3.094s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[3.102s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.102s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.106s] running build
+[3.106s] running build_py
+[3.107s] running install
+[3.108s] running install_lib
+[3.109s] running install_data
+[3.109s] running install_egg_info
+[3.110s] removing '/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[3.111s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[3.112s] running install_scripts
+[3.138s] Installing particle_filter script to /home/william/sim_ws/install/particle_filter/lib/particle_filter
+[3.138s] writing list of installed files to '/home/william/sim_ws/build/particle_filter/install.log'
+[3.485s] Invoked command in '/home/william/sim_ws/src/particle_filter' returned '0': PYTHONPATH=/home/william/sim_ws/build/particle_filter/prefix_override:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/william/sim_ws/build/particle_filter/build install --record /home/william/sim_ws/build/particle_filter/install.log --single-version-externally-managed

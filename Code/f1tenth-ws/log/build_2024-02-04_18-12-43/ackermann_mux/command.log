@@ -1,0 +1,1 @@
+Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux

@@ -1,0 +1,86 @@
+[0.168s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[0.190s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.208s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.343s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.500s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.607s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.607s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.632s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.683s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.707s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.759s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.811s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.058s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.103s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.104s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.104s] -- Configured cppcheck include dirs: /home/jim/sim_ws/src/f1tenth_mpc-main/mpc/include
+[1.104s] -- Configured cppcheck exclude dirs and/or files: 
+[1.105s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.105s] -- Configured cpplint exclude dirs and/or files: 
+[1.105s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.106s] -- Added test 'lint_cmake' to check CMake code style
+[1.106s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.106s] -- Added test 'uncrustify' to check C / C++ code style
+[1.106s] -- Configured uncrustify additional arguments: 
+[1.107s] -- Added test 'xmllint' to check XML markup files
+[1.108s] -- Configuring done
+[1.118s] -- Generating done
+[1.119s] -- Build files have been written to: /home/jim/sim_ws/build/mpc
+[1.148s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[2.004s] [01m[K/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp:32:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.005s]    32 |     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[01;35m[K)[m[K
+[2.005s]       |                                                                                 [01;35m[K^[m[K
+[2.005s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[2.005s]                  from [01m[K/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp:10[m[K:
+[2.005s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.005s]   114 |     [01;36m[KConstPtr[m[K;
+[2.005s]       |     [01;36m[K^~~~~~~~[m[K
+[2.005s] [01m[K/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid MPC::pose_callback(const ConstPtr&)[m[K’:
+[2.005s] [01m[K/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/src/mpc_node.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.005s]    32 |     void pose_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[m[K)
+[2.005s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.329s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[2.411s] [100%] Built target mpc_node
+[2.418s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[2.447s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc
+[2.454s] -- Install configuration: ""
+[2.454s] -- Installing: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node
+[2.455s] -- Set runtime path of "/home/jim/sim_ws/install/mpc/lib/mpc/mpc_node" to ""
+[2.455s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[2.455s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[2.455s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[2.455s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[2.480s] Listing '/home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[2.483s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[2.483s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/utils.py
+[2.483s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[2.483s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/launch
+[2.483s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/launch/sim_mpc_launch.py
+[2.483s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints
+[2.483s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_sim_interpolated.csv
+[2.486s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints1.csv
+[2.486s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_sim_interpolated_200.csv
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_sim.csv
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_mpc.csv
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_sim_interpolated_100.csv
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/waypoints/waypoints_drive.csv
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[2.487s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/path.sh
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/local_setup.bash
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/local_setup.sh
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/package.dsv
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[2.488s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[2.489s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[2.489s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/package.xml
+[2.491s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc

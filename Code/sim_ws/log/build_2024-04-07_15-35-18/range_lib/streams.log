@@ -1,0 +1,19 @@
+[0.508s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.551s] [35m[1mScanning dependencies of target gflags_nothreads_static[0m
+[0.554s] [35m[1mScanning dependencies of target gflags_static[0m
+[0.570s] [  8%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o[0m
+[0.570s] [ 16%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o[0m
+[0.572s] [ 25%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o[0m
+[0.575s] [ 33%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o[0m
+[0.577s] [ 41%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o[0m
+[0.585s] [ 50%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o[0m
+[1.783s] [ 58%] [32m[1mLinking CXX static library ../../lib/libgflags_nothreads.a[0m
+[1.823s] [ 58%] Built target gflags_nothreads_static
+[1.833s] [ 66%] [34m[1mBuilding NVCC (Device) object CMakeFiles/range_lib.dir/includes/range_lib_generated_kernels.cu.o[0m
+[1.865s] [ 75%] [32m[1mLinking CXX static library ../../lib/libgflags.a[0m
+[1.902s] [ 75%] Built target gflags_static
+[3.618s] [35m[1mScanning dependencies of target range_lib[0m
+[3.631s] [ 91%] [32mBuilding CXX object CMakeFiles/range_lib.dir/main.cpp.o[0m
+[3.631s] [ 91%] [32mBuilding CXX object CMakeFiles/range_lib.dir/vendor/lodepng/lodepng.cpp.o[0m
+[6.823s] [100%] [32m[1mLinking CXX executable bin/range_lib[0m
+[6.924s] [100%] Built target range_lib

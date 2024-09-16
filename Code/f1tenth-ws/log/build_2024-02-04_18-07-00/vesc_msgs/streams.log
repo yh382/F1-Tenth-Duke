@@ -1,0 +1,35 @@
+[0.911s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs
+[2.277s] -- The C compiler identification is GNU 9.4.0
+[2.278s] -- The CXX compiler identification is GNU 9.4.0
+[2.278s] -- Check for working C compiler: /usr/bin/cc
+[2.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.279s] -- Detecting C compiler ABI info
+[2.460s] -- Detecting C compiler ABI info - done
+[2.535s] -- Detecting C compile features
+[2.537s] -- Detecting C compile features - done
+[2.554s] -- Check for working CXX compiler: /usr/bin/c++
+[2.994s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.003s] -- Detecting CXX compiler ABI info
+[3.430s] -- Detecting CXX compiler ABI info - done
+[3.511s] -- Detecting CXX compile features
+[3.512s] -- Detecting CXX compile features - done
+[3.557s] CMake Error at CMakeLists.txt:4 (find_package):
+[3.558s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[3.559s]   project has asked CMake to find a package configuration file provided by
+[3.559s]   "ament_cmake_auto", but CMake did not find one.
+[3.560s] 
+[3.561s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[3.561s]   with any of the following names:
+[3.561s] 
+[3.562s]     ament_cmake_autoConfig.cmake
+[3.562s]     ament_cmake_auto-config.cmake
+[3.563s] 
+[3.563s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[3.564s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[3.564s]   files.  If "ament_cmake_auto" provides a separate development package or
+[3.565s]   SDK, be sure it has been installed.
+[3.565s] 
+[3.565s] 
+[3.566s] -- Configuring incomplete, errors occurred!
+[3.566s] See also "/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".
+[3.591s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs

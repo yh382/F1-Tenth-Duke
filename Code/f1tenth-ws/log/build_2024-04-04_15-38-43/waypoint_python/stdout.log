@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/waypoint_python/waypoint_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/waypoint_python/waypoint_python.egg-info/dependency_links.txt
+writing entry points to ../../build/waypoint_python/waypoint_python.egg-info/entry_points.txt
+writing requirements to ../../build/waypoint_python/waypoint_python.egg-info/requires.txt
+writing top-level names to ../../build/waypoint_python/waypoint_python.egg-info/top_level.txt
+reading manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'
+running build
+running build_py
+copying waypoint_python/waypoints_logger.py -> /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python
+running install
+running install_lib
+copying /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python/waypoints_logger.py -> /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python
+byte-compiling /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python/waypoints_logger.py to waypoints_logger.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/waypoint_python/waypoint_python.egg-info to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python-0.0.0-py3.8.egg-info
+running install_scripts
+Installing waypoints_logger script to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/waypoint_python
+writing list of installed files to '/home/f1tenth/f1tenth-ws/build/waypoint_python/install.log'

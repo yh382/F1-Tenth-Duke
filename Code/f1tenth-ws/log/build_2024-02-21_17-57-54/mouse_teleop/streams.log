@@ -1,0 +1,21 @@
+[8.444s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/build install --record /mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[9.479s] running egg_info
+[9.481s] writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[9.484s] writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[9.485s] writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[9.486s] writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[9.490s] writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[9.624s] reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[9.629s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[9.630s] running build
+[9.633s] running build_py
+[9.634s] running install
+[9.635s] running install_lib
+[9.642s] running install_data
+[9.643s] running install_egg_info
+[9.651s] removing '/mnt/nvme0n1/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[9.653s] Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /mnt/nvme0n1/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info
+[9.657s] running install_scripts
+[9.734s] Installing mouse_teleop script to /mnt/nvme0n1/f1tenth_ws/install/mouse_teleop/lib/mouse_teleop
+[9.736s] writing list of installed files to '/mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/install.log'
+[10.449s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/build install --record /mnt/nvme0n1/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed

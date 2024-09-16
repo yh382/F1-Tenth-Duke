@@ -1,0 +1,35 @@
+[0.589s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux
+[1.845s] -- The C compiler identification is GNU 9.4.0
+[1.845s] -- The CXX compiler identification is GNU 9.4.0
+[1.846s] -- Check for working C compiler: /usr/bin/cc
+[1.846s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.848s] -- Detecting C compiler ABI info
+[2.032s] -- Detecting C compiler ABI info - done
+[2.096s] -- Detecting C compile features
+[2.097s] -- Detecting C compile features - done
+[2.112s] -- Check for working CXX compiler: /usr/bin/c++
+[2.510s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.512s] -- Detecting CXX compiler ABI info
+[2.882s] -- Detecting CXX compiler ABI info - done
+[2.946s] -- Detecting CXX compile features
+[2.948s] -- Detecting CXX compile features - done
+[2.987s] CMake Error at CMakeLists.txt:13 (find_package):
+[2.988s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.988s]   has asked CMake to find a package configuration file provided by
+[2.988s]   "ament_cmake", but CMake did not find one.
+[2.989s] 
+[2.991s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.991s]   any of the following names:
+[2.991s] 
+[2.992s]     ament_cmakeConfig.cmake
+[2.992s]     ament_cmake-config.cmake
+[2.992s] 
+[2.993s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.993s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.993s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.994s]   has been installed.
+[2.994s] 
+[2.994s] 
+[2.995s] -- Configuring incomplete, errors occurred!
+[2.995s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".
+[2.995s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".

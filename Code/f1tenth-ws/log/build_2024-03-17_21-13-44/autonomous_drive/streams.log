@@ -1,0 +1,21 @@
+[9.236s] Invoking command in '/home/f1tenth/f1tenth-ws/src/autonomous_drive/autonomous_drive': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/autonomous_drive/prefix_override:/home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/autonomous_drive build --build-base /home/f1tenth/f1tenth-ws/build/autonomous_drive/build install --record /home/f1tenth/f1tenth-ws/build/autonomous_drive/install.log --install-scripts $base/lib/autonomous_drive --single-version-externally-managed
+[10.241s] running egg_info
+[10.245s] writing ../../../build/autonomous_drive/autonomous_drive.egg-info/PKG-INFO
+[10.248s] writing dependency_links to ../../../build/autonomous_drive/autonomous_drive.egg-info/dependency_links.txt
+[10.249s] writing entry points to ../../../build/autonomous_drive/autonomous_drive.egg-info/entry_points.txt
+[10.249s] writing requirements to ../../../build/autonomous_drive/autonomous_drive.egg-info/requires.txt
+[10.250s] writing top-level names to ../../../build/autonomous_drive/autonomous_drive.egg-info/top_level.txt
+[10.406s] reading manifest file '../../../build/autonomous_drive/autonomous_drive.egg-info/SOURCES.txt'
+[10.412s] writing manifest file '../../../build/autonomous_drive/autonomous_drive.egg-info/SOURCES.txt'
+[10.413s] running build
+[10.413s] running build_py
+[10.413s] running install
+[10.419s] running install_lib
+[10.425s] running install_data
+[10.427s] running install_egg_info
+[10.435s] removing '/home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive-0.0.0-py3.8.egg-info' (and everything under it)
+[10.437s] Copying ../../../build/autonomous_drive/autonomous_drive.egg-info to /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive-0.0.0-py3.8.egg-info
+[10.443s] running install_scripts
+[10.518s] Installing autonomous_drive script to /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/autonomous_drive
+[10.520s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/autonomous_drive/install.log'
+[11.801s] Invoked command in '/home/f1tenth/f1tenth-ws/src/autonomous_drive/autonomous_drive' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/autonomous_drive/prefix_override:/home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/autonomous_drive build --build-base /home/f1tenth/f1tenth-ws/build/autonomous_drive/build install --record /home/f1tenth/f1tenth-ws/build/autonomous_drive/install.log --install-scripts $base/lib/autonomous_drive --single-version-externally-managed

@@ -1,0 +1,38 @@
+[1.331s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[3.557s] [100%] Built target ackermann_mux
+[3.558s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[3.766s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux
+[3.831s] -- Install configuration: ""
+[3.838s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[3.842s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[3.845s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[3.846s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[3.848s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[3.849s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[3.850s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[3.851s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include
+[3.852s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[3.853s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[3.855s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[3.856s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[3.856s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[3.856s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[3.863s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[3.864s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[3.864s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[3.864s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[3.865s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[3.865s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[3.866s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[3.866s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[3.866s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[3.867s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[3.867s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[3.883s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[3.884s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[3.884s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.885s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.885s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[3.886s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[3.886s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[3.896s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/ackermann_mux

@@ -1,0 +1,2 @@
+Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '2': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4

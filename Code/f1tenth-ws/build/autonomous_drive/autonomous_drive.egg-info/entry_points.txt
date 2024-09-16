@@ -1,0 +1,3 @@
+[console_scripts]
+autonomous_drive = autonomous_drive.autonomous_drive:main
+

@@ -1,0 +1,14 @@
+[100%] Built target f1tenth_simulator
+-- Install configuration: "Release"
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+-- Installing: /home/william/sim_ws/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp

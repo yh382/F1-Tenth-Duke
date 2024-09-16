@@ -1,0 +1,39 @@
+[2.515s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann -- -j4 -l4
+[2.956s] [ 28%] Built target ackermann_to_vesc_node
+[2.987s] [ 57%] Built target vesc_to_odom_node
+[3.029s] [100%] Built target vesc_ackermann
+[3.103s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann -- -j4 -l4
+[3.323s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann
+[3.392s] -- Install configuration: ""
+[3.396s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[3.400s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[3.402s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/include
+[3.403s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann
+[3.406s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[3.406s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[3.408s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[3.409s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[3.412s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[3.414s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[3.415s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[3.416s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[3.417s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[3.419s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[3.420s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[3.421s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[3.423s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[3.424s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[3.425s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[3.426s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[3.428s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[3.429s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[3.431s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[3.434s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[3.435s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[3.436s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.438s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.439s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[3.440s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[3.441s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[3.442s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[3.454s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_ackermann

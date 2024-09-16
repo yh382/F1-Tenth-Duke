@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mpc_node[0m
+[100%] Built target mpc_node
+-- Install configuration: ""
+-- Installing: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node
+-- Set runtime path of "/home/jim/sim_ws/install/mpc/lib/mpc/mpc_node" to ""
+-- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+-- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+-- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+-- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+Listing '/home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+-- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node.py
+-- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/utils.py
+-- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+-- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch
+-- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+CMake Error at cmake_install.cmake:93 (file):
+  file INSTALL cannot find
+  "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/config": No such file or
+  directory.
+
+

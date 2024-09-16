@@ -1,0 +1,36 @@
+[0.540s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux
+[1.876s] -- The C compiler identification is GNU 9.4.0
+[1.876s] -- The CXX compiler identification is GNU 9.4.0
+[1.876s] -- Check for working C compiler: /usr/bin/cc
+[1.877s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.889s] -- Detecting C compiler ABI info
+[2.076s] -- Detecting C compiler ABI info - done
+[2.164s] -- Detecting C compile features
+[2.168s] -- Detecting C compile features - done
+[2.182s] -- Check for working CXX compiler: /usr/bin/c++
+[2.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.632s] -- Detecting CXX compiler ABI info
+[3.038s] -- Detecting CXX compiler ABI info - done
+[3.116s] -- Detecting CXX compile features
+[3.121s] -- Detecting CXX compile features - done
+[3.197s] CMake Error at CMakeLists.txt:13 (find_package):
+[3.198s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.199s]   has asked CMake to find a package configuration file provided by
+[3.199s]   "ament_cmake", but CMake did not find one.
+[3.199s] 
+[3.200s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.201s]   any of the following names:
+[3.201s] 
+[3.202s]     ament_cmakeConfig.cmake
+[3.202s]     ament_cmake-config.cmake
+[3.202s] 
+[3.203s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.203s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.203s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.204s]   has been installed.
+[3.204s] 
+[3.204s] 
+[3.205s] -- Configuring incomplete, errors occurred!
+[3.206s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".
+[3.206s] See also "/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".
+[3.229s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/ackermann_mux' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux

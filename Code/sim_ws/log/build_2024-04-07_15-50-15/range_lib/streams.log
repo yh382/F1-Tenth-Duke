@@ -1,0 +1,4 @@
+[0.534s] Invoking command in '/home/william/sim_ws/build/range_lib': /usr/bin/cmake --build /home/william/sim_ws/build/range_lib -- -j8 -l8
+[0.587s] [ 33%] Built target gflags_nothreads_static
+[0.592s] [ 66%] Built target gflags_static
+[0.620s] [100%] Built target range_lib

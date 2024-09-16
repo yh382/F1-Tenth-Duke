@@ -1,0 +1,43 @@
+[1.714s] Invoking command in '/home/william/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[2.101s] running egg_info
+[2.127s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[2.128s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[2.128s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[2.128s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[2.342s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.342s] adding license file 'LICENSE'
+[2.344s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.344s] running build
+[2.344s] running build_py
+[2.344s] copying f1tenth_gym_ros/gym_bridge.py -> /home/william/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.345s] copying f1tenth_gym_ros/__init__.py -> /home/william/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.345s] running install
+[2.345s] /home/william/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.346s] !!
+[2.346s] 
+[2.346s]         ********************************************************************************
+[2.346s]         Please avoid running ``setup.py`` directly.
+[2.346s]         Instead, use pypa/build, pypa/installer or other
+[2.346s]         standards-based tools.
+[2.347s] 
+[2.347s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.347s]         ********************************************************************************
+[2.347s] 
+[2.347s] !!
+[2.347s]   self.initialize_options()
+[2.358s] running install_lib
+[2.397s] running install_data
+[2.438s] copying resource/f1tenth_gym_ros -> /home/william/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[2.439s] copying package.xml -> /home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[2.439s] copying launch/gym_bridge_launch.py -> /home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.439s] copying launch/opp_racecar.xacro -> /home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.440s] copying launch/ego_racecar.xacro -> /home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.440s] copying config/sim.yaml -> /home/william/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[2.440s] running install_egg_info
+[2.482s] removing '/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[2.483s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[2.484s] running install_scripts
+[2.574s] Installing gym_bridge script to /home/william/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[2.575s] writing list of installed files to '/home/william/sim_ws/build/f1tenth_gym_ros/install.log'
+[2.628s] Invoked command in '/home/william/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/william/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/william/sim_ws/build/f1tenth_gym_ros/build install --record /home/william/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed

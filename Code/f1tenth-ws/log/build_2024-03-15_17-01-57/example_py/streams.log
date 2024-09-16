@@ -1,0 +1,21 @@
+[9.511s] Invoking command in '/home/f1tenth/f1tenth-ws/src/test_driving_2/example_py': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/example_py/prefix_override:/home/f1tenth/f1tenth-ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/example_py build --build-base /home/f1tenth/f1tenth-ws/build/example_py/build install --record /home/f1tenth/f1tenth-ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed
+[10.556s] running egg_info
+[10.558s] writing ../../../build/example_py/example_py.egg-info/PKG-INFO
+[10.558s] writing dependency_links to ../../../build/example_py/example_py.egg-info/dependency_links.txt
+[10.562s] writing entry points to ../../../build/example_py/example_py.egg-info/entry_points.txt
+[10.562s] writing requirements to ../../../build/example_py/example_py.egg-info/requires.txt
+[10.562s] writing top-level names to ../../../build/example_py/example_py.egg-info/top_level.txt
+[10.733s] reading manifest file '../../../build/example_py/example_py.egg-info/SOURCES.txt'
+[10.737s] writing manifest file '../../../build/example_py/example_py.egg-info/SOURCES.txt'
+[10.740s] running build
+[10.740s] running build_py
+[10.741s] running install
+[10.746s] running install_lib
+[10.757s] running install_data
+[10.758s] running install_egg_info
+[10.771s] removing '/home/f1tenth/f1tenth-ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info' (and everything under it)
+[10.772s] Copying ../../../build/example_py/example_py.egg-info to /home/f1tenth/f1tenth-ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info
+[10.777s] running install_scripts
+[10.859s] Installing li4_node script to /home/f1tenth/f1tenth-ws/install/example_py/lib/example_py
+[10.861s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/example_py/install.log'
+[12.066s] Invoked command in '/home/f1tenth/f1tenth-ws/src/test_driving_2/example_py' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/example_py/prefix_override:/home/f1tenth/f1tenth-ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/example_py build --build-base /home/f1tenth/f1tenth-ws/build/example_py/build install --record /home/f1tenth/f1tenth-ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed

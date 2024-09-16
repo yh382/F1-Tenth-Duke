@@ -1,0 +1,5 @@
+[1.687s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+[2.188s] CMake Error: The source directory "/home/f1tenth/f1tenth-ws/range_libc" does not exist.
+[2.189s] Specify --help for usage, or press the help button on the CMake GUI.
+[2.189s] make: *** [Makefile:284: cmake_check_build_system] Error 1
+[2.224s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '2': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4

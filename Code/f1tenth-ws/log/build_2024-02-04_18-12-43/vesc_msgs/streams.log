@@ -1,0 +1,21 @@
+[0.983s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs
+[2.247s] -- Configuring incomplete, errors occurred!
+[2.249s] See also "/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".
+[2.252s] CMake Error at CMakeLists.txt:4 (find_package):
+[2.252s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[2.253s]   project has asked CMake to find a package configuration file provided by
+[2.253s]   "ament_cmake_auto", but CMake did not find one.
+[2.253s] 
+[2.254s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[2.254s]   with any of the following names:
+[2.254s] 
+[2.254s]     ament_cmake_autoConfig.cmake
+[2.255s]     ament_cmake_auto-config.cmake
+[2.255s] 
+[2.255s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[2.256s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[2.258s]   files.  If "ament_cmake_auto" provides a separate development package or
+[2.258s]   SDK, be sure it has been installed.
+[2.258s] 
+[2.259s] 
+[2.284s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_msgs' returned '1': /usr/bin/cmake /mnt/nvme0n1/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs

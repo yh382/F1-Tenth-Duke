@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000153] (f1tenth_simulator) JobQueued: {'identifier': 'f1tenth_simulator', 'dependencies': OrderedDict()}
+[0.000187] (learning_cv) JobQueued: {'identifier': 'learning_cv', 'dependencies': OrderedDict()}
+[0.000203] (learning_gazebo) JobQueued: {'identifier': 'learning_gazebo', 'dependencies': OrderedDict()}
+[0.000217] (learning_interface) JobQueued: {'identifier': 'learning_interface', 'dependencies': OrderedDict()}
+[0.000232] (learning_launch) JobQueued: {'identifier': 'learning_launch', 'dependencies': OrderedDict()}
+[0.000246] (learning_node) JobQueued: {'identifier': 'learning_node', 'dependencies': OrderedDict()}
+[0.000261] (learning_node_cpp) JobQueued: {'identifier': 'learning_node_cpp', 'dependencies': OrderedDict()}
+[0.000275] (learning_parameter) JobQueued: {'identifier': 'learning_parameter', 'dependencies': OrderedDict()}
+[0.000289] (learning_parameter_cpp) JobQueued: {'identifier': 'learning_parameter_cpp', 'dependencies': OrderedDict()}
+[0.000303] (learning_pkg_c) JobQueued: {'identifier': 'learning_pkg_c', 'dependencies': OrderedDict()}
+[0.000318] (learning_pkg_python) JobQueued: {'identifier': 'learning_pkg_python', 'dependencies': OrderedDict()}
+[0.000331] (learning_qos) JobQueued: {'identifier': 'learning_qos', 'dependencies': OrderedDict()}
+[0.000345] (learning_tf) JobQueued: {'identifier': 'learning_tf', 'dependencies': OrderedDict()}
+[0.000359] (learning_topic_cpp) JobQueued: {'identifier': 'learning_topic_cpp', 'dependencies': OrderedDict()}
+[0.000374] (learning_urdf) JobQueued: {'identifier': 'learning_urdf', 'dependencies': OrderedDict()}
+[0.000387] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000401] (learning_action) JobQueued: {'identifier': 'learning_action', 'dependencies': OrderedDict([('learning_interface', '/home/william/sim_ws/install/learning_interface')])}
+[0.000418] (learning_action_cpp) JobQueued: {'identifier': 'learning_action_cpp', 'dependencies': OrderedDict([('learning_interface', '/home/william/sim_ws/install/learning_interface')])}
+[0.000437] (learning_service) JobQueued: {'identifier': 'learning_service', 'dependencies': OrderedDict([('learning_interface', '/home/william/sim_ws/install/learning_interface')])}
+[0.000452] (learning_service_cpp) JobQueued: {'identifier': 'learning_service_cpp', 'dependencies': OrderedDict([('learning_interface', '/home/william/sim_ws/install/learning_interface')])}
+[0.000472] (learning_topic) JobQueued: {'identifier': 'learning_topic', 'dependencies': OrderedDict([('learning_interface', '/home/william/sim_ws/install/learning_interface')])}
+[0.000495] (learning_interface) JobStarted: {'identifier': 'learning_interface'}
+[0.099318] (-) TimerEvent: {}
+[0.114302] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.200507] (-) TimerEvent: {}
+[0.246388] (f1tenth_simulator) JobStarted: {'identifier': 'f1tenth_simulator'}
+[0.301377] (-) TimerEvent: {}
+[0.346989] (learning_cv) JobStarted: {'identifier': 'learning_cv'}
+[0.402614] (-) TimerEvent: {}
+[0.479379] (learning_gazebo) JobStarted: {'identifier': 'learning_gazebo'}
+[0.503443] (-) TimerEvent: {}
+[0.603960] (-) TimerEvent: {}
+[0.611874] (learning_launch) JobStarted: {'identifier': 'learning_launch'}
+[0.705310] (-) TimerEvent: {}
+[0.742937] (learning_node) JobStarted: {'identifier': 'learning_node'}
+[0.805496] (-) TimerEvent: {}
+[0.898775] (learning_node_cpp) JobStarted: {'identifier': 'learning_node_cpp'}
+[0.905859] (-) TimerEvent: {}
+[1.006128] (-) TimerEvent: {}
+[1.012364] (learning_interface) JobProgress: {'identifier': 'learning_interface', 'progress': 'cmake'}
+[1.012450] (learning_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_interface', '-DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_interface'], 'cwd': '/home/william/sim_ws/build/learning_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1331'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:37459'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1369,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1369'), ('INVOCATION_ID', 'bbbfd99b1d83460bbb3ca3eaa76c5c99'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5e14577_3b8b_49eb_b2a1_ac4beb5db754'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/learning_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.106307] (-) TimerEvent: {}
+[1.206984] (-) TimerEvent: {}
+[1.308358] (-) TimerEvent: {}
+[1.331716] (f1tenth_simulator) JobProgress: {'identifier': 'f1tenth_simulator', 'progress': 'cmake'}
+[1.333147] (f1tenth_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/william/sim_ws/src/f1tenth_simulator', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/f1tenth_simulator'], 'cwd': '/home/william/sim_ws/build/f1tenth_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1331'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:37459'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1369,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1369'), ('INVOCATION_ID', 'bbbfd99b1d83460bbb3ca3eaa76c5c99'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5e14577_3b8b_49eb_b2a1_ac4beb5db754'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/f1tenth_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[1.408546] (-) TimerEvent: {}
+[1.509115] (-) TimerEvent: {}
+[1.609502] (-) TimerEvent: {}
+[1.709914] (-) TimerEvent: {}
+[1.810508] (-) TimerEvent: {}
+[1.911263] (-) TimerEvent: {}
+[2.011615] (-) TimerEvent: {}
+[2.112096] (-) TimerEvent: {}
+[2.212419] (-) TimerEvent: {}
+[2.313153] (-) TimerEvent: {}
+[2.413473] (-) TimerEvent: {}
+[2.514035] (-) TimerEvent: {}
+[2.614451] (-) TimerEvent: {}
+[2.625483] (learning_node_cpp) JobProgress: {'identifier': 'learning_node_cpp', 'progress': 'cmake'}
+[2.626029] (learning_node_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_node_cpp', '-DCMAKE_INSTALL_PREFIX=/home/william/sim_ws/install/learning_node_cpp'], 'cwd': '/home/william/sim_ws/build/learning_node_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1331'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:37459'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1369,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1369'), ('INVOCATION_ID', 'bbbfd99b1d83460bbb3ca3eaa76c5c99'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5e14577_3b8b_49eb_b2a1_ac4beb5db754'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/learning_node_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.630193] (learning_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.630740] (learning_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.631882] (learning_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.632047] (learning_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.632764] (learning_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.633111] (learning_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.633587] (learning_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.633746] (learning_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.635263] (learning_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.635586] (learning_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.635973] (learning_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.637341] (learning_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.637705] (learning_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.637863] (learning_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.640946] (learning_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.641073] (learning_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.641618] (learning_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.643898] (learning_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.644091] (learning_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.644353] (learning_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.644490] (learning_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.644589] (learning_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.645002] (learning_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.645132] (learning_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.645248] (learning_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.645403] (learning_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.645950] (learning_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.646055] (learning_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.646157] (learning_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.646291] (learning_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.646631] (learning_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.648106] (learning_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.648602] (learning_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.649446] (learning_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.649947] (learning_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.650261] (learning_interface) StdoutLine: {'line': b'See also "/home/william/sim_ws/build/learning_interface/CMakeFiles/CMakeOutput.log".\n'}
+[2.650375] (learning_interface) StderrLine: {'line': b'CMake Error at CMakeLists.txt:33 (find_package):\n'}
+[2.650498] (learning_interface) StderrLine: {'line': b'  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.650592] (learning_interface) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.650682] (learning_interface) StderrLine: {'line': b'  "ament_lint_auto", but CMake did not find one.\n'}
+[2.650772] (learning_interface) StderrLine: {'line': b'\n'}
+[2.650861] (learning_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_lint_auto"\n'}
+[2.650951] (learning_interface) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.651040] (learning_interface) StderrLine: {'line': b'\n'}
+[2.651129] (learning_interface) StderrLine: {'line': b'    ament_lint_autoConfig.cmake\n'}
+[2.651218] (learning_interface) StderrLine: {'line': b'    ament_lint_auto-config.cmake\n'}
+[2.651307] (learning_interface) StderrLine: {'line': b'\n'}
+[2.651395] (learning_interface) StderrLine: {'line': b'  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or\n'}
+[2.651484] (learning_interface) StderrLine: {'line': b'  set "ament_lint_auto_DIR" to a directory containing one of the above files.\n'}
+[2.651573] (learning_interface) StderrLine: {'line': b'  If "ament_lint_auto" provides a separate development package or SDK, be\n'}
+[2.651662] (learning_interface) StderrLine: {'line': b'  sure it has been installed.\n'}
+[2.651750] (learning_interface) StderrLine: {'line': b'\n'}
+[2.651854] (learning_interface) StderrLine: {'line': b'\n'}
+[2.651979] (f1tenth_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.652122] (f1tenth_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.652296] (f1tenth_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.652773] (f1tenth_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.653044] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.654756] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.656312] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.657006] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.657400] (f1tenth_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.657583] (f1tenth_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.658254] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.658407] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.658727] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.660949] (f1tenth_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.661285] (f1tenth_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.661804] (f1tenth_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[2.662819] (f1tenth_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/william/sim_ws/build/f1tenth_simulator\n'}
+[2.663087] (f1tenth_simulator) StderrLine: {'line': b'CMake Warning:\n'}
+[2.663678] (f1tenth_simulator) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[2.664035] (f1tenth_simulator) StderrLine: {'line': b'\n'}
+[2.664192] (f1tenth_simulator) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[2.664912] (f1tenth_simulator) StderrLine: {'line': b'\n'}
+[2.665052] (f1tenth_simulator) StderrLine: {'line': b'\n'}
+[2.665180] (learning_interface) CommandEnded: {'returncode': 1}
+[2.666148] (f1tenth_simulator) CommandEnded: {'returncode': 0}
+[2.669217] (f1tenth_simulator) JobProgress: {'identifier': 'f1tenth_simulator', 'progress': 'build'}
+[2.669303] (f1tenth_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/william/sim_ws/build/f1tenth_simulator', '--', '-j8', '-l8'], 'cwd': '/home/william/sim_ws/build/f1tenth_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'william'), ('SSH_AGENT_PID', '1331'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/william'), ('OLDPWD', '/home/william/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'william'), ('JOURNAL_STREAM', '8:37459'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'william'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/william/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/william-Lenovo-Legion-Y7000-2019-1050:@/tmp/.ICE-unix/1369,unix/william-Lenovo-Legion-Y7000-2019-1050:/tmp/.ICE-unix/1369'), ('INVOCATION_ID', 'bbbfd99b1d83460bbb3ca3eaa76c5c99'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5e14577_3b8b_49eb_b2a1_ac4beb5db754'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/william/sim_ws/build/f1tenth_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[2.701582] (f1tenth_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_simulator\x1b[0m\n'}
+[2.702045] (learning_node_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.714554] (-) TimerEvent: {}
+[2.725404] (f1tenth_simulator) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/precompute.cpp.o\x1b[0m\n'}
+[2.738961] (f1tenth_simulator) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/distance_transform.cpp.o\x1b[0m\n'}
+[2.753508] (f1tenth_simulator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/ks_kinematics.cpp.o\x1b[0m\n'}
+[2.768685] (f1tenth_simulator) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/scan_simulator_2d.cpp.o\x1b[0m\n'}
+[2.782968] (f1tenth_simulator) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/st_kinematics.cpp.o\x1b[0m\n'}
+[2.784214] (learning_node_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.791233] (learning_node_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.814791] (-) TimerEvent: {}
+[2.842827] (learning_interface) JobEnded: {'identifier': 'learning_interface', 'rc': 1}
+[2.914889] (-) TimerEvent: {}
+[3.015215] (-) TimerEvent: {}
+[3.061417] (learning_node_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.062936] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.115321] (-) TimerEvent: {}
+[3.215823] (-) TimerEvent: {}
+[3.248385] (f1tenth_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/william/sim_ws/src/f1tenth_simulator/src/st_kinematics.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic racecar_simulator::CarState racecar_simulator::STKinematics::update_k(racecar_simulator::CarState, double, double, racecar_simulator::CarParams, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.248642] (f1tenth_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/william/sim_ws/src/f1tenth_simulator/src/st_kinematics.cpp:102:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktheta_double_dot\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.248785] (f1tenth_simulator) StderrLine: {'line': b'  102 |     double \x1b[01;35m\x1b[Ktheta_double_dot\x1b[m\x1b[K = accel / p.wheelbase * std::tan(start.steer_angle) +\n'}
+[3.248896] (f1tenth_simulator) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.249146] (f1tenth_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/william/sim_ws/src/f1tenth_simulator/src/st_kinematics.cpp:104:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kslip_angle_dot\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.249269] (f1tenth_simulator) StderrLine: {'line': b'  104 |     double \x1b[01;35m\x1b[Kslip_angle_dot\x1b[m\x1b[K = 0;\n'}
+[3.249385] (f1tenth_simulator) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.253143] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.273420] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.274687] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.279021] (learning_node_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.315921] (-) TimerEvent: {}
+[3.416361] (-) TimerEvent: {}
+[3.419433] (learning_node_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.422130] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.422388] (learning_cv) JobEnded: {'identifier': 'learning_cv', 'rc': 'SIGINT'}
+[3.427486] (learning_gazebo) JobEnded: {'identifier': 'learning_gazebo', 'rc': 'SIGINT'}
+[3.427832] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 'SIGINT'}
+[3.428162] (learning_launch) JobEnded: {'identifier': 'learning_launch', 'rc': 'SIGINT'}
+[3.428414] (learning_node) JobEnded: {'identifier': 'learning_node', 'rc': 'SIGINT'}
+[3.495321] (f1tenth_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libf1tenth_simulator.a\x1b[0m\n'}
+[3.497028] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.508236] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.508748] (learning_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.510855] (learning_node_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.516454] (-) TimerEvent: {}
+[3.523676] (f1tenth_simulator) StdoutLine: {'line': b'[100%] Built target f1tenth_simulator\n'}
+[3.534249] (f1tenth_simulator) JobEnded: {'identifier': 'f1tenth_simulator', 'rc': 'SIGINT'}
+[3.534629] (learning_node_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.534715] (learning_node_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.616576] (-) TimerEvent: {}
+[3.716907] (-) TimerEvent: {}
+[3.720411] (learning_node_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.789433] (learning_node_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.795344] (learning_node_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.816997] (-) TimerEvent: {}
+[3.866864] (learning_node_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.895685] (learning_node_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.917119] (-) TimerEvent: {}
+[3.969536] (learning_node_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.017249] (-) TimerEvent: {}
+[4.059043] (learning_node_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.061396] (learning_node_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.062935] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.117375] (-) TimerEvent: {}
+[4.126162] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.126370] (learning_node_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.193923] (learning_node_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.194205] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.217504] (-) TimerEvent: {}
+[4.249213] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.249480] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.311724] (learning_node_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.312703] (learning_node_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.317601] (-) TimerEvent: {}
+[4.417881] (-) TimerEvent: {}
+[4.471562] (learning_node_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[4.471706] (learning_node_cpp) StderrLine: {'line': b'  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.471765] (learning_node_cpp) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.471845] (learning_node_cpp) StderrLine: {'line': b'  "ament_lint_auto", but CMake did not find one.\n'}
+[4.471896] (learning_node_cpp) StderrLine: {'line': b'\n'}
+[4.471946] (learning_node_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_lint_auto"\n'}
+[4.471996] (learning_node_cpp) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.472045] (learning_node_cpp) StderrLine: {'line': b'\n'}
+[4.472094] (learning_node_cpp) StderrLine: {'line': b'    ament_lint_autoConfig.cmake\n'}
+[4.472143] (learning_node_cpp) StderrLine: {'line': b'    ament_lint_auto-config.cmake\n'}
+[4.472192] (learning_node_cpp) StderrLine: {'line': b'\n'}
+[4.472261] (learning_node_cpp) StderrLine: {'line': b'  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or\n'}
+[4.472324] (learning_node_cpp) StderrLine: {'line': b'  set "ament_lint_auto_DIR" to a directory containing one of the above files.\n'}
+[4.472372] (learning_node_cpp) StderrLine: {'line': b'  If "ament_lint_auto" provides a separate development package or SDK, be\n'}
+[4.472421] (learning_node_cpp) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.472469] (learning_node_cpp) StderrLine: {'line': b'\n'}
+[4.472516] (learning_node_cpp) StderrLine: {'line': b'\n'}
+[4.473338] (learning_node_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.473435] (learning_node_cpp) StdoutLine: {'line': b'See also "/home/william/sim_ws/build/learning_node_cpp/CMakeFiles/CMakeOutput.log".\n'}
+[4.473494] (learning_node_cpp) StdoutLine: {'line': b'See also "/home/william/sim_ws/build/learning_node_cpp/CMakeFiles/CMakeError.log".\n'}
+[4.480085] (learning_node_cpp) JobEnded: {'identifier': 'learning_node_cpp', 'rc': 'SIGINT'}
+[4.481423] (learning_parameter) JobSkipped: {'identifier': 'learning_parameter'}
+[4.481471] (learning_parameter_cpp) JobSkipped: {'identifier': 'learning_parameter_cpp'}
+[4.481521] (learning_pkg_c) JobSkipped: {'identifier': 'learning_pkg_c'}
+[4.481556] (learning_pkg_python) JobSkipped: {'identifier': 'learning_pkg_python'}
+[4.481596] (learning_qos) JobSkipped: {'identifier': 'learning_qos'}
+[4.481614] (learning_tf) JobSkipped: {'identifier': 'learning_tf'}
+[4.481629] (learning_topic_cpp) JobSkipped: {'identifier': 'learning_topic_cpp'}
+[4.481643] (learning_urdf) JobSkipped: {'identifier': 'learning_urdf'}
+[4.481658] (usb_cam) JobSkipped: {'identifier': 'usb_cam'}
+[4.481690] (learning_action) JobSkipped: {'identifier': 'learning_action'}
+[4.481707] (learning_action_cpp) JobSkipped: {'identifier': 'learning_action_cpp'}
+[4.481720] (learning_service) JobSkipped: {'identifier': 'learning_service'}
+[4.481733] (learning_service_cpp) JobSkipped: {'identifier': 'learning_service_cpp'}
+[4.481746] (learning_topic) JobSkipped: {'identifier': 'learning_topic'}
+[4.481765] (-) EventReactorShutdown: {}

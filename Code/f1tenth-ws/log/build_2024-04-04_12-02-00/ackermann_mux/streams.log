@@ -1,0 +1,38 @@
+[1.395s] Invoking command in '/home/f1tenth/f1tenth-ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/ackermann_mux -- -j4 -l4
+[1.942s] [100%] Built target ackermann_mux
+[3.526s] Invoked command in '/home/f1tenth/f1tenth-ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/ackermann_mux -- -j4 -l4
+[3.758s] Invoking command in '/home/f1tenth/f1tenth-ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/ackermann_mux
+[3.807s] -- Install configuration: ""
+[3.809s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[3.811s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/launch
+[3.811s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[3.812s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/config
+[3.813s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[3.813s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[3.814s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[3.815s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include
+[3.816s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux
+[3.816s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[3.817s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[3.817s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[3.818s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[3.818s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[3.819s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[3.820s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[3.820s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[3.822s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[3.822s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[3.823s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[3.824s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[3.825s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[3.825s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[3.825s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[3.827s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[3.829s] -- Installing: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[3.830s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[3.831s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.832s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.834s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[3.834s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[3.835s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[3.843s] Invoked command in '/home/f1tenth/f1tenth-ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/particle_filter:/home/f1tenth/f1tenth-ws/install/mpc:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/home/f1tenth/f1tenth-ws/install/autonomous_drive:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/ackermann_mux

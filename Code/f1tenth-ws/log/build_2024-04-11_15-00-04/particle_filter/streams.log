@@ -1,0 +1,21 @@
+[14.553s] Invoking command in '/home/f1tenth/f1tenth-ws/src/particle_filter': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/particle_filter/prefix_override:/home/f1tenth/f1tenth-ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth-ws/build/particle_filter/build install --record /home/f1tenth/f1tenth-ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed
+[15.732s] running egg_info
+[15.736s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[15.737s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[15.748s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[15.750s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[15.752s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[15.909s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[15.931s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[15.945s] running build
+[15.949s] running build_py
+[15.952s] running install
+[15.953s] running install_lib
+[15.953s] running install_data
+[15.954s] running install_egg_info
+[15.968s] removing '/home/f1tenth/f1tenth-ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[15.973s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/f1tenth-ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[15.978s] running install_scripts
+[16.076s] Installing particle_filter script to /home/f1tenth/f1tenth-ws/install/particle_filter/lib/particle_filter
+[16.078s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/particle_filter/install.log'
+[17.450s] Invoked command in '/home/f1tenth/f1tenth-ws/src/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/particle_filter/prefix_override:/home/f1tenth/f1tenth-ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth-ws/build/particle_filter/build install --record /home/f1tenth/f1tenth-ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed

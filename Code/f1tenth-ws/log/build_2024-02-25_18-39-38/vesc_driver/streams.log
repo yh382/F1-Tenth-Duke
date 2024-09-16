@@ -1,0 +1,45 @@
+[1.347s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/test_driving:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_driver -- -j4 -l4
+[1.889s] [ 50%] Built target vesc_driver
+[1.934s] [ 70%] Built target vesc_driver_node
+[2.028s] [100%] Built target vesc_device_namer
+[3.061s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/test_driving:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/nvme0n1/f1tenth_ws/build/vesc_driver -- -j4 -l4
+[3.289s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/test_driving:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_driver
+[3.358s] -- Install configuration: ""
+[3.358s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[3.358s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include
+[3.359s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver
+[3.359s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[3.363s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[3.366s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[3.366s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[3.366s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[3.367s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[3.367s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[3.368s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[3.368s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[3.368s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so
+[3.381s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[3.382s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch
+[3.382s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[3.382s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/params
+[3.383s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[3.383s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[3.383s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[3.384s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[3.384s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[3.384s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[3.385s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[3.386s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[3.389s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[3.390s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[3.391s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[3.393s] -- Installing: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[3.394s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[3.396s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[3.397s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.398s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.400s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.401s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[3.402s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[3.403s] -- Up-to-date: /mnt/nvme0n1/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml
+[4.010s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/test_driving:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/vesc_driver:/home/f1tenth/f1tenth-ws/install/vesc_ackermann:/home/f1tenth/f1tenth-ws/install/vesc_msgs:/home/f1tenth/f1tenth-ws/install/teleop_tools:/home/f1tenth/f1tenth-ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth-ws/install/ackermann_mux:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/nvme0n1/f1tenth_ws/build/vesc_driver

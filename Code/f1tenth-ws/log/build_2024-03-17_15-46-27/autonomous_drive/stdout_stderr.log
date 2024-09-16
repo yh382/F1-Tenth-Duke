@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/autonomous_drive/autonomous_drive.egg-info
+writing ../../../build/autonomous_drive/autonomous_drive.egg-info/PKG-INFO
+writing dependency_links to ../../../build/autonomous_drive/autonomous_drive.egg-info/dependency_links.txt
+writing entry points to ../../../build/autonomous_drive/autonomous_drive.egg-info/entry_points.txt
+writing requirements to ../../../build/autonomous_drive/autonomous_drive.egg-info/requires.txt
+writing top-level names to ../../../build/autonomous_drive/autonomous_drive.egg-info/top_level.txt
+writing manifest file '../../../build/autonomous_drive/autonomous_drive.egg-info/SOURCES.txt'
+reading manifest file '../../../build/autonomous_drive/autonomous_drive.egg-info/SOURCES.txt'
+writing manifest file '../../../build/autonomous_drive/autonomous_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/f1tenth/f1tenth-ws/build/autonomous_drive/build
+creating /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib
+creating /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib/autonomous_drive
+copying autonomous_drive/autonomous_drive.py -> /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib/autonomous_drive
+copying autonomous_drive/__init__.py -> /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib/autonomous_drive
+running install
+running install_lib
+creating /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive
+copying /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib/autonomous_drive/autonomous_drive.py -> /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive
+copying /home/f1tenth/f1tenth-ws/build/autonomous_drive/build/lib/autonomous_drive/__init__.py -> /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive
+byte-compiling /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive/autonomous_drive.py to autonomous_drive.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/f1tenth/f1tenth-ws/install/autonomous_drive/share/ament_index
+creating /home/f1tenth/f1tenth-ws/install/autonomous_drive/share/ament_index/resource_index
+creating /home/f1tenth/f1tenth-ws/install/autonomous_drive/share/ament_index/resource_index/packages
+copying resource/autonomous_drive -> /home/f1tenth/f1tenth-ws/install/autonomous_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth/f1tenth-ws/install/autonomous_drive/share/autonomous_drive
+running install_egg_info
+Copying ../../../build/autonomous_drive/autonomous_drive.egg-info to /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/python3.8/site-packages/autonomous_drive-0.0.0-py3.8.egg-info
+running install_scripts
+Installing autonomous_drive script to /home/f1tenth/f1tenth-ws/install/autonomous_drive/lib/autonomous_drive
+writing list of installed files to '/home/f1tenth/f1tenth-ws/build/autonomous_drive/install.log'

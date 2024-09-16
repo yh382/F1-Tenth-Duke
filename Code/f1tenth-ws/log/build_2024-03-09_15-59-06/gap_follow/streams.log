@@ -1,0 +1,94 @@
+[2.124s] Invoking command in '/home/f1tenth/f1tenth-ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth-ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/gap_follow
+[3.222s] -- The C compiler identification is GNU 9.4.0
+[4.187s] -- The CXX compiler identification is GNU 9.4.0
+[4.264s] -- Check for working C compiler: /usr/bin/cc
+[5.263s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.273s] -- Detecting C compiler ABI info
+[6.377s] -- Detecting C compiler ABI info - done
+[6.585s] -- Detecting C compile features
+[6.586s] -- Detecting C compile features - done
+[6.625s] -- Check for working CXX compiler: /usr/bin/c++
+[7.909s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.925s] -- Detecting CXX compiler ABI info
+[9.158s] -- Detecting CXX compiler ABI info - done
+[9.330s] -- Detecting CXX compile features
+[9.335s] -- Detecting CXX compile features - done
+[9.390s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.738s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.739s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.915s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[13.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.879s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.125s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.459s] -- Found FastRTPS: /opt/ros/foxy/include  
+[16.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.471s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[17.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.506s] -- Looking for pthread.h
+[18.455s] -- Looking for pthread.h - found
+[18.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.385s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[19.386s] -- Looking for pthread_create in pthreads
+[19.855s] -- Looking for pthread_create in pthreads - not found
+[19.858s] -- Looking for pthread_create in pthread
+[20.533s] -- Looking for pthread_create in pthread - found
+[20.543s] -- Found Threads: TRUE  
+[22.070s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[22.101s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[22.552s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[23.329s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[23.663s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[24.686s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[25.365s] -- Added test 'copyright' to check source files copyright and LICENSE
+[25.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.388s] -- Configured cppcheck include dirs: /home/f1tenth/f1tenth-ws/src/gap_follow/include
+[25.389s] -- Configured cppcheck exclude dirs and/or files: 
+[25.411s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[25.411s] -- Configured cpplint exclude dirs and/or files: 
+[25.416s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.424s] -- Added test 'lint_cmake' to check CMake code style
+[25.438s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[25.449s] -- Added test 'uncrustify' to check C / C++ code style
+[25.450s] -- Configured uncrustify additional arguments: 
+[25.454s] -- Added test 'xmllint' to check XML markup files
+[25.497s] -- Configuring done
+[25.602s] -- Generating done
+[25.613s] -- Build files have been written to: /home/f1tenth/f1tenth-ws/build/gap_follow
+[25.663s] Invoked command in '/home/f1tenth/f1tenth-ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth-ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/gap_follow
+[25.681s] Invoking command in '/home/f1tenth/f1tenth-ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/gap_follow -- -j4 -l4
+[26.023s] [35m[1mScanning dependencies of target reactive_node[0m
+[26.331s] [ 50%] [32mBuilding CXX object CMakeFiles/reactive_node.dir/src/reactive_node.cpp.o[0m
+[36.511s] [01m[K/home/f1tenth/f1tenth-ws/src/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::preprocess_lidar(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[36.513s] [01m[K/home/f1tenth/f1tenth-ws/src/gap_follow/src/reactive_node.cpp:35:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[36.513s]    35 |         for (int i = 0; [01;35m[Ki < scan_msg->ranges.size()[m[K; i++) {
+[36.514s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[58.776s] [100%] [32m[1mLinking CXX executable reactive_node[0m
+[60.195s] [100%] Built target reactive_node
+[60.250s] Invoked command in '/home/f1tenth/f1tenth-ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/gap_follow -- -j4 -l4
+[60.410s] Invoking command in '/home/f1tenth/f1tenth-ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/gap_follow
+[60.459s] -- Install configuration: ""
+[60.461s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/gap_follow/reactive_node
+[60.480s] -- Set runtime path of "/home/f1tenth/f1tenth-ws/install/gap_follow/lib/gap_follow/reactive_node" to ""
+[60.481s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[60.481s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[60.482s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[60.482s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[60.649s] Listing '/home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[60.649s] Compiling '/home/f1tenth/f1tenth-ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py'...
+[60.670s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[60.671s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[60.672s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[60.685s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[60.685s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[60.685s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/path.sh
+[60.686s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[60.686s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.bash
+[60.686s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.sh
+[60.687s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[60.687s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[60.687s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/package.dsv
+[60.688s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[60.688s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[60.688s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[60.688s] -- Installing: /home/f1tenth/f1tenth-ws/install/gap_follow/share/gap_follow/package.xml
+[60.708s] Invoked command in '/home/f1tenth/f1tenth-ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth-ws/install/f1tenth_stack:/home/f1tenth/f1tenth-ws/install/vesc:/home/f1tenth/f1tenth-ws/install/joy_teleop:/home/f1tenth/f1tenth-ws/install/mouse_teleop:/home/f1tenth/f1tenth-ws/install/key_teleop:/home/f1tenth/f1tenth-ws/install/gap_follow:/home/f1tenth/f1tenth-ws/install/example_py:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/gap_follow

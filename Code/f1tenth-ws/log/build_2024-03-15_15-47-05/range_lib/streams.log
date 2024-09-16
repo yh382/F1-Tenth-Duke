@@ -1,0 +1,88 @@
+[3.545s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake /home/f1tenth/f1tenth-ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/range_lib
+[4.120s] -- The C compiler identification is GNU 9.4.0
+[4.572s] -- The CXX compiler identification is GNU 9.4.0
+[4.619s] -- Check for working C compiler: /usr/bin/cc
+[5.078s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.082s] -- Detecting C compiler ABI info
+[5.517s] -- Detecting C compiler ABI info - done
+[5.618s] -- Detecting C compile features
+[5.620s] -- Detecting C compile features - done
+[5.643s] -- Check for working CXX compiler: /usr/bin/c++
+[6.059s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.064s] -- Detecting CXX compiler ABI info
+[6.598s] -- Detecting CXX compiler ABI info - done
+[6.708s] -- Detecting CXX compile features
+[6.712s] -- Detecting CXX compile features - done
+[6.745s] -- Looking for C++ include unistd.h
+[7.256s] -- Looking for C++ include unistd.h - found
+[7.258s] -- Looking for C++ include stdint.h
+[7.758s] -- Looking for C++ include stdint.h - found
+[7.760s] -- Looking for C++ include inttypes.h
+[8.176s] -- Looking for C++ include inttypes.h - found
+[8.179s] -- Looking for C++ include sys/types.h
+[8.597s] -- Looking for C++ include sys/types.h - found
+[8.600s] -- Looking for C++ include sys/stat.h
+[9.007s] -- Looking for C++ include sys/stat.h - found
+[9.009s] -- Looking for C++ include fnmatch.h
+[9.403s] -- Looking for C++ include fnmatch.h - found
+[9.407s] -- Looking for C++ include stddef.h
+[9.800s] -- Looking for C++ include stddef.h - found
+[9.802s] -- Check size of uint32_t
+[10.235s] -- Check size of uint32_t - done
+[10.239s] -- Looking for strtoll
+[10.663s] -- Looking for strtoll - found
+[10.674s] -- Looking for pthread.h
+[11.082s] -- Looking for pthread.h - found
+[11.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.469s] -- Looking for pthread_create in pthreads
+[11.785s] -- Looking for pthread_create in pthreads - not found
+[11.786s] -- Looking for pthread_create in pthread
+[12.145s] -- Looking for pthread_create in pthread - found
+[12.150s] -- Found Threads: TRUE  
+[12.153s] -- Check size of pthread_rwlock_t
+[12.569s] -- Check size of pthread_rwlock_t - done
+[12.614s] -- Performing Test COMPILER_SUPPORTS_CXX11
+[13.092s] -- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+[13.096s] -- Performing Test COMPILER_SUPPORTS_CXX0X
+[13.537s] -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[13.665s] -- Found CUDA: /usr/local/cuda-11.4 (found version "11.4") 
+[13.700s] -- Configuring done
+[13.744s] -- Generating done
+[13.751s] -- Build files have been written to: /home/f1tenth/f1tenth-ws/build/range_lib
+[14.627s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake /home/f1tenth/f1tenth-ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth-ws/install/range_lib
+[14.636s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+[14.827s] [35m[1mScanning dependencies of target gflags_nothreads_static[0m
+[14.831s] [35m[1mScanning dependencies of target gflags_static[0m
+[14.900s] [  8%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o[0m
+[14.908s] [ 16%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o[0m
+[14.916s] [ 25%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o[0m
+[14.936s] [ 33%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o[0m
+[17.635s] [ 41%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o[0m
+[18.400s] [ 50%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o[0m
+[20.570s] [ 58%] [32m[1mLinking CXX static library ../../lib/libgflags_nothreads.a[0m
+[20.784s] [ 58%] Built target gflags_nothreads_static
+[20.832s] [ 66%] [34m[1mBuilding NVCC (Device) object CMakeFiles/range_lib.dir/includes/range_lib_generated_kernels.cu.o[0m
+[21.258s] [ 75%] [32m[1mLinking CXX static library ../../lib/libgflags.a[0m
+[21.461s] [ 75%] Built target gflags_static
+[28.977s] [35m[1mScanning dependencies of target range_lib[0m
+[29.047s] [ 83%] [32mBuilding CXX object CMakeFiles/range_lib.dir/vendor/lodepng/lodepng.cpp.o[0m
+[29.048s] [ 91%] [32mBuilding CXX object CMakeFiles/range_lib.dir/main.cpp.o[0m
+[47.097s] [100%] [32m[1mLinking CXX executable bin/range_lib[0m
+[47.538s] [100%] Built target range_lib
+[47.592s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/f1tenth/f1tenth-ws/build/range_lib -- -j4 -l4
+[47.733s] Invoking command in '/home/f1tenth/f1tenth-ws/build/range_lib': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib
+[47.769s] -- Install configuration: "Release"
+[47.770s] -- Installing: /home/f1tenth/f1tenth-ws/install/range_lib/lib/libgflags.a
+[47.779s] -- Installing: /home/f1tenth/f1tenth-ws/install/range_lib/lib/libgflags_nothreads.a
+[47.788s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags.h
+[47.789s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_declare.h
+[47.789s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_completions.h
+[47.789s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/include/gflags/gflags_gflags.h
+[47.790s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+[47.790s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+[47.791s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+[47.791s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/bin/gflags_completions.sh
+[47.792s] -- Up-to-date: /home/f1tenth/f1tenth-ws/install/range_lib/lib/pkgconfig/gflags.pc
+[47.792s] -- Installing: /home/f1tenth/.cmake/packages/gflags/82640e4dd78e15be868e31fea3737ff6
+[47.802s] Invoked command in '/home/f1tenth/f1tenth-ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/f1tenth/f1tenth-ws/build/range_lib

@@ -1,0 +1,31 @@
+[7.101s] Invoking command in '/mnt/nvme0n1/f1tenth_ws/src/testdriving': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc:/mnt/nvme0n1/f1tenth_ws/install/vesc_driver:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann:/mnt/nvme0n1/f1tenth_ws/install/joy_teleop:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs:/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc:/mnt/nvme0n1/f1tenth_ws/install/vesc_driver:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs:/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_driver/lib:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/lib:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/Testdriving/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Testdriving build --build-base /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build install --record /mnt/nvme0n1/f1tenth_ws/build/Testdriving/install.log --install-scripts $base/lib/testdriving --single-version-externally-managed
+[8.046s] running egg_info
+[8.048s] creating ../../build/Testdriving/testdriving.egg-info
+[8.048s] writing ../../build/Testdriving/testdriving.egg-info/PKG-INFO
+[8.050s] writing dependency_links to ../../build/Testdriving/testdriving.egg-info/dependency_links.txt
+[8.050s] writing entry points to ../../build/Testdriving/testdriving.egg-info/entry_points.txt
+[8.051s] writing requirements to ../../build/Testdriving/testdriving.egg-info/requires.txt
+[8.051s] writing top-level names to ../../build/Testdriving/testdriving.egg-info/top_level.txt
+[8.058s] writing manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+[8.191s] reading manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+[8.194s] writing manifest file '../../build/Testdriving/testdriving.egg-info/SOURCES.txt'
+[8.195s] running build
+[8.195s] running build_py
+[8.196s] creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build
+[8.196s] creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib
+[8.196s] creating /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving
+[8.197s] copying testdriving/__init__.py -> /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving
+[8.198s] running install
+[8.200s] running install_lib
+[8.204s] creating /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving
+[8.205s] copying /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build/lib/testdriving/__init__.py -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving
+[8.207s] byte-compiling /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving/__init__.py to __init__.cpython-38.pyc
+[8.212s] running install_data
+[8.214s] copying resource/testdriving -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/ament_index/resource_index/packages
+[8.215s] creating /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/testdriving
+[8.216s] copying package.xml -> /mnt/nvme0n1/f1tenth_ws/install/Testdriving/share/testdriving
+[8.216s] running install_egg_info
+[8.223s] Copying ../../build/Testdriving/testdriving.egg-info to /mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages/testdriving-0.0.0-py3.8.egg-info
+[8.227s] running install_scripts
+[8.296s] writing list of installed files to '/mnt/nvme0n1/f1tenth_ws/build/Testdriving/install.log'
+[8.388s] Invoked command in '/mnt/nvme0n1/f1tenth_ws/src/testdriving' returned '0': AMENT_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc:/mnt/nvme0n1/f1tenth_ws/install/vesc_driver:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann:/mnt/nvme0n1/f1tenth_ws/install/joy_teleop:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs:/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc:/mnt/nvme0n1/f1tenth_ws/install/vesc_driver:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs:/mnt/nvme0n1/f1tenth_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/nvme0n1/f1tenth_ws/install/vesc_driver/lib:/mnt/nvme0n1/f1tenth_ws/install/vesc_ackermann/lib:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/nvme0n1/f1tenth_ws/build/Testdriving/prefix_override:/mnt/nvme0n1/f1tenth_ws/install/Testdriving/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/mnt/nvme0n1/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Testdriving build --build-base /mnt/nvme0n1/f1tenth_ws/build/Testdriving/build install --record /mnt/nvme0n1/f1tenth_ws/build/Testdriving/install.log --install-scripts $base/lib/testdriving --single-version-externally-managed

@@ -1,0 +1,62 @@
+[2.448s] Invoking command in '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_node': PYTHONPATH=/home/william/sim_ws/build/learning_node/prefix_override:/home/william/sim_ws/install/learning_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/william/sim_ws/build/learning_node/build install --record /home/william/sim_ws/build/learning_node/install.log --single-version-externally-managed
+[2.862s] running egg_info
+[2.863s] creating ../../../build/learning_node/learning_node.egg-info
+[2.917s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[2.918s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[2.919s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[2.919s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[3.117s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[3.206s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[3.208s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[3.208s] running build
+[3.208s] running build_py
+[3.208s] creating /home/william/sim_ws/build/learning_node/build
+[3.209s] creating /home/william/sim_ws/build/learning_node/build/lib
+[3.209s] creating /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.209s] copying learning_node/node_helloworld.py -> /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.217s] copying learning_node/node_object_webcam.py -> /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.217s] copying learning_node/node_helloworld_class.py -> /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.217s] copying learning_node/__init__.py -> /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.217s] copying learning_node/node_object.py -> /home/william/sim_ws/build/learning_node/build/lib/learning_node
+[3.218s] running install
+[3.218s] /home/william/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.218s] !!
+[3.218s] 
+[3.218s]         ********************************************************************************
+[3.219s]         Please avoid running ``setup.py`` directly.
+[3.219s]         Instead, use pypa/build, pypa/installer or other
+[3.219s]         standards-based tools.
+[3.219s] 
+[3.219s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.219s]         ********************************************************************************
+[3.219s] 
+[3.219s] !!
+[3.219s]   self.initialize_options()
+[3.227s] running install_lib
+[3.282s] creating /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.282s] copying /home/william/sim_ws/build/learning_node/build/lib/learning_node/node_helloworld.py -> /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.291s] copying /home/william/sim_ws/build/learning_node/build/lib/learning_node/node_object_webcam.py -> /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.291s] copying /home/william/sim_ws/build/learning_node/build/lib/learning_node/node_helloworld_class.py -> /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.291s] copying /home/william/sim_ws/build/learning_node/build/lib/learning_node/__init__.py -> /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.291s] copying /home/william/sim_ws/build/learning_node/build/lib/learning_node/node_object.py -> /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node
+[3.292s] byte-compiling /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node/node_helloworld.py to node_helloworld.cpython-38.pyc
+[3.292s] byte-compiling /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node/node_object_webcam.py to node_object_webcam.cpython-38.pyc
+[3.293s] byte-compiling /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node/node_helloworld_class.py to node_helloworld_class.cpython-38.pyc
+[3.293s] byte-compiling /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node/__init__.py to __init__.cpython-38.pyc
+[3.293s] byte-compiling /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node/node_object.py to node_object.cpython-38.pyc
+[3.294s] running install_data
+[3.341s] creating /home/william/sim_ws/install/learning_node/share/ament_index
+[3.341s] creating /home/william/sim_ws/install/learning_node/share/ament_index/resource_index
+[3.355s] creating /home/william/sim_ws/install/learning_node/share/ament_index/resource_index/packages
+[3.355s] copying resource/learning_node -> /home/william/sim_ws/install/learning_node/share/ament_index/resource_index/packages
+[3.355s] copying package.xml -> /home/william/sim_ws/install/learning_node/share/learning_node
+[3.355s] running install_egg_info
+[3.402s] Copying ../../../build/learning_node/learning_node.egg-info to /home/william/sim_ws/install/learning_node/lib/python3.8/site-packages/learning_node-0.0.0-py3.8.egg-info
+[3.402s] running install_scripts
+[3.515s] Installing node_helloworld script to /home/william/sim_ws/install/learning_node/lib/learning_node
+[3.515s] Installing node_helloworld_class script to /home/william/sim_ws/install/learning_node/lib/learning_node
+[3.515s] Installing node_object script to /home/william/sim_ws/install/learning_node/lib/learning_node
+[3.515s] Installing node_object_webcam script to /home/william/sim_ws/install/learning_node/lib/learning_node
+[3.516s] writing list of installed files to '/home/william/sim_ws/build/learning_node/install.log'
+[4.224s] Invoked command in '/home/william/sim_ws/src/ros2_21_tutorials-master/learning_node' returned '0': PYTHONPATH=/home/william/sim_ws/build/learning_node/prefix_override:/home/william/sim_ws/install/learning_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/william/sim_ws/build/learning_node/build install --record /home/william/sim_ws/build/learning_node/install.log --single-version-externally-managed

@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/william/sim_ws/build/range_lib
+[ 33%] Built target gflags_nothreads_static
+[ 66%] Built target gflags_static
+[ 75%] [32m[1mLinking CXX executable bin/range_lib[0m
+[100%] Built target range_lib

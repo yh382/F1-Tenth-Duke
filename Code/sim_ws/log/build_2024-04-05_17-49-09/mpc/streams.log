@@ -1,0 +1,54 @@
+[0.167s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[0.189s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.206s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.339s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.504s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.617s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.617s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.642s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.695s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.720s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.772s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.825s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.053s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.102s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.103s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.103s] -- Configured cppcheck include dirs: /home/jim/sim_ws/src/f1tenth_mpc-main/mpc/include
+[1.103s] -- Configured cppcheck exclude dirs and/or files: 
+[1.104s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.104s] -- Configured cpplint exclude dirs and/or files: 
+[1.104s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.104s] -- Added test 'lint_cmake' to check CMake code style
+[1.104s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.105s] -- Added test 'uncrustify' to check C / C++ code style
+[1.105s] -- Configured uncrustify additional arguments: 
+[1.105s] -- Added test 'xmllint' to check XML markup files
+[1.107s] -- Configuring done
+[1.117s] -- Generating done
+[1.118s] -- Build files have been written to: /home/jim/sim_ws/build/mpc
+[1.150s] [100%] Built target mpc_node
+[1.157s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jim/sim_ws/build/mpc -- -j8 -l8
+[1.188s] Invoking command in '/home/jim/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc
+[1.195s] -- Install configuration: ""
+[1.195s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node
+[1.195s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[1.195s] -- Installing: /home/jim/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.195s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[1.195s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[1.218s] Listing '/home/jim/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[1.221s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[1.221s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/utils.py
+[1.221s] -- Up-to-date: /home/jim/sim_ws/install/mpc/lib/mpc/waypoint_spline.py
+[1.221s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch
+[1.221s] -- Up-to-date: /home/jim/sim_ws/install/mpc/share/mpc//launch/sim_mpc_launch.py
+[1.221s] CMake Error at cmake_install.cmake:93 (file):
+[1.221s]   file INSTALL cannot find
+[1.221s]   "/home/jim/sim_ws/src/f1tenth_mpc-main/mpc/config": No such file or
+[1.221s]   directory.
+[1.221s] 
+[1.221s] 
+[1.222s] Invoked command in '/home/jim/sim_ws/build/mpc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/f1tenth_ws/install/f1tenth_stack:/home/jim/f1tenth_ws/install/joy_teleop:/home/jim/f1tenth_ws/install/mouse_teleop:/home/jim/f1tenth_ws/install/key_teleop:/home/jim/ros2_ws_tutorial/install/py_srvcli:/home/jim/ros2_ws_tutorial/install/my_first_package:/home/jim/ros2_ws_tutorial/install/exercise_package:/home/jim/sim_ws/install/particle_filter:/home/jim/sim_ws/install/mpc_node:/home/jim/sim_ws/install/mpc:/home/jim/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jim/sim_ws/build/mpc

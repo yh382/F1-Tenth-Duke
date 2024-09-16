@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:93 (file):
+  file INSTALL cannot find
+  "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/config": No such file or
+  directory.
+
+

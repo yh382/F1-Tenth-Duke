@@ -1,0 +1,37 @@
+[8.395s] Invoking command in '/home/f1tenth/f1tenth-ws/src/waypoint_python': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/waypoint_python/prefix_override:/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_python build --build-base /home/f1tenth/f1tenth-ws/build/waypoint_python/build install --record /home/f1tenth/f1tenth-ws/build/waypoint_python/install.log --install-scripts $base/lib/waypoint_python --single-version-externally-managed
+[9.333s] running egg_info
+[9.336s] creating ../../build/waypoint_python/waypoint_python.egg-info
+[9.336s] writing ../../build/waypoint_python/waypoint_python.egg-info/PKG-INFO
+[9.337s] writing dependency_links to ../../build/waypoint_python/waypoint_python.egg-info/dependency_links.txt
+[9.338s] writing entry points to ../../build/waypoint_python/waypoint_python.egg-info/entry_points.txt
+[9.338s] writing requirements to ../../build/waypoint_python/waypoint_python.egg-info/requires.txt
+[9.339s] writing top-level names to ../../build/waypoint_python/waypoint_python.egg-info/top_level.txt
+[9.344s] writing manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'
+[9.476s] reading manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'
+[9.479s] writing manifest file '../../build/waypoint_python/waypoint_python.egg-info/SOURCES.txt'
+[9.480s] running build
+[9.480s] running build_py
+[9.481s] creating /home/f1tenth/f1tenth-ws/build/waypoint_python/build
+[9.482s] creating /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib
+[9.482s] creating /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python
+[9.483s] copying waypoint_python/__init__.py -> /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python
+[9.483s] copying waypoint_python/waypoints_logger.py -> /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python
+[9.484s] running install
+[9.487s] running install_lib
+[9.492s] creating /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python
+[9.492s] copying /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python/__init__.py -> /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python
+[9.492s] copying /home/f1tenth/f1tenth-ws/build/waypoint_python/build/lib/waypoint_python/waypoints_logger.py -> /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python
+[9.495s] byte-compiling /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python/__init__.py to __init__.cpython-38.pyc
+[9.500s] byte-compiling /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python/waypoints_logger.py to waypoints_logger.cpython-38.pyc
+[9.502s] running install_data
+[9.504s] creating /home/f1tenth/f1tenth-ws/install/waypoint_python/share/ament_index
+[9.505s] creating /home/f1tenth/f1tenth-ws/install/waypoint_python/share/ament_index/resource_index
+[9.506s] creating /home/f1tenth/f1tenth-ws/install/waypoint_python/share/ament_index/resource_index/packages
+[9.506s] copying resource/waypoint_python -> /home/f1tenth/f1tenth-ws/install/waypoint_python/share/ament_index/resource_index/packages
+[9.506s] copying package.xml -> /home/f1tenth/f1tenth-ws/install/waypoint_python/share/waypoint_python
+[9.507s] running install_egg_info
+[9.513s] Copying ../../build/waypoint_python/waypoint_python.egg-info to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages/waypoint_python-0.0.0-py3.8.egg-info
+[9.517s] running install_scripts
+[9.585s] Installing waypoints_logger script to /home/f1tenth/f1tenth-ws/install/waypoint_python/lib/waypoint_python
+[9.586s] writing list of installed files to '/home/f1tenth/f1tenth-ws/build/waypoint_python/install.log'
+[9.676s] Invoked command in '/home/f1tenth/f1tenth-ws/src/waypoint_python' returned '0': PYTHONPATH=/home/f1tenth/f1tenth-ws/build/waypoint_python/prefix_override:/home/f1tenth/f1tenth-ws/install/waypoint_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_python build --build-base /home/f1tenth/f1tenth-ws/build/waypoint_python/build install --record /home/f1tenth/f1tenth-ws/build/waypoint_python/install.log --install-scripts $base/lib/waypoint_python --single-version-externally-managed

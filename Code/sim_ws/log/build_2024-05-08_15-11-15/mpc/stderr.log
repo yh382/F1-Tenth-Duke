@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/william/sim_ws/src/f1tenth_mpc-main/mpc/src/pose_faske_pub.cpp": No
+  such file or directory.
+
+

@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:31 (find_package):
+  By not providing "Findinterfaces_hot_wheels.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "interfaces_hot_wheels", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "interfaces_hot_wheels" with any of the following names:
+
+    interfaces_hot_wheelsConfig.cmake
+    interfaces_hot_wheels-config.cmake
+
+  Add the installation prefix of "interfaces_hot_wheels" to CMAKE_PREFIX_PATH
+  or set "interfaces_hot_wheels_DIR" to a directory containing one of the
+  above files.  If "interfaces_hot_wheels" provides a separate development
+  package or SDK, be sure it has been installed.
+
+

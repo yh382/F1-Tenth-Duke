@@ -1,0 +1,42 @@
+[0.421s] Invoking command in '/home/f1tenth/f1tenthh_ws/build/vesc': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/f1tenth/f1tenthh_ws/src/f1tenth_system/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenthh_ws/install/vesc
+[0.702s] -- The C compiler identification is GNU 9.4.0
+[0.963s] -- The CXX compiler identification is GNU 9.4.0
+[0.981s] -- Check for working C compiler: /usr/bin/cc
+[1.314s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.318s] -- Detecting C compiler ABI info
+[1.662s] -- Detecting C compiler ABI info - done
+[1.715s] -- Detecting C compile features
+[1.716s] -- Detecting C compile features - done
+[1.726s] -- Check for working CXX compiler: /usr/bin/c++
+[2.097s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.102s] -- Detecting CXX compiler ABI info
+[2.468s] -- Detecting CXX compiler ABI info - done
+[2.523s] -- Detecting CXX compile features
+[2.524s] -- Detecting CXX compile features - done
+[2.533s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.639s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.636s] -- Configuring done
+[3.645s] -- Generating done
+[3.649s] -- Build files have been written to: /home/f1tenth/f1tenthh_ws/build/vesc
+[3.667s] Invoked command in '/home/f1tenth/f1tenthh_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/f1tenth/f1tenthh_ws/src/f1tenth_system/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenthh_ws/install/vesc
+[3.681s] Invoking command in '/home/f1tenth/f1tenthh_ws/build/vesc': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/f1tenth/f1tenthh_ws/build/vesc -- -j4 -l4
+[3.862s] Invoked command in '/home/f1tenth/f1tenthh_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/f1tenth/f1tenthh_ws/build/vesc -- -j4 -l4
+[3.963s] Invoking command in '/home/f1tenth/f1tenthh_ws/build/vesc': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/f1tenth/f1tenthh_ws/build/vesc
+[3.998s] -- Install configuration: ""
+[3.999s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[4.000s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[4.001s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[4.002s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[4.002s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/environment/path.sh
+[4.003s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/environment/path.dsv
+[4.004s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/local_setup.bash
+[4.005s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/local_setup.sh
+[4.005s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/local_setup.zsh
+[4.006s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/local_setup.dsv
+[4.007s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/package.dsv
+[4.008s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[4.009s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[4.009s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[4.010s] -- Installing: /home/f1tenth/f1tenthh_ws/install/vesc/share/vesc/package.xml
+[4.020s] Invoked command in '/home/f1tenth/f1tenthh_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann:/home/f1tenth/f1tenthh_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenthh_ws/install/vesc_driver/lib:/home/f1tenth/f1tenthh_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth/f1tenthh_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/f1tenth/f1tenthh_ws/build/vesc

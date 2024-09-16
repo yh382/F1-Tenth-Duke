@@ -1,0 +1,76 @@
+[1.376s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[1.450s] [ 20%] Built target waypoint_node
+[1.457s] [ 40%] Built target pose_fake_pub_node
+[1.457s] [ 60%] Built target waypoint_laneswitcher_node
+[1.459s] [ 80%] Built target pure_pursuit_node
+[1.460s] [100%] Built target waypoint_race_node
+[1.472s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/william/sim_ws/build/pure_pursuit -- -j8 -l8
+[1.507s] Invoking command in '/home/william/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit
+[1.516s] -- Install configuration: ""
+[1.517s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[1.517s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_node
+[1.518s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pose_fake_pub_node
+[1.518s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_race_node
+[1.519s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_laneswitcher_node
+[1.519s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[1.519s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[1.519s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[1.519s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+[1.552s] Listing '/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+[1.555s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[1.555s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_logger.py
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/lidar_logger.py
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/bagger.py
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_spline.py
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_pure_pursuit_launch.py
+[1.556s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/logger_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/shoot_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/2_shoot_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/multi_car_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/race_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/laneswitcher_race_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//launch/sim_laneswitcher_pure_pursuit_launch.py
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/marker.rviz
+[1.557s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//config/waypoint_node.yaml
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_interpolated.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L_2.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_2.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_reduced_L.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1_edited.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/manual_lane_2.csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp (copy).csv
+[1.558s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_speed.csv
+[1.559s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_1.csv
+[1.559s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson2.csv
+[1.559s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/centerline_1_waypoints.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline2.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane2.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/Hudson1.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/original_raceline.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_increased_L.csv
+[1.560s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_2.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/waypoints_recollect_3.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/trial_raceline.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/raceline_adaptive_kp.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lane1.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit//waypoints/lidar_recollect_1.csv
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[1.561s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[1.562s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[1.563s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[1.563s] -- Installing: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[1.563s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[1.563s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[1.563s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[1.563s] -- Up-to-date: /home/william/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[1.564s] Invoked command in '/home/william/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/william/sim_ws/install/interfaces_hot_wheels:/home/william/sim_ws/install/range_lib:/home/william/sim_ws/install/pure_pursuit:/home/william/sim_ws/install/mpc:/home/william/sim_ws/install/particle_filter:/home/william/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy PYTHONPATH=/home/william/sim_ws/install/interfaces_hot_wheels/lib/python3.8/site-packages:/home/william/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/william/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/william/sim_ws/install/mpc/lib/python3.8/site-packages:/home/william/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/william/sim_ws/build/pure_pursuit

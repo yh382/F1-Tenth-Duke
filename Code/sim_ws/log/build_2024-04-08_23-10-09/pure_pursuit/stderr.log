@@ -1,0 +1,19 @@
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:[m[K In member function ‘[01m[Kvoid Waypoint::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:212:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  212 |         int [01;35m[Kidx_0[m[K   = 540;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:215:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_n35[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  215 |         int [01;35m[Kidx_n35[m[K = 399;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:216:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_p35[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |         int [01;35m[Kidx_p35[m[K = 690;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:217:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_n60[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |         int [01;35m[Kidx_n60[m[K = 299;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:218:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx_p60[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  218 |         int [01;35m[Kidx_p60[m[K = 780;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/william/sim_ws/src/f1tenth_slam_pure_pursuit-main/pure_pursuit/src/waypoint_pub_laneswitcher.cpp:221:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_obstacle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  221 |         bool [01;35m[Kflag_obstacle[m[K = false;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
